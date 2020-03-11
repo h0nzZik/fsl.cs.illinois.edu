@@ -16,5 +16,8 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
+plugins:
+  - jekyll-katex
+
 # Custom vars
 version:          2.1.0

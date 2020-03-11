@@ -1,4 +1,7 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: page
 ---
 
@@ -14,7 +17,7 @@ FSL, we design and develop:
 
 all aiming at increasing the quality of computing systems. 
 
-Test math $\phi_1$
+Test math $\varphi_1$ $\mathbb{K}$
 
 [Department of Computer Science]: https://cs.illinois.edu
 [University of Illinois at Urbana-Champaign]: https://illinois.edu
