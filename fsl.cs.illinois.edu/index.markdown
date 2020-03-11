@@ -1,8 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
 ---
 
 Welcome to the Formal Systems Laboratory (FSL) of the [Department of Computer
@@ -16,6 +13,8 @@ FSL, we design and develop:
 -   software analysis prototypes and tools,
 
 all aiming at increasing the quality of computing systems. 
+
+Test math $\phi_1$
 
 [Department of Computer Science]: https://cs.illinois.edu
 [University of Illinois at Urbana-Champaign]: https://illinois.edu
