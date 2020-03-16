@@ -1,5 +1,5 @@
 PATH
-  remote: ../fsl-theme
+  remote: ../theme
   specs:
     fsl-theme (0.1.0)
       jekyll (~> 4.0)
