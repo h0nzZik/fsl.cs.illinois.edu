@@ -27,11 +27,9 @@ pdfheader_cmd = "/var/www/software/pdfheader/runner.sh"
 # error/warning display helpers
 silent_error_flag = False
 def print_error(msg):
-  if (not args.silent):
-    sys.stderr.write("[error]: " + msg + "\n")
+  sys.stderr.write("[error]: " + msg + "\n")
 def print_warning(msg):
-  if (args.verbose):
-    sys.stderr.write("[warning]: " + msg + "\n")
+  sys.stderr.write("[warning]: " + msg + "\n")
 
 
 # class for missing .bib field exception
@@ -83,7 +81,6 @@ bibtex2wiki_keys = ["abstract",
 
 
 # bibtex parser and writer
-parser = bibtex_in.Parser()
 writer = bibtex_out.Writer()
 
 
@@ -109,9 +106,7 @@ class Paper(object):
       self.status = "published"
 
     # set hidden
-    is_draft = self.type == "techreport" or self.status != "published"
-    self.hidden = not args.draft and is_draft
-
+    self.hidden = self.type == "techreport" or self.status != "published"
     try:
       hidden_entry = entry.fields["hidden"]
       if (hidden_entry == "true"):
@@ -121,23 +116,12 @@ class Paper(object):
     except KeyError: 
       pass
 
-    if (self.hidden):
-      return
-
     # associate wiki names to authors
     self.add_list_field(entry, "author_id", "and")
-    if (args.authors != [] and set(args.authors).isdisjoint(self.author_id)):
-      self.hidden = True
-      return
        
     # parse the category list 
     self.add_list_field(entry, "category", ",")
     self.category = [category.lower() for category in self.category]
-
-    if (args.categories != []
-        and set(args.categories).isdisjoint(self.category)):
-      self.hidden = True
-      return
 
     # check that the paper categories are from
     for category in self.category:
@@ -204,61 +188,9 @@ class Paper(object):
       else:
         self.to_appear = False
 
-    # set paper paths
-    self.paper_dir = path.join(path.join(args.papers, year), id)
-    self.presentation_dir = path.join(args.presentations, year)
-
-    # svn path, www path and reviews only for wiki display
-    if (args.action == "wiki"):
-      self.paper_svn = args.papers_svn + "/" + year + "/" + id
-      self.paper_www = args.papers_www + "/" + year + "/" + id
-      self.presentation_www = args.presentations_www + "/" + year
-
-    # check for .pdf document and set public .pdf url (expected for all papers)
-    try:
-      self.public_pdf = entry.fields["pdf_url"]
-    except KeyError:
-      pdf_file = path.join(self.paper_dir, get_pdf(id))
-      if (path.isfile(pdf_file)):
-        public_pdf_file = path.join(self.paper_dir, get_public_pdf(id))
-        if (path.isfile(public_pdf_file)):
-          if (args.action == "wiki"):
-            self.public_pdf = self.paper_www + "/" + get_public_pdf(self.id)
-        else:
-          self.public_pdf = ""
-          if (not args.action == "header"):
-            print_warning("<" + self.id + "> " + "missing header in "
-                           + get_pdf(id) + " document;" 
-                           + " click the 'add header' button to add it")
-      else:
-        self.public_pdf = ""
-        print_warning("<" + self.id + "> " + "missing " + get_pdf(id) + " file")
-
-    # set reviews url (expected for papers under submission)
-    reviews_file = path.join(self.paper_dir, get_reviews(id))
-    if (path.isfile(reviews_file)):
-      if (self.status == "published"):
-        print_warning("<" + self.id + "> " + "containing " + get_reviews(id) + " in a published paper folder")
-      if (args.action == "wiki"):
-        self.reviews = self.paper_www  + "/" + get_reviews(id)
-    else:
-      self.reviews = ""
-      if (self.status == "submitted"):
-        print_warning("<" + self.id + "> " + "missing "
-                      + get_reviews(id) + " file")
-
-    # set bib url
-    bib_file = path.join(self.paper_dir, get_bib(paper_id + "-ref"))
-    if (path.isfile(bib_file)):
-      if (args.action == "wiki"):
-        if (args.private):
-          self.bib = self.paper_www + "/" + get_bib(self.id)
-        else:
-          self.bib = self.paper_www + "/" + get_bib(paper_id + "-ref")
-    else:
-      self.bib = ""
-      print_warning("<" + self.id + "> " + "missing " 
-                    + get_bib(paper_id + "-ref") + " file")
+    # # set paper paths
+    # self.paper_dir = path.join(path.join(args.papers, year), id)
+    # self.presentation_dir = path.join(args.presentations, year)
 
   def add_field(self, entry, name):
     try:
@@ -807,6 +739,7 @@ def parse_bib(bib_file):
     return None
 
   try:
+    parser = bibtex_in.Parser()
     bib_data = parser.parse_file(bib_file)
   except:
     print_error("cannot parse .bib file " + bib_file)

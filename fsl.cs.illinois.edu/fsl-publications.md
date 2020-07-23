@@ -1,9 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
-tag: k
+layout: categories
+tag: fsl
 ---
 
 Welcome to the Formal Systems Laboratory (FSL) of the [Department of Computer
@@ -22,10 +19,3 @@ Test math $\varphi_1$ $\mathbb{K}$
 
 [Department of Computer Science]: https://cs.illinois.edu
 [University of Illinois at Urbana-Champaign]: https://illinois.edu
-
-{% for paper in site.papers %}
-{% if paper.tags contains page.tag %}
-<h3>{{paper.title}} </h3>
-<p>{{ paper.abstract | markdownify }}</p>
-{% endif %}
-{% endfor %}
