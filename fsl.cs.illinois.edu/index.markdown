@@ -18,14 +18,10 @@ FSL, we design and develop:
 
 all aiming at increasing the quality of computing systems. 
 
+{% katexmm %}
 Test math $\varphi_1$ $\mathbb{K}$
+{% endkatexmm %}
 
 [Department of Computer Science]: https://cs.illinois.edu
 [University of Illinois at Urbana-Champaign]: https://illinois.edu
 
-{% for paper in site.papers %}
-{% if paper.tags contains page.tag %}
-<h3>{{paper.title}} </h3>
-<p>{{ paper.abstract | markdownify }}</p>
-{% endif %}
-{% endfor %}
