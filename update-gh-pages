@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -eu
+
+www_dir="$(cd "$(dirname $0)"; pwd)"
+fsl_dir="$www_dir/fsl.cs.illinois.edu"
+repo_root="$www_dir/.."
+
+cd "$fsl_dir"
+
+# Install Jekyll and friends from Gemfile
+bundle install
+
+# Generate markdown files from bibtex
+./bibtex2wiki/bibtex2wiki
+
+# Generate Jekyll site
+bundle exec jekyll build
+
+# Commit to gh-pages branch
+cd "$repo_root"
+git-commit-filetree gh-pages "$fsl_dir/_site"
