@@ -25,6 +25,7 @@ baseurl: "/fsl/" # the subpath of your site, e.g. /blog
 url: "https://http://formal-systems-laboratory.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
+theme: fsl-theme
 plugins:
   - jekyll-feed
 
