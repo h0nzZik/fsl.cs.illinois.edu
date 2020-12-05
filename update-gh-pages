@@ -18,5 +18,5 @@ bundle install
 bundle exec jekyll build
 
 # Commit to gh-pages branch
-cd "$repo_root"
-git-commit-filetree gh-pages "$fsl_dir/_site"
+cd "$www_dir"
+./git-commit-filetree gh-pages "$fsl_dir/_site"
