@@ -3,17 +3,19 @@ layout: default
 title: People
 ---
 
-# Faculty
+# People
+
+## Faculty
 
 - [Grigore Rosu](grigore-rosu/index.html)
 
-# Current Students
+## Current Students
 
 - [Xiaohong Chen](xiaohong-chen/index.html)
 
-[Instructions for new FSL members](/fsl//instructions-for-new-fsl-members.html).
+[Instructions](/fsl//instructions-for-new-fsl-members.html) for new FSL members.
 
-# Former Students
+## Former Students
 
 (Listed in reverse order of the date when they left FSL)
 
@@ -46,7 +48,7 @@ title: People
 - Marcelo d'Amorim (switched groups)
 - Ram Prasad Venkatesan (MS)
 
-# Visiting Scholars
+## Visiting Scholars
 
 (Listed alphabetically)
 
