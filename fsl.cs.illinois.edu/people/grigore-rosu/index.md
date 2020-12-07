@@ -11,13 +11,13 @@ title: Grigore Rosu's Home Page
 **University of Illinois at Urbana-Champaign**
 
 - [CV](grigore-rosu-cv.html)
-- [Publications](/fsl//under-construction.html)
-- [Projects](/fsl//under-construction.html)
-- [Editing and Service](/fsl//under-construction.html)
+- [Publications](/fsl//other-pages/under-construction.html)
+- [Projects](/fsl//other-pages/under-construction.html)
+- [Editing and Service](/fsl//other-pages/under-construction.html)
 - [Teaching](/fsl//teaching/index.html)
 - [Join the FSL group!](join-fsl-group.html)
-- [Aviation page](/fsl//under-construction.html)
-- [Contact](/fsl//under-construction.html)
+- [Aviation page](/fsl//other-pages/under-construction.html)
+- [Contact](/fsl//other-pages/under-construction.html)
 
 ## Conferences and journals in which I am involved
 

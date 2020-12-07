@@ -13,7 +13,7 @@ title: People
 
 - [Xiaohong Chen](xiaohong-chen/index.html)
 
-[Instructions](/fsl//instructions-for-new-fsl-members.html) for new FSL members.
+[Instructions](/fsl//other-pages/instructions-for-new-fsl-members.html) for new FSL members.
 
 ## Former Students
 
