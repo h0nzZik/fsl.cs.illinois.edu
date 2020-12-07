@@ -10,11 +10,10 @@ title: Grigore Rosu's Home Page
 **Professor of Computer Science** <br/>
 **University of Illinois at Urbana-Champaign**
 
-- [CV](grigore-rosu-cv.html)
-   - [Wikipedia](https://en.wikipedia.org/wiki/Grigore_Rosu)
-   - [Linkedin](https://www.linkedin.com/in/grigorerosu)
-   - [Github](https://github.com/grosu)
-   - [Twitter](http://twitter.com/RosuGrigore)
+- [CV](grigore-rosu-cv.html) | [![Wikipedia](/fsl//assets/pictures/wikipedia-favicon.png)](https://en.wikipedia.org/wiki/Grigore_Rosu) |
+  [Linkedin](https://www.linkedin.com/in/grigorerosu)
+  | [Github](https://github.com/grosu)
+  | [Twitter](http://twitter.com/RosuGrigore)
 - [Publications](grigore-rosu-publications.html)
    - [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rosu:Grigore.html)
    - [Google](http://scholar.google.com/citations?user=yxpqbdQAAAAJ&hl=en)
