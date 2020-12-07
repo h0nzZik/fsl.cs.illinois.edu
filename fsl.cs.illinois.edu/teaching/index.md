@@ -5,7 +5,7 @@ title: Grigore Rosu's Teaching
 
 # Grigore Rosu's Teaching
 
-(back to [Grigore Rosu](/fs//people/grigore-rosu.html)'s home page)
+(back to [Grigore Rosu](/fsl//people/grigore-rosu/index.html)'s home page)
 
 ## 2020
 

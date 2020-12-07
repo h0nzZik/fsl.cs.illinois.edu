@@ -11,8 +11,18 @@ title: Grigore Rosu's Home Page
 **University of Illinois at Urbana-Champaign**
 
 - [CV](grigore-rosu-cv.html)
-- [Publications](/fsl//other-pages/under-construction.html)
-- [Projects](/fsl//other-pages/under-construction.html)
+   - [Wikipedia](https://en.wikipedia.org/wiki/Grigore_Rosu)
+   - [Linkedin](https://www.linkedin.com/in/grigorerosu)
+   - [Github](https://github.com/grosu)
+   - [Twitter](http://twitter.com/RosuGrigore)
+- [Publications](grigore-rosu-publications.html)
+   - [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rosu:Grigore.html)
+   - [Google](http://scholar.google.com/citations?user=yxpqbdQAAAAJ&hl=en)
+- [Projects](/fsl//projects/index.html)
+   - [K framework](http://kframework.org/)
+   - [MOP](/fsl//projects/mop/index.html)
+   - [jPredictor](/fsl//projects/jpredictor/index.html)
+   - [Circ](/fsl//projects/circ/index.html)
 - [Editing and Service](/fsl//other-pages/under-construction.html)
 - [Teaching](/fsl//teaching/index.html)
 - [Join the FSL group!](join-fsl-group.html)
@@ -21,17 +31,29 @@ title: Grigore Rosu's Home Page
 
 ## Conferences and journals in which I am involved
 
-- (conferences, ordered backwards by deadline): PLDI'20, ICSE SEIP'20, [WRLA'20], [RV'20], FSCD'20, SPISA'19, RV'19, SEFM'19, CONCUR'19, OOPSLA'19, CAV'19
-- (journals): Journal of Logic and Algebraic Programming
+- (conferences, ordered backwards by deadline): 
+  [PLDI'20](https://conf.researchr.org/home/pldi-2020), 
+  [ICSE SEIP'20](https://conf.researchr.org/track/icse-2020/icse-2020-Software-Engineering-in-Practice),
+  [WRLA'20](https://wrla2020.webs.upv.es/),
+  [RV'20](https://rv20.ait.ac.at/),
+  [FSCD'20](https://lipn.univ-paris13.fr/~guerrini/FSCD20/),
+  [SPISA'19](https://www.cl.cam.ac.uk/~jrh13/spisa19.html),
+  [RV'19](https://www.react.uni-saarland.de/rv2019/),
+  [SEFM'19](https://sefm2019.inria.fr/),
+  [CONCUR'19](https://event.cwi.nl/concur2019/),
+  [OOPSLA'19](https://conf.researchr.org/track/splash-2019/splash-2019-oopsla),
+  [CAV'19](http://i-cav.org/2019/)
+- (journals): 
+  [Journal of Logic and Algebraic Programming](http://www.journals.elsevier.com/the-journal-of-logic-and-algebraic-programming)
 
 ## Research Topics in which I am currently interested
 
-- Programming Language Design and Semantics - Designing and verifying programming languages using formal executable semantics
-- Runtime Verification - Checking programs against properties as they execute
-- Circular Coinduction - Proving behavioral equivalence by exhaustive testing of indistinguishability
+- [Programming Language Design and Semantics](/fsl//projects/pl/index.html) - Designing and verifying programming languages using formal executable semantics
+- [Runtime Verification](/fs//projects/rv/index.html) - Checking programs against properties as they execute
+- [Circular Coinduction](/fsl//projects/circ/index.html) - Proving behavioral equivalence by exhaustive testing of indistinguishability
 
 You want to work on these topics? 
-See my list of Open Problems and Challenges.
+See my list of [Open Problems and Challenges](/fsl//other-pages/open-problems.html).
 
 ## Runtime Verification, Inc.
 
