@@ -1,3 +1,4 @@
-FROM ubuntu:20.04
-RUN apt-get update && apt-get install -y ruby-full build-essential zlib1g-dev
-RUN gem install jekyll bundler
+FROM jekyll/jekyll
+
+RUN apk add --no-cache python2 py2-pip
+RUN pip2 install pyyaml
