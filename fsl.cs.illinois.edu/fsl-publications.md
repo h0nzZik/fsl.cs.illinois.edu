@@ -1,7 +1,8 @@
 ---
-title: FSL Publications
+title: Publications
 layout: categories
 tag: fsl
+sidebar: true
 ---
 
-FSL Publications
+# Publications

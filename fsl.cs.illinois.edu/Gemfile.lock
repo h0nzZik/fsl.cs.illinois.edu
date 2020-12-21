@@ -1,9 +1,3 @@
-PATH
-  remote: ../theme
-  specs:
-    fsl-theme (0.1.0)
-      jekyll (~> 4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,7 +72,6 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  fsl-theme!
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-katex

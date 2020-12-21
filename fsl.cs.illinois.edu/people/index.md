@@ -1,6 +1,7 @@
 ---
 layout: default
 title: People
+sidebar: true
 ---
 
 # People

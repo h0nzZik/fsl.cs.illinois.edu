@@ -1,5 +1,7 @@
 ---
+title: "Publications"
 layout: default
+sidebar: true
 ---
 
 {{ content }}

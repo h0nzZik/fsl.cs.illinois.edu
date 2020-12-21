@@ -15,4 +15,4 @@ bundle install
 ./bibtex2wiki/bibtex2wiki
 
 # Generate Jekyll site
-bundle exec jekyll build
+bundle exec jekyll "$@"
