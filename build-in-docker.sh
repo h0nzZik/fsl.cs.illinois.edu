@@ -14,11 +14,11 @@ fatal() {
 }
 
 dockerrun() {
-    sudo docker run --rm \
-                    --mount src=$(cd ../; pwd),target=$fsl_mount,type=bind \
-                    --workdir=$fsl_mount/www -it \
-                    -p 4000:4000 \
-                    fsl-pages "$@"
+    docker run --rm \
+               --mount src=$(cd ../; pwd),target=$fsl_mount,type=bind \
+               --workdir=$fsl_mount/www -it \
+               -p 4000:4000 \
+               fsl-pages "$@"
 }
 
 command=$1
