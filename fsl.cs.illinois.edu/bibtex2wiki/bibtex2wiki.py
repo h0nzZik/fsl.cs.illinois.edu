@@ -123,13 +123,6 @@ class Paper(object):
     self.add_list_field(entry, "category", ",")
     self.category = [category.lower() for category in self.category]
 
-    # check that the paper categories are from
-    for category in self.category:
-      if (not category in categories):
-        print_warning("<" + self.id + "> " + "category " + category + 
-                      " not found; add it to the " + 
-                      "FSL/fsl_categories.txt" + " file")
-       
     # parse the fields common to conference papers, journal papers, and
     # technical reports
     try:

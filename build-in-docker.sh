@@ -28,8 +28,8 @@ case $command in
     help)  usage ; exit 0 ;;
     image) docker build -t fsl-pages . ;;
     jekyll) dockerrun ./build "$@" ;;
-    build)  dockerrun ./build build ;;
-    serve)  dockerrun ./build serve ;;
+    build)  dockerrun ./build build "$@" ;;
+    serve)  dockerrun ./build serve --host 0.0.0.0 "$@" ;;
     bash)   dockerrun bash ;;
     *)     fatal "Bad command '$command'"; exit 1;;
 esac

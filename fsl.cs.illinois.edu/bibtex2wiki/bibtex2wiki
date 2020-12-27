@@ -48,7 +48,6 @@ def paper_to_yaml(paper):
                           , 'date':       paper.date
                           })
 
-
 def top_dir(*args):
     up = os.path.dirname
     return os.path.join(up(up(up(up(os.path.abspath(__file__))))), *args)
@@ -57,7 +56,6 @@ for year in os.listdir(top_dir('papers')):
     if year in ['README.txt', 'fsl_categories.txt']: continue
     for id in os.listdir(top_dir('papers', year)):
         bib = top_dir('papers', year, id, id + '.bib')
-        print('------------', bib)
 
         paper = fslbib(bib, id)
         if paper == None: continue
