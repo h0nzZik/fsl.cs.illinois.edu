@@ -25,8 +25,8 @@ command=$1
 shift || fatal "No command specified."
 
 case $command in
-    help)  usage ; exit 0 ;;
-    image) docker build -t fsl-pages . ;;
+    help)   usage ; exit 0 ;;
+    image)  docker build -t fsl-pages . ;;
     jekyll) dockerrun ./build "$@" ;;
     build)  dockerrun ./build build "$@" ;;
     serve)  dockerrun ./build serve --host 0.0.0.0 "$@" ;;
