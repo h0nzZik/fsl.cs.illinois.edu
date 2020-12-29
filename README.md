@@ -6,7 +6,7 @@ This directory is used to build the FSL static website.
 
 ```
 $ sudo apt update
-$ sudo apt install build-essential
+$ sudo apt install build-essential ruby-bundler ruby-dev
 ```
 
 2. Install Docker following https://docs.docker.com/engine/install/ubuntu/.
@@ -32,15 +32,26 @@ You can access the website by visiting the server address http://0.0.0.0:4000/fs
 
 **Warning: Make sure the website is functioning before pushlishing it.**
 
+Firstly, make sure that you have the branch `gh-pages` checked out in your local repository.
+
+```
+$ git checkout gh-pages
+$ git checkout master
+```
+
 Following these steps to publish the website. 
 
-1. Run `./update-gh-pages`, which pushes your local edits to the branch `gh-pages` where the website is hosted. 
+1. Run `./update-gh-pages`, which generates the HTML files and pushes them to the branch `gh-pages` where the website is hosted. 
 
-2. Run 
+2. Checkout `gh-pages` branch by running `git checkout gh-pages`. 
+
+3. Manually push the commit to the remote by running `git push`. 
+
+4. Don't forget to return to the `master` branch by running `git checkout master`, which will take a while to finish.
 
 # Troubleshooting
 
-1. Run `./build-in-docker.sh serve` and get the error message (or something similar)
+1. Run `./build-in-docker.sh serve` and get the following error message (or something similar)
 
 ```
 Traceback (most recent call last):
