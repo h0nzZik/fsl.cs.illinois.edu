@@ -9,7 +9,7 @@ $ sudo apt update
 $ sudo apt install build-essential ruby-bundler ruby-dev python2
 ```
 
-2. Install the pip for python2
+2. (Deprecated. Don't follow) Install the pip for python2
 
 ```
 $ curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
@@ -19,7 +19,7 @@ $ sudo python2 get-pip.py
 You may remove `get-pip.py` after installation.
 You may verify the installation by running `pip2 --version`. 
 
-3. Install `pyyaml` module
+3. (Deprecated. Don't follow) Install `pyyaml` module
 
 ```
 $ pip2 install pyyaml
