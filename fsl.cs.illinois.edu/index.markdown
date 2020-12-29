@@ -13,7 +13,7 @@ FSL, we design and develop:
     as well as
 -   software analysis prototypes and tools,
 
-all aiming at increasing the quality of computing systems. 
+All aiming at increasing the quality of computing systems. 
 
 {% katexmm %}
 Test math $\varphi_1$ $\mathbb{K}$
