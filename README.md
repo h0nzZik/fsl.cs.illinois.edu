@@ -2,16 +2,32 @@ This directory is used to build the FSL static website.
 
 # Installation (using Docker)
 
-1. Install the `build-essential` package. 
+1. Install the following packages
 
 ```
 $ sudo apt update
-$ sudo apt install build-essential ruby-bundler ruby-dev
+$ sudo apt install build-essential ruby-bundler ruby-dev python2
 ```
 
-2. Install Docker following https://docs.docker.com/engine/install/ubuntu/.
+2. Install the pip for python2
 
-3. Make Docker work with non-root users following https://docs.docker.com/engine/install/linux-postinstall/. 
+```
+$ curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+$ sudo python2 get-pip.py
+```
+
+You may remove `get-pip.py` after installation.
+You may verify the installation by running `pip2 --version`. 
+
+3. Install `pyyaml` module
+
+```
+$ pip2 install pyyaml
+```
+
+4. Install Docker following https://docs.docker.com/engine/install/ubuntu/.
+
+5. Make Docker work with non-root users following https://docs.docker.com/engine/install/linux-postinstall/. You may need to reboot your machine.
 
 # Build (using Docker)
 
