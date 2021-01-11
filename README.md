@@ -2,38 +2,23 @@ This directory is used to build the FSL static website.
 
 # Installation (using Docker)
 
-1. Install the following packages
+1.  Install Docker following https://docs.docker.com/engine/install/ubuntu/.
 
-```
-$ sudo apt update
-$ sudo apt install build-essential ruby-bundler ruby-dev python2
-```
+2.  Make Docker work with non-root users following
+    https://docs.docker.com/engine/install/linux-postinstall/. You may need to
+    reboot your machine.
 
-2. (Deprecated. Don't follow) Install the pip for python2
+3.  make sure that you have the branch `gh-pages` created.
 
-```
-$ curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
-$ sudo python2 get-pip.py
-```
-
-You may remove `get-pip.py` after installation.
-You may verify the installation by running `pip2 --version`. 
-
-3. (Deprecated. Don't follow) Install `pyyaml` module
-
-```
-$ pip2 install pyyaml
-```
-
-4. Install Docker following https://docs.docker.com/engine/install/ubuntu/.
-
-5. Make Docker work with non-root users following https://docs.docker.com/engine/install/linux-postinstall/. You may need to reboot your machine.
+    ```
+    $ git branch gh-pages origin/gh-pages
+    ```
 
 # Build (using Docker)
 
 On your first build, run `./build-in-docker image` to create the Docker image. 
 
-To build the website locally, run `./build-in-docker.sh serve`. If you see the following messages then the build is succesful:
+To preview the website locally, run `./build-in-docker.sh serve`. If you see the following messages then the build is succesful:
 
 ```
  [ ... MORE MESSAGES ... ]
@@ -42,40 +27,21 @@ To build the website locally, run `./build-in-docker.sh serve`. If you see the f
   Server running... press ctrl-c to stop.
 ```
 
-You can access the website by visiting the server address http://0.0.0.0:4000/fsl// in a web browser. 
+You can access the website by visiting the server address http://0.0.0.0:4000/fsl/ in a web browser. 
 
-# Publish the Website
+# Publish
 
-**Warning: Make sure the website is functioning before pushlishing it.**
 
-Firstly, make sure that you have the branch `gh-pages` checked out in your local repository.
+First, commit all changes to source files to git.
 
-```
-$ git checkout gh-pages
-$ git checkout master
-```
+    git commit -a
 
-Following these steps to publish the website. 
+Next, generate the html pages:
 
-1. Run `./update-gh-pages`, which generates the HTML files and pushes them to the branch `gh-pages` where the website is hosted. 
+    ./build-in-docker build
 
-2. Checkout `gh-pages` branch by running `git checkout gh-pages`. 
+Finally, commit the website build to the `gh-pages` branch, and push:
 
-3. Manually push the commit to the remote by running `git push`. 
-
-4. Don't forget to return to the `master` branch by running `git checkout master`, which will take a while to finish.
-
-# Troubleshooting
-
-1. Run `./build-in-docker.sh serve` and get the following error message (or something similar)
-
-```
-Traceback (most recent call last):
-  File "./bibtex2wiki/bibtex2wiki", line 64, in <module>
-    with open('_papers/' + paper.id + '.md', 'w') as f:
-IOError: [Errno 2] No such file or directory: '_papers/rosu-stefanescu-2012-oopsla.md'
-```
-
-**Solution**. Create an empty directory `fsl.cs.illinois.edu/_papers`. 
-
+    ./commit
+    git push origin gh-pages
 
