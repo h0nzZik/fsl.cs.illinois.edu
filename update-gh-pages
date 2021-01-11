@@ -3,7 +3,7 @@
 cd $(dirname $0)
 
 # Build the website locally
-./build build
+# ./build build
 
 # Commit to gh-pages branch
 ./git-commit-filetree gh-pages "fsl.cs.illinois.edu/_site"
