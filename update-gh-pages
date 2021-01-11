@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+cd $(dirname $0)
+
 # Build the website locally
 ./build build
 
 # Commit to gh-pages branch
-cd "$www_dir"
-./git-commit-filetree gh-pages "$fsl_dir/_site"
+./git-commit-filetree gh-pages "fsl.cs.illinois.edu/_site"
 
 # NOTE: you should manually git checkout gh-pages and push the commit. 
+
