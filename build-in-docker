@@ -31,5 +31,6 @@ case $command in
     build)  dockerrun ./build build "$@" ;;
     serve)  dockerrun ./build serve --host 0.0.0.0 "$@" ;;
     bash)   dockerrun bash ;;
+    commit) dockerrun ./update-gh-pages ;;
     *)     fatal "Bad command '$command'"; exit 1;;
 esac
