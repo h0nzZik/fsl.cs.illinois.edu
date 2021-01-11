@@ -30,7 +30,6 @@ case $command in
     jekyll) dockerrun ./build "$@" ;;
     build)  dockerrun ./build build "$@" ;;
     serve)  dockerrun ./build serve --host 0.0.0.0 "$@" ;;
-    push)   dockerrun ./update-gh-pages ;;
     bash)   dockerrun bash ;;
     *)     fatal "Bad command '$command'"; exit 1;;
 esac
