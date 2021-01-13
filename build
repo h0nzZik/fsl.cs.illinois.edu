@@ -7,6 +7,7 @@ fsl_dir="$www_dir/fsl.cs.illinois.edu"
 repo_root="$www_dir/.."
 
 cd "$fsl_dir"
+mkdir -p _papers
 
 # Install Jekyll and friends from Gemfile
 bundle install
