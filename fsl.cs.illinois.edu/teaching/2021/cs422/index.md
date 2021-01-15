@@ -109,7 +109,7 @@ For each of the problems, also provide one test program which should succeed and
 
 
 ---
-<b><em><span style="color:red">HW3 (due date TBD)</span></em></b>
+<b><em><span style="color:red">HW4 (due date TBD)</span></em></b>
 
 ***Exercise 1 (10 points):*** Currently, all class members (fields and/or methods) are public in KOOL. Sometimes we want to keep members of a class private, in the sense that subclasses do not have direct access to those members. This exercise asks you to add private members to untyped KOOL. Syntactically, you should allow a new keyword, "private", to optionally prepend member declarations. For example, `private var x=10, y=10;` or `private method f(x,y) {...}`.
 
@@ -129,7 +129,7 @@ Note: See the [private-members](https://github.com/kframework/k5/tree/master/k-d
   - [FUN untyped](http://www.kframework.org/index.php/K_Tutorial#.5B.3F.3F.27.3F.3F.22.5D_.C2.A0_Part_9:_FUN:_Designing_Functional_Programming_Languages) (Part 9 of the K Tutorial, without the type inferencer)
 
 ---
-<b><em><span style="color:red">HW3 (due date TBD)</span></em></b>
+<b><em><span style="color:red">HW5 (due date TBD)</span></em></b>
 
 ***Exercise 1 (10 points):*** Add a `let*` construct to environment-based FUN. `let*` has the same syntax as `let`, but it applies the bindings in the order in which they are given. For example, the program `let* x=1 and y=x in y` is well defined and evaluates to `1`, but it would be undefined if we replaced `let*` with `let`.
 
@@ -153,7 +153,7 @@ Note: See the [letrec](https://github.com/kframework/k5/tree/master/k-distributi
 
 
 ---
-<b><em><span style="color:red">HW3 (due date TBD; can think of it as a take-home final, whose weigh is same as a normal HW; choose one of HW6-1 or HW6-2 as main HW, and take the other as extracredit HW, due by TBD)</span></em></b>
+<b><em><span style="color:red">HW6-1 (due date TBD; can think of it as a take-home final, whose weigh is same as a normal HW; choose one of HW6-1 or HW6-2 as main HW, and take the other as extracredit HW, due by TBD)</span></em></b>
 
 This HW has only one exercise, but remember that all HWs have equal weight. The exercise is to develop a let-polymorphic type inferencer for FUN. Use the existing syntax of FUN. If correct, your type inferencer should type all the existing FUN programs.
 
@@ -170,7 +170,7 @@ Note: See the [fun-type-inferencer](https://github.com/kframework/k5/tree/master
 
 
 ---
-<b><em><span style="color:red">HW3 (due date TBD; can think of it as a take-home final, whose weigh is same as a normal HW; choose one of HW6-1 or HW6-2 as main HW, and take the other as extracredit HW, due by TBD)</span></em></b>
+<b><em><span style="color:red">HW6-2 (due date TBD; can think of it as a take-home final, whose weigh is same as a normal HW; choose one of HW6-1 or HW6-2 as main HW, and take the other as extracredit HW, due by TBD)</span></em></b>
 
 This HW has only one exercise, but remember that all HWs have equal weight. The exercise is to extend LOGIK with several features.
 
