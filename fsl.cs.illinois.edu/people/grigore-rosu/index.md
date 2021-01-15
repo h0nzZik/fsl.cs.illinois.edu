@@ -3,15 +3,16 @@ layout: default
 title: Grigore Rosu's Home Page
 ---
 
-# Grigore Rosu's Home Page
+# Grigore Rosu
 
 ![Grigore Rosu](/fsl//assets/photos/grigore-rosu-photo-main.jpg)
 
 **Professor of Computer Science** <br/>
 **University of Illinois at Urbana-Champaign**
 
-- [CV](grigore-rosu-cv.html) | [![Wikipedia](/fsl//assets/pictures/wikipedia-favicon.png)](https://en.wikipedia.org/wiki/Grigore_Rosu) |
-  [Linkedin](https://www.linkedin.com/in/grigorerosu)
+- [CV](grigore-rosu-cv.html) 
+  | [Wikipedia](https://en.wikipedia.org/wiki/Grigore_Rosu) 
+  | [Linkedin](https://www.linkedin.com/in/grigorerosu)
   | [Github](https://github.com/grosu)
   | [Twitter](http://twitter.com/RosuGrigore)
 - [Publications](grigore-rosu-publications.html)
