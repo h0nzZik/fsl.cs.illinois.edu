@@ -27,8 +27,8 @@ CS422 is an advanced course on principles of programming language design. Major 
 The links below provide you with useful material for this class, including complete lecture notes. These materials will be added by need.
 
 - ***Introduction.*** [Slides](/fsl//assets/CS422-Spring-2020-01.pdf)
-- ***Structural Operational Semantics.*** [Slides](CS422-Spring-2020-02-Conventional-Executable-Semantics.pdf)
-  - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep](CS422-Spring-2020-02a-IMP-BigStep-SmallStep.pdf)
+- ***Structural Operational Semantics.*** [Slides](/fsl//assets/CS422-Spring-2020-02-Conventional-Executable-Semantics.pdf)
+  - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep](/fsl//assets/CS422-Spring-2020-02a-IMP-BigStep-SmallStep.pdf)
 
 ---
 <b><em><span style="color:red">HW1 (due date TBD)</span></em></b>
@@ -48,7 +48,7 @@ The links below provide you with useful material for this class, including compl
   - [K Tutorial, Part 2: Defining IMP](http://k-framework.org/index.php/K_Tutorial#.5B37.2707.22.5D_.C2.A0_Part_2:_Defining_IMP) (see the provided video and textual documentation)
   - [K Tutorial, Part 3: Defining LAMBDA++](http://k-framework.org/index.php/K_Tutorial#.5B33.2710.22.5D_.C2.A0_Part_3:_Defining_LAMBDA.2B.2B) (see the provided video and textual documentation)
   - [K Tutorial, Part 4: Defining IMP++](http://k-framework.org/index.php/K_Tutorial#.5B46.2746.22.5D_.C2.A0_Part_4:_Defining_IMP.2B.2B) (see the provided video and textual documentation)
-  - [K Overview](CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
+  - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
 
 
 ---
@@ -78,7 +78,7 @@ Note: See the [callCC (substitution)](https://github.com/kframework/k5/tree/mast
 - ***SIMPLE: Designing Imperative Programming Languages***
   - [SIMPLE untyped, statically typed, and dynamically typed](http://www.kframework.org/index.php/K_Tutorial#.5B.3F.3F.27.3F.3F.22.5D_.C2.A0_Part_7:_SIMPLE:_Designing_Imperative_Programming_Languages) (Part 7 of the K Tutorial)
   - [K Tutorial, Part 5: Defining type systems](http://www.kframework.org/index.php/K_Tutorial#.5B17.2703.22.5D_.C2.A0_Part_5:_Defining_Type_Systems) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6)
-  - [K Overview](CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
+  - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
 
 
 ---
