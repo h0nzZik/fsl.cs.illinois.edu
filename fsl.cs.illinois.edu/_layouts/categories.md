@@ -16,6 +16,8 @@ sidebar: true
             {% assign old_year = curr_year %}
         {% endunless %}
         <h3> {{paper.title}} </h3>
+        {% assign id = paper.id %}
+        <p>{% paper_info id %}</p>
         <p>
         {{ paper.abstract }}
         </p>
