@@ -1,8 +1,10 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
+
+      <h1 id='fsl-title'>
         <a href="{{ site.baseurl }}">
+          <img src="{{ site.baseurl }}assets/images/fsl-logo4.png" />
           {{ site.title }}
         </a>
       </h1>
@@ -21,6 +23,6 @@
         `layout: categories` in the front-matter. See readme for usage.
       {% endcomment %}
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p id="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
