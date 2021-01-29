@@ -13,6 +13,8 @@
    <div class='paper-where'> <strong> {{ paper.bib.booktitle_acronym }} </strong> {{ paper.bib.publisher }}, pp {{ paper.bib.pages }}. </div>
    {% endif %}
    <div class='paper-year'> {{ paper.bib.date }}</div>
+   <a href="{{site.baseurl}}{{paper.pdf_url}}"> PDF </a>
+   <a href="{{site.baseurl}}{{paper.bib_url}}"> BIB </a>
 </li>
 {% endfor %}
 </ul>
