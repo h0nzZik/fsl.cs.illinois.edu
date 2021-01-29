@@ -1,9 +1,13 @@
+{% assign papers = site.data.papers %}
+{% if include.author %}
+{% assign papers = papers | where_exp: "paper","paper.bib.author_ids contains include.author" %}
+{% endif %}
 
 <ul class="paper-list">
-{% for paper in site.data.papers %}
+{% for paper in papers %}
   {% assign curr_year = paper.bib.date %}
         {% unless curr_year == old_year %}
-            <h2> {{curr_year}} </h2>
+            <h3> {{curr_year}} </h3>
             {% assign old_year = curr_year %}
         {% endunless %}
    <li class='paper'>

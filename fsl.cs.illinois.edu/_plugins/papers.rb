@@ -78,20 +78,36 @@ module Papers
       @data['bib']['project']           = defined?(bibentry['project'])     ? bibentry['project']      : nil
       @data['bib']['project_url']       = defined?(bibentry['project_url']) ? bibentry['project_url']  : nil
       @data['bib']['number']            = defined?(bibentry['number'])      ? bibentry['number']       : nil
+      
       author_links = []
-      bibentry.author.each { |author| author_links << makelink(author) }
+      author_ids   = []
+      bibentry.author.each { |author|
+          author_links << make_link(author)
+          author_ids << make_id(author)
+      }
       @data['bib']['author_links'] = author_links
+      @data['bib']['author_ids'] = author_ids
+
       @content = ""
 
       Jekyll::Hooks.trigger :pages, :post_init, self
     end
 
-    def makelink(author)
-        # TODO: It's probably better to do this in a template
+    def make_link(author)
         if author.first and author.last then
             first = I18n.transliterate(author.first).to_s.downcase
             last = I18n.transliterate(author.last).to_s.downcase
             return '<a href="../../people/' + first + '-' + last + '">' + author.to_s + '</a>'
+        else
+            return author.to_s
+        end
+    end
+    
+    def make_id(author)
+        if author.first and author.last then
+            first = I18n.transliterate(author.first).to_s.downcase
+            last = I18n.transliterate(author.last).to_s.downcase
+            return first + '-' + last
         else
             return author.to_s
         end
