@@ -33,3 +33,17 @@ html {
 #copyright {
     font-size: 0.5em;
 }
+
+/* Publications */
+/* ------------ */
+
+.paper-list {
+    list-style: none;
+    padding-left: 0px;
+}
+.paper { padding-bottom: 1em ; }
+.paper-title { font-weight: bold; }
+.paper > :not(.paper-title)  {
+    padding-left: 1em;
+    font-size: 0.8em;
+}

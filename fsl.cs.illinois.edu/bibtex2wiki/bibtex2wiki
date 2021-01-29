@@ -58,7 +58,7 @@ def top_dir(*args):
     up = os.path.dirname
     return os.path.join(up(up(up(up(os.path.abspath(__file__))))), *args)
 
-with open('_data/papers.yaml', 'w') as f:
+with open('_data/papers_ids.yaml', 'w') as f:
     for year in os.listdir(top_dir('papers')):
         if year in ['README.txt', 'fsl_categories.txt']: continue
         for id in os.listdir(top_dir('papers', year)):
