@@ -10,7 +10,7 @@ Complete lecture notes will be posted here.
 
 ## Zoom Link
 
-[https://illinois.zoom.us/j/2172447431](https://illinois.zoom.us/j/2172447431)
+[https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09](https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09)
 
 
 ## Course Description
