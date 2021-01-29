@@ -32,7 +32,7 @@ You want to work on these topics? See [Grigore Rosu](/fsl//people/grigore-rosu/i
 
 {% assign news = site.data.news | slice: 0,5 %}
 {% for item in  news %} * **{{item.date}}:** {{item.markdown}}
-{% endfor %}
+{% endfor %} <!--  -->
 * [All news](/fsl/news.html)
 
 
