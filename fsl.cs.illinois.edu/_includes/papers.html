@@ -1,0 +1,19 @@
+
+<ul class="paper-list">
+{% for paper in site.data.papers %}
+  {% assign curr_year = paper.bib.date %}
+        {% unless curr_year == old_year %}
+            <h2> {{curr_year}} </h2>
+            {% assign old_year = curr_year %}
+        {% endunless %}
+   <li class='paper'>
+   <a class='paper-title' href="{{site.baseurl}}{{ paper.url }}"> {{paper.title}} </a>
+   <div class='paper-authors'> {{ paper.bib.author_links | join: " and " }}. </div>
+   {% if paper.bib.booktitle_acronym %}
+   <div class='paper-where'> <strong> {{ paper.bib.booktitle_acronym }} </strong> {{ paper.bib.publisher }}, pp {{ paper.bib.pages }}. </div>
+   {% endif %}
+   <div class='paper-year'> {{ paper.bib.date }}</div>
+</li>
+{% endfor %}
+</ul>
+
