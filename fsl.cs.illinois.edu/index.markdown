@@ -28,13 +28,12 @@ all aiming at increasing the quality of computing systems.
 
 You want to work on these topics? See [Grigore Rosu](/fsl//people/grigore-rosu/index.html)'s list of [Open Problems and Challenges](/fsl//other-pages/open-problems.html).
 
-# Recent Publications
+# News
 
-{% assign papers = site.papers | sort: 'date' | reverse | slice: 0,10 %}
-{% for paper in papers %} * **{{paper.date | date: "%Y-%m-%d"}}:** {{paper.title}}
+{% assign news = site.data.news | slice: 0,5 %}
+{% for item in  news %} * **{{item.date}}:** {{item.markdown}}
 {% endfor %}
-* [All publications](/fsl//other-pages/news.html)
-
+* [All news](/fsl/news.html)
 
 
 [Department of Computer Science]: https://cs.illinois.edu

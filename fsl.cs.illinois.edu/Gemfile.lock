@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bibtex-ruby (6.0.0)
+      latex-decode (~> 0.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
     em-websocket (0.5.1)
@@ -42,6 +44,7 @@ GEM
     kramdown (2.1.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    latex-decode (0.3.2)
     liquid (4.0.3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -73,6 +76,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bibtex-ruby
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-katex
