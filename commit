@@ -2,8 +2,8 @@
 
 cd $(dirname $0)
 
-# Build the website locally
-# ./build build
+# Reset gh-pages branch
+git checkout -B gh-pages origin/gh-pages
 
 # Commit to gh-pages branch
 ./git-commit-filetree gh-pages "fsl.cs.illinois.edu/_site"
