@@ -5,4 +5,5 @@ runs:
   using: 'docker'
   image: '../Dockerfile'
   args:
-  - ./www/build build
+  - ./www/build
+  - build
