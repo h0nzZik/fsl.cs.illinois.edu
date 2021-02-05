@@ -5,4 +5,4 @@ runs:
   using: 'docker'
   image: '../Dockerfile'
   args:
-  - ./www/build build
+  - /home/runner/work/fsl/fsl build
