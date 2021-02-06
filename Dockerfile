@@ -7,4 +7,4 @@ RUN pip2 install pyyaml
 COPY ./fsl.cs.illinois.edu/Gemfile      /tmp/default_gems/Gemfile
 COPY ./fsl.cs.illinois.edu/Gemfile.lock /tmp/default_gems/Gemfile.lock
 RUN chmod o+rw /tmp/default_gems/Gemfile*
-RUN cd /tmp/default_gems/ && bundle install
+RUN cd /tmp/default_gems/ && bundle install --system
