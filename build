@@ -16,4 +16,5 @@ bundle install
 ./bibtex2wiki/bibtex2wiki
 
 # Generate Jekyll site
+ls -la /github/workspace/www/fsl.cs.illinois.edu/
 bundle exec jekyll "$@"
