@@ -4,7 +4,7 @@ description: 'Deploy the FSL website'
 runs:
   using: 'docker'
   image: '../Dockerfile'
+  options: --user 1001
   args:
-  - bash
-  - -c
-  - ls -la; pwd
+  - ./www/build
+  - build
