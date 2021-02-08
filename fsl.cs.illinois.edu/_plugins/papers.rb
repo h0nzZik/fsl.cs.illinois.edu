@@ -61,6 +61,7 @@ module Papers
         'category' => 'paper',
         'layout' => 'paper'
       }
+      @data['category'] = defined?(bibentry['category']) ? bibentry['category'] : nil
       @data['bib'] = { }
       @data['title'] = @data['bib']['title'] = bibentry.title
       @data['date']  = @data['bib']['date']  = bibentry.date

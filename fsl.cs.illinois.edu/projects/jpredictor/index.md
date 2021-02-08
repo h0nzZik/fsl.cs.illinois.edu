@@ -5,4 +5,4 @@ title: JPredictor
 
 # JPredictor
 
-This page is still under construction. 
+{% include papers.html category="jpredictor" %}

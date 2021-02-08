@@ -5,4 +5,4 @@ title: Circ
 
 # Circ
 
-This page is still under construction. 
+{% include papers.html category="circular_coinduction" %}
