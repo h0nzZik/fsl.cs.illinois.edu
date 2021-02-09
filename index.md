@@ -16,10 +16,6 @@ In the FSL, we design and develop:
 
 all aiming at increasing the quality of computing systems. 
 
-[comment]: <> ( {% katexmm %} )
-[comment]: <> ( Test math $\varphi_1$ $\mathbb{K}$ )
-[comment]: <> ( {% endkatexmm %} )
-
 # Current Research Areas
 
 - [Programming Language Design and Semantics](/fsl//projects/pl/index.html)
