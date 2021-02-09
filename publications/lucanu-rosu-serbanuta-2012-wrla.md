@@ -22,6 +22,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Dorel Lucanu and Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - dorel-lucanu
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: dorel-lucanu
     text: Dorel Lucanu
@@ -46,10 +50,10 @@ bib:
   project_url: http://www.kframework.org
   publisher: Springer
   series: LNCS
-  title: '{K} {Framework} Distilled'
+  title: K Framework Distilled
   type: inproceedings
   volume: '7571'
   year: '2012'
 layout: paper
-title: '{K} {Framework} Distilled'
+title: K Framework Distilled
 ---

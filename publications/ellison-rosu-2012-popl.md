@@ -13,6 +13,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Chucky Ellison and Grigore Rosu
+  author_ids:
+  - chucky-ellison
+  - grigore-rosu
   authors:
   - id: chucky-ellison
     text: Chucky Ellison

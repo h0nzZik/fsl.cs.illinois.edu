@@ -18,6 +18,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Dorel Lucanu and Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - dorel-lucanu
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: dorel-lucanu
     text: Dorel Lucanu

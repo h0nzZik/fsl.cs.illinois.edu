@@ -26,6 +26,13 @@ bib:
     last: Ro\c{s}u
   author_id: Andrei Stefanescu and Stefan Ciobaca and Radu Mereuta and Brandon Moore
     and Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - andrei-stefanescu
+  - stefan-ciobaca
+  - radu-mereuta
+  - brandon-moore
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: andrei-stefanescu
     text: Andrei Stefanescu

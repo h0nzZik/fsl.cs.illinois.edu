@@ -23,6 +23,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Eugen-Ioan Goriac and Dorel Lucanu and Grigore Rosu
+  author_ids:
+  - eugen-ioan-goriac
+  - dorel-lucanu
+  - grigore-rosu
   authors:
   - id: eugen-ioan-goriac
     text: Eugen-Ioan Goriac

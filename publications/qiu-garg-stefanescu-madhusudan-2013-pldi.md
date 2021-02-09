@@ -35,6 +35,11 @@ bib:
     last: Madhusudan
   author_id: Xiaokang Qiu and Pranav Garg and Andrei Stefanescu and Parthasarathy
     Madhusudan
+  author_ids:
+  - xiaokang-qiu
+  - pranav-garg
+  - andrei-stefanescu
+  - parthasarathy-madhusudan
   authors:
   - id: xiaokang-qiu
     text: Xiaokang Qiu

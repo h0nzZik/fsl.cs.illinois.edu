@@ -21,6 +21,13 @@ bib:
     last: Rosu
   author_id: Traian Florin Serbanuta and Andrei Arusoaie and David Lazar and Chucky
     Ellison and Dorel Lucanu and Grigore Rosu
+  author_ids:
+  - traian-florin-serbanuta
+  - andrei-arusoaie
+  - david-lazar
+  - chucky-ellison
+  - dorel-lucanu
+  - grigore-rosu
   authors:
   - id: traian-florin-serbanuta
     text: Traian Florin Serbanuta

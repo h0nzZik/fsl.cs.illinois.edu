@@ -19,6 +19,9 @@ bib:
   - first: Dorel
     last: Lucanu
   author_id: Grigore Rosu and Dorel Lucanu
+  author_ids:
+  - grigore-rosu
+  - dorel-lucanu
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

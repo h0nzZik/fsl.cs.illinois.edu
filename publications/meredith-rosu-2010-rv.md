@@ -28,6 +28,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Patrick Meredith and Grigore Rosu
+  author_ids:
+  - patrick-meredith
+  - grigore-rosu
   authors:
   - id: patrick-meredith
     text: Patrick Meredith
@@ -49,9 +52,9 @@ bib:
   project_name: RV
   project_url: https://github.com/runtimeverification
   publisher: Springer
-  title: Runtime Verification with the {RV} System
+  title: Runtime Verification with the RV System
   type: inproceedings
   year: '2010'
 layout: paper
-title: Runtime Verification with the {RV} System
+title: Runtime Verification with the RV System
 ---

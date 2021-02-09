@@ -31,6 +31,12 @@ bib:
     last: Ro\c{s}u
   author_id: Xiaohong Chen and Minh-Thai Trinh and Nishant Rodrigues and Lucas Pena
     and Grigore Rosu
+  author_ids:
+  - xiaohong-chen
+  - minh-thai-trinh
+  - nishant-rodrigues
+  - lucas-pena
+  - grigore-rosu
   authors:
   - id: xiaohong-chen
     text: Xiaohong Chen

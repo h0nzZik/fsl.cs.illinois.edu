@@ -32,6 +32,15 @@ bib:
     last: Rosu
   author_id: Philip Daian and Dwight Guth and Chris Hathhorn and Yilong Li and Edgar
     Pek and Manasvi Saxena and Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - philip-daian
+  - dwight-guth
+  - chris-hathhorn
+  - yilong-li
+  - edgar-pek
+  - manasvi-saxena
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: philip-daian
     text: Philip Daian
@@ -66,10 +75,10 @@ bib:
   project_url: https://runtimeverification.com
   publisher: Springer
   series: LNCS
-  title: 'Runtime Verification at Work: {A} Tutorial'
+  title: 'Runtime Verification at Work: A Tutorial'
   type: inproceedings
   volume: '10012'
   year: '2016'
 layout: paper
-title: 'Runtime Verification at Work: {A} Tutorial'
+title: 'Runtime Verification at Work: A Tutorial'
 ---

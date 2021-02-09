@@ -28,6 +28,13 @@ bib:
     last: Ro\c{s}u
   author_id: Vlad Rusu and Dorel Lucanu and Traian Florin Serbanuta and Andrei Arusoaie
     and Andrei Stefanescu and Grigore Rosu
+  author_ids:
+  - vlad-rusu
+  - dorel-lucanu
+  - traian-florin-serbanuta
+  - andrei-arusoaie
+  - andrei-stefanescu
+  - grigore-rosu
   authors:
   - id: vlad-rusu
     text: Vlad Rusu

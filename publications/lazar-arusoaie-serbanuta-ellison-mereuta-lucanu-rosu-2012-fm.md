@@ -23,6 +23,14 @@ bib:
     last: Ro\c{s}u
   author_id: David Lazar and Andrei Arusoaie and Traian Florin Serbanuta and Chucky
     Ellison and Radu Mereuta and Dorel Lucanu and Grigore Rosu
+  author_ids:
+  - david-lazar
+  - andrei-arusoaie
+  - traian-florin-serbanuta
+  - chucky-ellison
+  - radu-mereuta
+  - dorel-lucanu
+  - grigore-rosu
   authors:
   - id: david-lazar
     text: David Lazar
@@ -54,10 +62,10 @@ bib:
   project_url: http://www.kframework.org/index.php/Main_Page
   publisher: Springer
   series: LNCS
-  title: Executing Formal Semantics with the {K} Tool
+  title: Executing Formal Semantics with the K Tool
   type: inproceedings
   volume: '7436'
   year: '2012'
 layout: paper
-title: Executing Formal Semantics with the {K} Tool
+title: Executing Formal Semantics with the K Tool
 ---

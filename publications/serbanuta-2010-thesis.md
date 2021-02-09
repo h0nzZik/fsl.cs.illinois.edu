@@ -35,6 +35,8 @@ bib:
     last: \c{S}erb\u{a}nu\c{t}\u{a}
     middle: Florin
   author_id: Traian Florin Serbanuta
+  author_ids:
+  - traian-florin-serbanuta
   authors:
   - id: traian-florin-serbanuta
     text: Traian Florin Serbanuta

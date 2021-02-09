@@ -33,6 +33,16 @@ bib:
   author_id: Kasampalis, Theodoros and Guth, Dwight and Moore, Brandon and Serbanuta,
     Traian Florin and Zhang, Yi and Filaretti, Daniele and Serbanuta, Virgil and Johnson,
     Ralph and Rosu, Grigore
+  author_ids:
+  - kasampalis,-theodoros
+  - guth,-dwight
+  - moore,-brandon
+  - serbanuta,-traian-florin
+  - zhang,-yi
+  - filaretti,-daniele
+  - serbanuta,-virgil
+  - johnson,-ralph
+  - rosu,-grigore
   authors:
   - id: kasampalis,-theodoros
     text: Kasampalis, Theodoros

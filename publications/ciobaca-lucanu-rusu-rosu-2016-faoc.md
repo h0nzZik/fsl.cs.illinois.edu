@@ -24,6 +24,11 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Stefan Ciobaca and Dorel Lucanu and Vlad Rusu and Grigore Rosu
+  author_ids:
+  - stefan-ciobaca
+  - dorel-lucanu
+  - vlad-rusu
+  - grigore-rosu
   authors:
   - id: stefan-ciobaca
     text: Stefan Ciobaca

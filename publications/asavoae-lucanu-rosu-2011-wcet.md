@@ -18,6 +18,10 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Mihail Asavoae and Dorel Lucanu and Grigore Rosu
+  author_ids:
+  - mihail-asavoae
+  - dorel-lucanu
+  - grigore-rosu
   authors:
   - id: mihail-asavoae
     text: Mihail Asavoae

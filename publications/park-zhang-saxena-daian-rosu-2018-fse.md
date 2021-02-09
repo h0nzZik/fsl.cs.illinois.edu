@@ -21,6 +21,12 @@ bib:
     last: Ro\c{s}u
   author_id: Daejun Park and Yi Zhang and Manasvi Saxena and Philip Daian and Grigore
     Rosu
+  author_ids:
+  - daejun-park
+  - yi-zhang
+  - manasvi-saxena
+  - philip-daian
+  - grigore-rosu
   authors:
   - id: daejun-park
     text: Daejun Park
@@ -54,9 +60,9 @@ bib:
   project_name: Formally Verified Smart Contracts
   project_url: https://github.com/runtimeverification/verified-smart-contracts/
   publisher: ACM
-  title: '{A Formal Verification Tool for Ethereum VM Bytecode}'
+  title: A Formal Verification Tool for Ethereum VM Bytecode
   type: inproceedings
   year: '2018'
 layout: paper
-title: '{A Formal Verification Tool for Ethereum VM Bytecode}'
+title: A Formal Verification Tool for Ethereum VM Bytecode
 ---

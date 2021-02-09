@@ -13,6 +13,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Chucky Ellison and Grigore Rosu
+  author_ids:
+  - chucky-ellison
+  - grigore-rosu
   authors:
   - id: chucky-ellison
     text: Chucky Ellison
@@ -30,9 +33,9 @@ bib:
   number: http://hdl.handle.net/2142/30780
   project_name: K
   project_url: http://www.kframework.org/index.php/Main_Page
-  title: Defining the Undefinedness of {C}
+  title: Defining the Undefinedness of C
   type: techreport
   year: '2012'
 layout: paper
-title: Defining the Undefinedness of {C}
+title: Defining the Undefinedness of C
 ---

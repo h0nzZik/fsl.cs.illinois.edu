@@ -19,6 +19,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Choonghwan Lee and Feng Chen and Grigore Rosu
+  author_ids:
+  - choonghwan-lee
+  - feng-chen
+  - grigore-rosu
   authors:
   - id: choonghwan-lee
     text: Choonghwan Lee

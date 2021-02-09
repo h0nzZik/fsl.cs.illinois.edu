@@ -17,6 +17,9 @@ bib:
   - first: Feng
     last: Chen
   author_id: Grigore Rosu and Feng Chen
+  author_ids:
+  - grigore-rosu
+  - feng-chen
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

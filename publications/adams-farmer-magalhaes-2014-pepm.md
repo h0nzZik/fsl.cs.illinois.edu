@@ -22,6 +22,10 @@ bib:
     last: Magalh{\~a}es
     middle: Pedro
   author_id: Michael D. Adams and Andrew Farmer and Jose Pedro Magalhaes
+  author_ids:
+  - michael-d.-adams
+  - andrew-farmer
+  - jose-pedro-magalhaes
   authors:
   - id: michael-d.-adams
     text: Michael D. Adams
@@ -45,9 +49,9 @@ bib:
   project_name: Optimizing SYB
   project_url: https://github.com/xich/hermit-syb
   publisher: ACM
-  title: Optimizing {SYB} is Easy!
+  title: Optimizing SYB is Easy!
   type: inproceedings
   year: '2014'
 layout: paper
-title: Optimizing {SYB} is Easy!
+title: Optimizing SYB is Easy!
 ---

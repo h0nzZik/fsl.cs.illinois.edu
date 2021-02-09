@@ -18,6 +18,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Klaus Havelund and Grigore Rosu
+  author_ids:
+  - klaus-havelund
+  - grigore-rosu
   authors:
   - id: klaus-havelund
     text: Klaus Havelund

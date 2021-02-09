@@ -21,6 +21,10 @@ bib:
   - first: Andrei
     last: \c{S}tef\u{a}nescu
   author_id: Parthasarathy Madhusudan and Xiaokang Qiu and Andrei Stefanescu
+  author_ids:
+  - parthasarathy-madhusudan
+  - xiaokang-qiu
+  - andrei-stefanescu
   authors:
   - id: parthasarathy-madhusudan
     text: Parthasarathy Madhusudan

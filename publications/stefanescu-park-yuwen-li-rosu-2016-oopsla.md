@@ -26,6 +26,12 @@ bib:
     last: Ro\c{s}u
   author_id: Andrei Stefanescu and Daejun Park and Shijiao Yuwen and Yilong Li and
     Grigore Rosu
+  author_ids:
+  - andrei-stefanescu
+  - daejun-park
+  - shijiao-yuwen
+  - yilong-li
+  - grigore-rosu
   authors:
   - id: andrei-stefanescu
     text: Andrei Stefanescu

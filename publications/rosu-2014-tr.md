@@ -18,6 +18,8 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Grigore Rosu
+  author_ids:
+  - grigore-rosu
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

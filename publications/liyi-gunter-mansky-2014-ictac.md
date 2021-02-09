@@ -29,6 +29,10 @@ bib:
   - first: William
     last: Mansky
   author_id: Liyi Li and Elsa Gunter and William Mansky
+  author_ids:
+  - liyi-li
+  - elsa-gunter
+  - william-mansky
   authors:
   - id: liyi-li
     text: Liyi Li

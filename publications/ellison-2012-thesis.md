@@ -15,6 +15,8 @@ bib:
   - first: Chucky
     last: Ellison
   author_id: Chucky Ellison
+  author_ids:
+  - chucky-ellison
   authors:
   - id: chucky-ellison
     text: Chucky Ellison
@@ -28,9 +30,9 @@ bib:
   project_name: K
   project_url: http://fsl.cs.illinois.edu/k
   school: University of Illinois
-  title: A Formal Semantics of {C} with Applications
+  title: A Formal Semantics of C with Applications
   type: phdthesis
   year: '2012'
 layout: paper
-title: A Formal Semantics of {C} with Applications
+title: A Formal Semantics of C with Applications
 ---

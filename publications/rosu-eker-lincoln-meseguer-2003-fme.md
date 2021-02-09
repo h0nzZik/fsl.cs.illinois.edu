@@ -23,6 +23,11 @@ bib:
   - first: Jose
     last: Meseguer
   author_id: Grigore Rosu and Steven Eker and Patrick Lincoln and Jose Meseguer
+  author_ids:
+  - grigore-rosu
+  - steven-eker
+  - patrick-lincoln
+  - jose-meseguer
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

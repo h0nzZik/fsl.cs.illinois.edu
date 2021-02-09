@@ -16,6 +16,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Joseph Goguen and Grigore Rosu
+  author_ids:
+  - joseph-goguen
+  - grigore-rosu
   authors:
   - id: joseph-goguen
     text: Joseph Goguen

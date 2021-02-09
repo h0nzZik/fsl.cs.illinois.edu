@@ -15,6 +15,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: traian-florin-serbanuta
     text: Traian Florin Serbanuta
@@ -36,9 +39,9 @@ bib:
   project_name: K
   project_url: https://github.com/kframework
   publisher: Springer
-  title: '{K-Maude}: A Rewriting Based Tool for Semantics of Programming Languages'
+  title: 'K-Maude: A Rewriting Based Tool for Semantics of Programming Languages'
   type: inproceedings
   year: '2010'
 layout: paper
-title: '{K-Maude}: A Rewriting Based Tool for Semantics of Programming Languages'
+title: 'K-Maude: A Rewriting Based Tool for Semantics of Programming Languages'
 ---

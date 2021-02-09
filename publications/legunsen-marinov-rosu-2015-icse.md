@@ -20,6 +20,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Owolabi Legunsen and Darko Marinov and Grigore Rosu
+  author_ids:
+  - owolabi-legunsen
+  - darko-marinov
+  - grigore-rosu
   authors:
   - id: owolabi-legunsen
     text: Owolabi Legunsen

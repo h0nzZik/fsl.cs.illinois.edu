@@ -29,6 +29,8 @@ bib:
     last: Meredith
     middle: O'Neil
   author_id: Patrick O'Neil Meredith
+  author_ids:
+  - patrick-o'neil-meredith
   authors:
   - id: patrick-o'neil-meredith
     text: Patrick O'Neil Meredith

@@ -25,6 +25,10 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Jeff Huang and Qingzhou Luo and Grigore Rosu
+  author_ids:
+  - jeff-huang
+  - qingzhou-luo
+  - grigore-rosu
   authors:
   - id: jeff-huang
     text: Jeff Huang

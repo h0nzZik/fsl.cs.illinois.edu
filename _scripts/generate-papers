@@ -52,13 +52,24 @@ def paper_to_yaml(paper):
     bib = yaml.safe_load(paper.entry.to_string('yaml'))['entries'][paper.id]
     bib['id']   = paper.id
     bib['date']   = paper.date
-    bib['authors'] = list(map(make_links, paper.author_id))
+    bib['authors'] =    list(map(make_links, paper.author_id))
+    bib['author_ids'] = list(map(author_id,  paper.author_id))
     bib['category'] = paper.category
+    bib['title'] = paper.title.replace('{', '').replace('}', '')
     return yaml.safe_dump({ 'bib': bib
-                          , 'title':  paper.title
+                          , 'title':  bib['title']
                           , 'layout': 'paper' 
                           }
                          )
+
+def author_id(author_id):
+  if (author_id.startswith("http")):
+    split = author_id.split(' ', maxsplit = 1)
+    return split[1]
+  else:
+    split = map(str.lower, author_id.split(' '))
+    return '-'.join(split)
+
 
 def make_links(author_id):
   if (author_id.startswith("http")):

@@ -20,6 +20,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Patrick Meredith and Grigore Rosu
+  author_ids:
+  - patrick-meredith
+  - grigore-rosu
   authors:
   - id: patrick-meredith
     text: Patrick Meredith

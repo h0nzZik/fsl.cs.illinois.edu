@@ -16,6 +16,10 @@ bib:
   - first: Gul
     last: Agha
   author_id: Koushik Sen and Grigore Rosu and Gul Agha
+  author_ids:
+  - koushik-sen
+  - grigore-rosu
+  - gul-agha
   authors:
   - id: koushik-sen
     text: Koushik Sen

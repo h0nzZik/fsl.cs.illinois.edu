@@ -32,6 +32,12 @@ bib:
     last: Marinov
   author_id: Owolabi Legunsen and Wajih Ul Hassan and Xinyue Xu and Grigore Rosu and
     Darko Marinov
+  author_ids:
+  - owolabi-legunsen
+  - wajih-ul-hassan
+  - xinyue-xu
+  - grigore-rosu
+  - darko-marinov
   authors:
   - id: owolabi-legunsen
     text: Owolabi Legunsen

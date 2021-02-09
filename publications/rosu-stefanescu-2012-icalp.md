@@ -14,6 +14,9 @@ bib:
   - first: Andrei
     last: \c{S}tef\u{a}nescu
   author_id: Grigore Rosu and Andrei Stefanescu
+  author_ids:
+  - grigore-rosu
+  - andrei-stefanescu
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

@@ -33,6 +33,12 @@ bib:
     last: Rosu
   author_id: Philip Daian and Bhargava Manja and Shinichi Shiraishi and Akihito Iwai
     and Grigore Rosu
+  author_ids:
+  - philip-daian
+  - bhargava-manja
+  - shinichi-shiraishi
+  - akihito-iwai
+  - grigore-rosu
   authors:
   - id: philip-daian
     text: Philip Daian

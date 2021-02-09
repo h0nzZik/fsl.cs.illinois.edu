@@ -23,6 +23,12 @@ bib:
     last: Ro\c{s}u
   author_id: Sandeep Dasgupta and Daejun Park and Theodoros Kasampalis and Vikram
     S. Adve and Grigore Rosu
+  author_ids:
+  - sandeep-dasgupta
+  - daejun-park
+  - theodoros-kasampalis
+  - vikram-s.-adve
+  - grigore-rosu
   authors:
   - id: sandeep-dasgupta
     text: Sandeep Dasgupta
@@ -53,9 +59,9 @@ bib:
   project_name: Semantics
   project_url: https://github.com/kframework/X86-64-semantics
   publisher: ACM
-  title: '{A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture}'
+  title: A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture
   type: inproceedings
   year: '2019'
 layout: paper
-title: '{A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture}'
+title: A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture
 ---

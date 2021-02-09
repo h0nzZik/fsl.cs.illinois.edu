@@ -21,6 +21,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Daejun Park and Andrei Stefanescu and Grigore Rosu
+  author_ids:
+  - daejun-park
+  - andrei-stefanescu
+  - grigore-rosu
   authors:
   - id: daejun-park
     text: Daejun Park
@@ -47,9 +51,9 @@ bib:
   project_name: Semantics
   project_url: https://github.com/kframework/javascript-semantics
   publisher: ACM
-  title: '{KJS}: A Complete Formal Semantics of {JavaScript}'
+  title: 'KJS: A Complete Formal Semantics of JavaScript'
   type: inproceedings
   year: '2015'
 layout: paper
-title: '{KJS}: A Complete Formal Semantics of {JavaScript}'
+title: 'KJS: A Complete Formal Semantics of JavaScript'
 ---

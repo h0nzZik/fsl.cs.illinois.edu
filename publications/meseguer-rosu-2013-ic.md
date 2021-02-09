@@ -15,6 +15,9 @@ bib:
   - first: Grigore
     last: Ro{\c s}u
   author_id: Jose Meseguer and Grigore Rosu
+  author_ids:
+  - jose-meseguer
+  - grigore-rosu
   authors:
   - id: jose-meseguer
     text: Jose Meseguer

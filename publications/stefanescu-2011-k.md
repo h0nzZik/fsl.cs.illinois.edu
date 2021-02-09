@@ -17,6 +17,8 @@ bib:
   - first: Andrei
     last: \c{S}tef\u{a}nescu
   author_id: Andrei Stefanescu
+  author_ids:
+  - andrei-stefanescu
   authors:
   - id: andrei-stefanescu
     text: Andrei Stefanescu
@@ -37,12 +39,12 @@ bib:
   project_url: http://matching-logic.org/
   publisher: Springer
   series: ENTCS
-  title: 'MatchC: A Matching Logic Reachability Verifier Using the {K} Framework'
+  title: 'MatchC: A Matching Logic Reachability Verifier Using the K Framework'
   type: inproceedings
   volume: '304'
   xbooktitle_url: http://vsl2014.at/pages/RTATLCA-cfp.html
   xpages: 425-440
   year: '2011'
 layout: paper
-title: 'MatchC: A Matching Logic Reachability Verifier Using the {K} Framework'
+title: 'MatchC: A Matching Logic Reachability Verifier Using the K Framework'
 ---

@@ -17,6 +17,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: traian-florin-serbanuta
     text: Traian Florin Serbanuta

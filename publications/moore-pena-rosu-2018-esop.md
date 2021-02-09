@@ -22,6 +22,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Brandon Moore and Lucas Pena and Grigore Rosu
+  author_ids:
+  - brandon-moore
+  - lucas-pena
+  - grigore-rosu
   authors:
   - id: brandon-moore
     text: Brandon Moore

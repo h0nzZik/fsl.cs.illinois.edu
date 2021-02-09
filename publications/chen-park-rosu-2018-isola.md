@@ -10,6 +10,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Xiaohong Chen and Daejun Park and Grigore Rosu
+  author_ids:
+  - xiaohong-chen
+  - daejun-park
+  - grigore-rosu
   authors:
   - id: xiaohong-chen
     text: Xiaohong Chen

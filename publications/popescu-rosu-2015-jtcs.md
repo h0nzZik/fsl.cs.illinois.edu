@@ -17,6 +17,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Andrei Popescu and Grigore Rosu
+  author_ids:
+  - andrei-popescu
+  - grigore-rosu
   authors:
   - id: andrei-popescu
     text: Andrei Popescu

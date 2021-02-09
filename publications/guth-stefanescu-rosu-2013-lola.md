@@ -17,6 +17,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Dwight Guth and Andrei Stefanescu and Grigore Rosu
+  author_ids:
+  - dwight-guth
+  - andrei-stefanescu
+  - grigore-rosu
   authors:
   - id: dwight-guth
     text: Dwight Guth

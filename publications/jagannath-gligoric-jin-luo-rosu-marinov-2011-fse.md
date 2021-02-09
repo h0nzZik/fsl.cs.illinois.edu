@@ -31,6 +31,13 @@ bib:
     last: Marinov
   author_id: Vilas Jagannath and Milos Gligoric and Dongyun Jin and Qingzhou Luo and
     Grigore Rosu and Darko Marinov
+  author_ids:
+  - vilas-jagannath
+  - milos-gligoric
+  - dongyun-jin
+  - qingzhou-luo
+  - grigore-rosu
+  - darko-marinov
   authors:
   - id: vilas-jagannath
     text: Vilas Jagannath

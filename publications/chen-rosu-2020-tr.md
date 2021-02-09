@@ -20,6 +20,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Xiaohong Chen and Grigore Rosu
+  author_ids:
+  - xiaohong-chen
+  - grigore-rosu
   authors:
   - id: xiaohong-chen
     text: Xiaohong Chen

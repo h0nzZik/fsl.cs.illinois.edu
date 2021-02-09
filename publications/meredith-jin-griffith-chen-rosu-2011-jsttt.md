@@ -27,6 +27,12 @@ bib:
     last: Ro\c{s}u
   author_id: Patrick O'Neil Meredith and Dongyun Jin and Dennis Griffith and Feng
     Chen and Grigore Rosu
+  author_ids:
+  - patrick-o'neil-meredith
+  - dongyun-jin
+  - dennis-griffith
+  - feng-chen
+  - grigore-rosu
   authors:
   - id: patrick-o'neil-meredith
     text: Patrick O'Neil Meredith
@@ -53,10 +59,10 @@ bib:
   project_name: MOP
   project_url: http://fsl.cs.uiuc.edu/index.php/MOP
   publisher: Springer
-  title: An Overview of the {MOP} Runtime Verification Framework
+  title: An Overview of the MOP Runtime Verification Framework
   type: article
   volume: '14'
   year: '2011'
 layout: paper
-title: An Overview of the {MOP} Runtime Verification Framework
+title: An Overview of the MOP Runtime Verification Framework
 ---

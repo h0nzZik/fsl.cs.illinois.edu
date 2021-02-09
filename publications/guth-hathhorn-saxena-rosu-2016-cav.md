@@ -17,6 +17,11 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Dwight Guth and Chris Hathhorn and Manasvi Saxena and Grigore Rosu
+  author_ids:
+  - dwight-guth
+  - chris-hathhorn
+  - manasvi-saxena
+  - grigore-rosu
   authors:
   - id: dwight-guth
     text: Dwight Guth

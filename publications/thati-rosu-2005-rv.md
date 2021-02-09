@@ -19,6 +19,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Prasanna Thati and Grigore Rosu
+  author_ids:
+  - prasanna-thati
+  - grigore-rosu
   authors:
   - id: prasanna-thati
     text: Prasanna Thati

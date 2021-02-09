@@ -9,6 +9,10 @@ bib:
   - first: Wolfram
     last: Schulte
   author_id: Grigore Rosu and Chucky Ellison and Wolfram Schulte
+  author_ids:
+  - grigore-rosu
+  - chucky-ellison
+  - wolfram-schulte
   authors:
   - id: grigore-rosu
     text: Grigore Rosu
@@ -32,9 +36,9 @@ bib:
   project_name: Matching Logic
   project_url: http://matching-logic.org
   publisher: Springer
-  title: 'Matching Logic: An Alternative to {H}oare/{F}loyd Logic'
+  title: 'Matching Logic: An Alternative to Hoare/Floyd Logic'
   type: inproceedings
   year: '2010'
 layout: paper
-title: 'Matching Logic: An Alternative to {H}oare/{F}loyd Logic'
+title: 'Matching Logic: An Alternative to Hoare/Floyd Logic'
 ---

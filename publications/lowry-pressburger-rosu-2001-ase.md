@@ -20,6 +20,10 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Michael Lowry and Thomas Pressburger and Grigore Rosu
+  author_ids:
+  - michael-lowry
+  - thomas-pressburger
+  - grigore-rosu
   authors:
   - id: michael-lowry
     text: Michael Lowry

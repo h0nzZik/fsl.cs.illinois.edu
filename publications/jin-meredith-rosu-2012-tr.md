@@ -22,6 +22,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Dongyun Jin and Patrick O'Neil Meredith and Grigore Rosu
+  author_ids:
+  - dongyun-jin
+  - patrick-o'neil-meredith
+  - grigore-rosu
   authors:
   - id: dongyun-jin
     text: Dongyun Jin

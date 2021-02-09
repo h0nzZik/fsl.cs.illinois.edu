@@ -22,6 +22,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Chris Hathhorn and Chucky Ellison and Grigore Rosu
+  author_ids:
+  - chris-hathhorn
+  - chucky-ellison
+  - grigore-rosu
   authors:
   - id: chris-hathhorn
     text: Chris Hathhorn

@@ -30,6 +30,14 @@ bib:
     last: Rosu
   author_id: Qingzhou Luo and Yi Zhang and Choonghwan Lee and Dongyun Jin and Patrick
     O'Neil Meredith and Traian Florin Serbanuta and Grigore Rosu
+  author_ids:
+  - qingzhou-luo
+  - yi-zhang
+  - choonghwan-lee
+  - dongyun-jin
+  - patrick-o'neil-meredith
+  - traian-florin-serbanuta
+  - grigore-rosu
   authors:
   - id: qingzhou-luo
     text: Qingzhou Luo

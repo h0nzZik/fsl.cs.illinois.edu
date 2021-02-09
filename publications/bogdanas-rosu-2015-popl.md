@@ -16,6 +16,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Denis Bogdanas and Grigore Rosu
+  author_ids:
+  - denis-bogdanas
+  - grigore-rosu
   authors:
   - id: denis-bogdanas
     text: Denis Bogdanas
@@ -43,9 +46,9 @@ bib:
   project_name: K-Java
   project_url: https://github.com/kframework/java-semantics
   publisher: ACM
-  title: '{K-Java: A Complete Semantics of Java}'
+  title: 'K-Java: A Complete Semantics of Java'
   type: inproceedings
   year: '2015'
 layout: paper
-title: '{K-Java: A Complete Semantics of Java}'
+title: 'K-Java: A Complete Semantics of Java'
 ---

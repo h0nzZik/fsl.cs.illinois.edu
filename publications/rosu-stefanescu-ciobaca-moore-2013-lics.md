@@ -24,6 +24,11 @@ bib:
     last: Moore
     middle: M.
   author_id: Grigore Rosu and Andrei Stefanescu and Stefan Ciobaca and Brandon Moore
+  author_ids:
+  - grigore-rosu
+  - andrei-stefanescu
+  - stefan-ciobaca
+  - brandon-moore
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

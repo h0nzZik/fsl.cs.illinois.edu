@@ -26,6 +26,14 @@ bib:
     last: Rosu
   author_id: Jeff Huang and Cansu Erdogan and Yi Zhang and Brandon Moore and Qingzhou
     Luo and Aravind Sundaresan and Grigore Rosu
+  author_ids:
+  - jeff-huang
+  - cansu-erdogan
+  - yi-zhang
+  - brandon-moore
+  - qingzhou-luo
+  - aravind-sundaresan
+  - grigore-rosu
   authors:
   - id: jeff-huang
     text: Jeff Huang

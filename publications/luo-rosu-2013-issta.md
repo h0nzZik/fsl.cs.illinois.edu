@@ -26,6 +26,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Qingzhou Luo and Grigore Rosu
+  author_ids:
+  - qingzhou-luo
+  - grigore-rosu
   authors:
   - id: qingzhou-luo
     text: Qingzhou Luo

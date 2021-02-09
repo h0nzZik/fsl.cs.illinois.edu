@@ -25,6 +25,9 @@ bib:
   - first: Wolfram
     last: Schulte
   author_id: Grigore Rosu and Wolfram Schulte
+  author_ids:
+  - grigore-rosu
+  - wolfram-schulte
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

@@ -33,6 +33,12 @@ bib:
     last: Marinov
   author_id: Owolabi Legunsen and Yi Zhang and Milica Hadzi-Tanovic and Grigore Rosu
     and Darko Marinov
+  author_ids:
+  - owolabi-legunsen
+  - yi-zhang
+  - milica-hadzi-tanovic
+  - grigore-rosu
+  - darko-marinov
   authors:
   - id: owolabi-legunsen
     text: Owolabi Legunsen

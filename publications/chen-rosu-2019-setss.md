@@ -17,6 +17,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Xiaohong Chen and Grigore Rosu
+  author_ids:
+  - xiaohong-chen
+  - grigore-rosu
   authors:
   - id: xiaohong-chen
     text: Xiaohong Chen
@@ -44,9 +47,9 @@ bib:
   project_url: http://kframework.org
   publisher: Springer
   series: Lecture Notes in Computer Science
-  title: '{SETSS}''19 Lecture Notes on {K}'
+  title: SETSS'19 Lecture Notes on K
   type: inproceedings
   year: '2019'
 layout: paper
-title: '{SETSS}''19 Lecture Notes on {K}'
+title: SETSS'19 Lecture Notes on K
 ---

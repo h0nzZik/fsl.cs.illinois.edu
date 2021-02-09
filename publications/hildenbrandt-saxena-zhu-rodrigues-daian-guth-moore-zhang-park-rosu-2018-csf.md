@@ -44,6 +44,18 @@ bib:
   author_id: Everett Hildenbrandt and Manasvi Saxena and Xiaoran Zhu and Nishant Rodrigues
     and Philip Daian and Dwight Guth and Brandon Moore and Yi Zhang and Daejun Park
     and Andrei Stefanescu and Grigore Rosu
+  author_ids:
+  - everett-hildenbrandt
+  - manasvi-saxena
+  - xiaoran-zhu
+  - nishant-rodrigues
+  - philip-daian
+  - dwight-guth
+  - brandon-moore
+  - yi-zhang
+  - daejun-park
+  - andrei-stefanescu
+  - grigore-rosu
   authors:
   - id: everett-hildenbrandt
     text: Everett Hildenbrandt

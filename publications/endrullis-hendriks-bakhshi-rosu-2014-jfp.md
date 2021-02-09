@@ -24,6 +24,11 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Joerg Endrullis and Dimitri Hendriks and Rena Bakhshi and Grigore Rosu
+  author_ids:
+  - joerg-endrullis
+  - dimitri-hendriks
+  - rena-bakhshi
+  - grigore-rosu
   authors:
   - id: joerg-endrullis
     text: Joerg Endrullis

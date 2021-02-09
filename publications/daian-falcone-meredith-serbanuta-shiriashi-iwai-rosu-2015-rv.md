@@ -36,6 +36,14 @@ bib:
     last: Rosu
   author_id: Philip Daian and Ylies Falcone and Patrick Meredith and Traian Florin
     Serbanuta and Shinichi Shiraishi and Akihito Iwai and Grigore Rosu
+  author_ids:
+  - philip-daian
+  - ylies-falcone
+  - patrick-meredith
+  - traian-florin-serbanuta
+  - shinichi-shiraishi
+  - akihito-iwai
+  - grigore-rosu
   authors:
   - id: philip-daian
     text: Philip Daian

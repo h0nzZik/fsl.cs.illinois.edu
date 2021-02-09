@@ -39,6 +39,15 @@ bib:
     last: Johnson
   author_id: Theodoros Kasampalis and Dwight Guth and Brandon Moore and Traian Serbanuta
     and Virgil Serbanuta and Daniele Filaretti and Grigore Rosu and Ralph Johnson
+  author_ids:
+  - theodoros-kasampalis
+  - dwight-guth
+  - brandon-moore
+  - traian-serbanuta
+  - virgil-serbanuta
+  - daniele-filaretti
+  - grigore-rosu
+  - ralph-johnson
   authors:
   - id: theodoros-kasampalis
     text: Theodoros Kasampalis

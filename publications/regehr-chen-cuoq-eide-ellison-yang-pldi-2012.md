@@ -28,6 +28,13 @@ bib:
     last: Yang
   author_id: John Regehr and Yang Chen and Pascal Cuoq and Eric Eide and Chucky Ellison
     and Xuejun Yang
+  author_ids:
+  - john-regehr
+  - yang-chen
+  - pascal-cuoq
+  - eric-eide
+  - chucky-ellison
+  - xuejun-yang
   authors:
   - id: john-regehr
     text: John Regehr

@@ -13,6 +13,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Chucky Ellison and Grigore Rosu
+  author_ids:
+  - chucky-ellison
+  - grigore-rosu
   authors:
   - id: chucky-ellison
     text: Chucky Ellison
@@ -32,9 +35,9 @@ bib:
   number: http://hdl.handle.net/2142/25816
   project_name: C Semantics
   project_url: https://github.com/kframework/c-semantics
-  title: An Executable Formal Semantics of {C} with Applications
+  title: An Executable Formal Semantics of C with Applications
   type: techreport
   year: '2011'
 layout: paper
-title: An Executable Formal Semantics of {C} with Applications
+title: An Executable Formal Semantics of C with Applications
 ---

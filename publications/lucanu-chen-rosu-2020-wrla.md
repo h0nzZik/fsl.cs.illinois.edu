@@ -21,6 +21,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Xiaohong Chen and Dorel Lucanu and Grigore Rosu
+  author_ids:
+  - xiaohong-chen
+  - dorel-lucanu
+  - grigore-rosu
   authors:
   - id: xiaohong-chen
     text: Xiaohong Chen

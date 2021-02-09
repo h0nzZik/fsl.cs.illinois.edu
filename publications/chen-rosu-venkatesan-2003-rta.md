@@ -24,6 +24,10 @@ bib:
     last: Venkatesan
     prelast: prasad
   author_id: Feng Chen and Grigore Rosu and Ram prasad Venkatesan
+  author_ids:
+  - feng-chen
+  - grigore-rosu
+  - ram-prasad-venkatesan
   authors:
   - id: feng-chen
     text: Feng Chen

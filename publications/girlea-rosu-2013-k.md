@@ -15,6 +15,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Codruta Girlea and Grigore Rosu
+  author_ids:
+  - codruta-girlea
+  - grigore-rosu
   authors:
   - id: codruta-girlea
     text: Codruta Girlea

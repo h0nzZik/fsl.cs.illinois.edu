@@ -31,6 +31,11 @@ bib:
     last: Ro\c{s}u
   author_id: Dongyun Jin and Patrick O'Neil Meredith and Dennis Griffith and Grigore
     Rosu
+  author_ids:
+  - dongyun-jin
+  - patrick-o'neil-meredith
+  - dennis-griffith
+  - grigore-rosu
   authors:
   - id: dongyun-jin
     text: Dongyun Jin

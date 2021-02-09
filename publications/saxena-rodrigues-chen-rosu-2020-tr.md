@@ -19,6 +19,11 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Manasvi Saxena and Nishant Rodrigues and Xiaohong Chen and Grigore Rosu
+  author_ids:
+  - manasvi-saxena
+  - nishant-rodrigues
+  - xiaohong-chen
+  - grigore-rosu
   authors:
   - id: manasvi-saxena
     text: Manasvi Saxena

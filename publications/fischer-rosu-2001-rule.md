@@ -20,6 +20,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Bernd Fischer and Grigore Rosu
+  author_ids:
+  - bernd-fischer
+  - grigore-rosu
   authors:
   - id: bernd-fischer
     text: Bernd Fischer

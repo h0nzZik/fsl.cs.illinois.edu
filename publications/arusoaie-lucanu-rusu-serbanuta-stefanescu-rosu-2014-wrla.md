@@ -30,6 +30,13 @@ bib:
   author_id: http://andrei.arusoaie.com/andrei/ Andrei Arusoaie and http://fmse.info.uaic.ro/~dorel.lucanu/
     Dorel Lucanu and http://researchr.org/profile/vladrusu Vlad Rusu and Traian Florin
     Serbanuta and Andrei Stefanescu and Grigore Rosu
+  author_ids:
+  - Andrei Arusoaie
+  - Dorel Lucanu
+  - Vlad Rusu
+  - traian-florin-serbanuta
+  - andrei-stefanescu
+  - grigore-rosu
   authors:
   - href: http://andrei.arusoaie.com/andrei/
     text: Andrei Arusoaie

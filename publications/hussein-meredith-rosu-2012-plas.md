@@ -21,6 +21,10 @@ bib:
   - first: Grigore
     last: Ro\c{s}lu
   author_id: Soha Hussein and Patrick Meredith and Grigore Rosu
+  author_ids:
+  - soha-hussein
+  - patrick-meredith
+  - grigore-rosu
   authors:
   - id: soha-hussein
     text: Soha Hussein

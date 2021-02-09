@@ -27,6 +27,10 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Jeff Huang and Patrick Meredith and Grigore Rosu
+  author_ids:
+  - jeff-huang
+  - patrick-meredith
+  - grigore-rosu
   authors:
   - id: jeff-huang
     text: Jeff Huang

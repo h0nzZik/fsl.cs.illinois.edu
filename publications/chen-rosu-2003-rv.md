@@ -24,6 +24,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Feng Chen and Grigore Rosu
+  author_ids:
+  - feng-chen
+  - grigore-rosu
   authors:
   - id: feng-chen
     text: Feng Chen

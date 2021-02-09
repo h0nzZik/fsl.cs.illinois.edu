@@ -19,6 +19,11 @@ bib:
     last: Ro\c{s}u
   author_id: Andrei Arusoaie and Traian Florin Serbanuta and Chucky Ellison and Grigore
     Rosu
+  author_ids:
+  - andrei-arusoaie
+  - traian-florin-serbanuta
+  - chucky-ellison
+  - grigore-rosu
   authors:
   - id: andrei-arusoaie
     text: Andrei Arusoaie
@@ -44,10 +49,10 @@ bib:
   project_url: http://www.kframework.org
   publisher: Springer
   series: LNCS
-  title: Making {Maude} Definitions more Interactive
+  title: Making Maude Definitions more Interactive
   type: inproceedings
   volume: '7571'
   year: '2012'
 layout: paper
-title: Making {Maude} Definitions more Interactive
+title: Making Maude Definitions more Interactive
 ---

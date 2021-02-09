@@ -26,6 +26,11 @@ bib:
     last: Ro\c{s}u
   author_id: Choonghwan Lee and Dongyun Jin and Patrick O'Neil Meredith and Grigore
     Rosu
+  author_ids:
+  - choonghwan-lee
+  - dongyun-jin
+  - patrick-o'neil-meredith
+  - grigore-rosu
   authors:
   - id: choonghwan-lee
     text: Choonghwan Lee
@@ -46,9 +51,9 @@ bib:
   number: http://hdl.handle.net/2142/30006
   project_name: Java API
   project_url: https://github.com/runtimeverification/property-db
-  title: Towards Categorizing and Formalizing the {JDK API}
+  title: Towards Categorizing and Formalizing the JDK API
   type: techreport
   year: '2012'
 layout: paper
-title: Towards Categorizing and Formalizing the {JDK API}
+title: Towards Categorizing and Formalizing the JDK API
 ---

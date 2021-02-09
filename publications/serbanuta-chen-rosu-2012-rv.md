@@ -20,6 +20,10 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Traian Florin Serbanuta and Feng Chen and Grigore Rosu
+  author_ids:
+  - traian-florin-serbanuta
+  - feng-chen
+  - grigore-rosu
   authors:
   - id: traian-florin-serbanuta
     text: Traian Florin Serbanuta

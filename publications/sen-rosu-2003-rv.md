@@ -22,6 +22,9 @@ bib:
   - first: Grigore
     last: Rosu
   author_id: Koushik Sen and Grigore Rosu
+  author_ids:
+  - koushik-sen
+  - grigore-rosu
   authors:
   - id: koushik-sen
     text: Koushik Sen

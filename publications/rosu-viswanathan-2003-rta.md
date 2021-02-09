@@ -18,6 +18,9 @@ bib:
   - first: Mahesh
     last: Viswanathan
   author_id: Grigore Rosu and Mahesh Viswanathan
+  author_ids:
+  - grigore-rosu
+  - mahesh-viswanathan
   authors:
   - id: grigore-rosu
     text: Grigore Rosu

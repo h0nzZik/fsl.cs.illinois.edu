@@ -24,6 +24,9 @@ bib:
   - first: Grigore
     last: Ro\c{s}u
   author_id: Ali Kheradmand and Grigore Rosu
+  author_ids:
+  - ali-kheradmand
+  - grigore-rosu
   authors:
   - id: ali-kheradmand
     text: Ali Kheradmand

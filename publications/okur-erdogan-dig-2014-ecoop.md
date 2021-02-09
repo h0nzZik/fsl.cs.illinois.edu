@@ -23,6 +23,10 @@ bib:
   - first: Danny
     last: Dig
   author_id: Semih Okur and Cansu Erdogan and Danny Dig
+  author_ids:
+  - semih-okur
+  - cansu-erdogan
+  - danny-dig
   authors:
   - id: semih-okur
     text: Semih Okur

@@ -35,6 +35,8 @@ bib:
   - first: Dongyun
     last: Jin
   author_id: Dongyun Jin
+  author_ids:
+  - dongyun-jin
   authors:
   - id: dongyun-jin
     text: Dongyun Jin
