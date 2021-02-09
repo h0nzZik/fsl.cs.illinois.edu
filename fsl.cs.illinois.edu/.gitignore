@@ -1,8 +1,0 @@
-/_site
-/_data/papers_ids.yaml
-
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-*.pyc
