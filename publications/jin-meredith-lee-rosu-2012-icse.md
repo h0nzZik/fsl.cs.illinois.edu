@@ -1,16 +1,18 @@
 ---
-abstract: Runtime monitoring is a technique usable in all phases of the software development
-  cycle, from initial testing, to debugging, to actually maintaining proper function
-  in production code. Of particular importance are parametric monitoring systems,
-  which allow the specification of properties that relate objects in a program, rather
-  than only global properties. In the past decade, a number of parametric runtime
-  monitoring systems have been developed. Here we give a demonstration of our system,
-  JavaMOP. It is the only parametric monitoring system that allows multiple differing
-  logical formalisms. It is also the most efficient in terms of runtime overhead,
-  and very competitive with respect to memory usage.
-authors: [Dongyun Jin, Patrick O'Neil Meredith, Choonghwan Lee, Grigore Rosu]
-categories: [fsl, runtime_verification, javamop]
-date: 2012-06-01
-id: jin-meredith-lee-rosu-2012-icse
-title: 'JavaMOP: Efficient Parametric Runtime Monitoring Framework'
+bib:
+  abstract: Runtime monitoring is a technique usable in all phases of the software
+    development cycle, from initial testing, to debugging, to actually maintaining
+    proper function in production code. Of particular importance are parametric monitoring
+    systems, which allow the specification of properties that relate objects in a
+    program, rather than only global properties. In the past decade, a number of parametric
+    runtime monitoring systems have been developed. Here we give a demonstration of
+    our system, JavaMOP. It is the only parametric monitoring system that allows multiple
+    differing logical formalisms. It is also the most efficient in terms of runtime
+    overhead, and very competitive with respect to memory usage.
+  authors: [Dongyun Jin, Patrick O'Neil Meredith, Choonghwan Lee, Grigore Rosu]
+  categories: [fsl, runtime_verification, javamop]
+  date: 2012-06-01
+  id: jin-meredith-lee-rosu-2012-icse
+  title: 'JavaMOP: Efficient Parametric Runtime Monitoring Framework'
+layout: paper
 ---
