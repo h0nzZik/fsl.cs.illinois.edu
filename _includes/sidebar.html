@@ -13,15 +13,9 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
       {% for node in site.pages %} {% if node.title != null %} {% if node.sidebar %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
       {% endif %} {% endif %} {% endfor %}
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: categories` in the front-matter. See readme for usage.
-      {% endcomment %}
     </nav>
     <p id="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
