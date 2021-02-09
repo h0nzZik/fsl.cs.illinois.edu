@@ -7,6 +7,9 @@ import yaml
 from glob import glob
 from shutil import copyfile
 
+# Usage: $0 <path-to-fsl-repo>
+fsl_repo = sys.argv[1]
+
 def get_paper(paper_id, bib_entry):
   year_dir = None
   try:
@@ -66,8 +69,7 @@ def make_links(author_id):
     return { 'id': '-'.join(split), 'text': author_id }
 
 def fsl_dir(*args):
-    up = os.path.dirname
-    return os.path.join(up(up(os.path.abspath(__file__))), '_fsl', *args)
+    return os.path.join(fsl_repo, *args)
 
 for year in os.listdir(fsl_dir('papers')):
     if year in ['README.txt', 'fsl_categories.txt']: continue
