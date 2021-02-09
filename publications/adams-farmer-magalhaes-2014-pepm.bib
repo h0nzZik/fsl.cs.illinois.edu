@@ -1,0 +1,25 @@
+@inproceedings{adams-farmer-magalhaes-2014-pepm,
+  author    = {Michael D. Adams and Andrew Farmer and Jos{\'e} Pedro Magalh{\~a}es},
+  title     = {Optimizing {SYB} is Easy!},
+  abstract  = {
+The most widely used generic-programming system in the Haskell community, Scrap Your Boilerplate (SYB), also happens to be one of the slowest. Generic traversals in SYB are often an order of magnitude slower than equivalent handwritten, non-generic traversals. Thus while SYB allows the concise expression of many traversals, its use incurs a significant runtime cost. Existing techniques for optimizing other generic-programming systems are not able to eliminate this overhead.
+
+This paper presents an optimization that completely eliminates this cost. Essentially, it is a partial evaluation that takes advantage of domain-specific knowledge about the structure of SYB. It optimizes SYB-style traversals to be as fast as handwritten, non-generic code, and benchmarks show that this optimization improves the speed of SYB-style code by an order of magnitude or more.
+  },
+  month     = jan,
+  booktitle = {Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and Program Manipulation},
+  pages = {71-82},
+  year = {2014},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  isbn = {978-1-4503-2619-3},
+  doi = {http://dx.doi.org/10.1145/2543728.2543730},
+
+  author_id         = {Michael D. Adams and Andrew Farmer and Jose Pedro Magalhaes},
+  category          = {fsl},
+  project_url       = {https://github.com/xich/hermit-syb},
+  project_name      = {Optimizing SYB},
+  booktitle_acronym = {PEPM'14},
+  booktitle_url     = {http://www.program-transformation.org/PEPM14},
+  presentation      = {2014-01-20-adams-farmer-magalhaes-pepm},
+}

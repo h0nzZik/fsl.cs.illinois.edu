@@ -1,0 +1,37 @@
+@inproceedings{park-stefanescu-rosu-2015-pldi,
+  author   = {Park, Daejun and \c{S}tef\u{a}nescu, Andrei and Ro\c{s}u, Grigore},
+  title    = {{KJS}: A Complete Formal Semantics of {JavaScript}},
+  abstract = {
+This paper presents KJS, the most complete and throughly tested formal
+semantics of JavaScript to date.
+Being executable, KJS has been tested against the ECMAScript 5.1
+conformance test suite, and passes all 2,782 core language tests.
+Among the existing implementations of JavaScript, only Chrome V8's passes
+all the tests, and no other semantics passes more than 90\%.
+In addition to a reference implementation for JavaScript, KJS also yields a
+simple coverage metric for a test suite: the set of semantic rules it
+exercises.
+Our semantics revealed that the ECMAScript 5.1 conformance test suite fails to
+cover several semantic rules.
+Guided by the semantics, we wrote tests to exercise those rules.
+The new tests revealed bugs both in production JavaScript engines
+(Chrome V8, Safari WebKit, Firefox SpiderMonkey) and in other semantics.
+KJS is symbolically executable, thus it can be used for formal analysis and
+verification of JavaScript programs.
+We verified non-trivial programs and found a known security vulnerability.
+  },
+  booktitle = {Proceedings of the 36th ACM SIGPLAN Conference on
+               Programming Language Design and Implementation (PLDI'15)},
+  pages     = {346-356},
+  month     = {June},
+  year      = {2015},
+  publisher = {ACM},
+  author_id         = {Daejun Park and Andrei Stefanescu and Grigore Rosu},
+  category          = {fsl, executable_semantics, programming_languages, semantics, K},
+  project_url       = {https://github.com/kframework/javascript-semantics},
+  project_name      = {Semantics},
+  booktitle_acronym = {PLDI'15},
+  booktitle_url     = {http://conf.researchr.org/home/pldi2015},
+  doi               = {http://dx.doi.org/10.1145/2737924.2737991},
+  presentation      = {2015-06-16-park-stefanescu-rosu-PLDI},
+}

@@ -1,0 +1,28 @@
+---
+abstract: 'The RV system is the first system to merge the benefits of Runtime Monitoring
+  with Predictive Analysis. The Runtime Monitoring portion of RV is based on the successful
+  Monitoring Oriented Programming system developed at the University of Illinois [6,
+  7, 9, 21, 5], while the Predictive Analysis capability is a vastly expanded version
+  of the jPredictor System also developed at the University of Illinois [11, 14].
+  With the RV system, runtime monitoring is supported and encouraged as a fundamental
+  principle for building reliable software: monitors are automatically synthesized
+  from specified properties and integrated into the original system to check its dynamic
+  behaviors. When certain conditions of interest occur, such as a violation of a specification,
+  user-defined actions will be triggered, which can be any code from information logging
+  to runtime recovery. The RV system supports the monitoring of parametric properties
+  that may specify a relationship between objects. Properties may be defined using
+  one of several logical formalisms, such as: extended regular languages, context-free
+  patterns, deterministic finite state machines, linear temporal logic, and past time
+  linear temporal logic. The system is designed in such a way that adding new logical
+  formalisms is a relatively simple task. The predictive capabilities allow any of
+  these monitoring specifications to be extended to checking not just the actual runtime
+  traces of program execution, but any trace that may be inferred from a constructed
+  casual model. The Predictive Analysis also features built in algorithms for race
+  detection and atomicity violations, that are both highly useful in concurrent system
+  design and difficult to specify in terms of formal specification languages.'
+authors: [Patrick Meredith, Grigore Rosu]
+categories: [fsl, runtime_verification]
+date: 2010-11-01
+id: meredith-rosu-2010-rv
+title: Runtime Verification with the {RV} System
+---
