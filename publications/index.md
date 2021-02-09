@@ -1,6 +1,6 @@
 ---
 title: Publications
-layout: categories
+layout: default
 tag: fsl
 sidebar: true
 ---
