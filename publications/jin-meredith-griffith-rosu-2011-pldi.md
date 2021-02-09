@@ -20,9 +20,17 @@ bib:
     two times lower than that of JavaMOP and orders of magnitude lower than that of
     Tracematches.
   authors: [Dongyun Jin, Patrick O'Neil Meredith, Dennis Griffith, Grigore Rosu]
+  booktitle: Proceedings of the 32nd ACM SIGPLAN conference on Programming Language
+    Design and Implementation (PLDI'11)
+  booktitle_acronym: PLDI'11
+  booktitle_url: http://pldi11.cs.utah.edu
   categories: [fsl, runtime_verification]
   date: 2011-06-01
   id: jin-meredith-griffith-rosu-2011-pldi
+  pages: 415-424
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: ACM
   title: Garbage Collection for Monitoring Parametric Properties
 layout: paper
+title: Garbage Collection for Monitoring Parametric Properties
 ---

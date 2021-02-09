@@ -10,13 +10,13 @@
 
 <ul class="paper-list">
 {% for paper in papers %}
-  {% assign curr_year = paper.bib.date %}
+  {% assign curr_year = paper.bib.date | date: "%Y" %}
         {% unless curr_year == old_year %}
             <h3> {{curr_year}} </h3>
             {% assign old_year = curr_year %}
         {% endunless %}
    <li class='paper'>
-   <a class='paper-title' href="{{site.baseurl}}{{ paper.url }}"> {{paper.title}} </a>
+   <a class='paper-title' href="{{site.baseurl}}{{ paper.url }}"> {{paper.bib.title}} </a>
    <div class='paper-authors'> {{ paper.bib.author_links | join: " and " }}. </div>
    {% if paper.bib.booktitle_acronym %}
    <div class='paper-where'> <strong> {{ paper.bib.booktitle_acronym }} </strong> {{ paper.bib.publisher }}, pp {{ paper.bib.pages }}. </div>

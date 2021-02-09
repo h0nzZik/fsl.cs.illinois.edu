@@ -15,6 +15,10 @@ bib:
   categories: [fsl, semantics, logics, programming_languages]
   date: 2015-04-01
   id: popescu-rosu-2015-jtcs
+  number: '1'
+  pages: 1-24
+  project_url: http://fsl.cs.illinois.edu/index.php/Generic_First-Order_Logic
   title: Term-Generic Logic
 layout: paper
+title: Term-Generic Logic
 ---

@@ -16,9 +16,17 @@ bib:
     this paper also proposes a general correct-extension technique based on equational
     interpolants.
   authors: [Eugen-Ioan Goriac, Dorel Lucanu, Grigore Rosu]
+  booktitle: Proceedings of the 12th International Conference on Formal Engineering
+    Methods (ICFEM'10)
+  booktitle_acronym: ICFEM'10
+  booktitle_url: http://dblp.uni-trier.de/db/conf/icfem/icfem2010.html
   categories: [fsl, logics]
   date: 2010-11-01
   id: goriac-lucanu-rosu-2010-icfem
+  pages: 220-236
+  project_url: http://fsl.cs.illinois.edu/index.php/Circ
+  publisher: Springer
   title: Automating Coinduction with Case Analysis
 layout: paper
+title: Automating Coinduction with Case Analysis
 ---

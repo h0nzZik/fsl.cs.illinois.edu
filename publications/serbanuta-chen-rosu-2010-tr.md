@@ -18,6 +18,9 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2010-09-01
   id: serbanuta-chen-rosu-2010-tr
+  number: http://hdl.handle.net/2142/17336
+  project_url: http://fsl.cs.illinois.edu/index.php/JPredictor
   title: Maximal Causal Models for Sequentially Consistent Multithreaded Systems
 layout: paper
+title: Maximal Causal Models for Sequentially Consistent Multithreaded Systems
 ---

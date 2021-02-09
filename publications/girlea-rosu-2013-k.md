@@ -10,10 +10,17 @@ bib:
     transformations in terms of institution-based model theory introduced by Goguen
     and Burstall.
   authors: [Codruta Girlea, Grigore Rosu]
+  booktitle: Proceedings of International K Workshop (K'11)
+  booktitle_acronym: K'11
+  booktitle_url: http://www.kframework.org/K11/
   categories: [fsl, logics, executable_semantics, programming_languages, semantics,
     k, rewrite_logic]
   date: 2014-06-01
   id: girlea-rosu-2013-k
+  pages: 127-149
+  project_url: http://kframework.org
+  publisher: ENTCS
   title: Abstract Semantics for K Module Composition
 layout: paper
+title: Abstract Semantics for K Module Composition
 ---

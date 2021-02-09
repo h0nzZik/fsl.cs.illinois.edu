@@ -14,9 +14,16 @@ bib:
     the monitoring problem, showing that the presented algorithms are asymptotically
     optimal.
   authors: [Prasanna Thati, Grigore Rosu]
+  booktitle: Proceedings of 5rd International Workshop on Runtime Verification (RV'05)
+  booktitle_acronym: RV'05
+  booktitle_url: https://www.react.uni-saarland.de/rv2005/
   categories: [fsl, logics, automated_reasoning, rewrite_logic, runtime_verification]
   date: 2005-06-01
   id: thati-rosu-2005-rv
+  pages: 145-162
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: Electronic Notes in Theoretical Computer Science
   title: Monitoring Algorithms for Metric Temporal Logic
 layout: paper
+title: Monitoring Algorithms for Metric Temporal Logic
 ---

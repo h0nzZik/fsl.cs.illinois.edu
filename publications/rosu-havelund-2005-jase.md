@@ -31,6 +31,10 @@ bib:
   categories: [fsl, logics, programming_languages, runtime_verification, javamop]
   date: 2005-01-01
   id: rosu-havelund-2005-jase
+  number: '2'
+  pages: 151-197
+  project_url: http://fsl.cs.illinois.edu/mop
   title: Rewriting-Based Techniques for Runtime Verification
 layout: paper
+title: Rewriting-Based Techniques for Runtime Verification
 ---

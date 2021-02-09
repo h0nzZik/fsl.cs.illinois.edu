@@ -18,6 +18,9 @@ bib:
   categories: [fsl, matching_logic, k, logics, program_verification, semantics, executable_semantics]
   date: 2014-01-01
   id: rosu-2014-tr
+  number: http://hdl.handle.net/2142/47004
+  project_url: http://matching-logic.org
   title: 'Matching Logic: A Logic for Structural Reasoning'
 layout: paper
+title: 'Matching Logic: A Logic for Structural Reasoning'
 ---

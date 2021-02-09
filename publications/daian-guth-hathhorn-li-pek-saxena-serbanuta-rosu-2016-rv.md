@@ -14,9 +14,17 @@ bib:
     use.'
   authors: [Philip Daian, Dwight Guth, Chris Hathhorn, Yilong Li, Edgar Pek, Manasvi
       Saxena, Traian Florin Serbanuta, Grigore Rosu]
+  booktitle: Runtime Verification - 16th International Conference, {RV} 2016 Madrid,
+    Spain, September 23-30, 2016, Proceedings
+  booktitle_acronym: RV'16
+  booktitle_url: https://rv2016.imag.fr/
   categories: [fsl, runtime_verification]
   date: 2016-09-01
   id: daian-guth-hathhorn-li-pek-saxena-serbanuta-rosu-2016-rv
+  pages: 46-67
+  project_url: https://runtimeverification.com
+  publisher: LNCS
   title: 'Runtime Verification at Work: {A} Tutorial'
 layout: paper
+title: 'Runtime Verification at Work: {A} Tutorial'
 ---

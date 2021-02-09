@@ -18,6 +18,10 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2011-06-01
   id: meredith-jin-griffith-chen-rosu-2011-jsttt
+  number: '3'
+  pages: 249-289
+  project_url: http://fsl.cs.uiuc.edu/index.php/MOP
   title: An Overview of the {MOP} Runtime Verification Framework
 layout: paper
+title: An Overview of the {MOP} Runtime Verification Framework
 ---

@@ -11,9 +11,17 @@ bib:
     and discuss how it can be useful for processor verification.
   authors: [Sandeep Dasgupta, Daejun Park, Theodoros Kasampalis, Vikram S. Adve, Grigore
       Rosu]
+  booktitle: Proceedings of the 40th ACM SIGPLAN Conference on Programming Language
+    Design and Implementation (PLDI'19)
+  booktitle_acronym: PLDI'19
+  booktitle_url: https://conf.researchr.org/home/pldi-2019
   categories: [fsl, executable_semantics, programming_languages, semantics, k]
   date: 2019-06-01
   id: dasgupta-park-kasampalis-adve-rosu-2019-pldi
+  pages: 1133-1148
+  project_url: https://github.com/kframework/X86-64-semantics
+  publisher: ACM
   title: '{A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture}'
 layout: paper
+title: '{A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture}'
 ---

@@ -24,6 +24,9 @@ bib:
     programming_languages, k, rewrite_logic]
   date: 2009-01-01
   id: rosu-schulte-2009-tr
+  number: http://hdl.handle.net/2142/10790
+  project_url: http://matching-logic.org/
   title: Matching Logic --- Extended Report
 layout: paper
+title: Matching Logic --- Extended Report
 ---

@@ -20,6 +20,9 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2011-10-01
   id: serbanuta-chen-rosu-2011-tr
+  number: http://hdl.handle.net/2142/27708
+  project_url: http://fsl.cs.illinois.edu/index.php/JPredictor
   title: Maximal Causal Models for Sequentially Consistent Systems
 layout: paper
+title: Maximal Causal Models for Sequentially Consistent Systems
 ---

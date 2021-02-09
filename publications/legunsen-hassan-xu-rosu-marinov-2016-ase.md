@@ -19,10 +19,19 @@ bib:
     substantial effort needs to be spent on engineering better specs and properly
     evaluating their effectiveness.
   authors: [Owolabi Legunsen, Wajih Ul Hassan, Xinyue Xu, Grigore Rosu, Darko Marinov]
+  booktitle: 31st IEEE/ACM International Conference on Automated Software Engineering
+    (ASE'16)
+  booktitle_acronym: ASE 2016
+  booktitle_url: http://www.ase2016.org/
   categories: [fsl, javamop, runtime_verification]
   date: 2016-09-01
   id: legunsen-hassan-xu-rosu-marinov-2016-ase
+  pages: 602-613
+  project_url: https://github.com/runtimeverification
+  publisher: IEEE/ACM
   title: How Good are the Specs? A Study of the Bug-Finding Effectiveness of Existing
     Java API Specifications
 layout: paper
+title: How Good are the Specs? A Study of the Bug-Finding Effectiveness of Existing
+  Java API Specifications
 ---

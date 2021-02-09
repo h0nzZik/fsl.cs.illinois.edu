@@ -23,6 +23,9 @@ bib:
     automated_reasoning, program_verification, fsl]
   date: 2018-04-01
   id: kheradmand-rosu-2018-tr
+  number: https://arxiv.org/abs/1804.01468
+  project_url: https://github.com/kframework/p4-semantics/
   title: 'P4K: A Formal Semantics of P4 and Applications'
 layout: paper
+title: 'P4K: A Formal Semantics of P4 and Applications'
 ---

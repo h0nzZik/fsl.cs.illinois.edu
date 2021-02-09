@@ -32,6 +32,9 @@ bib:
   categories: [logics, programming_languages]
   date: 2000-05-01
   id: rosu-2000-tr
+  number: http://roger.ucsd.edu/record=b7304233~S9
+  project_url: ''
   title: Abstract Semantics for Module Composition
 layout: paper
+title: Abstract Semantics for Module Composition
 ---

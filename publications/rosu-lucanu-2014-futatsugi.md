@@ -14,9 +14,16 @@ bib:
     to a proof-theoretic (rather than model-theoretic) notion of behavioral well-specifiedness,
     and its difficulty in the arithmetic hierarchy is shown to be <math>\Pi_2^0</math>-complete.
   authors: [Grigore Rosu, Dorel Lucanu]
+  booktitle: Festschrift in Honor of Kokichi Futatsugi
+  booktitle_acronym: Futatsugi Festschrift 2014
+  booktitle_url: http://www.ldl.jaist.ac.jp/futatsugifest/
   categories: [fsl, automated_reasoning, behavioral_equivalence, circular_coinduction]
   date: 2014-04-01
   id: rosu-lucanu-2014-futatsugi
+  pages: 296-314
+  project_url: http://fsl.cs.illinois.edu/circ
+  publisher: LNCS
   title: Behavioral Rewrite Systems and Behavioral Productivity
 layout: paper
+title: Behavioral Rewrite Systems and Behavioral Productivity
 ---

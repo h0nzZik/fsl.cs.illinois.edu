@@ -12,9 +12,17 @@ bib:
     non-generic code, and benchmarks show that this optimization improves the speed
     of SYB-style code by an order of magnitude or more.
   authors: [Michael D. Adams, Andrew Farmer, Jose Pedro Magalhaes]
+  booktitle: Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and
+    Program Manipulation
+  booktitle_acronym: PEPM'14
+  booktitle_url: http://www.program-transformation.org/PEPM14
   categories: [fsl]
   date: 2014-01-01
   id: adams-farmer-magalhaes-2014-pepm
+  pages: 71-82
+  project_url: https://github.com/xich/hermit-syb
+  publisher: ACM
   title: Optimizing {SYB} is Easy!
 layout: paper
+title: Optimizing {SYB} is Easy!
 ---

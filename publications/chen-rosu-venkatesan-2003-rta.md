@@ -16,9 +16,17 @@ bib:
     This paper presents a non-trivial application of rewriting techniques to software
     analysis.
   authors: [Feng Chen, Grigore Rosu, Ram prasad Venkatesan]
+  booktitle: Proceedings of the 14th International Conference on Rewriting Techniques
+    and Applications (RTA'03)
+  booktitle_acronym: RTA'03
+  booktitle_url: http://users.dsic.upv.es/~rdp03/rta/
   categories: [fsl]
   date: 2003-06-01
   id: chen-rosu-venkatesan-2003-rta
+  pages: 197-207
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: Lecture Notes in Computer Science (LNCS)
   title: Rule-Based Analysis of Dimensional Safety
 layout: paper
+title: Rule-Based Analysis of Dimensional Safety
 ---

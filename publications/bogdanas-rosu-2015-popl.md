@@ -11,10 +11,18 @@ bib:
     to model-check multi-threaded programs. Both the test suite and the static semantics
     are generic and ready to be used in other Java-related projects.
   authors: [Denis Bogdanas, Grigore Rosu]
+  booktitle: Proceedings of the 42nd Symposium on Principles of Programming Languages
+    (POPL'15)
+  booktitle_acronym: POPL'15
+  booktitle_url: http://popl.mpi-sws.org/2015/
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages, semantics, k]
   date: 2015-01-01
   id: bogdanas-rosu-2015-popl
+  pages: 445-456
+  project_url: https://github.com/kframework/java-semantics
+  publisher: ACM
   title: '{K-Java: A Complete Semantics of Java}'
 layout: paper
+title: '{K-Java: A Complete Semantics of Java}'
 ---

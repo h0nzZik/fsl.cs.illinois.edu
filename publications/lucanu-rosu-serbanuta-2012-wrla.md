@@ -14,9 +14,17 @@ bib:
     K Framework and the K tool, focusing on the interaction between the K tool and
     Maude.'
   authors: [Dorel Lucanu, Traian Florin Serbanuta, Grigore Rosu]
+  booktitle: Proceedings of 9th International Workshop on Rewriting Logic and its
+    Applications (WRLA'12)
+  booktitle_acronym: WRLA'12
+  booktitle_url: http://wrla2012.lcc.uma.es/
   categories: [fsl, k]
   date: 2012-03-01
   id: lucanu-rosu-serbanuta-2012-wrla
+  pages: 31-53
+  project_url: http://www.kframework.org
+  publisher: LNCS
   title: '{K} {Framework} Distilled'
 layout: paper
+title: '{K} {Framework} Distilled'
 ---

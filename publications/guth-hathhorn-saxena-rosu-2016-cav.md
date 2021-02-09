@@ -8,10 +8,18 @@ bib:
     tools in its ability to catch a broad range of undesirable behaviors. We demonstrate
     this with comparisons based on a third-party benchmark.
   authors: [Dwight Guth, Chris Hathhorn, Manasvi Saxena, Grigore Rosu]
+  booktitle: Computer Aided Verification - 28th International Conference, {CAV} 2016,
+    Toronto, ON, Canada, July 17-23, 2016, Proceedings, Part {I}
+  booktitle_acronym: CAV'16
+  booktitle_url: http://i-cav.org/2016/
   categories: [fsl, matching_logic, executable_semantics, programming_languages, k,
     runtime_verification]
   date: 2016-07-01
   id: guth-hathhorn-saxena-rosu-2016-cav
+  pages: 447-453
+  project_url: https://runtimeverification.com/match
+  publisher: LNCS
   title: 'RV-Match: Practical Semantics-Based Program Analysis'
 layout: paper
+title: 'RV-Match: Practical Semantics-Based Program Analysis'
 ---

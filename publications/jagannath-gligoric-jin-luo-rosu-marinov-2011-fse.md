@@ -18,9 +18,17 @@ bib:
     to sleep-based tests on average 3.41x.
   authors: [Vilas Jagannath, Milos Gligoric, Dongyun Jin, Qingzhou Luo, Grigore Rosu,
     Darko Marinov]
+  booktitle: Proceedings of the 8th Symposium on the Foundations of Software Engineering
+    (FSE'11)
+  booktitle_acronym: FSE'11
+  booktitle_url: http://2011.esec-fse.org/
   categories: [fsl]
   date: 2011-09-01
   id: jagannath-gligoric-jin-luo-rosu-marinov-2011-fse
+  pages: 223-233
+  project_url: ''
+  publisher: ACM
   title: Improved Multithreaded Unit Testing
 layout: paper
+title: Improved Multithreaded Unit Testing
 ---

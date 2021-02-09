@@ -15,9 +15,17 @@ bib:
     reduction requires more than straightforward delta debugging.
   authors: [John Regehr, Yang Chen, Pascal Cuoq, Eric Eide, Chucky Ellison, Xuejun
       Yang]
+  booktitle: Proceedings of the 33rd ACM SIGPLAN conference on Programming Language
+    Design and Implementation (PLDI'12)
+  booktitle_acronym: PLDI'12
+  booktitle_url: http://pldi12.cs.purdue.edu
   categories: [fsl]
   date: 2012-06-01
   id: regehr-chen-cuoq-eide-ellison-yang-pldi-2012
+  pages: 335-346
+  project_url: http://embed.cs.utah.edu/creduce
+  publisher: ACM
   title: Test-Case Reduction for C Compiler Bugs
 layout: paper
+title: Test-Case Reduction for C Compiler Bugs
 ---

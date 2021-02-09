@@ -23,9 +23,17 @@ bib:
     that are both highly useful in concurrent system design and difficult to specify
     in terms of formal specification languages.'
   authors: [Patrick Meredith, Grigore Rosu]
+  booktitle: Proceedings of the first International Conference on Runtime Verification
+    (RV'10)
+  booktitle_acronym: RV'10
+  booktitle_url: http://www.rv2010.org/
   categories: [fsl, runtime_verification]
   date: 2010-11-01
   id: meredith-rosu-2010-rv
+  pages: 136-152
+  project_url: https://github.com/runtimeverification
+  publisher: Springer
   title: Runtime Verification with the {RV} System
 layout: paper
+title: Runtime Verification with the {RV} System
 ---

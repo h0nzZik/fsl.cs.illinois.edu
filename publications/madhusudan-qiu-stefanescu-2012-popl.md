@@ -14,9 +14,17 @@ bib:
     variety of annotated algorithms on tree data-structures correct, including max-heaps,
     treaps, red-black trees, AVL trees, binomial heaps, and B-trees.
   authors: [Parthasarathy Madhusudan, Xiaokang Qiu, Andrei Stefanescu]
+  booktitle: Proceedings of the 39th Symposium on Principles of Programming Languages
+    (POPL'12)
+  booktitle_acronym: POPL'12
+  booktitle_url: http://www.cse.psu.edu/popl/12/
   categories: [fsl, logics, program_verification, automated_reasoning]
   date: 2012-01-01
   id: madhusudan-qiu-stefanescu-2012-popl
+  pages: 123-136
+  project_url: http://www.cs.uiuc.edu/~madhu/dryad/
+  publisher: ACM
   title: Recursive Proofs for Inductive Tree Data-Structures
 layout: paper
+title: Recursive Proofs for Inductive Tree Data-Structures
 ---

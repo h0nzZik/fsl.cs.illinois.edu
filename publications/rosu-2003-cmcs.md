@@ -14,6 +14,10 @@ bib:
   categories: [fsl]
   date: 2003-04-01
   id: rosu-2003-cmcs
+  number: '1'
+  pages: 285-302
+  project_url: http://fsl.cs.illinois.edu
   title: Inductive Behavioral Proofs by Unhiding
 layout: paper
+title: Inductive Behavioral Proofs by Unhiding
 ---

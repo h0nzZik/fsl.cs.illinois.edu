@@ -11,9 +11,16 @@ bib:
     and evaluated on a commercial robot.
   authors: [Jeff Huang, Cansu Erdogan, Yi Zhang, Brandon Moore, Qingzhou Luo, Aravind
       Sundaresan, Grigore Rosu]
+  booktitle: Proceedings of the 14th International Conference on Runtime Verification
+  booktitle_acronym: RV'14
+  booktitle_url: http://rv2014.imag.fr/
   categories: [fsl, runtime_verification]
   date: 2014-09-01
   id: huang-erdogan-zhang-moore-luo-sundaresan-rosu-2014-rvtool
+  pages: 247-254
+  project_url: http://fsl.cs.illinois.edu/index.php/ROSRV
+  publisher: LNCS
   title: 'ROSRV: Runtime Verification for Robots'
 layout: paper
+title: 'ROSRV: Runtime Verification for Robots'
 ---

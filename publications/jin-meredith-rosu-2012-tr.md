@@ -17,6 +17,9 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2012-04-01
   id: jin-meredith-rosu-2012-tr
+  number: http://hdl.handle.net/2142/30757
+  project_url: http://fsl.cs.illinois.edu/mop
   title: Scalable Parametric Runtime Monitoring
 layout: paper
+title: Scalable Parametric Runtime Monitoring
 ---

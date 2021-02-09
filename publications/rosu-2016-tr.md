@@ -18,6 +18,9 @@ bib:
   categories: [fsl]
   date: 2016-02-01
   id: rosu-2016-tr
+  number: http://hdl.handle.net/2142/88925
+  project_url: http://fsl.cs.illinois.edu/index.php/Open_Problems_and_Challenges
   title: Open Problems and Challenges 2016
 layout: paper
+title: Open Problems and Challenges 2016
 ---

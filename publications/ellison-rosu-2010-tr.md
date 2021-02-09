@@ -13,6 +13,9 @@ bib:
   categories: [fsl, executable_semantics, programming_languages, semantics, k]
   date: 2010-11-01
   id: ellison-rosu-2010-tr
+  number: http://hdl.handle.net/2142/17414
+  project_url: https://github.com/kframework/c-semantics
   title: A Formal Semantics of {C} with Applications
 layout: paper
+title: A Formal Semantics of {C} with Applications
 ---

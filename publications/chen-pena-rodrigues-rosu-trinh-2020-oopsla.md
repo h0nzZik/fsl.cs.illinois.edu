@@ -20,10 +20,18 @@ bib:
     of reach.
   authors: [Xiaohong Chen, Minh-Thai Trinh, Nishant Rodrigues, Lucas Pena, Grigore
       Rosu]
+  booktitle: PACMPL Issue OOPSLA 2020
+  booktitle_acronym: OOPSLA'20
+  booktitle_url: https://2020.splashcon.org/track/splash-2020-oopsla
   categories: [fsl, matching_logic]
   date: 2020-11-01
   id: chen-pena-rodrigues-rosu-trinh-2020-oopsla
+  pages: 1-29
+  project_url: http://www.matching-logic.org
+  publisher: ACM/IEEE
   title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using
     Matching Logic
 layout: paper
+title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using Matching
+  Logic
 ---

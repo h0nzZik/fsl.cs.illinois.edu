@@ -12,9 +12,17 @@ bib:
     as it can be used to prove the soundness of non-maximal, and thus smaller, causal
     models.'
   authors: [Traian Florin Serbanuta, Feng Chen, Grigore Rosu]
+  booktitle: Proceedings of the third International Conference on Runtime Verification
+    (RV'12)
+  booktitle_acronym: RV'12
+  booktitle_url: http://rv2012.ku.edu.tr
   categories: [fsl, runtime_verification]
   date: 2012-09-01
   id: serbanuta-chen-rosu-2012-rv
+  pages: 136-150
+  project_url: http://fsl.cs.illinois.edu/index.php/JPredictor
+  publisher: LNCS
   title: Maximal Causal Models for Sequentially Consistent Systems
 layout: paper
+title: Maximal Causal Models for Sequentially Consistent Systems
 ---

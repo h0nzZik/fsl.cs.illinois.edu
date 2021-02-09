@@ -22,6 +22,9 @@ bib:
     programming_languages]
   date: 2015-02-01
   id: moore-rosu-2015-tr
+  number: http://hdl.handle.net/2142/73177
+  project_url: http://matching-logic.org/
   title: Program Verification by Coinduction
 layout: paper
+title: Program Verification by Coinduction
 ---

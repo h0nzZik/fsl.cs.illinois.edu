@@ -16,9 +16,17 @@ bib:
   authors: ['http://andrei.arusoaie.com/andrei/ Andrei Arusoaie', 'http://fmse.info.uaic.ro/~dorel.lucanu/
       Dorel Lucanu', 'http://researchr.org/profile/vladrusu Vlad Rusu', Traian Florin
       Serbanuta, Andrei Stefanescu, Grigore Rosu]
+  booktitle: Proceedings of the 10th International Workshop on Rewriting Logic and
+    its Applications (WRLA'14)
+  booktitle_acronym: WRLA'14
+  booktitle_url: http://users.dsic.upv.es/workshops/wrla2014/
   categories: [fsl, executable_semantics, logics, program_verification, programming_languages]
   date: 2014-04-01
   id: arusoaie-lucanu-rusu-serbanuta-stefanescu-rosu-2014-wrla
+  pages: 97-112
+  project_url: http://www.kframework.org/
+  publisher: LNCS
   title: Language Definitions as Rewrite Theories
 layout: paper
+title: Language Definitions as Rewrite Theories
 ---

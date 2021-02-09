@@ -19,10 +19,18 @@ bib:
     is particularly well-suited for reasoning about programs in programming languages
     that have a rewrite-based operational semantics.'
   authors: [Grigore Rosu]
+  booktitle: Proceedings of the 26th International Conference on Rewriting Techniques
+    and Applications (RTA'15)
+  booktitle_acronym: RTA'15
+  booktitle_url: http://rdp15.mimuw.edu.pl/index.php?site=rta
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages]
   date: 2015-07-01
   id: rosu-2015-rta
+  pages: 5-21
+  project_url: http://matching-logic.org/
+  publisher: Leibniz International Proceedings in Informatics (LIPIcs)
   title: Matching Logic --- Extended Abstract
 layout: paper
+title: Matching Logic --- Extended Abstract
 ---

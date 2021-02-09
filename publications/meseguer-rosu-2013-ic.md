@@ -14,6 +14,10 @@ bib:
     programming_languages, semantics, k, rewrite_logic]
   date: 2013-10-01
   id: meseguer-rosu-2013-ic
+  number: '1'
+  pages: 38-69
+  project_url: http://k-framework.org
   title: 'The Rewriting Logic Semantics Project: A Progress Report'
 layout: paper
+title: 'The Rewriting Logic Semantics Project: A Progress Report'
 ---

@@ -13,9 +13,16 @@ bib:
   authors: ['Kasampalis, Theodoros', 'Guth, Dwight', 'Moore, Brandon', 'Serbanuta,
       Traian Florin', 'Zhang, Yi', 'Filaretti, Daniele', 'Serbanuta, Virgil', 'Johnson,
       Ralph', 'Rosu, Grigore']
+  booktitle: Proceedings of the 23 International Symposium on Formal Methods (FM'19)
+  booktitle_acronym: FM 2019
+  booktitle_url: ''
   categories: [fsl]
   date: 2019-10-01
   id: kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm
+  pages: 593-610
+  project_url: ''
+  publisher: ''
   title: 'IELE: A Rigorously Designed Language and Tool Ecosystem for the Blockchain'
 layout: paper
+title: 'IELE: A Rigorously Designed Language and Tool Ecosystem for the Blockchain'
 ---

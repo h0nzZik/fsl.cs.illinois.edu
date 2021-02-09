@@ -14,9 +14,17 @@ bib:
     thus it can be used for formal analysis and verification of JavaScript programs.
     We verified non-trivial programs and found a known security vulnerability.'
   authors: [Daejun Park, Andrei Stefanescu, Grigore Rosu]
+  booktitle: Proceedings of the 36th ACM SIGPLAN Conference on Programming Language
+    Design and Implementation (PLDI'15)
+  booktitle_acronym: PLDI'15
+  booktitle_url: http://conf.researchr.org/home/pldi2015
   categories: [fsl, executable_semantics, programming_languages, semantics, k]
   date: 2015-06-01
   id: park-stefanescu-rosu-2015-pldi
+  pages: 346-356
+  project_url: https://github.com/kframework/javascript-semantics
+  publisher: ACM
   title: '{KJS}: A Complete Formal Semantics of {JavaScript}'
 layout: paper
+title: '{KJS}: A Complete Formal Semantics of {JavaScript}'
 ---

@@ -22,9 +22,16 @@ bib:
     was transcribed by hand into Maude as automatic extraction of Maude code is not
     yet supported by the Isabelle system.
   authors: [Liyi Li, Elsa Gunter, William Mansky]
+  booktitle: "Theoretical Aspects of Computing \u2013 ICTAC 2014"
+  booktitle_acronym: ICTAC'14
+  booktitle_url: http://fmi.unibuc.ro/ictac2014/
   categories: [executable_semantics, logics, program_verification, programming_languages]
   date: 2014-09-01
   id: liyi-gunter-mansky-2014-ictac
+  pages: 295-313
+  project_url: http://www.cs.illinois.edu/~egunter/fms/HCSP/
+  publisher: Springer International Publishing
   title: Symbolic Analysis Tools for CSP
 layout: paper
+title: Symbolic Analysis Tools for CSP
 ---

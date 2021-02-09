@@ -15,9 +15,17 @@ bib:
     our work is the most comprehensive and complete semantic treatment of undefined
     behavior in C, and thus of the C language itself.
   authors: [Chris Hathhorn, Chucky Ellison, Grigore Rosu]
+  booktitle: Proceedings of the 36th ACM SIGPLAN Conference on Programming Language
+    Design and Implementation (PLDI'15)
+  booktitle_acronym: PLDI'15
+  booktitle_url: http://conf.researchr.org/home/pldi2015
   categories: [fsl, executable_semantics, programming_languages, semantics, k]
   date: 2015-06-01
   id: hathhorn-ellison-rosu-2015-pldi
+  pages: 336-345
+  project_url: https://github.com/kframework/c-semantics
+  publisher: ACM
   title: Defining the Undefinedness of C
 layout: paper
+title: Defining the Undefinedness of C
 ---

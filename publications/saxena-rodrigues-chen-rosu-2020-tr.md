@@ -13,6 +13,9 @@ bib:
   categories: [fsl, matching_logic]
   date: 2020-04-01
   id: saxena-rodrigues-chen-rosu-2020-tr
+  number: http://hdl.handle.net/2142/106822
+  project_url: http://www.matching-logic.org
   title: Formal Semantics of Hybrid Automata
 layout: paper
+title: Formal Semantics of Hybrid Automata
 ---

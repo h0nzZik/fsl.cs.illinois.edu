@@ -22,9 +22,16 @@ bib:
     and even car owners.
   authors: [Philip Daian, Bhargava Manja, Shinichi Shiraishi, Akihito Iwai, Grigore
       Rosu]
+  booktitle: SAE 2016 World Congress and Exhibition
+  booktitle_acronym: SAE'16
+  booktitle_url: http://www.sae.org/congress/2016/
   categories: [fsl, runtime_verification]
   date: 2016-04-01
   id: daian-manja-shiraishi-iwai-rosu-2016-sae
+  pages: 1-13
+  project_url: https://runtimeverification.com/ecu/
+  publisher: SAE International
   title: 'RV-ECU: Maximum Assurance In-Vehicle Safety Monitoring'
 layout: paper
+title: 'RV-ECU: Maximum Assurance In-Vehicle Safety Monitoring'
 ---

@@ -34,6 +34,8 @@ bib:
   categories: [fsl, programming_languages]
   date: 2010-12-01
   id: serbanuta-2010-thesis
+  project_url: http://www.kframework.org
   title: A Rewriting Approach to Concurrent Programming Language Design and Semantics
 layout: paper
+title: A Rewriting Approach to Concurrent Programming Language Design and Semantics
 ---

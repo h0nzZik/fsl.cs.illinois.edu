@@ -35,6 +35,8 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2012-08-01
   id: jin-2012-thesis
+  project_url: http://fsl.cs.illinois.edu/mop
   title: Making Runtime Monitoring of Parametric Properties Practical
 layout: paper
+title: Making Runtime Monitoring of Parametric Properties Practical
 ---

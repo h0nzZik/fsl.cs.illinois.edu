@@ -11,10 +11,18 @@ bib:
     WCET estimation, but can also be achieved using off-the-shelf technology for rewrite-based
     semantics.'
   authors: [Mihail Asavoae, Dorel Lucanu, Grigore Rosu]
+  booktitle: Proceedings of the 11th Workshop on Worst-Case Execution-Time Analysis
+    (WCET'11)
+  booktitle_acronym: WCET'11
+  booktitle_url: http://www.artist-embedded.org/artist/Overview,2317.html
   categories: [fsl, k, matching_logic, program_verification, executable_semantics,
     programming_languages, semantics]
   date: 2011-07-01
   id: asavoae-lucanu-rosu-2011-wcet
+  pages: ''
+  project_url: http://matching-logic.org
+  publisher: ''
   title: Towards Semantics-Based WCET Analysis
 layout: paper
+title: Towards Semantics-Based WCET Analysis
 ---

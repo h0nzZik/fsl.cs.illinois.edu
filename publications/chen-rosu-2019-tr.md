@@ -18,6 +18,9 @@ bib:
   categories: [fsl, matching_logic, program_verification]
   date: 2019-01-01
   id: chen-rosu-2019-tr
+  number: http://hdl.handle.net/2142/102281
+  project_url: http://www.matching-logic.org
   title: Matching mu-Logic
 layout: paper
+title: Matching mu-Logic
 ---

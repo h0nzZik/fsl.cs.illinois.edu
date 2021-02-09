@@ -9,10 +9,18 @@ bib:
     of the Goedel-Loeb axiom. A direct decision procedure for finite-trace LTL satisfiability,
     a PSPACE-complete problem, is also obtained as a corollary.
   authors: [Grigore Rosu]
+  booktitle: Runtime Verification - 16th International Conference, {RV} 2016 Madrid,
+    Spain, September 23-30, 2016, Proceedings
+  booktitle_acronym: RV'16
+  booktitle_url: https://rv2016.imag.fr/
   categories: [fsl, logics, automated_reasoning, program_verification, matching_logic,
     semantics]
   date: 2016-09-01
   id: rosu-2016-rv
+  pages: 333-350
+  project_url: http://matching-logic.org/
+  publisher: LNCS
   title: 'Finite-Trace Linear Temporal Logic: Coinductive Completeness'
 layout: paper
+title: 'Finite-Trace Linear Temporal Logic: Coinductive Completeness'
 ---

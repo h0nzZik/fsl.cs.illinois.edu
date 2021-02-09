@@ -11,6 +11,9 @@ bib:
   categories: [fsl, executable_semantics, k]
   date: 2012-04-01
   id: ellison-rosu-2012-tr
+  number: http://hdl.handle.net/2142/30780
+  project_url: http://www.kframework.org/index.php/Main_Page
   title: Defining the Undefinedness of {C}
 layout: paper
+title: Defining the Undefinedness of {C}
 ---

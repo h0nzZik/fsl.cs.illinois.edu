@@ -14,10 +14,17 @@ bib:
     programs, including complex ones, like programs implementing the AVL trees data
     structure and the Schorr-Waite graph marking algorithm.
   authors: [Andrei Stefanescu]
+  booktitle: International K Workshop
+  booktitle_acronym: K'11
+  booktitle_url: ''
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages]
   date: 2011-08-01
   id: stefanescu-2011-k
+  pages: ''
+  project_url: http://matching-logic.org/
+  publisher: ENTCS
   title: 'MatchC: A Matching Logic Reachability Verifier Using the {K} Framework'
 layout: paper
+title: 'MatchC: A Matching Logic Reachability Verifier Using the {K} Framework'
 ---

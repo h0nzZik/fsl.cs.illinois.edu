@@ -25,7 +25,11 @@ bib:
   categories: [k, semantics, executable_semantics, iele, virtual_machine, fsl]
   date: 2018-07-01
   id: kasampalis-guth-moore-serbanuta-serbanuta-filaretti-rosu-johnson-2018-tr
+  number: http://hdl.handle.net/2142/100320
+  project_url: https://github.com/runtimeverification/iele-semantics
   title: 'IELE: An Intermediate-Level Blockchain Language Designed and Implemented
     Using Formal Semantics'
 layout: paper
+title: 'IELE: An Intermediate-Level Blockchain Language Designed and Implemented Using
+  Formal Semantics'
 ---

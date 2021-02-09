@@ -12,10 +12,17 @@ bib:
     objects, which encode rigorous mathematical proofs as certificates for every individual
     tasks that the tools do and can be mechanically checked by third-party proof checkers.
   authors: [Xiaohong Chen, Grigore Rosu]
+  booktitle: Engineering Trustworthy Software Systems
+  booktitle_acronym: SETSS'19
+  booktitle_url: ''
   categories: [fsl, executable_semantics, k, logics, matching_logic, program_verification,
     programming_languages]
   date: 2019-01-01
   id: chen-rosu-2019-setss
+  pages: ''
+  project_url: http://kframework.org
+  publisher: Lecture Notes in Computer Science
   title: '{SETSS}''19 Lecture Notes on {K}'
 layout: paper
+title: '{SETSS}''19 Lecture Notes on {K}'
 ---

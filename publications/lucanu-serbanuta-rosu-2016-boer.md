@@ -10,10 +10,18 @@ bib:
     object-oriented programming paradigm. This is a first step toward a generic methodology
     for modularly adding future-based mechanisms to allow asynchronous method calls.
   authors: [Dorel Lucanu, Traian Florin Serbanuta, Grigore Rosu]
+  booktitle: 'Theory and Practice of Formal Methods: Essays Dedicated to Frank de
+    Boer on the Occasion of His 60th Birthday'
+  booktitle_acronym: Boer's Festschrift
+  booktitle_url: http://www.springer.com/us/book/9783319307336
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages, semantics, k]
   date: 2016-01-01
   id: lucanu-serbanuta-rosu-2016-boer
+  pages: 325-343
+  project_url: http://kframework.org
+  publisher: LNCS
   title: Towards a Kool Future
 layout: paper
+title: Towards a Kool Future
 ---

@@ -9,10 +9,18 @@ bib:
     expressing dynamic properties. Several large languages have been already defined
     or are being defined in K, including C, Java, Python, Javascript, and LLVM.
   authors: [Grigore Rosu]
+  booktitle: Proceedings of 15th International Symposium on Symbolic and Numeric Algorithms
+    for Scientific Computing (SYNASC'13)
+  booktitle_acronym: SYNASC'13
+  booktitle_url: http://synasc.ro/synasc2013/
   categories: [fsl, logics, executable_semantics, programming_languages, semantics,
     k, rewrite_logic]
   date: 2013-09-01
   id: rosu-2013-synasc
+  pages: 28-31
+  project_url: http://kframework.org
+  publisher: IEEE/CPS
   title: Specifying Languages and Verifying Programs with K
 layout: paper
+title: Specifying Languages and Verifying Programs with K
 ---

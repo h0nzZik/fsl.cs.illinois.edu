@@ -11,9 +11,17 @@ bib:
     of the composition. A number of laws of software composition are proved relating
     the composition operations. Inclusive institutions simplify many proofs.
   authors: [Joseph Goguen, Grigore Rosu]
+  booktitle: 'From Object-Orientation to Formal Methods: Essays in Memory of Ole-Johan
+    Dahl'
+  booktitle_acronym: Dahl's Festschrift
+  booktitle_url: http://dx.doi.org/10.1007/b96089
   categories: [logics, programming_languages, semantics]
   date: 2004-09-01
   id: goguen-rosu-2004-dahl
+  pages: 96-123
+  project_url: ''
+  publisher: LNCS
   title: Composing Hidden Information Modules over Inclusive Institutions
 layout: paper
+title: Composing Hidden Information Modules over Inclusive Institutions
 ---

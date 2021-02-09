@@ -22,6 +22,9 @@ bib:
     programming_languages]
   date: 2012-07-01
   id: rosu-stefanescu-ciobaca-moore-2012-tr
+  number: http://hdl.handle.net/2142/32952
+  project_url: http://fsl.cs.uiuc.edu/rl
   title: Reachability Logic
 layout: paper
+title: Reachability Logic
 ---

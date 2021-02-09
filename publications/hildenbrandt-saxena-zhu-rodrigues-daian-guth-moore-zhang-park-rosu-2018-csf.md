@@ -21,10 +21,17 @@ bib:
   authors: [Everett Hildenbrandt, Manasvi Saxena, Xiaoran Zhu, Nishant Rodrigues,
     Philip Daian, Dwight Guth, Brandon Moore, Yi Zhang, Daejun Park, Andrei Stefanescu,
     Grigore Rosu]
+  booktitle: 2018 IEEE 31st Computer Security Foundations Symposium
+  booktitle_acronym: CSF 2018
+  booktitle_url: https://www.cs.ox.ac.uk/conferences/csf2018/
   categories: [k, semantics, executable_semantics, evm, ethereum, virtual_machine,
     fsl]
   date: 2018-01-01
   id: hildenbrandt-saxena-zhu-rodrigues-daian-guth-moore-zhang-park-rosu-2018-csf
+  pages: 204-217
+  project_url: http://github.com/kframework/evm-semantics/
+  publisher: IEEE
   title: 'KEVM: A Complete Semantics of the Ethereum Virtual Machine'
 layout: paper
+title: 'KEVM: A Complete Semantics of the Ethereum Virtual Machine'
 ---

@@ -17,10 +17,17 @@ bib:
     lists or trees in the heap, as well as supporting framing in various components
     of the configuration at no additional costs.'
   authors: [Grigore Rosu, Andrei Stefanescu]
+  booktitle: 2010 Workshop on Usable Verification (UV'10)
+  booktitle_acronym: UV'10
+  booktitle_url: http://fm.csl.sri.com/UV10/
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages]
   date: 2010-11-01
   id: rosu-stefanescu-2010-uv
+  pages: ''
+  project_url: http://matching-logic.org/
+  publisher: ''
   title: 'Matching Logic: A New Program Verification Approach'
 layout: paper
+title: 'Matching Logic: A New Program Verification Approach'
 ---

@@ -25,9 +25,17 @@ bib:
     logic solvers, significantly increasing their applicability in building reliable
     systems.
   authors: [Xiaokang Qiu, Pranav Garg, Andrei Stefanescu, Parthasarathy Madhusudan]
+  booktitle: Proceedings of the 34th Conference on Programming Language Design and
+    Implementation (PLDI'13)
+  booktitle_acronym: PLDI'13
+  booktitle_url: http://pldi2013.ucombinator.org/
   categories: [logics, program_verification, automated_reasoning]
   date: 2013-06-01
   id: qiu-garg-stefanescu-madhusudan-2013-pldi
+  pages: 231-242
+  project_url: http://www.cs.uiuc.edu/~madhu/dryad/
+  publisher: ACM
   title: Natural Proofs for Structure, Data, and Separation
 layout: paper
+title: Natural Proofs for Structure, Data, and Separation
 ---

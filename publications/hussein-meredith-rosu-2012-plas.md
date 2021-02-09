@@ -14,9 +14,17 @@ bib:
     means to specify IRMs, leveraging the careful engineering of the JavaMOP system
     for ensuring secure operation of software in an efficient manner.
   authors: [Soha Hussein, Patrick Meredith, Grigore Rosu]
+  booktitle: Proceedings of the 7th Workshop on Programming Languages and Analysis
+    for Security (PLAS'12)
+  booktitle_acronym: PLAS'12
+  booktitle_url: http://www.doc.ic.ac.uk/PLAS2012/
   categories: [fsl, runtime_verification]
   date: 2012-06-01
   id: hussein-meredith-rosu-2012-plas
+  pages: 3:1-3:11
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: ACM
   title: Security-Policy Monitoring and Enforcement with JavaMOP
 layout: paper
+title: Security-Policy Monitoring and Enforcement with JavaMOP
 ---

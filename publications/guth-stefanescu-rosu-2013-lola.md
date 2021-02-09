@@ -10,9 +10,16 @@ bib:
     can handle the low-level and real-time features of the language just by using
     their operational semantics, and that language specific reasoning is unnecessary.
   authors: [Dwight Guth, Andrei Stefanescu, Grigore Rosu]
+  booktitle: 'LOLA 2013: Syntax and Semantics of Low-Level Languages'
+  booktitle_acronym: LOLA'13
+  booktitle_url: http://research.microsoft.com/en-us/events/lola2013/
   categories: [fsl, executable_semantics, matching_logic, program_verification, programming_languages]
   date: 2013-06-01
   id: guth-stefanescu-rosu-2013-lola
+  pages: ''
+  project_url: http://matching-logic.org/
+  publisher: ''
   title: Low-Level Program Verification using Matching Logic Reachability
 layout: paper
+title: Low-Level Program Verification using Matching Logic Reachability
 ---

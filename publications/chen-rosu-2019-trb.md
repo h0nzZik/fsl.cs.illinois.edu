@@ -19,6 +19,9 @@ bib:
   categories: [fsl, matching_logic, program_verification]
   date: 2019-07-01
   id: chen-rosu-2019-trb
+  number: http://hdl.handle.net/2142/104616
+  project_url: http://www.matching-logic.org
   title: 'Applicative Matching Logic: Semantics of K'
 layout: paper
+title: 'Applicative Matching Logic: Semantics of K'
 ---

@@ -13,9 +13,17 @@ bib:
     objective of which it is to construct a flexible framework for monitoring and
     analyzing program executions.
   authors: [Klaus Havelund, Grigore Rosu]
+  booktitle: Proceedings of the 8th International Conference on Tools and Algorithms
+    for the Construction and Analysis of Systems (TACAS'02)
+  booktitle_acronym: TACAS'02
+  booktitle_url: http://www.etaps.org/2002/Tacas/tacas.html
   categories: [javamop, runtime_verification]
   date: 2002-04-01
   id: havelund-rosu-2002-tacas
+  pages: 342-356
+  project_url: https://github.com/runtimeverification
+  publisher: LNCS
   title: Synthesizing Monitors for Safety Properties
 layout: paper
+title: Synthesizing Monitors for Safety Properties
 ---

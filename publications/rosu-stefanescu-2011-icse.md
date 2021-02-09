@@ -17,9 +17,17 @@ bib:
     as supporting framing in various components of the configuration at no additional
     costs.'
   authors: [Grigore Rosu, Andrei Stefanescu]
+  booktitle: Proceedings of the 33rd International Conference on Software Engineering
+    (ICSE'11)
+  booktitle_acronym: ICSE'11
+  booktitle_url: http://2011.icse-conferences.org
   categories: [fsl, executable_semantics, logics, matching_logic, k]
   date: 2011-05-01
   id: rosu-stefanescu-2011-icse
+  pages: 868-871
+  project_url: http://matching-logic.org
+  publisher: ACM
   title: 'Matching Logic: A New Program Verification Approach (NIER Track)'
 layout: paper
+title: 'Matching Logic: A New Program Verification Approach (NIER Track)'
 ---

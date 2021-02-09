@@ -9,10 +9,17 @@ bib:
     program verification techniques that allow us to verify programs in these languages
     using a common verification infrastructure.
   authors: [Grigore Rosu]
+  booktitle: 'Logic, Rewriting, and Concurrency: Essays Dedicated to Jos{\''e} Meseguer'
+  booktitle_acronym: Meseguer's Festschrift
+  booktitle_url: http://meseguer-fest.ifi.uio.no/
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages, semantics, k]
   date: 2015-09-01
   id: rosu-2015-meseguer
+  pages: 598-616
+  project_url: http://kframework.org
+  publisher: LNCS
   title: From Rewriting Logic, to Programming Language Semantics, to Program Verification
 layout: paper
+title: From Rewriting Logic, to Programming Language Semantics, to Program Verification
 ---

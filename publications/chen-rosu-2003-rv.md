@@ -19,10 +19,18 @@ bib:
     implemented for Java, which currently supports requirements expressed using past
     time and future time linear temporal logics, as well as extended regular expressions.
   authors: [Feng Chen, Grigore Rosu]
+  booktitle: Proceedings of 3rd International Workshop on Runtime Verification (RV'03)
+  booktitle_acronym: RV'03
+  booktitle_url: https://rtg.cis.upenn.edu/rv2003
   categories: [fsl]
   date: 2003-06-01
   id: chen-rosu-2003-rv
+  pages: 108-127
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: Electronic Notes in Theoretical Computer Science
   title: 'Towards Monitoring-Oriented Programming: A Paradigm Combining Specification
     and Implementation'
 layout: paper
+title: 'Towards Monitoring-Oriented Programming: A Paradigm Combining Specification
+  and Implementation'
 ---

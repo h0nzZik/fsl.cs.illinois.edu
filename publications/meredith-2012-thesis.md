@@ -28,6 +28,8 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2012-08-01
   id: meredith-2012-thesis
+  project_url: http://fsl.cs.illinois.edu/mop
   title: Efficient, Expressive, and Effective Runtime Verification
 layout: paper
+title: Efficient, Expressive, and Effective Runtime Verification
 ---

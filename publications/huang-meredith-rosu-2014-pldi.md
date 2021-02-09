@@ -20,9 +20,17 @@ bib:
     unknown races in real systems (e.g., Eclipse) that have been confirmed or fixed
     by the developers. Our tool is also adopted by Eclipse developers.
   authors: [Jeff Huang, Patrick Meredith, Grigore Rosu]
+  booktitle: Proceedings of the 35th annual ACM SIGPLAN conference on Programming
+    Language Design and Implementation (PLDI'14)
+  booktitle_acronym: PLDI'14
+  booktitle_url: http://conferences.inf.ed.ac.uk/pldi2014/
   categories: [fsl, runtime_verification, testing]
   date: 2014-06-01
   id: huang-meredith-rosu-2014-pldi
+  pages: 337-348
+  project_url: http://fsl.cs.illinois.edu/jPredictor
+  publisher: ACM
   title: Maximal Sound Predictive Race Detection with Control Flow Abstraction
 layout: paper
+title: Maximal Sound Predictive Race Detection with Control Flow Abstraction
 ---

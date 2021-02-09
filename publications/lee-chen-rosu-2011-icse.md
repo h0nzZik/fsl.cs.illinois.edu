@@ -12,9 +12,17 @@ bib:
     has been used to automatically mine many meaningful and non-trivial parametric
     properties of OpenJDK 6.'
   authors: [Choonghwan Lee, Feng Chen, Grigore Rosu]
+  booktitle: Proceeding of the 33rd International Conference on Software Engineering
+    (ICSE'11)
+  booktitle_acronym: ICSE'11
+  booktitle_url: http://2011.icse-conferences.org
   categories: [fsl]
   date: 2011-05-01
   id: lee-chen-rosu-2011-icse
+  pages: 591-600
+  project_url: http://fsl.cs.illinois.edu/index.php/JMiner
+  publisher: ACM
   title: Mining Parametric Specifications
 layout: paper
+title: Mining Parametric Specifications
 ---

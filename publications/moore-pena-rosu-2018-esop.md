@@ -15,10 +15,17 @@ bib:
     sound and (relatively) complete logic for program verification that has been instantiated
     with operational semantics of languages as complex as C, Java and JavaScript.
   authors: [Brandon Moore, Lucas Pena, Grigore Rosu]
+  booktitle: 27th European Symposium on Programming (ESOP)
+  booktitle_acronym: ESOP'18
+  booktitle_url: https://www.etaps.org/index.php/2018/esop
   categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
     programming_languages]
   date: 2018-04-01
   id: moore-pena-rosu-2018-esop
+  pages: 589-618
+  project_url: http://matching-logic.org/
+  publisher: Springer
   title: Program Verification by Coinduction
 layout: paper
+title: Program Verification by Coinduction
 ---

@@ -17,10 +17,17 @@ bib:
     on complementation of automata which can quickly lead to a highly-exponential
     state explosion.
   authors: [Koushik Sen, Grigore Rosu]
+  booktitle: Proceedings of 3rd International Workshop on Runtime Verification (RV'03)
+  booktitle_acronym: RV'03
+  booktitle_url: https://rtg.cis.upenn.edu/rv2003/
   categories: [fsl, executable_semantics, logics, automated_reasoning, rewrite_logic,
     runtime_verification, circular_coinduction]
   date: 2003-06-01
   id: sen-rosu-2003-rv
+  pages: 226-245
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: Electronic Notes in Theoretical Computer Science
   title: Generating Optimal Monitors for Extended Regular Expressions
 layout: paper
+title: Generating Optimal Monitors for Extended Regular Expressions
 ---

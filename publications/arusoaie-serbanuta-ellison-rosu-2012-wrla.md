@@ -8,9 +8,17 @@ bib:
     as part of the K framework, providing interactive interpreter capabilities for
     executing and testing programs for multiple language definitions.
   authors: [Andrei Arusoaie, Traian Florin Serbanuta, Chucky Ellison, Grigore Rosu]
+  booktitle: Proceedings of 9th International Workshop on Rewriting Logic and its
+    Applications (WRLA'12)
+  booktitle_acronym: WRLA'12
+  booktitle_url: http://wrla2012.lcc.uma.es/
   categories: [fsl, k]
   date: 2012-03-01
   id: arusoaie-serbanuta-ellison-rosu-2012-wrla
+  pages: 83-98
+  project_url: http://www.kframework.org
+  publisher: LNCS
   title: Making {Maude} Definitions more Interactive
 layout: paper
+title: Making {Maude} Definitions more Interactive
 ---

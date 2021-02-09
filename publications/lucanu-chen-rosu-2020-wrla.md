@@ -14,9 +14,17 @@ bib:
     language of the constrained constructor patterns can get a more logical avor and
     more expressivity.
   authors: [Xiaohong Chen, Dorel Lucanu, Grigore Rosu]
+  booktitle: Proceedings of the 13\textsuperscript{th} International Workshop on Rewriting
+    Logic and Its Applications (WRLA'20)
+  booktitle_acronym: WRLA'20
+  booktitle_url: http://wrla2020.webs.upv.es/
   categories: [fsl, matching_logic, program_verification]
   date: 2020-04-01
   id: lucanu-chen-rosu-2020-wrla
+  pages: ''
+  project_url: http://www.matching-logic.org
+  publisher: ''
   title: Connecting Constrained Constructor Patterns and Matching Logic
 layout: paper
+title: Connecting Constrained Constructor Patterns and Matching Logic
 ---

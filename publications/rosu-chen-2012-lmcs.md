@@ -19,6 +19,10 @@ bib:
   categories: [fsl, javamop, logics, runtime_verification]
   date: 2012-02-01
   id: rosu-chen-2012-lmcs
+  number: '1'
+  pages: 1-47
+  project_url: http://fsl.cs.uiuc.edu/index.php/MOP
   title: Semantics and Algorithms for Parametric Monitoring
 layout: paper
+title: Semantics and Algorithms for Parametric Monitoring
 ---

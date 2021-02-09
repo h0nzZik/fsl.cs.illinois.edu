@@ -14,10 +14,18 @@ bib:
     approach that can turn the operational semantics of real-world languages into
     correct-by-construction automatic verifiers.
   authors: [Andrei Stefanescu, Daejun Park, Shijiao Yuwen, Yilong Li, Grigore Rosu]
+  booktitle: Proceedings of the 31th Conference on Object-Oriented Programming, Systems,
+    Languages, and Applications (OOPSLA'16)
+  booktitle_acronym: OOPSLA'16
+  booktitle_url: http://2016.splashcon.org/track/splash-2016-oopsla
   categories: [fsl, k, executable_semantics, logics, matching_logic, program_verification,
     programming_languages]
   date: 2016-11-01
   id: stefanescu-park-yuwen-li-rosu-2016-oopsla
+  pages: 74-91
+  project_url: http://matching-logic.org/
+  publisher: ACM
   title: Semantics-Based Program Verifiers for All Languages
 layout: paper
+title: Semantics-Based Program Verifiers for All Languages
 ---

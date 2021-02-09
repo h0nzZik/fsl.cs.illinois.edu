@@ -20,9 +20,17 @@ bib:
     Android permissions system debuting in Android M.
   authors: [Philip Daian, Ylies Falcone, Patrick Meredith, Traian Florin Serbanuta,
     Shinichi Shiraishi, Akihito Iwai, Grigore Rosu]
+  booktitle: Runtime Verification - 15th International Conference, {RV} 2015 Vienna,
+    Austria, September 22-25, 2015. Proceedings
+  booktitle_acronym: RV'15
+  booktitle_url: http://rv2015.conf.tuwien.ac.at/
   categories: [fsl, javamop, runtime_verification]
   date: 2015-09-01
   id: daian-falcone-meredith-serbanuta-shiriashi-iwai-rosu-2015-rv
+  pages: 342-357
+  project_url: https://runtimeverification.com/android/
+  publisher: Lecture Notes in Computer Science
   title: 'RV-Android: Efficient Parametric Android Runtime Verification, a Brief Tutorial'
 layout: paper
+title: 'RV-Android: Efficient Parametric Android Runtime Verification, a Brief Tutorial'
 ---

@@ -10,10 +10,18 @@ bib:
     of software and hardware modeling languages; and semantics-based analysis tools
     such as static analyzers, model checkers, and program provers.'
   authors: [Jose Meseguer, Grigore Rosu]
+  booktitle: Proceedings of the 17th International Symposium on Fundamentals of Computation
+    Theory (FCT'11)
+  booktitle_acronym: FCT'11
+  booktitle_url: http://fct11.ifi.uio.no/
   categories: [fsl, logics, program_verification, matching_logic, executable_semantics,
     programming_languages, semantics, k, rewrite_logic]
   date: 2011-08-01
   id: meseguer-rosu-2011-fct
+  pages: 1-37
+  project_url: http://k-framework.org
+  publisher: Lecture Notes in Computer Science
   title: 'The Rewriting Logic Semantics Project: A Progress Report'
 layout: paper
+title: 'The Rewriting Logic Semantics Project: A Progress Report'
 ---

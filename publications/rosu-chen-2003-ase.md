@@ -12,9 +12,17 @@ bib:
     units. The approach can be extended to incorporate other safety policies without
     great efforts.
   authors: [Grigore Rosu, Feng Chen]
+  booktitle: Proceedings of the 18th IEEE International Conference on Automated Software
+    Engineering (ASE'03)
+  booktitle_acronym: ASE'03
+  booktitle_url: http://ase-conferences.org/ase/past/ase2003/index.htm
   categories: [fsl]
   date: 2003-10-01
   id: rosu-chen-2003-ase
+  pages: 304-309
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: IEEE
   title: Certifying Measurement Unit Safety Policy
 layout: paper
+title: Certifying Measurement Unit Safety Policy
 ---

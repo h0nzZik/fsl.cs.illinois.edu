@@ -18,9 +18,17 @@ bib:
     and predicting generic property violations. Moreover, it reduces the runtime overhead
     of existing techniques by 54\% on DaCapo benchmarks on average.'
   authors: [Jeff Huang, Qingzhou Luo, Grigore Rosu]
+  booktitle: Proceedings of the 37th International Conference on Software Engineering
+    (ICSE'15)
+  booktitle_acronym: ICSE'15
+  booktitle_url: http://2015.icse-conferences.org/
   categories: [fsl, runtime_verification, testing]
   date: 2015-05-01
   id: huang-luo-rosu-2015-icse
+  pages: 847-857
+  project_url: http://fsl.cs.illinois.edu/jPredictor
+  publisher: ACM
   title: 'GPredict: Generic Predictive Concurrency Analysis'
 layout: paper
+title: 'GPredict: Generic Predictive Concurrency Analysis'
 ---

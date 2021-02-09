@@ -15,9 +15,17 @@ bib:
     PathExplorer (\JPaXX) project, the purpose of which is to develop a flexible tool
     for monitoring Java program executions.
   authors: [Klaus Havelund, Grigore Rosu]
+  booktitle: Proceedings of 16th IEEE International Conference. Automated Software
+    Engineering (ASE'01)
+  booktitle_acronym: ASE'01
+  booktitle_url: http://ase-conferences.org/ase/past/ase2001/
   categories: [runtime_verification, testing, javamop, rewrite_logic]
   date: 2001-05-01
   id: havelund-rosu-2001-ase
+  pages: 135-143
+  project_url: http://fsl.cs.illinois.edu/MOP
+  publisher: IEEE
   title: Monitoring Programs using Rewriting
 layout: paper
+title: Monitoring Programs using Rewriting
 ---

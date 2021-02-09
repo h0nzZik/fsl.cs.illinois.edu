@@ -17,6 +17,9 @@ bib:
   categories: [fsl, matching_logic, program_verification]
   date: 2020-07-01
   id: chen-lucanu-rosu-2020-trb
+  number: http://hdl.handle.net/2142/107794
+  project_url: http://www.matching-logic.org
   title: Matching Logic Explained
 layout: paper
+title: Matching Logic Explained
 ---

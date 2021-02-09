@@ -19,6 +19,10 @@ bib:
     programming_languages]
   date: 2016-05-01
   id: ciobaca-lucanu-rusu-rosu-2016-faoc
+  number: '3'
+  pages: 469-497
+  project_url: http://matching-logic.org
   title: A Language-Independent Proof System for Full Program Equivalence
 layout: paper
+title: A Language-Independent Proof System for Full Program Equivalence
 ---

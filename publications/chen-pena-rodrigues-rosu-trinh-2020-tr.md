@@ -23,7 +23,11 @@ bib:
   categories: [fsl, matching_logic, program_verification]
   date: 2020-09-01
   id: chen-pena-rodrigues-rosu-trinh-2020-tr
+  number: http://hdl.handle.net/2142/108369
+  project_url: http://www.matching-logic.org
   title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using
     Matching Logic
 layout: paper
+title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using Matching
+  Logic
 ---

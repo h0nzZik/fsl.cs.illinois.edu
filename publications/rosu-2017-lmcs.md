@@ -24,6 +24,10 @@ bib:
   categories: [fsl, executable_semantics, matching_logic, logics, k]
   date: 2017-12-01
   id: rosu-2017-lmcs
+  number: '4'
+  pages: 1-61
+  project_url: http://www.matching-logic.org/index.php/Matching_Logic
   title: Matching logic
 layout: paper
+title: Matching logic
 ---

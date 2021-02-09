@@ -16,6 +16,9 @@ bib:
   categories: [fsl, matching_logic, program_verification]
   date: 2020-07-01
   id: chen-lucanu-rosu-2020-tr
+  number: http://hdl.handle.net/2142/107781
+  project_url: http://www.matching-logic.org
   title: Initial algebra semantics in matching logic
 layout: paper
+title: Initial algebra semantics in matching logic
 ---

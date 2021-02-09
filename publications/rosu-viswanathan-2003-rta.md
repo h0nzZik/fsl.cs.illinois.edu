@@ -13,10 +13,18 @@ bib:
     algorithms, besides their simplicity and elegance, are practical and almost as
     good as one can hope. We experimented with and evaluated our algorithms in Maude.'
   authors: [Grigore Rosu, Mahesh Viswanathan]
+  booktitle: Proceedings of the 14th International Conference on Rewriting Techniques
+    and Applications (RTA'03)
+  booktitle_acronym: RTA'03
+  booktitle_url: http://users.dsic.upv.es/~rdp03/rta/
   categories: [fsl, executable_semantics, logics, automated_reasoning, rewrite_logic,
     runtime_verification]
   date: 2003-06-01
   id: rosu-viswanathan-2003-rta
+  pages: 499-514
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: Lecture Notes in Computer Science (LNCS)
   title: Testing Extended Regular Language Membership Incrementally by Rewriting
 layout: paper
+title: Testing Extended Regular Language Membership Incrementally by Rewriting
 ---

@@ -14,10 +14,17 @@ bib:
     logic derivations to serve as formal proof certificates that rely only on the
     operational semantics.
   authors: [Grigore Rosu, Andrei Stefanescu, Stefan Ciobaca, Brandon Moore]
+  booktitle: Proceedings of the 28th Symposium on Logic in Computer Science (LICS'13)
+  booktitle_acronym: LICS'13
+  booktitle_url: http://lii.rwth-aachen.de/lics/lics13/
   categories: [fsl, executable_semantics, k, logics, matching_logic, program_verification,
     programming_languages]
   date: 2013-06-01
   id: rosu-stefanescu-ciobaca-moore-2013-lics
+  pages: 358-367
+  project_url: http://fsl.cs.uiuc.edu/RL
+  publisher: IEEE
   title: One-Path Reachability Logic
 layout: paper
+title: One-Path Reachability Logic
 ---

@@ -15,9 +15,17 @@ bib:
     work is part of a larger effort to develop a logical foundation for the programming
     language semantics framework K (http://kframework.org).
   authors: [Xiaohong Chen, Grigore Rosu]
+  booktitle: Proceedings of the 25\textsuperscript{th} ACM SIGPLAN International Conference
+    on Functional Programming (ICFP'20)
+  booktitle_acronym: ICFP'20
+  booktitle_url: https://icfp20.sigplan.org/
   categories: [fsl, matching_logic]
   date: 2020-08-01
   id: chen-rosu-2020-icfp
+  pages: 1-32
+  project_url: https://github.com/runtimeverification
+  publisher: ACM/IEEE
   title: A General Approach to Define Binders Using Matching Logic
 layout: paper
+title: A General Approach to Define Binders Using Matching Logic
 ---

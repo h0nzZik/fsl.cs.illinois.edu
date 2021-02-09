@@ -19,6 +19,10 @@ bib:
   categories: [fsl, javamop, logics, runtime_verification]
   date: 2012-12-01
   id: rosu-2012-sacs
+  number: '2'
+  pages: 327-365
+  project_url: http://fsl.cs.uiuc.edu/index.php/MOP
   title: On Safety Properties and Their Monitoring
 layout: paper
+title: On Safety Properties and Their Monitoring
 ---

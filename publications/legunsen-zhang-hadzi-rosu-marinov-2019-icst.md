@@ -22,9 +22,17 @@ bib:
     per version (for base RV) to one violation per 10 versions.'
   authors: [Owolabi Legunsen, Yi Zhang, Milica Hadzi-Tanovic, Grigore Rosu, Darko
       Marinov]
+  booktitle: 2019 12th IEEE Conference on Software Testing, Validation and Verification
+    (ICST)
+  booktitle_acronym: ICST 2019
+  booktitle_url: http://icst2019.xjtu.edu.cn/
   categories: [fsl, javamop, runtime_verification]
   date: 2019-04-01
   id: legunsen-zhang-hadzi-rosu-marinov-2019-icst
+  pages: 300-311
+  project_url: https://github.com/runtimeverification
+  publisher: IEEE
   title: Techniques for Evolution-Aware Runtime Verification
 layout: paper
+title: Techniques for Evolution-Aware Runtime Verification
 ---

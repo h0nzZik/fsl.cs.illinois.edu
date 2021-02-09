@@ -18,6 +18,10 @@ bib:
   categories: [fsl, executable_semantics, logics]
   date: 2016-01-01
   id: rusu-lucanu-serbanuta-arusoaie-stefanescu-rosu-2016-jlamp
+  number: 1, Part 1
+  pages: 98-120
+  project_url: http://fmse.info.uaic.ro/tools/K-3.4
   title: Language Definitions as Rewrite Theories
 layout: paper
+title: Language Definitions as Rewrite Theories
 ---

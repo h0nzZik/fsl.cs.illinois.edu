@@ -15,10 +15,17 @@ bib:
     to characterize the specific loss of information during abstraction, and to compare
     different abstractions with each other.
   authors: [Bernd Fischer, Grigore Rosu]
+  booktitle: Proceedings of 2nd International Workshop on Rule-Based Programming (RULE'01)
+  booktitle_acronym: RULE'01
+  booktitle_url: ''
   categories: [automated_reasoning, program_verification, executable_semantics, programming_languages,
     semantics, rewrite_logic]
   date: 2001-06-01
   id: fischer-rosu-2001-rule
+  pages: 271-285
+  project_url: http://maude.cs.illinois.edu
+  publisher: Electronic Notes in Theoretical Computer Science
   title: Interpreting Abstract Interpretations in Membership Equational Logic
 layout: paper
+title: Interpreting Abstract Interpretations in Membership Equational Logic
 ---

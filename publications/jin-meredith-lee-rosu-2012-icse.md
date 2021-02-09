@@ -10,9 +10,17 @@ bib:
     differing logical formalisms. It is also the most efficient in terms of runtime
     overhead, and very competitive with respect to memory usage.
   authors: [Dongyun Jin, Patrick O'Neil Meredith, Choonghwan Lee, Grigore Rosu]
+  booktitle: Proceeding of the 34th International Conference on Software Engineering
+    (ICSE'12)
+  booktitle_acronym: ICSE'12
+  booktitle_url: http://www.icse2012.org
   categories: [fsl, runtime_verification, javamop]
   date: 2012-06-01
   id: jin-meredith-lee-rosu-2012-icse
+  pages: 1427-1430
+  project_url: http://fsl.cs.illinois.edu/mop
+  publisher: IEEE
   title: 'JavaMOP: Efficient Parametric Runtime Monitoring Framework'
 layout: paper
+title: 'JavaMOP: Efficient Parametric Runtime Monitoring Framework'
 ---

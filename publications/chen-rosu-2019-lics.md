@@ -15,9 +15,17 @@ bib:
     serves as a unifying foundation for specifying and reasoning about fixpoints and
     induction, programming languages and program specification and verification.
   authors: [Xiaohong Chen, Grigore Rosu]
+  booktitle: Proceedings of the 34\textsuperscript{th} Annual ACM/IEEE Symposium on
+    Logic in Computer Science (LICS'19)
+  booktitle_acronym: LICS'19
+  booktitle_url: http://lics.siglog.org/lics19
   categories: [fsl, matching_logic, program_verification]
   date: 2019-06-01
   id: chen-rosu-2019-lics
+  pages: 1-13
+  project_url: http://www.matching-logic.org
+  publisher: ACM/IEEE
   title: Matching mu-Logic
 layout: paper
+title: Matching mu-Logic
 ---

@@ -15,6 +15,8 @@ bib:
   categories: [fsl, semantics]
   date: 2012-07-01
   id: ellison-2012-thesis
+  project_url: http://fsl.cs.illinois.edu/k
   title: A Formal Semantics of {C} with Applications
 layout: paper
+title: A Formal Semantics of {C} with Applications
 ---

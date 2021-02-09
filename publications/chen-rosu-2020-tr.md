@@ -18,6 +18,9 @@ bib:
   categories: [fsl, matching_logic, program_verification]
   date: 2020-06-01
   id: chen-rosu-2020-tr
+  number: http://hdl.handle.net/2142/106608
+  project_url: http://www.matching-logic.org
   title: A General Approach to Define Binders Using Matching Logic
 layout: paper
+title: A General Approach to Define Binders Using Matching Logic
 ---

@@ -18,6 +18,9 @@ bib:
   categories: [fsl, runtime_verification]
   date: 2012-03-01
   id: lee-jin-meredith-rosu-2012-tr
+  number: http://hdl.handle.net/2142/30006
+  project_url: https://github.com/runtimeverification/property-db
   title: Towards Categorizing and Formalizing the {JDK API}
 layout: paper
+title: Towards Categorizing and Formalizing the {JDK API}
 ---

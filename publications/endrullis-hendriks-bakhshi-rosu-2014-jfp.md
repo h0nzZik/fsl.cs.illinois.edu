@@ -18,6 +18,10 @@ bib:
     circular_coinduction, automated_reasoning]
   date: 2014-05-01
   id: endrullis-hendriks-bakhshi-rosu-2014-jfp
+  number: 2-3
+  pages: 166-217
+  project_url: http://fsl.cs.uiuc.edu/circ
   title: On the Complexity of Stream Equality
 layout: paper
+title: On the Complexity of Stream Equality
 ---

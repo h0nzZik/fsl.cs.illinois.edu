@@ -13,10 +13,18 @@ bib:
     faster than other state-of-the-art runtime verification systems.
   authors: [Qingzhou Luo, Yi Zhang, Choonghwan Lee, Dongyun Jin, Patrick O'Neil Meredith,
     Traian Florin Serbanuta, Grigore Rosu]
+  booktitle: Proceedings of the 14th International Conference on Runtime Verification
+    (RV'14)
+  booktitle_acronym: RV'14
+  booktitle_url: http://rv2014.imag.fr/
   categories: [fsl, javamop, runtime_verification]
   date: 2014-09-01
   id: luo-zhang-lee-jin-meredith-serbanuta-rosu-2014-rv
+  pages: 285-300
+  project_url: https://github.com/runtimeverification
+  publisher: LNCS
   title: 'RV-Monitor: Efficient Parametric Runtime Verification with Simultaneous
     Properties'
 layout: paper
+title: 'RV-Monitor: Efficient Parametric Runtime Verification with Simultaneous Properties'
 ---

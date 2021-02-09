@@ -13,10 +13,18 @@ bib:
     consistency of abstract variable attributes in code that performs geometric calculations
     in Aerospace systems.
   authors: [Michael Lowry, Thomas Pressburger, Grigore Rosu]
+  booktitle: Proceedings of 16th IEEE International Conference. Automated Software
+    Engineering (ASE'01)
+  booktitle_acronym: ASE'01
+  booktitle_url: http://ase-conferences.org/ase/past/ase2001/
   categories: [automated_reasoning, program_verification, executable_semantics, programming_languages,
     semantics, rewrite_logic]
   date: 2001-05-01
   id: lowry-pressburger-rosu-2001-ase
+  pages: 81-90
+  project_url: https://ti.arc.nasa.gov/tech/rse/synthesis-projects-applications/autofilter/
+  publisher: IEEE
   title: Certifying Domain-Specific Policies
 layout: paper
+title: Certifying Domain-Specific Policies
 ---

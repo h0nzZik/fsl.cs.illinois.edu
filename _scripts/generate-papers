@@ -46,13 +46,31 @@ def fslbib(path, id):
 
 def paper_to_yaml(paper):
     assert(type(paper.category) == list)
-    return yaml.safe_dump({ 'bib': { 'id':         paper.id
-                                   , 'title':      paper.title
-                                   , 'categories': paper.category
-                                   , 'abstract':   paper.abstract
-                                   , 'authors':    paper.author_id
-                                   , 'date':       paper.date
-                                   }
+
+    # Required fields
+    bib = { 'id':         paper.id
+          , 'title':      paper.title
+          , 'date':       paper.date
+          , 'authors':    paper.author_id
+          , 'categories': paper.category
+          , 'abstract':   paper.abstract
+          }
+
+    # Optional Fields
+    if hasattr(paper, 'publisher'):           bib['publisher']         =  paper.publisher
+    if hasattr(paper, 'booktitle'):           bib['booktitle']         =  paper.booktitle
+    if hasattr(paper, 'booktitle_acronym'):   bib['booktitle_acronym'] =  paper.booktitle_acronym
+    if hasattr(paper, 'booktitle_url'):       bib['booktitle_url']     =  paper.booktitle_url
+
+    if hasattr(paper, 'numpages'):            bib['numpages']          =  paper.numpages
+    if hasattr(paper, 'pages'):               bib['pages']             =  paper.pages
+
+    if hasattr(paper, 'project'):             bib['project']           =  paper.project
+    if hasattr(paper, 'project_url'):         bib['project_url']       =  paper.project_url
+    if hasattr(paper, 'number'):              bib['number']            =  paper.number
+ 
+    return yaml.safe_dump({ 'bib': bib 
+                          , 'title':  paper.title
                           , 'layout': 'paper' 
                           }
                          )

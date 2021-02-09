@@ -21,9 +21,17 @@ bib:
     is able to effectively express and enforce complex properties and schedules in
     both scenarios.
   authors: [Qingzhou Luo, Grigore Rosu]
+  booktitle: Proceedings of International Symposium in Software Testing and Analysis
+    (ISSTA'13)
+  booktitle_acronym: ISSTA'13
+  booktitle_url: http://issta2013.inf.usi.ch/
   categories: [fsl, runtime_verification, multithreading, testing, javamop]
   date: 2013-07-01
   id: luo-rosu-2013-issta
+  pages: 156-166
+  project_url: http://fsl.cs.illinois.edu/index.php/Runtime_Verification
+  publisher: ACM
   title: 'EnforceMOP: A Runtime Property Enforcement System for Multithreaded Programs'
 layout: paper
+title: 'EnforceMOP: A Runtime Property Enforcement System for Multithreaded Programs'
 ---

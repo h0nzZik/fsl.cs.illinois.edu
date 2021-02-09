@@ -11,9 +11,17 @@ bib:
     serializable with respect to the jungle rewriting flavor of term-graph rewriting,
     and, therefore, also to term rewriting.
   authors: [Traian Florin Serbanuta, Grigore Rosu]
+  booktitle: Proceedings of the 6th International Conference on Graph Transformation
+    (ICGT'12)
+  booktitle_acronym: ICGT'12
+  booktitle_url: http://www.informatik.uni-bremen.de/icgt2012
   categories: [fsl, k]
   date: 2012-09-01
   id: serbanuta-rosu-2012-icgt
+  pages: 294-310
+  project_url: http://www.kframework.org
+  publisher: LNCS
   title: A Truly Concurrent Semantics for the K Framework Based on Graph Transformations
 layout: paper
+title: A Truly Concurrent Semantics for the K Framework Based on Graph Transformations
 ---

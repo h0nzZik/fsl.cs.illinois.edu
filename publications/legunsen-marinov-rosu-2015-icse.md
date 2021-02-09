@@ -13,9 +13,16 @@ bib:
     versions of an application, and is complementary to algorithmic MOP advances on
     single versions.
   authors: [Owolabi Legunsen, Darko Marinov, Grigore Rosu]
+  booktitle: The 37th International Conference on Software Engineering (ICSE'15)
+  booktitle_acronym: ICSE NIER'15
+  booktitle_url: http://2015.icse-conferences.org/NIER
   categories: [fsl, javamop, runtime_verification]
   date: 2015-05-01
   id: legunsen-marinov-rosu-2015-icse
+  pages: 615-618
+  project_url: http://fsl.cs.illinois.edu/index.php/JavaMOP
+  publisher: ACM
   title: Evolution-Aware Monitoring-Oriented Programming
 layout: paper
+title: Evolution-Aware Monitoring-Oriented Programming
 ---

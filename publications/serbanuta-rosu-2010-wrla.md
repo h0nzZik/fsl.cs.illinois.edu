@@ -9,9 +9,17 @@ bib:
     and for teaching purposes. This paper describes the K-Maude tool, both from a
     user and from an implementer perspective.
   authors: [Traian Florin Serbanuta, Grigore Rosu]
+  booktitle: Proceedings of the 8th International Workshop on Rewriting Logic and
+    Its Applications (WRLA'10)
+  booktitle_acronym: WRLA'10
+  booktitle_url: http://wrla10.ifi.uio.no/
   categories: [fsl, k]
   date: 2010-03-01
   id: serbanuta-rosu-2010-wrla
+  pages: 104-122
+  project_url: https://github.com/kframework
+  publisher: Springer
   title: '{K-Maude}: A Rewriting Based Tool for Semantics of Programming Languages'
 layout: paper
+title: '{K-Maude}: A Rewriting Based Tool for Semantics of Programming Languages'
 ---

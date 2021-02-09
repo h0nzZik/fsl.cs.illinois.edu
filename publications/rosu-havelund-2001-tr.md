@@ -12,6 +12,9 @@ bib:
   categories: [logics, programming_languages, runtime_verification, javamop]
   date: 2001-01-01
   id: rosu-havelund-2001-tr
+  number: https://ti.arc.nasa.gov/m/pub-archive/archive/0220.pdf
+  project_url: ''
   title: Synthesizing Dynamic Programming Algorithms from Linear Temporal Logic Formulae
 layout: paper
+title: Synthesizing Dynamic Programming Algorithms from Linear Temporal Logic Formulae
 ---

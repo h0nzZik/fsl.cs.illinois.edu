@@ -14,10 +14,18 @@ bib:
     a simple representation for proof objects and give algorithms that can synthesize
     space-efficient, machine-checkable proof objects from proof traces.
   authors: [Grigore Rosu, Steven Eker, Patrick Lincoln, Jose Meseguer]
+  booktitle: Proceedings of the 12th International Symposium of Formal Methods Europe
+    (FME'03)
+  booktitle_acronym: FME'03
+  booktitle_url: http://fm03.isti.cnr.it/
   categories: [fsl, executable_semantics, logics, program_verification, programming_languages,
     automated_reasoning, rewrite_logic]
   date: 2003-09-01
   id: rosu-eker-lincoln-meseguer-2003-fme
+  pages: 359-380
+  project_url: http://maude.cs.illinois.edu/
+  publisher: Lecture Notes in Computer Science (LNCS)
   title: Certifying and Synthesizing Membership Equational Proofs
 layout: paper
+title: Certifying and Synthesizing Membership Equational Proofs
 ---
