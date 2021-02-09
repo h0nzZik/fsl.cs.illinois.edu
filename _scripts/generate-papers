@@ -47,12 +47,12 @@ def fslbib(path, id):
 def paper_to_yaml(paper):
     assert(type(paper.category) == list)
     return yaml.safe_dump({ 'bib': { 'id':         paper.id
-                                 , 'title':      paper.title
-                                 , 'categories': paper.category
-                                 , 'abstract':   paper.abstract
-                                 , 'authors':    paper.author_id
-                                 , 'date':       paper.date
-                                 }
+                                   , 'title':      paper.title
+                                   , 'categories': paper.category
+                                   , 'abstract':   paper.abstract
+                                   , 'authors':    paper.author_id
+                                   , 'date':       paper.date
+                                   }
                           , 'layout': 'paper' 
                           }
                          )
