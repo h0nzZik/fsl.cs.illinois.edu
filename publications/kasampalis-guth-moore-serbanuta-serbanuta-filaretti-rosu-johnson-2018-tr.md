@@ -20,15 +20,67 @@ bib:
     IELE, which demonstrates that the programming language semantics field has reached
     a level of maturity that makes it appealing over the traditional, adhoc approach
     even for pragmatic reasons.
-  authors: [Theodoros Kasampalis, Dwight Guth, Brandon Moore, Traian Serbanuta, Virgil
-      Serbanuta, Daniele Filaretti, Grigore Rosu, Ralph Johnson]
-  categories: [k, semantics, executable_semantics, iele, virtual_machine, fsl]
+  author:
+  - first: Theodoros
+    last: Kasampalis
+  - first: Dwight
+    last: Guth
+  - first: Brandon
+    last: Moore
+  - first: Traian
+    last: Serbanuta
+  - first: Virgil
+    last: Serbanuta
+  - first: Daniele
+    last: Filaretti
+  - first: Grigore
+    last: Rosu
+  - first: Ralph
+    last: Johnson
+  author_id: Theodoros Kasampalis and Dwight Guth and Brandon Moore and Traian Serbanuta
+    and Virgil Serbanuta and Daniele Filaretti and Grigore Rosu and Ralph Johnson
+  authors:
+  - id: theodoros-kasampalis
+    text: Theodoros Kasampalis
+  - id: dwight-guth
+    text: Dwight Guth
+  - id: brandon-moore
+    text: Brandon Moore
+  - id: traian-serbanuta
+    text: Traian Serbanuta
+  - id: virgil-serbanuta
+    text: Virgil Serbanuta
+  - id: daniele-filaretti
+    text: Daniele Filaretti
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: ralph-johnson
+    text: Ralph Johnson
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
+  - k
+  - semantics
+  - executable_semantics
+  - iele
+  - virtual_machine
+  - fsl
   date: 2018-07-01
+  hidden: 'false'
   id: kasampalis-guth-moore-serbanuta-serbanuta-filaretti-rosu-johnson-2018-tr
+  institution: University of Illinois
+  month: July
   number: http://hdl.handle.net/2142/100320
+  project_name: IELE
   project_url: https://github.com/runtimeverification/iele-semantics
   title: 'IELE: An Intermediate-Level Blockchain Language Designed and Implemented
     Using Formal Semantics'
+  type: techreport
+  year: '2018'
 layout: paper
 title: 'IELE: An Intermediate-Level Blockchain Language Designed and Implemented Using
   Formal Semantics'

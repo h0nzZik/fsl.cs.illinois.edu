@@ -20,14 +20,34 @@ bib:
     logic reasoning. Matching logic is particularly well-suited for reasoning about
     programs in programming languages that have an operational semantics, but it is
     not limited to this.'
-  authors: [Grigore Rosu]
-  categories: [fsl, executable_semantics, matching_logic, logics, k]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - executable_semantics
+  - matching_logic
+  - logics
+  - k
   date: 2017-12-01
+  doi: http://arxiv.org/abs/1705.06312
   id: rosu-2017-lmcs
+  journal: Logical Methods in Computer Science
+  journal_acronym: LMCS
+  journal_url: https://lmcs.episciences.org/4153
+  month: December
   number: '4'
   pages: 1-61
+  project_acronym: Matching Logic
   project_url: http://www.matching-logic.org/index.php/Matching_Logic
   title: Matching logic
+  type: article
+  volume: '13'
+  year: '2017'
 layout: paper
 title: Matching logic
 ---

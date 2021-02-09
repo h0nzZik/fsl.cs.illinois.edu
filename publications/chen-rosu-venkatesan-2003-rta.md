@@ -15,18 +15,41 @@ bib:
     implemented in the rewriting system Maude, using more than 2,000 rewriting rules.
     This paper presents a non-trivial application of rewriting techniques to software
     analysis.
-  authors: [Feng Chen, Grigore Rosu, Ram prasad Venkatesan]
+  author:
+  - first: Feng
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Ram
+    last: Venkatesan
+    prelast: prasad
+  author_id: Feng Chen and Grigore Rosu and Ram prasad Venkatesan
+  authors:
+  - id: feng-chen
+    text: Feng Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: ram-prasad-venkatesan
+    text: Ram prasad Venkatesan
   booktitle: Proceedings of the 14th International Conference on Rewriting Techniques
     and Applications (RTA'03)
   booktitle_acronym: RTA'03
   booktitle_url: http://users.dsic.upv.es/~rdp03/rta/
-  categories: [fsl]
+  category:
+  - fsl
   date: 2003-06-01
+  doi: http://dx.doi.org/10.1007/3-540-44881-0_15
   id: chen-rosu-venkatesan-2003-rta
+  month: June
   pages: 197-207
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
-  publisher: Lecture Notes in Computer Science (LNCS)
+  publisher: Springer-Verlag
+  series: Lecture Notes in Computer Science (LNCS)
   title: Rule-Based Analysis of Dimensional Safety
+  type: inproceedings
+  volume: '2706'
+  year: '2003'
 layout: paper
 title: Rule-Based Analysis of Dimensional Safety
 ---

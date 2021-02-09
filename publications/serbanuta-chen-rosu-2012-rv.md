@@ -11,18 +11,43 @@ bib:
     can also generate. The existence of such a model is of great theoretical value
     as it can be used to prove the soundness of non-maximal, and thus smaller, causal
     models.'
-  authors: [Traian Florin Serbanuta, Feng Chen, Grigore Rosu]
+  author:
+  - first: Traian
+    last: Serbanuta
+    middle: Florin
+  - first: Feng
+    last: Chen
+  - first: Grigore
+    last: Rosu
+  author_id: Traian Florin Serbanuta and Feng Chen and Grigore Rosu
+  authors:
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
+  - id: feng-chen
+    text: Feng Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the third International Conference on Runtime Verification
     (RV'12)
   booktitle_acronym: RV'12
   booktitle_url: http://rv2012.ku.edu.tr
-  categories: [fsl, runtime_verification]
+  category:
+  - fsl
+  - runtime_verification
   date: 2012-09-01
+  doi: http://dx.doi.org/10.1007/978-3-642-35632-2_16
   id: serbanuta-chen-rosu-2012-rv
+  month: September
   pages: 136-150
+  presentation: serbanuta-chen-rosu-2012-rv-slides
+  project_name: JPredictor
   project_url: http://fsl.cs.illinois.edu/index.php/JPredictor
-  publisher: LNCS
+  publisher: Springer
+  series: LNCS
   title: Maximal Causal Models for Sequentially Consistent Systems
+  type: inproceedings
+  volume: '7687'
+  year: '2012'
 layout: paper
 title: Maximal Causal Models for Sequentially Consistent Systems
 ---

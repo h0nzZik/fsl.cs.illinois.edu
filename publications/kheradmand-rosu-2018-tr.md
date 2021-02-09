@@ -18,14 +18,37 @@ bib:
     and compiler developers, such as detection of unportable code, state space exploration
     of P4 programs and of networks, bug finding using symbolic execution, data plane
     verification, program verification, and translation validation.
-  authors: [Ali Kheradmand, Grigore Rosu]
-  categories: [k, semantics, executable_semantics, network_verification, translation_validation,
-    automated_reasoning, program_verification, fsl]
+  author:
+  - first: Ali
+    last: Kheradmand
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Ali Kheradmand and Grigore Rosu
+  authors:
+  - id: ali-kheradmand
+    text: Ali Kheradmand
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - k
+  - semantics
+  - executable_semantics
+  - network_verification
+  - translation_validation
+  - automated_reasoning
+  - program_verification
+  - fsl
   date: 2018-04-01
+  hidden: 'false'
   id: kheradmand-rosu-2018-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: April
   number: https://arxiv.org/abs/1804.01468
+  project_name: P4K
   project_url: https://github.com/kframework/p4-semantics/
   title: 'P4K: A Formal Semantics of P4 and Applications'
+  type: techreport
+  year: '2018'
 layout: paper
 title: 'P4K: A Formal Semantics of P4 and Applications'
 ---

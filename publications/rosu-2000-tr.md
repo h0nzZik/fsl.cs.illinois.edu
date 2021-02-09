@@ -28,13 +28,25 @@ bib:
     enriching, aggregation and parameterization. An internal property of modules,
     {\em conservativeness}, seems to have a decisive role in giving semantics for
     module composition.'
-  authors: [Grigore Rosu]
-  categories: [logics, programming_languages]
+  author:
+  - first: Grigore
+    last: Rosu
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - logics
+  - programming_languages
   date: 2000-05-01
+  hidden: 'false'
   id: rosu-2000-tr
+  institution: University of California at San Diego
+  month: May
   number: http://roger.ucsd.edu/record=b7304233~S9
-  project_url: ''
   title: Abstract Semantics for Module Composition
+  type: techreport
+  year: '2000'
 layout: paper
 title: Abstract Semantics for Module Composition
 ---

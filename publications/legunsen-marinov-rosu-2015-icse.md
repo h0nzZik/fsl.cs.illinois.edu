@@ -12,17 +12,40 @@ bib:
     can significantly improve usability and performance when applied across multiple
     versions of an application, and is complementary to algorithmic MOP advances on
     single versions.
-  authors: [Owolabi Legunsen, Darko Marinov, Grigore Rosu]
+  author:
+  - first: Owolabi
+    last: Legunsen
+  - first: Darko
+    last: Marinov
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Owolabi Legunsen and Darko Marinov and Grigore Rosu
+  authors:
+  - id: owolabi-legunsen
+    text: Owolabi Legunsen
+  - id: darko-marinov
+    text: Darko Marinov
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: The 37th International Conference on Software Engineering (ICSE'15)
   booktitle_acronym: ICSE NIER'15
   booktitle_url: http://2015.icse-conferences.org/NIER
-  categories: [fsl, javamop, runtime_verification]
+  category:
+  - fsl
+  - javamop
+  - runtime_verification
   date: 2015-05-01
+  doi: http://dx.doi.org/10.1109/ICSE.2015.206
   id: legunsen-marinov-rosu-2015-icse
+  month: May
   pages: 615-618
+  presentation: 2015-05-21-legunsen-marinov-rosu-ICSE
+  project_name: JavaMOP
   project_url: http://fsl.cs.illinois.edu/index.php/JavaMOP
   publisher: ACM
   title: Evolution-Aware Monitoring-Oriented Programming
+  type: inproceedings
+  year: '2015'
 layout: paper
 title: Evolution-Aware Monitoring-Oriented Programming
 ---

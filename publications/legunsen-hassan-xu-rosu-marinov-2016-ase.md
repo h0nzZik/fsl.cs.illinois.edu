@@ -18,19 +18,53 @@ bib:
     willing to fix; however, (3) the false alarm rates are worrisome and suggest that
     substantial effort needs to be spent on engineering better specs and properly
     evaluating their effectiveness.
-  authors: [Owolabi Legunsen, Wajih Ul Hassan, Xinyue Xu, Grigore Rosu, Darko Marinov]
+  author:
+  - first: Owolabi
+    last: Legunsen
+  - first: Wajih
+    last: Hassan
+    middle: Ul
+  - first: Xinyue
+    last: Xu
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Darko
+    last: Marinov
+  author_id: Owolabi Legunsen and Wajih Ul Hassan and Xinyue Xu and Grigore Rosu and
+    Darko Marinov
+  authors:
+  - id: owolabi-legunsen
+    text: Owolabi Legunsen
+  - id: wajih-ul-hassan
+    text: Wajih Ul Hassan
+  - id: xinyue-xu
+    text: Xinyue Xu
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: darko-marinov
+    text: Darko Marinov
   booktitle: 31st IEEE/ACM International Conference on Automated Software Engineering
     (ASE'16)
   booktitle_acronym: ASE 2016
   booktitle_url: http://www.ase2016.org/
-  categories: [fsl, javamop, runtime_verification]
+  category:
+  - fsl
+  - javamop
+  - runtime_verification
   date: 2016-09-01
+  doi: http://dx.doi.org/10.1145/2970276.2970356
   id: legunsen-hassan-xu-rosu-marinov-2016-ase
+  month: September
+  note: ACM Sigsoft Distinguished Paper
   pages: 602-613
+  presentation: 2016-09-07-legunsen-hassan-xu-rosu-marinov-ASE
+  project_name: JavaMOP
   project_url: https://github.com/runtimeverification
   publisher: IEEE/ACM
   title: How Good are the Specs? A Study of the Bug-Finding Effectiveness of Existing
     Java API Specifications
+  type: inproceedings
+  year: '2016'
 layout: paper
 title: How Good are the Specs? A Study of the Bug-Finding Effectiveness of Existing
   Java API Specifications

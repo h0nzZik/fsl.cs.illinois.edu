@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import sys
 import os
@@ -46,34 +46,24 @@ def fslbib(path, id):
 
 def paper_to_yaml(paper):
     assert(type(paper.category) == list)
-
-    # Required fields
-    bib = { 'id':         paper.id
-          , 'title':      paper.title
-          , 'date':       paper.date
-          , 'authors':    paper.author_id
-          , 'categories': paper.category
-          , 'abstract':   paper.abstract
-          }
-
-    # Optional Fields
-    if hasattr(paper, 'publisher'):           bib['publisher']         =  paper.publisher
-    if hasattr(paper, 'booktitle'):           bib['booktitle']         =  paper.booktitle
-    if hasattr(paper, 'booktitle_acronym'):   bib['booktitle_acronym'] =  paper.booktitle_acronym
-    if hasattr(paper, 'booktitle_url'):       bib['booktitle_url']     =  paper.booktitle_url
-
-    if hasattr(paper, 'numpages'):            bib['numpages']          =  paper.numpages
-    if hasattr(paper, 'pages'):               bib['pages']             =  paper.pages
-
-    if hasattr(paper, 'project'):             bib['project']           =  paper.project
-    if hasattr(paper, 'project_url'):         bib['project_url']       =  paper.project_url
-    if hasattr(paper, 'number'):              bib['number']            =  paper.number
- 
-    return yaml.safe_dump({ 'bib': bib 
+    bib = yaml.safe_load(paper.entry.to_string('yaml'))['entries'][paper.id]
+    bib['id']   = paper.id
+    bib['date']   = paper.date
+    bib['authors'] = list(map(make_links, paper.author_id))
+    bib['category'] = paper.category
+    return yaml.safe_dump({ 'bib': bib
                           , 'title':  paper.title
                           , 'layout': 'paper' 
                           }
                          )
+
+def make_links(author_id):
+  if (author_id.startswith("http")):
+    split = author_id.split(' ', maxsplit = 1)
+    return { 'href': split[0], 'text': split[1] }
+  else:
+    split = map(str.lower, author_id.split(' '))
+    return { 'id': '-'.join(split), 'text': author_id }
 
 def fsl_dir(*args):
     up = os.path.dirname

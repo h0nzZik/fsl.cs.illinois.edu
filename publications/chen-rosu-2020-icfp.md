@@ -14,18 +14,39 @@ bib:
     property that is not enjoyed by many existing lambda-calculus semantics. This
     work is part of a larger effort to develop a logical foundation for the programming
     language semantics framework K (http://kframework.org).
-  authors: [Xiaohong Chen, Grigore Rosu]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 25\textsuperscript{th} ACM SIGPLAN International Conference
     on Functional Programming (ICFP'20)
   booktitle_acronym: ICFP'20
   booktitle_url: https://icfp20.sigplan.org/
-  categories: [fsl, matching_logic]
+  category:
+  - fsl
+  - matching_logic
   date: 2020-08-01
   id: chen-rosu-2020-icfp
+  month: Aug
+  number: '88'
+  numpages: '32'
   pages: 1-32
+  presentation: 2020-08-ICFP
+  project_name: Matching Logic
   project_url: https://github.com/runtimeverification
   publisher: ACM/IEEE
   title: A General Approach to Define Binders Using Matching Logic
+  type: InProceedings
+  url: https://doi.org/10.1145/3408970
+  volume: '4'
+  year: '2020'
 layout: paper
 title: A General Approach to Define Binders Using Matching Logic
 ---

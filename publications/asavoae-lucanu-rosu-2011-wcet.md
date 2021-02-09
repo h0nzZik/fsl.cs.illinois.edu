@@ -10,19 +10,47 @@ bib:
     discovery and elimination of erroneous execution paths can not only improve the
     WCET estimation, but can also be achieved using off-the-shelf technology for rewrite-based
     semantics.'
-  authors: [Mihail Asavoae, Dorel Lucanu, Grigore Rosu]
+  author:
+  - first: Mihail
+    last: Asavoae
+  - first: Dorel
+    last: Lucanu
+  - first: Grigore
+    last: Rosu
+  author_id: Mihail Asavoae and Dorel Lucanu and Grigore Rosu
+  authors:
+  - id: mihail-asavoae
+    text: Mihail Asavoae
+  - id: dorel-lucanu
+    text: Dorel Lucanu
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 11th Workshop on Worst-Case Execution-Time Analysis
     (WCET'11)
   booktitle_acronym: WCET'11
   booktitle_url: http://www.artist-embedded.org/artist/Overview,2317.html
-  categories: [fsl, k, matching_logic, program_verification, executable_semantics,
-    programming_languages, semantics]
+  category:
+  - fsl
+  - k
+  - matching_logic
+  - program_verification
+  - executable_semantics
+  - programming_languages
+  - semantics
   date: 2011-07-01
+  doi: ''
   id: asavoae-lucanu-rosu-2011-wcet
+  month: July
   pages: ''
+  presentation: 2011-07-WCET
+  project_name: Matching Logic
   project_url: http://matching-logic.org
-  publisher: ''
+  publisher: Austrian Computer Society
+  series: ''
   title: Towards Semantics-Based WCET Analysis
+  type: inproceedings
+  volume: ''
+  year: '2011'
 layout: paper
 title: Towards Semantics-Based WCET Analysis
 ---

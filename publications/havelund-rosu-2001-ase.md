@@ -14,18 +14,38 @@ bib:
     engine for performing these experiments. The work constitutes part of the Java
     PathExplorer (\JPaXX) project, the purpose of which is to develop a flexible tool
     for monitoring Java program executions.
-  authors: [Klaus Havelund, Grigore Rosu]
+  author:
+  - first: Klaus
+    last: Havelund
+  - first: Grigore
+    last: Rosu
+  author_id: Klaus Havelund and Grigore Rosu
+  authors:
+  - id: klaus-havelund
+    text: Klaus Havelund
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 16th IEEE International Conference. Automated Software
     Engineering (ASE'01)
   booktitle_acronym: ASE'01
   booktitle_url: http://ase-conferences.org/ase/past/ase2001/
-  categories: [runtime_verification, testing, javamop, rewrite_logic]
+  category:
+  - runtime_verification
+  - testing
+  - javamop
+  - rewrite_logic
   date: 2001-05-01
+  doi: http://dx.doi.org/10.1109/ASE.2001.989799
   id: havelund-rosu-2001-ase
+  month: May
   pages: 135-143
+  presentation: 2001-11-ASE
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/MOP
   publisher: IEEE
   title: Monitoring Programs using Rewriting
+  type: inproceedings
+  year: '2001'
 layout: paper
 title: Monitoring Programs using Rewriting
 ---

@@ -12,18 +12,38 @@ bib:
     to the standard operators. This work is part of the PathExplorer project, the
     objective of which it is to construct a flexible framework for monitoring and
     analyzing program executions.
-  authors: [Klaus Havelund, Grigore Rosu]
+  author:
+  - first: Klaus
+    last: Havelund
+  - first: Grigore
+    last: Rosu
+  author_id: Klaus Havelund and Grigore Rosu
+  authors:
+  - id: klaus-havelund
+    text: Klaus Havelund
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 8th International Conference on Tools and Algorithms
     for the Construction and Analysis of Systems (TACAS'02)
   booktitle_acronym: TACAS'02
   booktitle_url: http://www.etaps.org/2002/Tacas/tacas.html
-  categories: [javamop, runtime_verification]
+  category:
+  - javamop
+  - runtime_verification
   date: 2002-04-01
+  doi: http://dx.doi.org/10.1007/3-540-46002-0_24
   id: havelund-rosu-2002-tacas
+  month: April
   pages: 342-356
+  presentation: 2002-04-TACAS
+  project_name: MOP
   project_url: https://github.com/runtimeverification
-  publisher: LNCS
+  publisher: Springer
+  series: LNCS
   title: Synthesizing Monitors for Safety Properties
+  type: inproceedings
+  volume: '2280'
+  year: '2002'
 layout: paper
 title: Synthesizing Monitors for Safety Properties
 ---

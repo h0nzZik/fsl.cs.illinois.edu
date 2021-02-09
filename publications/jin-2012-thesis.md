@@ -31,12 +31,26 @@ bib:
     Considering that the previous version of JavaMOP was one of the most efficient
     parametric monitoring frameworks in terms of runtime performance, the results
     presented in the dissertation can be argued significant.'
-  authors: [Dongyun Jin]
-  categories: [fsl, runtime_verification]
+  author:
+  - first: Dongyun
+    last: Jin
+  author_id: Dongyun Jin
+  authors:
+  - id: dongyun-jin
+    text: Dongyun Jin
+  category:
+  - fsl
+  - runtime_verification
   date: 2012-08-01
+  doi: http://hdl.handle.net/2142/34333
   id: jin-2012-thesis
+  month: August
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
+  school: University of Illinois at Urbana-Champaign
   title: Making Runtime Monitoring of Parametric Properties Practical
+  type: phdthesis
+  year: '2012'
 layout: paper
 title: Making Runtime Monitoring of Parametric Properties Practical
 ---

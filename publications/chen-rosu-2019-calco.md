@@ -7,18 +7,39 @@ bib:
     foundation of K and discuss some of its applications in defining constructors,
     transition systems, modal mu-logic and temporal logic variants, and reachability
     logic.
-  authors: [Xiaohong Chen, Grigore Rosu]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 8\textsuperscript{th} Conference on Algebra and Coalgebra
     in Computer Science (CALCO'19)
   booktitle_acronym: CALCO'19
   booktitle_url: https://www.coalg.org/calco-mfps-2019/calco/
-  categories: [fsl, matching_logic, program_verification]
+  category:
+  - fsl
+  - matching_logic
+  - program_verification
   date: 2019-06-01
+  doi: https://doi.org/10.4230/LIPIcs.CALCO.2019.1
   id: chen-rosu-2019-calco
+  month: June
   pages: 1-4
+  presentation: 2019-06-03-CALCO
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
-  publisher: Leibniz International Proceedings in Informatics (LIPIcs)
+  publisher: Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik
+  series: Leibniz International Proceedings in Informatics (LIPIcs)
   title: 'Matching mu-Logic: Foundation of K Framework'
+  type: inproceedings
+  volume: '139'
+  year: '2019'
 layout: paper
 title: 'Matching mu-Logic: Foundation of K Framework'
 ---

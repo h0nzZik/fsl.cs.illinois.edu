@@ -11,18 +11,39 @@ bib:
     property learner. The presented technique has been implemented in jMiner, which
     has been used to automatically mine many meaningful and non-trivial parametric
     properties of OpenJDK 6.'
-  authors: [Choonghwan Lee, Feng Chen, Grigore Rosu]
+  author:
+  - first: Choonghwan
+    last: Lee
+  - first: Feng
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Choonghwan Lee and Feng Chen and Grigore Rosu
+  authors:
+  - id: choonghwan-lee
+    text: Choonghwan Lee
+  - id: feng-chen
+    text: Feng Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceeding of the 33rd International Conference on Software Engineering
     (ICSE'11)
   booktitle_acronym: ICSE'11
   booktitle_url: http://2011.icse-conferences.org
-  categories: [fsl]
+  category:
+  - fsl
   date: 2011-05-01
+  doi: http://doi.acm.org/10.1145/1985793.1985874
   id: lee-chen-rosu-2011-icse
+  month: May
   pages: 591-600
+  presentation: 2011-05-27-ICSE
+  project_name: JMiner
   project_url: http://fsl.cs.illinois.edu/index.php/JMiner
   publisher: ACM
   title: Mining Parametric Specifications
+  type: inproceedings
+  year: '2011'
 layout: paper
 title: Mining Parametric Specifications
 ---

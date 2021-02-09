@@ -15,14 +15,38 @@ bib:
     evaluated. Measurements of runtime overhead confirm that the generality of the
     discussed techniques does not come at a performance expense when compared with
     existing parametric trace monitoring systems.
-  authors: [Grigore Rosu, Feng Chen]
-  categories: [fsl, javamop, logics, runtime_verification]
+  author:
+  - first: Grigore
+    last: Ro{\c s}u
+  - first: Feng
+    last: Chen
+  author_id: Grigore Rosu and Feng Chen
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: feng-chen
+    text: Feng Chen
+  category:
+  - fsl
+  - javamop
+  - logics
+  - runtime_verification
   date: 2012-02-01
+  doi: http://dx.doi.org/10.2168/LMCS-8(1:9)2012
   id: rosu-chen-2012-lmcs
+  journal: Logical Methods in Computer Science
+  journal_acronym: J.LMCS
+  journal_url: http://www.lmcs-online.org/index.php
+  month: Feb
+  note: Short version presented at TACAS 2009
   number: '1'
   pages: 1-47
+  project_name: MOP
   project_url: http://fsl.cs.uiuc.edu/index.php/MOP
   title: Semantics and Algorithms for Parametric Monitoring
+  type: article
+  volume: '8'
+  year: '2012'
 layout: paper
 title: Semantics and Algorithms for Parametric Monitoring
 ---

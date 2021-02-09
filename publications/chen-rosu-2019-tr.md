@@ -14,13 +14,32 @@ bib:
     for programming language semantics and formal analysis. Matching mu-logic therefore
     serves as a unifying foundation for specifying and reasoning about fixpoints and
     induction, programming languages and program specification and verification.
-  authors: [Xiaohong Chen, Grigore Rosu]
-  categories: [fsl, matching_logic, program_verification]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
+  - program_verification
   date: 2019-01-01
+  hidden: 'false'
   id: chen-rosu-2019-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: January
   number: http://hdl.handle.net/2142/102281
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Matching mu-Logic
+  type: techreport
+  year: '2019'
 layout: paper
 title: Matching mu-Logic
 ---

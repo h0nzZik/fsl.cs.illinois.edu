@@ -13,17 +13,39 @@ bib:
     in MTL or certain important sublogics of it. We also present lower bounds for
     the monitoring problem, showing that the presented algorithms are asymptotically
     optimal.
-  authors: [Prasanna Thati, Grigore Rosu]
+  author:
+  - first: Prasanna
+    last: Thati
+  - first: Grigore
+    last: Rosu
+  author_id: Prasanna Thati and Grigore Rosu
+  authors:
+  - id: prasanna-thati
+    text: Prasanna Thati
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 5rd International Workshop on Runtime Verification (RV'05)
   booktitle_acronym: RV'05
   booktitle_url: https://www.react.uni-saarland.de/rv2005/
-  categories: [fsl, logics, automated_reasoning, rewrite_logic, runtime_verification]
+  category:
+  - fsl
+  - logics
+  - automated_reasoning
+  - rewrite_logic
+  - runtime_verification
   date: 2005-06-01
+  doi: http://dx.doi.org/10.1016/j.entcs.2004.01.029
   id: thati-rosu-2005-rv
+  month: June
   pages: 145-162
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
-  publisher: Electronic Notes in Theoretical Computer Science
+  publisher: Elsevier
+  series: Electronic Notes in Theoretical Computer Science
   title: Monitoring Algorithms for Metric Temporal Logic
+  type: inproceedings
+  volume: '113'
+  year: '2005'
 layout: paper
 title: Monitoring Algorithms for Metric Temporal Logic
 ---

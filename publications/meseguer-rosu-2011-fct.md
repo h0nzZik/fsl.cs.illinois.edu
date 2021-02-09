@@ -9,19 +9,45 @@ bib:
     of languages; scalability to real languages; support for real time; semantics
     of software and hardware modeling languages; and semantics-based analysis tools
     such as static analyzers, model checkers, and program provers.'
-  authors: [Jose Meseguer, Grigore Rosu]
+  author:
+  - first: Jos{\'e}
+    last: Meseguer
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Jose Meseguer and Grigore Rosu
+  authors:
+  - id: jose-meseguer
+    text: Jose Meseguer
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 17th International Symposium on Fundamentals of Computation
     Theory (FCT'11)
   booktitle_acronym: FCT'11
   booktitle_url: http://fct11.ifi.uio.no/
-  categories: [fsl, logics, program_verification, matching_logic, executable_semantics,
-    programming_languages, semantics, k, rewrite_logic]
+  category:
+  - fsl
+  - logics
+  - program_verification
+  - matching_logic
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - k
+  - rewrite_logic
   date: 2011-08-01
+  doi: http://dl.acm.org/citation.cfm?id=2034214.2034215
   id: meseguer-rosu-2011-fct
+  month: August
+  note: Invited talk
   pages: 1-37
+  project_name: K
   project_url: http://k-framework.org
-  publisher: Lecture Notes in Computer Science
+  publisher: Springer
+  series: Lecture Notes in Computer Science
   title: 'The Rewriting Logic Semantics Project: A Progress Report'
+  type: inproceedings
+  volume: '6914'
+  year: '2011'
 layout: paper
 title: 'The Rewriting Logic Semantics Project: A Progress Report'
 ---

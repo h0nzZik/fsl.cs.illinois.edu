@@ -16,18 +16,37 @@ bib:
     facilitates defining sub-patterns that one may reason about, such as disjoint
     lists or trees in the heap, as well as supporting framing in various components
     of the configuration at no additional costs.'
-  authors: [Grigore Rosu, Andrei Stefanescu]
+  author:
+  - first: Grigore
+    last: Ro{\c s}u
+  - first: Andrei
+    last: '{\c S}tef{\u a}nescu'
+  author_id: Grigore Rosu and Andrei Stefanescu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
   booktitle: 2010 Workshop on Usable Verification (UV'10)
   booktitle_acronym: UV'10
   booktitle_url: http://fm.csl.sri.com/UV10/
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2010-11-01
   id: rosu-stefanescu-2010-uv
-  pages: ''
+  month: Nov
+  presentation: 2010-rosu-stefanescu-UV
+  project_name: Matching Logic
   project_url: http://matching-logic.org/
-  publisher: ''
   title: 'Matching Logic: A New Program Verification Approach'
+  to_appear: 'false'
+  type: inproceedings
+  year: '2010'
 layout: paper
 title: 'Matching Logic: A New Program Verification Approach'
 ---

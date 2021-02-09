@@ -9,13 +9,39 @@ bib:
     allows formal reasoning about HA using ML's proof system. Our approach exposes
     HA to a rich set of tools that operate over ML and provide a sound logical basis
     for various techniques like Deductive Verification, Monitoring and Runtime Verification.
-  authors: [Manasvi Saxena, Nishant Rodrigues, Xiaohong Chen, Grigore Rosu]
-  categories: [fsl, matching_logic]
+  author:
+  - first: Manasvi
+    last: Saxena
+  - first: Nishant
+    last: Rodrigues
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Manasvi Saxena and Nishant Rodrigues and Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: manasvi-saxena
+    text: Manasvi Saxena
+  - id: nishant-rodrigues
+    text: Nishant Rodrigues
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
   date: 2020-04-01
+  hidden: 'false'
   id: saxena-rodrigues-chen-rosu-2020-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: April
   number: http://hdl.handle.net/2142/106822
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Formal Semantics of Hybrid Automata
+  type: techreport
+  year: '2020'
 layout: paper
 title: Formal Semantics of Hybrid Automata
 ---

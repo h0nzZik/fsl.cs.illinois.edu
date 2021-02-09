@@ -24,18 +24,46 @@ bib:
     by programmers who do not (and need not) understand the internals of the underlying
     logic solvers, significantly increasing their applicability in building reliable
     systems.
-  authors: [Xiaokang Qiu, Pranav Garg, Andrei Stefanescu, Parthasarathy Madhusudan]
+  author:
+  - first: Xiaokang
+    last: Qiu
+  - first: Pranav
+    last: Garg
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  - first: Parthasarathy
+    last: Madhusudan
+  author_id: Xiaokang Qiu and Pranav Garg and Andrei Stefanescu and Parthasarathy
+    Madhusudan
+  authors:
+  - id: xiaokang-qiu
+    text: Xiaokang Qiu
+  - id: pranav-garg
+    text: Pranav Garg
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
+  - id: parthasarathy-madhusudan
+    text: Parthasarathy Madhusudan
   booktitle: Proceedings of the 34th Conference on Programming Language Design and
     Implementation (PLDI'13)
   booktitle_acronym: PLDI'13
   booktitle_url: http://pldi2013.ucombinator.org/
-  categories: [logics, program_verification, automated_reasoning]
+  category:
+  - logics
+  - program_verification
+  - automated_reasoning
   date: 2013-06-01
+  doi: http://dx.doi.org/10.1145/2499370.2462169
   id: qiu-garg-stefanescu-madhusudan-2013-pldi
+  month: June
   pages: 231-242
+  presentation: pldi13_dryad2
+  project_name: Dryad
   project_url: http://www.cs.uiuc.edu/~madhu/dryad/
   publisher: ACM
   title: Natural Proofs for Structure, Data, and Separation
+  type: inproceedings
+  year: '2013'
 layout: paper
 title: Natural Proofs for Structure, Data, and Separation
 ---

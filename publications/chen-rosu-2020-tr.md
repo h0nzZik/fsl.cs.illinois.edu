@@ -14,13 +14,32 @@ bib:
     property that is not enjoyed by many existing lambda-calculus semantics. This
     work is part of a larger effort to develop a logical foundation for the programming
     language semantics framework K (http://kframework.org).
-  authors: [Xiaohong Chen, Grigore Rosu]
-  categories: [fsl, matching_logic, program_verification]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
+  - program_verification
   date: 2020-06-01
+  hidden: 'false'
   id: chen-rosu-2020-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: June
   number: http://hdl.handle.net/2142/106608
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: A General Approach to Define Binders Using Matching Logic
+  type: techreport
+  year: '2020'
 layout: paper
 title: A General Approach to Define Binders Using Matching Logic
 ---

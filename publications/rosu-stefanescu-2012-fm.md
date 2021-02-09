@@ -14,18 +14,42 @@ bib:
     The presented technique has two consequences: first, it suggests that matching
     logic reachability has no theoretical limitation over Hoare logic; and second,
     it provides a new approach to prove Hoare logics sound.'
-  authors: [Grigore Rosu, Andrei Stefanescu]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  author_id: Grigore Rosu and Andrei Stefanescu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
   booktitle: Proceedings of the 18th International Symposium on Formal Methods (FM'12)
   booktitle_acronym: FM'12
   booktitle_url: http://fm2012.cnam.fr/
-  categories: [fsl, executable_semantics, k, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - k
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2012-08-01
+  doi: http://dx.doi.org/10.1007/978-3-642-32759-9_32
   id: rosu-stefanescu-2012-fm
+  month: Aug
   pages: 387-402
+  presentation: 2012-08-30-rosu-stefanescu-FM
+  project_name: Matching Logic
   project_url: http://matching-logic.org
-  publisher: LNCS
+  publisher: Springer
+  series: LNCS
   title: From Hoare Logic to Matching Logic Reachability
+  type: inproceedings
+  volume: '7436'
+  year: '2012'
 layout: paper
 title: From Hoare Logic to Matching Logic Reachability
 ---

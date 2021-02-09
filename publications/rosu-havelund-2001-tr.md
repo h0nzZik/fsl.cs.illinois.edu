@@ -8,13 +8,31 @@ bib:
     input. The generated algorithm runs in linear time, its constant depending on
     the size of the LTL formula. The memory needed is constant, also depending on
     the size of the formula.
-  authors: [Grigore Rosu, Klaus Havelund]
-  categories: [logics, programming_languages, runtime_verification, javamop]
+  author:
+  - first: Grigore
+    last: Rosu
+  - first: Klaus
+    last: Havelund
+  author_id: Grigore Rosu and Klaus Havelund
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: klaus-havelund
+    text: Klaus Havelund
+  category:
+  - logics
+  - programming_languages
+  - runtime_verification
+  - javamop
   date: 2001-01-01
+  hidden: 'false'
   id: rosu-havelund-2001-tr
+  institution: Research Institute for Advanced Computer Science
+  month: January
   number: https://ti.arc.nasa.gov/m/pub-archive/archive/0220.pdf
-  project_url: ''
   title: Synthesizing Dynamic Programming Algorithms from Linear Temporal Logic Formulae
+  type: techreport
+  year: '2001'
 layout: paper
 title: Synthesizing Dynamic Programming Algorithms from Linear Temporal Logic Formulae
 ---

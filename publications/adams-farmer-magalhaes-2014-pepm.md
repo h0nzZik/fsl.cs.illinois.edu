@@ -11,18 +11,43 @@ bib:
     the structure of SYB. It optimizes SYB-style traversals to be as fast as handwritten,
     non-generic code, and benchmarks show that this optimization improves the speed
     of SYB-style code by an order of magnitude or more.
-  authors: [Michael D. Adams, Andrew Farmer, Jose Pedro Magalhaes]
+  address: New York, NY, USA
+  author:
+  - first: Michael
+    last: Adams
+    middle: D.
+  - first: Andrew
+    last: Farmer
+  - first: Jos{\'e}
+    last: Magalh{\~a}es
+    middle: Pedro
+  author_id: Michael D. Adams and Andrew Farmer and Jose Pedro Magalhaes
+  authors:
+  - id: michael-d.-adams
+    text: Michael D. Adams
+  - id: andrew-farmer
+    text: Andrew Farmer
+  - id: jose-pedro-magalhaes
+    text: Jose Pedro Magalhaes
   booktitle: Proceedings of the ACM SIGPLAN 2014 Workshop on Partial Evaluation and
     Program Manipulation
   booktitle_acronym: PEPM'14
   booktitle_url: http://www.program-transformation.org/PEPM14
-  categories: [fsl]
+  category:
+  - fsl
   date: 2014-01-01
+  doi: http://dx.doi.org/10.1145/2543728.2543730
   id: adams-farmer-magalhaes-2014-pepm
+  isbn: 978-1-4503-2619-3
+  month: January
   pages: 71-82
+  presentation: 2014-01-20-adams-farmer-magalhaes-pepm
+  project_name: Optimizing SYB
   project_url: https://github.com/xich/hermit-syb
   publisher: ACM
   title: Optimizing {SYB} is Easy!
+  type: inproceedings
+  year: '2014'
 layout: paper
 title: Optimizing {SYB} is Easy!
 ---

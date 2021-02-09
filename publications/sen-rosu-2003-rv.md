@@ -16,18 +16,41 @@ bib:
     believe that our technique is more efficient than the simplistic method based
     on complementation of automata which can quickly lead to a highly-exponential
     state explosion.
-  authors: [Koushik Sen, Grigore Rosu]
+  author:
+  - first: Koushik
+    last: Sen
+  - first: Grigore
+    last: Rosu
+  author_id: Koushik Sen and Grigore Rosu
+  authors:
+  - id: koushik-sen
+    text: Koushik Sen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 3rd International Workshop on Runtime Verification (RV'03)
   booktitle_acronym: RV'03
   booktitle_url: https://rtg.cis.upenn.edu/rv2003/
-  categories: [fsl, executable_semantics, logics, automated_reasoning, rewrite_logic,
-    runtime_verification, circular_coinduction]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - automated_reasoning
+  - rewrite_logic
+  - runtime_verification
+  - circular_coinduction
   date: 2003-06-01
+  doi: http://dx.doi.org/10.1016/S1571-0661(04)81051-X
   id: sen-rosu-2003-rv
+  month: June
   pages: 226-245
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
-  publisher: Electronic Notes in Theoretical Computer Science
+  publisher: Elsevier
+  series: Electronic Notes in Theoretical Computer Science
   title: Generating Optimal Monitors for Extended Regular Expressions
+  type: inproceedings
+  volume: 89(2)
+  year: '2003'
 layout: paper
 title: Generating Optimal Monitors for Extended Regular Expressions
 ---

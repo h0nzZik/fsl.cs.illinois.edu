@@ -19,18 +19,41 @@ bib:
     tens of millions of critical events. These experiments also revealed several previously
     unknown races in real systems (e.g., Eclipse) that have been confirmed or fixed
     by the developers. Our tool is also adopted by Eclipse developers.
-  authors: [Jeff Huang, Patrick Meredith, Grigore Rosu]
+  author:
+  - first: Jeff
+    last: Huang
+  - first: Patrick
+    last: Meredith
+  - first: Grigore
+    last: Rosu
+  author_id: Jeff Huang and Patrick Meredith and Grigore Rosu
+  authors:
+  - id: jeff-huang
+    text: Jeff Huang
+  - id: patrick-meredith
+    text: Patrick Meredith
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 35th annual ACM SIGPLAN conference on Programming
     Language Design and Implementation (PLDI'14)
   booktitle_acronym: PLDI'14
   booktitle_url: http://conferences.inf.ed.ac.uk/pldi2014/
-  categories: [fsl, runtime_verification, testing]
+  category:
+  - fsl
+  - runtime_verification
+  - testing
   date: 2014-06-01
+  doi: http://dx.doi.org/10.1145/2594291.2594315
   id: huang-meredith-rosu-2014-pldi
+  month: June
   pages: 337-348
+  presentation: 2014-06-10-PLDI
+  project_name: jPredictor
   project_url: http://fsl.cs.illinois.edu/jPredictor
   publisher: ACM
   title: Maximal Sound Predictive Race Detection with Control Flow Abstraction
+  type: inproceedings
+  year: '2014'
 layout: paper
 title: Maximal Sound Predictive Race Detection with Control Flow Abstraction
 ---

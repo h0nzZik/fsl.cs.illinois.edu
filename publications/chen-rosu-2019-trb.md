@@ -15,13 +15,32 @@ bib:
     type systems, evaluation contexts, and rewriting. Finally, it is shown how all
     these make AML an appropriate underlying logic foundation for complex language
     semantics frameworks, such as K.
-  authors: [Xiaohong Chen, Grigore Rosu]
-  categories: [fsl, matching_logic, program_verification]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
+  - program_verification
   date: 2019-07-01
+  hidden: 'false'
   id: chen-rosu-2019-trb
+  institution: University of Illinois at Urbana-Champaign
+  month: July
   number: http://hdl.handle.net/2142/104616
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: 'Applicative Matching Logic: Semantics of K'
+  type: techreport
+  year: '2019'
 layout: paper
 title: 'Applicative Matching Logic: Semantics of K'
 ---

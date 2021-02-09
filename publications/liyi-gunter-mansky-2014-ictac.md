@@ -21,17 +21,41 @@ bib:
     symbolic trace refinement and build a model checker based on it. The model checker
     was transcribed by hand into Maude as automatic extraction of Maude code is not
     yet supported by the Isabelle system.
-  authors: [Liyi Li, Elsa Gunter, William Mansky]
+  author:
+  - first: Liyi
+    last: Li
+  - first: Elsa
+    last: Gunter
+  - first: William
+    last: Mansky
+  author_id: Liyi Li and Elsa Gunter and William Mansky
+  authors:
+  - id: liyi-li
+    text: Liyi Li
+  - id: elsa-gunter
+    text: Elsa Gunter
+  - id: william-mansky
+    text: William Mansky
   booktitle: "Theoretical Aspects of Computing \u2013 ICTAC 2014"
   booktitle_acronym: ICTAC'14
   booktitle_url: http://fmi.unibuc.ro/ictac2014/
-  categories: [executable_semantics, logics, program_verification, programming_languages]
+  category:
+  - executable_semantics
+  - logics
+  - program_verification
+  - programming_languages
   date: 2014-09-01
+  doi: http://dx.doi.org/10.1007/978-3-319-10882-7
   id: liyi-gunter-mansky-2014-ictac
+  month: Sep
   pages: 295-313
+  presentation: 2014-09-18-ICTAC
+  project_name: Holistic CSP
   project_url: http://www.cs.illinois.edu/~egunter/fms/HCSP/
   publisher: Springer International Publishing
   title: Symbolic Analysis Tools for CSP
+  type: inproceedings
+  year: '2014'
 layout: paper
 title: Symbolic Analysis Tools for CSP
 ---

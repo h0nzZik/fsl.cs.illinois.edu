@@ -20,19 +20,50 @@ bib:
     the average RV overhead from 9.4x (for base RV) to 1.8x, without missing any new
     violations. VMS reduces the average number of violations 540x, from 54 violations
     per version (for base RV) to one violation per 10 versions.'
-  authors: [Owolabi Legunsen, Yi Zhang, Milica Hadzi-Tanovic, Grigore Rosu, Darko
-      Marinov]
+  author:
+  - first: Owolabi
+    last: Legunsen
+  - first: Yi
+    last: Zhang
+  - first: Milica
+    last: Hadzi-Tanovic
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Darko
+    last: Marinov
+  author_id: Owolabi Legunsen and Yi Zhang and Milica Hadzi-Tanovic and Grigore Rosu
+    and Darko Marinov
+  authors:
+  - id: owolabi-legunsen
+    text: Owolabi Legunsen
+  - id: yi-zhang
+    text: Yi Zhang
+  - id: milica-hadzi-tanovic
+    text: Milica Hadzi-Tanovic
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: darko-marinov
+    text: Darko Marinov
   booktitle: 2019 12th IEEE Conference on Software Testing, Validation and Verification
     (ICST)
   booktitle_acronym: ICST 2019
   booktitle_url: http://icst2019.xjtu.edu.cn/
-  categories: [fsl, javamop, runtime_verification]
+  category:
+  - fsl
+  - javamop
+  - runtime_verification
   date: 2019-04-01
+  doi: https://doi.org/10.1109/ICST.2019.00037
   id: legunsen-zhang-hadzi-rosu-marinov-2019-icst
+  month: April
   pages: 300-311
+  presentation: 2019-4-26-ICST
+  project_name: JavaMOP
   project_url: https://github.com/runtimeverification
   publisher: IEEE
   title: Techniques for Evolution-Aware Runtime Verification
+  type: inproceedings
+  year: '2019'
 layout: paper
 title: Techniques for Evolution-Aware Runtime Verification
 ---

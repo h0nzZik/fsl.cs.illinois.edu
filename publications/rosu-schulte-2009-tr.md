@@ -19,14 +19,37 @@ bib:
     RLS of languages. This relationship allows to prove soundness of matching logic
     formal systems w.r.t. complementary, testable semantics. All notions are exemplified
     using KernelC, a fragment of C with dynamic memory allocation/deallocation.'
-  authors: [Grigore Rosu, Wolfram Schulte]
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages, k, rewrite_logic]
+  author:
+  - first: Grigore
+    last: Rosu
+  - first: Wolfram
+    last: Schulte
+  author_id: Grigore Rosu and Wolfram Schulte
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: wolfram-schulte
+    text: Wolfram Schulte
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
+  - k
+  - rewrite_logic
   date: 2009-01-01
+  hidden: 'false'
   id: rosu-schulte-2009-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: January
   number: http://hdl.handle.net/2142/10790
+  project_name: Matching Logic
   project_url: http://matching-logic.org/
   title: Matching Logic --- Extended Report
+  type: techreport
+  year: '2009'
 layout: paper
 title: Matching Logic --- Extended Report
 ---

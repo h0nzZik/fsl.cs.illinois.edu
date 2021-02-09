@@ -11,18 +11,34 @@ bib:
     and ignored by standard compilers. We do not modify the language in order to support
     units. The approach can be extended to incorporate other safety policies without
     great efforts.
-  authors: [Grigore Rosu, Feng Chen]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Feng
+    last: Chen
+  author_id: Grigore Rosu and Feng Chen
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: feng-chen
+    text: Feng Chen
   booktitle: Proceedings of the 18th IEEE International Conference on Automated Software
     Engineering (ASE'03)
   booktitle_acronym: ASE'03
   booktitle_url: http://ase-conferences.org/ase/past/ase2003/index.htm
-  categories: [fsl]
+  category:
+  - fsl
   date: 2003-10-01
+  doi: http://doi.ieeecomputersociety.org/10.1109/ASE.2003.10002
   id: rosu-chen-2003-ase
+  month: October
   pages: 304-309
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
   publisher: IEEE
   title: Certifying Measurement Unit Safety Policy
+  type: inproceedings
+  year: '2003'
 layout: paper
 title: Certifying Measurement Unit Safety Policy
 ---

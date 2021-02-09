@@ -11,18 +11,42 @@ bib:
     correctness of the languages tools is guaranteed on a case-by-case basis by proof
     objects, which encode rigorous mathematical proofs as certificates for every individual
     tasks that the tools do and can be mechanically checked by third-party proof checkers.
-  authors: [Xiaohong Chen, Grigore Rosu]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Grigore
+    last: Rosu
+  author_id: Xiaohong Chen and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Engineering Trustworthy Software Systems
   booktitle_acronym: SETSS'19
-  booktitle_url: ''
-  categories: [fsl, executable_semantics, k, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - k
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2019-01-01
+  editor:
+  - first: Jonathan
+    last: Bowen
+  - first: Zhiming
+    last: Liu
   id: chen-rosu-2019-setss
-  pages: ''
+  presentation: 2019-04-21_22-SETSS
+  project_name: K
   project_url: http://kframework.org
-  publisher: Lecture Notes in Computer Science
+  publisher: Springer
+  series: Lecture Notes in Computer Science
   title: '{SETSS}''19 Lecture Notes on {K}'
+  type: inproceedings
+  year: '2019'
 layout: paper
 title: '{SETSS}''19 Lecture Notes on {K}'
 ---

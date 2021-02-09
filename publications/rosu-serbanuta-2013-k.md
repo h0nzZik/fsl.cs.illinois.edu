@@ -7,18 +7,43 @@ bib:
     A case study is also discussed, namely the K definition of the dynamic and static
     semantics of SIMPLE, a non-trivial imperative programming language. The material
     discussed in this paper was presented in an invited talk at the K'11 workshop.
-  authors: [Grigore Rosu, Traian Florin Serbanuta]
+  author:
+  - first: Grigore
+    last: Rosu
+  - first: Traian
+    last: Serbanuta
+    middle: Florin
+  author_id: Grigore Rosu and Traian Florin Serbanuta
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
   booktitle: Proceedings of International K Workshop (K'11)
   booktitle_acronym: K'11
   booktitle_url: http://www.kframework.org/K11/
-  categories: [fsl, logics, executable_semantics, programming_languages, semantics,
-    k, rewrite_logic]
+  category:
+  - fsl
+  - logics
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - k
+  - rewrite_logic
   date: 2014-06-01
+  doi: http://dx.doi.org/10.1016/j.entcs.2014.05.002
   id: rosu-serbanuta-2013-k
+  month: June
   pages: 3-56
+  presentation: 2011-08-31-K-and-Matching-Logic
+  project_name: K
   project_url: http://kframework.org
-  publisher: ENTCS
+  publisher: Elsevier
+  series: ENTCS
   title: K Overview and SIMPLE Case Study
+  type: inproceedings
+  volume: '304'
+  year: '2014'
 layout: paper
 title: K Overview and SIMPLE Case Study
 ---

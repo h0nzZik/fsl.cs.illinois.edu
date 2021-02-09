@@ -30,12 +30,28 @@ bib:
     K concurrent rewriting obtained through an embedding in graph rewriting; and (4)
     a description of the K-Maude tool, a tool for defining programming languages using
     the K technique on top of the Maude rewriting language.'
-  authors: [Traian Florin Serbanuta]
-  categories: [fsl, programming_languages]
+  author:
+  - first: Traian
+    last: \c{S}erb\u{a}nu\c{t}\u{a}
+    middle: Florin
+  author_id: Traian Florin Serbanuta
+  authors:
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
+  category:
+  - fsl
+  - programming_languages
   date: 2010-12-01
+  doi: https://www.ideals.illinois.edu/handle/2142/18252
   id: serbanuta-2010-thesis
+  month: December
+  presentation: serbanuta-2010-thesis-slides
+  project_name: K
   project_url: http://www.kframework.org
+  school: University of Illinois at Urbana-Champaign
   title: A Rewriting Approach to Concurrent Programming Language Design and Semantics
+  type: phdthesis
+  year: '2010'
 layout: paper
 title: A Rewriting Approach to Concurrent Programming Language Design and Semantics
 ---

@@ -13,15 +13,50 @@ bib:
     efficiency, especially in comparison with similar systems. The implementation
     of BusMOP is discussed in detail. In general, BusMOP imposes no runtime overhead
     on the system it is monitoring.'
-  authors: [Patrick O'Neil Meredith, Dongyun Jin, Dennis Griffith, Feng Chen, Grigore
-      Rosu]
-  categories: [fsl, runtime_verification]
+  author:
+  - first: Patrick
+    last: Meredith
+    middle: O'Neil
+  - first: Dongyun
+    last: Jin
+  - first: Dennis
+    last: Griffith
+  - first: Feng
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Patrick O'Neil Meredith and Dongyun Jin and Dennis Griffith and Feng
+    Chen and Grigore Rosu
+  authors:
+  - id: patrick-o'neil-meredith
+    text: Patrick O'Neil Meredith
+  - id: dongyun-jin
+    text: Dongyun Jin
+  - id: dennis-griffith
+    text: Dennis Griffith
+  - id: feng-chen
+    text: Feng Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - runtime_verification
   date: 2011-06-01
+  doi: http://dx.doi.org/10.1007/s10009-011-0198-6
   id: meredith-jin-griffith-chen-rosu-2011-jsttt
+  journal: International Journal on Software Techniques for Technology Transfer
+  journal_acronym: J.STTT
+  journal_url: http://sttt.cs.uni-dortmund.de/index.html
+  month: June
   number: '3'
   pages: 249-289
+  project_name: MOP
   project_url: http://fsl.cs.uiuc.edu/index.php/MOP
+  publisher: Springer
   title: An Overview of the {MOP} Runtime Verification Framework
+  type: article
+  volume: '14'
+  year: '2011'
 layout: paper
 title: An Overview of the {MOP} Runtime Verification Framework
 ---

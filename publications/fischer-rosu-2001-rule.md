@@ -14,18 +14,39 @@ bib:
     properties. This can be used to select an appropriate abstract interpretation,
     to characterize the specific loss of information during abstraction, and to compare
     different abstractions with each other.
-  authors: [Bernd Fischer, Grigore Rosu]
+  author:
+  - first: Bernd
+    last: Fischer
+  - first: Grigore
+    last: Rosu
+  author_id: Bernd Fischer and Grigore Rosu
+  authors:
+  - id: bernd-fischer
+    text: Bernd Fischer
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 2nd International Workshop on Rule-Based Programming (RULE'01)
   booktitle_acronym: RULE'01
-  booktitle_url: ''
-  categories: [automated_reasoning, program_verification, executable_semantics, programming_languages,
-    semantics, rewrite_logic]
+  category:
+  - automated_reasoning
+  - program_verification
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - rewrite_logic
   date: 2001-06-01
+  doi: http://dx.doi.org/10.1016/S1571-0661(04)00292-0
   id: fischer-rosu-2001-rule
+  month: June
   pages: 271-285
+  project_name: Maude
   project_url: http://maude.cs.illinois.edu
-  publisher: Electronic Notes in Theoretical Computer Science
+  publisher: Elsevier
+  series: Electronic Notes in Theoretical Computer Science
   title: Interpreting Abstract Interpretations in Membership Equational Logic
+  type: inproceedings
+  volume: 59(4)
+  year: '2001'
 layout: paper
 title: Interpreting Abstract Interpretations in Membership Equational Logic
 ---

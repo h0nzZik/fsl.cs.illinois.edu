@@ -13,13 +13,36 @@ bib:
     these techniques, which were derived following a thorough investigation and analysis
     of the current bottlenecks in JavaMOP, improve its runtime performance in the
     presence of multiple properties by up to two times and the memory usage by 34\%.
-  authors: [Dongyun Jin, Patrick O'Neil Meredith, Grigore Rosu]
-  categories: [fsl, runtime_verification]
+  author:
+  - first: Dongyun
+    last: Jin
+  - first: Patrick
+    last: Meredith
+    middle: O'Neil
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Dongyun Jin and Patrick O'Neil Meredith and Grigore Rosu
+  authors:
+  - id: dongyun-jin
+    text: Dongyun Jin
+  - id: patrick-o'neil-meredith
+    text: Patrick O'Neil Meredith
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - runtime_verification
   date: 2012-04-01
+  hidden: 'false'
   id: jin-meredith-rosu-2012-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: April
   number: http://hdl.handle.net/2142/30757
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
   title: Scalable Parametric Runtime Monitoring
+  type: techreport
+  year: '2012'
 layout: paper
 title: Scalable Parametric Runtime Monitoring
 ---

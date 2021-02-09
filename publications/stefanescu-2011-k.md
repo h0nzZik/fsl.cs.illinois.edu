@@ -13,18 +13,36 @@ bib:
     for program verification, and the evaluation of the tool on a large number of
     programs, including complex ones, like programs implementing the AVL trees data
     structure and the Schorr-Waite graph marking algorithm.
-  authors: [Andrei Stefanescu]
+  author:
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  author_id: Andrei Stefanescu
+  authors:
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
   booktitle: International K Workshop
   booktitle_acronym: K'11
-  booktitle_url: ''
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2011-08-01
+  doi: http://dx.doi.org/10.1016/j.entcs.2014.05.010
   id: stefanescu-2011-k
-  pages: ''
+  month: August
+  project_name: Matching Logic
   project_url: http://matching-logic.org/
-  publisher: ENTCS
+  publisher: Springer
+  series: ENTCS
   title: 'MatchC: A Matching Logic Reachability Verifier Using the {K} Framework'
+  type: inproceedings
+  volume: '304'
+  xbooktitle_url: http://vsl2014.at/pages/RTATLCA-cfp.html
+  xpages: 425-440
+  year: '2011'
 layout: paper
 title: 'MatchC: A Matching Logic Reachability Verifier Using the {K} Framework'
 ---

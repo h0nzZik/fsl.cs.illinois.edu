@@ -13,17 +13,38 @@ bib:
     not only for streams. Finally, behavioral productivity is shown to be equivalent
     to a proof-theoretic (rather than model-theoretic) notion of behavioral well-specifiedness,
     and its difficulty in the arithmetic hierarchy is shown to be <math>\Pi_2^0</math>-complete.
-  authors: [Grigore Rosu, Dorel Lucanu]
+  author:
+  - first: Grigore
+    last: Rosu
+  - first: Dorel
+    last: Lucanu
+  author_id: Grigore Rosu and Dorel Lucanu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: dorel-lucanu
+    text: Dorel Lucanu
   booktitle: Festschrift in Honor of Kokichi Futatsugi
   booktitle_acronym: Futatsugi Festschrift 2014
   booktitle_url: http://www.ldl.jaist.ac.jp/futatsugifest/
-  categories: [fsl, automated_reasoning, behavioral_equivalence, circular_coinduction]
+  category:
+  - fsl
+  - automated_reasoning
+  - behavioral_equivalence
+  - circular_coinduction
   date: 2014-04-01
+  doi: http://dx.doi.org/10.1007/978-3-642-54624-2_15
   id: rosu-lucanu-2014-futatsugi
+  month: April
   pages: 296-314
+  presentation: 2014-04-14-Futatsugi
+  project_name: CIRC
   project_url: http://fsl.cs.illinois.edu/circ
-  publisher: LNCS
+  series: LNCS
   title: Behavioral Rewrite Systems and Behavioral Productivity
+  type: inproceedings
+  volume: '8373'
+  year: '2014'
 layout: paper
 title: Behavioral Rewrite Systems and Behavioral Productivity
 ---

@@ -18,20 +18,75 @@ bib:
     and two different-language implementations of the ERC20 Standard Token are verified
     against the ERC20 specification. These results are encouraging for the executable
     semantics approach to language prototyping and specification.'
-  authors: [Everett Hildenbrandt, Manasvi Saxena, Xiaoran Zhu, Nishant Rodrigues,
-    Philip Daian, Dwight Guth, Brandon Moore, Yi Zhang, Daejun Park, Andrei Stefanescu,
-    Grigore Rosu]
+  author:
+  - first: Everett
+    last: Hildenbrandt
+  - first: Manasvi
+    last: Saxena
+  - first: Xiaoran
+    last: Zhu
+  - first: Nishant
+    last: Rodrigues
+  - first: Philip
+    last: Daian
+  - first: Dwight
+    last: Guth
+  - first: Brandon
+    last: Moore
+  - first: Yi
+    last: Zhang
+  - first: Daejun
+    last: Park
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Everett Hildenbrandt and Manasvi Saxena and Xiaoran Zhu and Nishant Rodrigues
+    and Philip Daian and Dwight Guth and Brandon Moore and Yi Zhang and Daejun Park
+    and Andrei Stefanescu and Grigore Rosu
+  authors:
+  - id: everett-hildenbrandt
+    text: Everett Hildenbrandt
+  - id: manasvi-saxena
+    text: Manasvi Saxena
+  - id: xiaoran-zhu
+    text: Xiaoran Zhu
+  - id: nishant-rodrigues
+    text: Nishant Rodrigues
+  - id: philip-daian
+    text: Philip Daian
+  - id: dwight-guth
+    text: Dwight Guth
+  - id: brandon-moore
+    text: Brandon Moore
+  - id: yi-zhang
+    text: Yi Zhang
+  - id: daejun-park
+    text: Daejun Park
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: 2018 IEEE 31st Computer Security Foundations Symposium
-  booktitle_acronym: CSF 2018
+  booktitle_acronym: CSF'18
   booktitle_url: https://www.cs.ox.ac.uk/conferences/csf2018/
-  categories: [k, semantics, executable_semantics, evm, ethereum, virtual_machine,
-    fsl]
+  category:
+  - k
+  - semantics
+  - executable_semantics
+  - evm
+  - ethereum
+  - virtual_machine
+  - fsl
   date: 2018-01-01
   id: hildenbrandt-saxena-zhu-rodrigues-daian-guth-moore-zhang-park-rosu-2018-csf
   pages: 204-217
+  project_name: KEVM
   project_url: http://github.com/kframework/evm-semantics/
   publisher: IEEE
   title: 'KEVM: A Complete Semantics of the Ethereum Virtual Machine'
+  type: inproceedings
+  year: '2018'
 layout: paper
 title: 'KEVM: A Complete Semantics of the Ethereum Virtual Machine'
 ---

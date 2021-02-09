@@ -13,18 +13,43 @@ bib:
     Firefox SpiderMonkey) and in other semantics. KJS is symbolically executable,
     thus it can be used for formal analysis and verification of JavaScript programs.
     We verified non-trivial programs and found a known security vulnerability.'
-  authors: [Daejun Park, Andrei Stefanescu, Grigore Rosu]
+  author:
+  - first: Daejun
+    last: Park
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Daejun Park and Andrei Stefanescu and Grigore Rosu
+  authors:
+  - id: daejun-park
+    text: Daejun Park
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 36th ACM SIGPLAN Conference on Programming Language
     Design and Implementation (PLDI'15)
   booktitle_acronym: PLDI'15
   booktitle_url: http://conf.researchr.org/home/pldi2015
-  categories: [fsl, executable_semantics, programming_languages, semantics, k]
+  category:
+  - fsl
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - k
   date: 2015-06-01
+  doi: http://dx.doi.org/10.1145/2737924.2737991
   id: park-stefanescu-rosu-2015-pldi
+  month: June
   pages: 346-356
+  presentation: 2015-06-16-park-stefanescu-rosu-PLDI
+  project_name: Semantics
   project_url: https://github.com/kframework/javascript-semantics
   publisher: ACM
   title: '{KJS}: A Complete Formal Semantics of {JavaScript}'
+  type: inproceedings
+  year: '2015'
 layout: paper
 title: '{KJS}: A Complete Formal Semantics of {JavaScript}'
 ---

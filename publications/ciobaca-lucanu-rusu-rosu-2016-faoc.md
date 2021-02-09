@@ -14,15 +14,48 @@ bib:
     is an interesting case study since it is not known weather the sequence terminates
     or not; nevertheless, our proof system shows that the two programs are fully equivalent
     (even if we cannot establish termination or divergence of either one).'
-  authors: [Stefan Ciobaca, Dorel Lucanu, Vlad Rusu, Grigore Rosu]
-  categories: [fsl, executable_semantics, logics, matching_logic, k, program_verification,
-    programming_languages]
+  author:
+  - first: Stefan
+    last: Ciobaca
+  - first: Dorel
+    last: Lucanu
+  - first: Vlad
+    last: Rusu
+  - first: Grigore
+    last: Rosu
+  author_id: Stefan Ciobaca and Dorel Lucanu and Vlad Rusu and Grigore Rosu
+  authors:
+  - id: stefan-ciobaca
+    text: Stefan Ciobaca
+  - id: dorel-lucanu
+    text: Dorel Lucanu
+  - id: vlad-rusu
+    text: Vlad Rusu
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - k
+  - program_verification
+  - programming_languages
   date: 2016-05-01
+  doi: http://dx.doi.org/10.1007/s00165-016-0361-7
   id: ciobaca-lucanu-rusu-rosu-2016-faoc
+  journal: Formal Aspects of Computing
+  journal_acronym: J.FAOC
+  journal_url: http://link.springer.com/journal/165
+  month: May
   number: '3'
   pages: 469-497
+  project_name: Matching Logic
   project_url: http://matching-logic.org
   title: A Language-Independent Proof System for Full Program Equivalence
+  type: article
+  volume: '28'
+  year: '2016'
 layout: paper
 title: A Language-Independent Proof System for Full Program Equivalence
 ---

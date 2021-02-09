@@ -18,19 +18,61 @@ bib:
     sample security properties, and show an example of a real security violation mitigated
     by RV-Android on-device. Lastly, we propose RV as an extension to the next-generation
     Android permissions system debuting in Android M.
-  authors: [Philip Daian, Ylies Falcone, Patrick Meredith, Traian Florin Serbanuta,
-    Shinichi Shiraishi, Akihito Iwai, Grigore Rosu]
+  author:
+  - first: Philip
+    last: Daian
+  - first: Yli{\`{e}}s
+    last: Falcone
+  - first: Patrick
+    last: Meredith
+    middle: O'Neil
+  - first: Traian{-}Florin
+    last: Serbanuta
+  - first: Shinichi
+    last: Shiraishi
+  - first: Akihito
+    last: Iwai
+  - first: Grigore
+    last: Rosu
+  author_id: Philip Daian and Ylies Falcone and Patrick Meredith and Traian Florin
+    Serbanuta and Shinichi Shiraishi and Akihito Iwai and Grigore Rosu
+  authors:
+  - id: philip-daian
+    text: Philip Daian
+  - id: ylies-falcone
+    text: Ylies Falcone
+  - id: patrick-meredith
+    text: Patrick Meredith
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
+  - id: shinichi-shiraishi
+    text: Shinichi Shiraishi
+  - id: akihito-iwai
+    text: Akihito Iwai
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Runtime Verification - 15th International Conference, {RV} 2015 Vienna,
     Austria, September 22-25, 2015. Proceedings
   booktitle_acronym: RV'15
   booktitle_url: http://rv2015.conf.tuwien.ac.at/
-  categories: [fsl, javamop, runtime_verification]
+  category:
+  - fsl
+  - javamop
+  - runtime_verification
   date: 2015-09-01
+  doi: http://dx.doi.org/10.1007/978-3-319-23820-3_24
   id: daian-falcone-meredith-serbanuta-shiriashi-iwai-rosu-2015-rv
+  month: September
   pages: 342-357
+  presentation: 2015-09-22-RV
+  project_name: RV-Android
   project_url: https://runtimeverification.com/android/
-  publisher: Lecture Notes in Computer Science
+  publisher: Springer
+  series: Lecture Notes in Computer Science
   title: 'RV-Android: Efficient Parametric Android Runtime Verification, a Brief Tutorial'
+  type: inproceedings
+  volume: '9333'
+  year: '2015'
 layout: paper
 title: 'RV-Android: Efficient Parametric Android Runtime Verification, a Brief Tutorial'
 ---

@@ -10,19 +10,42 @@ bib:
     program, which uses a subset of the features of Java. The semantics is applied
     to model-check multi-threaded programs. Both the test suite and the static semantics
     are generic and ready to be used in other Java-related projects.
-  authors: [Denis Bogdanas, Grigore Rosu]
+  author:
+  - first: Denis
+    last: Bogd\u{a}na\c{s}
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Denis Bogdanas and Grigore Rosu
+  authors:
+  - id: denis-bogdanas
+    text: Denis Bogdanas
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 42nd Symposium on Principles of Programming Languages
     (POPL'15)
   booktitle_acronym: POPL'15
   booktitle_url: http://popl.mpi-sws.org/2015/
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages, semantics, k]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
+  - semantics
+  - k
   date: 2015-01-01
+  doi: http://dx.doi.org/10.1145/2676726.2676982
   id: bogdanas-rosu-2015-popl
+  month: January
   pages: 445-456
+  presentation: 2015-01-16-K-Java-POPL/2015-01-16-K-Java-POPL
+  project_name: K-Java
   project_url: https://github.com/kframework/java-semantics
   publisher: ACM
   title: '{K-Java: A Complete Semantics of Java}'
+  type: inproceedings
+  year: '2015'
 layout: paper
 title: '{K-Java: A Complete Semantics of Java}'
 ---

@@ -9,18 +9,42 @@ bib:
     a module system proposal for the K framework. It describes K modules and module
     transformations in terms of institution-based model theory introduced by Goguen
     and Burstall.
-  authors: [Codruta Girlea, Grigore Rosu]
+  author:
+  - first: Codruta
+    last: Girlea
+  - first: Grigore
+    last: Rosu
+  author_id: Codruta Girlea and Grigore Rosu
+  authors:
+  - id: codruta-girlea
+    text: Codruta Girlea
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of International K Workshop (K'11)
   booktitle_acronym: K'11
   booktitle_url: http://www.kframework.org/K11/
-  categories: [fsl, logics, executable_semantics, programming_languages, semantics,
-    k, rewrite_logic]
+  category:
+  - fsl
+  - logics
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - k
+  - rewrite_logic
   date: 2014-06-01
+  doi: http://dx.doi.org/10.1016/j.entcs.2014.05.007
   id: girlea-rosu-2013-k
+  month: June
   pages: 127-149
+  presentation: 2011-08-15-K-Modules
+  project_name: K
   project_url: http://kframework.org
-  publisher: ENTCS
+  publisher: Elsevier
+  series: ENTCS
   title: Abstract Semantics for K Module Composition
+  type: inproceedings
+  volume: '304'
+  year: '2014'
 layout: paper
 title: Abstract Semantics for K Module Composition
 ---

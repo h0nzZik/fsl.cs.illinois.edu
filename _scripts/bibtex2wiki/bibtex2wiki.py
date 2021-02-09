@@ -161,7 +161,7 @@ class Paper(object):
     except ValueError:
       print_error("<" + self.id + "> " + "invalid year " + entry.fields["year"])
       yyyy = 1900
-      print "===", self.get_id_year()
+      print("===", self.get_id_year())
     except KeyError:
       yyyy = self.get_id_year()
 
@@ -727,15 +727,12 @@ def get_bib_file(year_dir, paper_id):
   return bib_file
 
 def parse_bib(bib_file):
-  if (not path.isfile(bib_file)):
-    print_warning("no such .bib file " + bib_file)
-    return None
-
   try:
     parser = bibtex_in.Parser()
     bib_data = parser.parse_file(bib_file)
-  except:
+  except Exception as e:
     print_error("cannot parse .bib file " + bib_file)
+    print(e)
     return None
 
   return bib_data
@@ -1038,5 +1035,5 @@ if __name__ == "__main__":
     for paper in papers:
       output = paper.get_wiki_content()
       if (output != None):
-        print output
+        print(output)
 

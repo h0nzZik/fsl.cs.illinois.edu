@@ -16,13 +16,36 @@ bib:
     although defined axiomatically, the set of traces comprised by the proposed model
     are shown to be effectively constructed from the original trace. Thus, maximal
     causal models are also amenable for developing practical analysis tools.'
-  authors: [Traian Florin Serbanuta, Feng Chen, Grigore Rosu]
-  categories: [fsl, runtime_verification]
+  author:
+  - first: Traian
+    last: \c{S}erb\u{a}nu\c{t}\u{a}
+    middle: Florin
+  - first: Feng
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Traian Florin Serbanuta and Feng Chen and Grigore Rosu
+  authors:
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
+  - id: feng-chen
+    text: Feng Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - runtime_verification
   date: 2011-10-01
+  hidden: 'false'
   id: serbanuta-chen-rosu-2011-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: October
   number: http://hdl.handle.net/2142/27708
+  project_name: JPredictor
   project_url: http://fsl.cs.illinois.edu/index.php/JPredictor
   title: Maximal Causal Models for Sequentially Consistent Systems
+  type: techreport
+  year: '2011'
 layout: paper
 title: Maximal Causal Models for Sequentially Consistent Systems
 ---

@@ -11,12 +11,26 @@ bib:
     of 776 test programs. The semantics is also evaluated against popular analysis
     tools, using a new test suite in addition to a third-party test suite. The semantics-based
     tool performs at least as well or better than the other tools tested.
-  authors: [Chucky Ellison]
-  categories: [fsl, semantics]
+  author:
+  - first: Chucky
+    last: Ellison
+  author_id: Chucky Ellison
+  authors:
+  - id: chucky-ellison
+    text: Chucky Ellison
+  category:
+  - fsl
+  - semantics
   date: 2012-07-01
+  doi: http://hdl.handle.net/2142/34297
   id: ellison-2012-thesis
+  month: July
+  project_name: K
   project_url: http://fsl.cs.illinois.edu/k
+  school: University of Illinois
   title: A Formal Semantics of {C} with Applications
+  type: phdthesis
+  year: '2012'
 layout: paper
 title: A Formal Semantics of {C} with Applications
 ---

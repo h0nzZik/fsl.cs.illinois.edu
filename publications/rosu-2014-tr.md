@@ -14,13 +14,32 @@ bib:
     they can only be spatially separated. Like FOL, matching logic can also be translated
     into pure predicate logic with equality, but it also admits its own sound and
     complete proof system.'
-  authors: [Grigore Rosu]
-  categories: [fsl, matching_logic, k, logics, program_verification, semantics, executable_semantics]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
+  - k
+  - logics
+  - program_verification
+  - semantics
+  - executable_semantics
   date: 2014-01-01
+  hidden: 'false'
   id: rosu-2014-tr
+  institution: University of Illinois
+  month: Jan
   number: http://hdl.handle.net/2142/47004
+  project_name: Matching Logic
   project_url: http://matching-logic.org
   title: 'Matching Logic: A Logic for Structural Reasoning'
+  type: techreport
+  year: '2014'
 layout: paper
 title: 'Matching Logic: A Logic for Structural Reasoning'
 ---

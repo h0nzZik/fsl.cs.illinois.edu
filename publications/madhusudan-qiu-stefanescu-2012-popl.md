@@ -13,18 +13,42 @@ bib:
     This results in the first automatic terminating methodology for proving a wide
     variety of annotated algorithms on tree data-structures correct, including max-heaps,
     treaps, red-black trees, AVL trees, binomial heaps, and B-trees.
-  authors: [Parthasarathy Madhusudan, Xiaokang Qiu, Andrei Stefanescu]
+  author:
+  - first: Parthasarathy
+    last: Madhusudan
+  - first: Xiaokang
+    last: Qiu
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  author_id: Parthasarathy Madhusudan and Xiaokang Qiu and Andrei Stefanescu
+  authors:
+  - id: parthasarathy-madhusudan
+    text: Parthasarathy Madhusudan
+  - id: xiaokang-qiu
+    text: Xiaokang Qiu
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
   booktitle: Proceedings of the 39th Symposium on Principles of Programming Languages
     (POPL'12)
   booktitle_acronym: POPL'12
   booktitle_url: http://www.cse.psu.edu/popl/12/
-  categories: [fsl, logics, program_verification, automated_reasoning]
+  category:
+  - fsl
+  - logics
+  - program_verification
+  - automated_reasoning
   date: 2012-01-01
+  doi: http://dl.acm.org/citation.cfm?doid=2103656.2103673
   id: madhusudan-qiu-stefanescu-2012-popl
+  month: Jan
   pages: 123-136
+  presentation: 2012-01-26-madhusudan-qiu-stefanescu-POPL
+  project_name: Dryad
   project_url: http://www.cs.uiuc.edu/~madhu/dryad/
   publisher: ACM
   title: Recursive Proofs for Inductive Tree Data-Structures
+  type: inproceedings
+  year: '2012'
 layout: paper
 title: Recursive Proofs for Inductive Tree Data-Structures
 ---

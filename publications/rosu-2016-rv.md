@@ -8,19 +8,38 @@ bib:
     are natural and expected, except for one rule of coinductive nature, reminiscent
     of the Goedel-Loeb axiom. A direct decision procedure for finite-trace LTL satisfiability,
     a PSPACE-complete problem, is also obtained as a corollary.
-  authors: [Grigore Rosu]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Runtime Verification - 16th International Conference, {RV} 2016 Madrid,
     Spain, September 23-30, 2016, Proceedings
   booktitle_acronym: RV'16
   booktitle_url: https://rv2016.imag.fr/
-  categories: [fsl, logics, automated_reasoning, program_verification, matching_logic,
-    semantics]
+  category:
+  - fsl
+  - logics
+  - automated_reasoning
+  - program_verification
+  - matching_logic
+  - semantics
   date: 2016-09-01
+  doi: http://dx.doi.org/10.1007/978-3-319-46982-9_21
   id: rosu-2016-rv
+  month: September
   pages: 333-350
+  presentation: 2016-09-29-RV
+  project_name: Matching Logic
   project_url: http://matching-logic.org/
-  publisher: LNCS
+  publisher: Springer
+  series: LNCS
   title: 'Finite-Trace Linear Temporal Logic: Coinductive Completeness'
+  type: inproceedings
+  volume: '10012'
+  year: '2016'
 layout: paper
 title: 'Finite-Trace Linear Temporal Logic: Coinductive Completeness'
 ---

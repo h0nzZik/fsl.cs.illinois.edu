@@ -13,13 +13,37 @@ bib:
     datatypes and codatatypes. To encourage the development of the future tools for
     matching logic, we propose and use throughout the paper a human-readable formal
     syntax to write specifications in a modular and compact way.
-  authors: [Xiaohong Chen, Dorel Lucanu, Grigore Rosu]
-  categories: [fsl, matching_logic, program_verification]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Dorel
+    last: Lucanu
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Dorel Lucanu and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: dorel-lucanu
+    text: Dorel Lucanu
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
+  - program_verification
   date: 2020-07-01
+  hidden: 'false'
   id: chen-lucanu-rosu-2020-trb
+  institution: University of Illinois at Urbana-Champaign and Alexandru Ioan Cuza
+    University
+  month: July
   number: http://hdl.handle.net/2142/107794
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Matching Logic Explained
+  type: TechReport
+  year: '2020'
 layout: paper
 title: Matching Logic Explained
 ---

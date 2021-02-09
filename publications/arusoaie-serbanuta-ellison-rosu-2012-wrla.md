@@ -7,18 +7,47 @@ bib:
     the external objects concept and Maude's TCP sockets. This interface was evaluated
     as part of the K framework, providing interactive interpreter capabilities for
     executing and testing programs for multiple language definitions.
-  authors: [Andrei Arusoaie, Traian Florin Serbanuta, Chucky Ellison, Grigore Rosu]
+  author:
+  - first: Andrei
+    last: Arusoaie
+  - first: Traian
+    last: \c{S}erb\u{a}nu\c{t}\u{a}
+    middle: Florin
+  - first: Chucky
+    last: Ellison
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Andrei Arusoaie and Traian Florin Serbanuta and Chucky Ellison and Grigore
+    Rosu
+  authors:
+  - id: andrei-arusoaie
+    text: Andrei Arusoaie
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
+  - id: chucky-ellison
+    text: Chucky Ellison
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 9th International Workshop on Rewriting Logic and its
     Applications (WRLA'12)
   booktitle_acronym: WRLA'12
   booktitle_url: http://wrla2012.lcc.uma.es/
-  categories: [fsl, k]
+  category:
+  - fsl
+  - k
   date: 2012-03-01
+  doi: http://dx.doi.org/10.1007/978-3-642-34005-5_5
   id: arusoaie-serbanuta-ellison-rosu-2012-wrla
+  month: March
   pages: 83-98
+  project_name: K
   project_url: http://www.kframework.org
-  publisher: LNCS
+  publisher: Springer
+  series: LNCS
   title: Making {Maude} Definitions more Interactive
+  type: inproceedings
+  volume: '7571'
+  year: '2012'
 layout: paper
 title: Making {Maude} Definitions more Interactive
 ---

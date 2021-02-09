@@ -9,19 +9,48 @@ bib:
     of Kool, a pedagogical and research language that captures the essence of the
     object-oriented programming paradigm. This is a first step toward a generic methodology
     for modularly adding future-based mechanisms to allow asynchronous method calls.
-  authors: [Dorel Lucanu, Traian Florin Serbanuta, Grigore Rosu]
+  author:
+  - first: Dorel
+    last: Lucanu
+  - first: Traian
+    last: \c{S}erb\u{a}nu\c{t}\u{a}
+    middle: Florin
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Dorel Lucanu and Traian Florin Serbanuta and Grigore Rosu
+  authors:
+  - id: dorel-lucanu
+    text: Dorel Lucanu
+  - id: traian-florin-serbanuta
+    text: Traian Florin Serbanuta
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: 'Theory and Practice of Formal Methods: Essays Dedicated to Frank de
     Boer on the Occasion of His 60th Birthday'
   booktitle_acronym: Boer's Festschrift
   booktitle_url: http://www.springer.com/us/book/9783319307336
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages, semantics, k]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
+  - semantics
+  - k
   date: 2016-01-01
+  doi: http://dx.doi.org/10.1007/978-3-319-30734-3_22
   id: lucanu-serbanuta-rosu-2016-boer
+  month: January
   pages: 325-343
+  project_name: K
   project_url: http://kframework.org
-  publisher: LNCS
+  publisher: Springer
+  series: LNCS
   title: Towards a Kool Future
+  type: inproceedings
+  volume: '9660'
+  year: '2016'
 layout: paper
 title: Towards a Kool Future
 ---

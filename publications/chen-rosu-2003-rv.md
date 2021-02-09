@@ -18,18 +18,36 @@ bib:
     such as design by contract and aspect oriented programming. A prototype has been
     implemented for Java, which currently supports requirements expressed using past
     time and future time linear temporal logics, as well as extended regular expressions.
-  authors: [Feng Chen, Grigore Rosu]
+  author:
+  - first: Feng
+    last: Chen
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Feng Chen and Grigore Rosu
+  authors:
+  - id: feng-chen
+    text: Feng Chen
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 3rd International Workshop on Runtime Verification (RV'03)
   booktitle_acronym: RV'03
   booktitle_url: https://rtg.cis.upenn.edu/rv2003
-  categories: [fsl]
+  category:
+  - fsl
   date: 2003-06-01
+  doi: http://dx.doi.org/10.1016/S1571-0661(04)81045-4
   id: chen-rosu-2003-rv
+  month: June
   pages: 108-127
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
-  publisher: Electronic Notes in Theoretical Computer Science
+  publisher: Elsevier
+  series: Electronic Notes in Theoretical Computer Science
   title: 'Towards Monitoring-Oriented Programming: A Paradigm Combining Specification
     and Implementation'
+  type: inproceedings
+  volume: 89(2)
+  year: '2003'
 layout: paper
 title: 'Towards Monitoring-Oriented Programming: A Paradigm Combining Specification
   and Implementation'

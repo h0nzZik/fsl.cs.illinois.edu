@@ -18,15 +18,46 @@ bib:
     state-of-the-art automated provers for specific domains, we believe brings some
     evidence and hope that a unified framework for automated reasoning is not out
     of reach.
-  authors: [Xiaohong Chen, Minh-Thai Trinh, Nishant Rodrigues, Lucas Pena, Grigore
-      Rosu]
-  categories: [fsl, matching_logic, program_verification]
+  author:
+  - first: Xiaohong
+    last: Chen
+  - first: Minh-Thai
+    last: Trinh
+  - first: Nishant
+    last: Rodrigues
+  - first: Lucas
+    last: Pe{\~{n}}a
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Xiaohong Chen and Minh-Thai Trinh and Nishant Rodrigues and Lucas Pena
+    and Grigore Rosu
+  authors:
+  - id: xiaohong-chen
+    text: Xiaohong Chen
+  - id: minh-thai-trinh
+    text: Minh-Thai Trinh
+  - id: nishant-rodrigues
+    text: Nishant Rodrigues
+  - id: lucas-pena
+    text: Lucas Pena
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - matching_logic
+  - program_verification
   date: 2020-09-01
+  hidden: 'false'
   id: chen-pena-rodrigues-rosu-trinh-2020-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: September
   number: http://hdl.handle.net/2142/108369
+  project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using
     Matching Logic
+  type: TechReport
+  year: '2020'
 layout: paper
 title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using Matching
   Logic

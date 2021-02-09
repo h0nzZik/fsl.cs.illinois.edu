@@ -16,18 +16,39 @@ bib:
     that one may reason about, such as disjoint lists or trees in the heap, as well
     as supporting framing in various components of the configuration at no additional
     costs.'
-  authors: [Grigore Rosu, Andrei Stefanescu]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  author_id: Grigore Rosu and Andrei Stefanescu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
   booktitle: Proceedings of the 33rd International Conference on Software Engineering
     (ICSE'11)
   booktitle_acronym: ICSE'11
   booktitle_url: http://2011.icse-conferences.org
-  categories: [fsl, executable_semantics, logics, matching_logic, k]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - k
   date: 2011-05-01
+  doi: http://doi.acm.org/10.1145/1985793.1985928
   id: rosu-stefanescu-2011-icse
+  month: May
   pages: 868-871
+  presentation: 2011-05-25-ICSE-NIER
+  project_name: Matching Logic
   project_url: http://matching-logic.org
   publisher: ACM
   title: 'Matching Logic: A New Program Verification Approach (NIER Track)'
+  type: inproceedings
+  year: '2011'
 layout: paper
 title: 'Matching Logic: A New Program Verification Approach (NIER Track)'
 ---

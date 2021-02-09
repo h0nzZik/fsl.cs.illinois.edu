@@ -14,18 +14,39 @@ bib:
     The presented algorithm uses a modified version of Aho-Corasick string searching
     for quick pattern matching with an incremental rewriting approach that avoids
     reexamining parts of the string known to contain no redexes.'
-  authors: [Patrick Meredith, Grigore Rosu]
+  author:
+  - first: Patrick
+    last: Meredith
+  - first: Grigore
+    last: Rosu
+  author_id: Patrick Meredith and Grigore Rosu
+  authors:
+  - id: patrick-meredith
+    text: Patrick Meredith
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of 28th IEEE/ACM International Conference. Automated Software
     Engineering (ASE'13)
   booktitle_acronym: ASE'13
   booktitle_url: http://ase2013.org
-  categories: [fsl, runtime_verification, testing, javamop]
+  category:
+  - fsl
+  - runtime_verification
+  - testing
+  - javamop
   date: 2013-05-01
+  doi: http://dx.doi.org/10.1109/ASE.2013.6693067
+  hidden: 'false'
   id: meredith-rosu-2013-ase
+  month: May
   pages: 70-80
+  presentation: 2013-09-12-ASE
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/MOP
   publisher: IEEE/ACM
   title: Efficient Parametric Runtime Verification with Deterministic String Rewriting
+  type: inproceedings
+  year: '2013'
 layout: paper
 title: Efficient Parametric Runtime Verification with Deterministic String Rewriting
 ---

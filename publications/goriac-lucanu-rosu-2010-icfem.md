@@ -15,18 +15,40 @@ bib:
     as well as of past and future extensions of circular coinduction and $\CIRC$,
     this paper also proposes a general correct-extension technique based on equational
     interpolants.
-  authors: [Eugen-Ioan Goriac, Dorel Lucanu, Grigore Rosu]
+  author:
+  - first: Eugen-Ioan
+    last: Goriac
+  - first: Dorel
+    last: Lucanu
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Eugen-Ioan Goriac and Dorel Lucanu and Grigore Rosu
+  authors:
+  - id: eugen-ioan-goriac
+    text: Eugen-Ioan Goriac
+  - id: dorel-lucanu
+    text: Dorel Lucanu
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 12th International Conference on Formal Engineering
     Methods (ICFEM'10)
   booktitle_acronym: ICFEM'10
   booktitle_url: http://dblp.uni-trier.de/db/conf/icfem/icfem2010.html
-  categories: [fsl, logics]
+  category:
+  - fsl
+  - logics
   date: 2010-11-01
+  doi: http://dx.doi.org/10.1007/978-3-642-16901-4_16
   id: goriac-lucanu-rosu-2010-icfem
+  month: November
   pages: 220-236
+  presentation: ''
+  project_name: Circ
   project_url: http://fsl.cs.illinois.edu/index.php/Circ
   publisher: Springer
   title: Automating Coinduction with Case Analysis
+  type: inproceedings
+  year: '2010'
 layout: paper
 title: Automating Coinduction with Case Analysis
 ---

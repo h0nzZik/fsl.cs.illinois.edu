@@ -22,18 +22,36 @@ bib:
     Analysis also features built in algorithms for race detection and atomicity violations,
     that are both highly useful in concurrent system design and difficult to specify
     in terms of formal specification languages.'
-  authors: [Patrick Meredith, Grigore Rosu]
+  author:
+  - first: Patrick
+    last: Meredith
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Patrick Meredith and Grigore Rosu
+  authors:
+  - id: patrick-meredith
+    text: Patrick Meredith
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the first International Conference on Runtime Verification
     (RV'10)
   booktitle_acronym: RV'10
   booktitle_url: http://www.rv2010.org/
-  categories: [fsl, runtime_verification]
+  category:
+  - fsl
+  - runtime_verification
   date: 2010-11-01
+  doi: http://dx.doi.org/10.1007/978-3-642-16612-9_12
   id: meredith-rosu-2010-rv
+  month: November
   pages: 136-152
+  presentation: meredith-rosu-rv-2010-slides
+  project_name: RV
   project_url: https://github.com/runtimeverification
   publisher: Springer
   title: Runtime Verification with the {RV} System
+  type: inproceedings
+  year: '2010'
 layout: paper
 title: Runtime Verification with the {RV} System
 ---

@@ -19,18 +19,46 @@ bib:
     shows that the average overhead of RV in the DaCapo benchmark is 15%, which is
     two times lower than that of JavaMOP and orders of magnitude lower than that of
     Tracematches.
-  authors: [Dongyun Jin, Patrick O'Neil Meredith, Dennis Griffith, Grigore Rosu]
+  author:
+  - first: Dongyun
+    last: Jin
+  - first: Patrick
+    last: Meredith
+    middle: O'Neil
+  - first: Dennis
+    last: Griffith
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Dongyun Jin and Patrick O'Neil Meredith and Dennis Griffith and Grigore
+    Rosu
+  authors:
+  - id: dongyun-jin
+    text: Dongyun Jin
+  - id: patrick-o'neil-meredith
+    text: Patrick O'Neil Meredith
+  - id: dennis-griffith
+    text: Dennis Griffith
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 32nd ACM SIGPLAN conference on Programming Language
     Design and Implementation (PLDI'11)
   booktitle_acronym: PLDI'11
   booktitle_url: http://pldi11.cs.utah.edu
-  categories: [fsl, runtime_verification]
+  category:
+  - fsl
+  - runtime_verification
   date: 2011-06-01
+  doi: http://doi.acm.org/10.1145/1993316.1993547
   id: jin-meredith-griffith-rosu-2011-pldi
+  month: June
   pages: 415-424
+  presentation: jin-meredith-griffith-rosu-2011-pldi-slides
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
   publisher: ACM
   title: Garbage Collection for Monitoring Parametric Properties
+  type: inproceedings
+  year: '2011'
 layout: paper
 title: Garbage Collection for Monitoring Parametric Properties
 ---

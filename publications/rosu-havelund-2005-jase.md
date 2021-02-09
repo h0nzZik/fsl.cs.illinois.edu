@@ -27,14 +27,37 @@ bib:
     project at NASA Ames, called {\sc PathExplorer}, and demonstrates that rewriting
     can be a tractable and attractive means for experimenting and implementing logics
     for program monitoring.
-  authors: [Grigore Rosu, Klaus Havelund]
-  categories: [fsl, logics, programming_languages, runtime_verification, javamop]
+  author:
+  - first: Grigore
+    last: Rosu
+  - first: Klaus
+    last: Havelund
+  author_id: Grigore Rosu and Klaus Havelund
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: klaus-havelund
+    text: Klaus Havelund
+  category:
+  - fsl
+  - logics
+  - programming_languages
+  - runtime_verification
+  - javamop
   date: 2005-01-01
+  doi: http://dx.doi.org/10.1007/s10515-005-6205-y
   id: rosu-havelund-2005-jase
+  journal: Automated Software Engineering
+  journal_acronym: J.ASE
+  journal_url: http://link.springer.com/journal/10515
   number: '2'
   pages: 151-197
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
   title: Rewriting-Based Techniques for Runtime Verification
+  type: article
+  volume: '12'
+  year: '2005'
 layout: paper
 title: Rewriting-Based Techniques for Runtime Verification
 ---

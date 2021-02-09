@@ -14,13 +14,26 @@ bib:
     and believe that I can help, please let me know and we may work together on it.
     If you are a student in my FSL group, then you are actually expected to work together
     with me, and possibly other students, on one or more of these problems.
-  authors: [Grigore Rosu]
-  categories: [fsl]
+  author:
+  - first: Grigore
+    last: Rosu
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
   date: 2017-03-01
+  hidden: 'false'
   id: rosu-2017-tr
+  institution: University of Illinois
+  month: March
   number: http://hdl.handle.net/2142/95775
+  project_name: Webpage
   project_url: http://fsl.cs.illinois.edu/index.php/Open_Problems_and_Challenges
   title: Open Problems and Challenges 2017
+  type: techreport
+  year: '2017'
 layout: paper
 title: Open Problems and Challenges 2017
 ---

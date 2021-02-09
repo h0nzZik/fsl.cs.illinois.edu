@@ -1,4 +1,4 @@
-{% assign papers = site.pages | where_exp: "paper","paper.layout == 'paper'" | sort_by: "bib.date" | reverse %}
+{% assign papers = site.pages | where_exp: "paper","paper.layout == 'paper'" | sort: "bib.date" | reverse %}
 
 {% if include.author %}
 {% assign papers = papers | where_exp: "paper","paper.bib.author_ids contains include.author" %}
@@ -17,7 +17,9 @@
         {% endunless %}
    <li class='paper'>
    <a class='paper-title' href="{{site.baseurl}}{{ paper.url }}"> {{paper.bib.title}} </a>
-   <div class='paper-authors'> {{ paper.bib.author_links | join: " and " }}. </div>
+   <div class='paper-authors'>
+        {% include author_list.html authors=paper.bib.authors %}
+   </div>
    {% if paper.bib.booktitle_acronym %}
    <div class='paper-where'> <strong> {{ paper.bib.booktitle_acronym }} </strong> {{ paper.bib.publisher }}, pp {{ paper.bib.pages }}. </div>
    {% endif %}

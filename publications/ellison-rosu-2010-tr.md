@@ -9,13 +9,34 @@ bib:
     finding program errors, both statically and at runtime. It is also used to enumerate
     nondeterministic behavior. These techniques together allow the tool to identify
     undefined programs.
-  authors: [Chucky Ellison, Grigore Rosu]
-  categories: [fsl, executable_semantics, programming_languages, semantics, k]
+  author:
+  - first: Chucky
+    last: Ellison
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Chucky Ellison and Grigore Rosu
+  authors:
+  - id: chucky-ellison
+    text: Chucky Ellison
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - k
   date: 2010-11-01
+  hidden: 'false'
   id: ellison-rosu-2010-tr
+  institution: University of Illinois
+  month: November
   number: http://hdl.handle.net/2142/17414
+  project_name: C Semantics
   project_url: https://github.com/kframework/c-semantics
   title: A Formal Semantics of {C} with Applications
+  type: techreport
+  year: '2010'
 layout: paper
 title: A Formal Semantics of {C} with Applications
 ---

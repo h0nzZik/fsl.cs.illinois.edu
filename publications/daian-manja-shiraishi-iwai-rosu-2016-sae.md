@@ -20,18 +20,49 @@ bib:
     to software recalls, while requiring the development of rigorous, formal safety
     specifications easily sharable across manufacturers, OEMs, regulatory agencies
     and even car owners.
-  authors: [Philip Daian, Bhargava Manja, Shinichi Shiraishi, Akihito Iwai, Grigore
-      Rosu]
+  author:
+  - first: Philip
+    last: Daian
+  - first: Bhargava
+    last: Manja
+  - first: Shinichi
+    last: Shiraishi
+  - first: Akihito
+    last: Iwai
+  - first: Grigore
+    last: Rosu
+  author_id: Philip Daian and Bhargava Manja and Shinichi Shiraishi and Akihito Iwai
+    and Grigore Rosu
+  authors:
+  - id: philip-daian
+    text: Philip Daian
+  - id: bhargava-manja
+    text: Bhargava Manja
+  - id: shinichi-shiraishi
+    text: Shinichi Shiraishi
+  - id: akihito-iwai
+    text: Akihito Iwai
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: SAE 2016 World Congress and Exhibition
   booktitle_acronym: SAE'16
   booktitle_url: http://www.sae.org/congress/2016/
-  categories: [fsl, runtime_verification]
+  category:
+  - fsl
+  - runtime_verification
   date: 2016-04-01
+  doi: http://dx.doi.org/10.4271/2016-01-0126
   id: daian-manja-shiraishi-iwai-rosu-2016-sae
+  month: April
   pages: 1-13
+  presentation: 2016-04-13-SAE
+  project_name: RV-ECU
   project_url: https://runtimeverification.com/ecu/
-  publisher: SAE International
+  series: SAE International
   title: 'RV-ECU: Maximum Assurance In-Vehicle Safety Monitoring'
+  type: inproceedings
+  volume: 2016-01-0126
+  year: '2016'
 layout: paper
 title: 'RV-ECU: Maximum Assurance In-Vehicle Safety Monitoring'
 ---

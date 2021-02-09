@@ -13,18 +13,49 @@ bib:
     latter. The soundness result has also been formalized in Coq, allowing reachability
     logic derivations to serve as formal proof certificates that rely only on the
     operational semantics.
-  authors: [Grigore Rosu, Andrei Stefanescu, Stefan Ciobaca, Brandon Moore]
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  - first: Andrei
+    last: \c{S}tef\u{a}nescu
+  - last: Ciob\^{a}c\u{a}
+    prelast: \c{S}tefan
+  - first: Brandon
+    last: Moore
+    middle: M.
+  author_id: Grigore Rosu and Andrei Stefanescu and Stefan Ciobaca and Brandon Moore
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: andrei-stefanescu
+    text: Andrei Stefanescu
+  - id: stefan-ciobaca
+    text: Stefan Ciobaca
+  - id: brandon-moore
+    text: Brandon Moore
   booktitle: Proceedings of the 28th Symposium on Logic in Computer Science (LICS'13)
   booktitle_acronym: LICS'13
   booktitle_url: http://lii.rwth-aachen.de/lics/lics13/
-  categories: [fsl, executable_semantics, k, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - k
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2013-06-01
+  doi: ''
   id: rosu-stefanescu-ciobaca-moore-2013-lics
+  month: June
   pages: 358-367
+  presentation: 2013-06-27-LICS
+  project_name: Reachability Logic
   project_url: http://fsl.cs.uiuc.edu/RL
   publisher: IEEE
   title: One-Path Reachability Logic
+  type: inproceedings
+  year: '2013'
 layout: paper
 title: One-Path Reachability Logic
 ---

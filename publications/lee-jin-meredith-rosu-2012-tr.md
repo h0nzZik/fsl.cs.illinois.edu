@@ -14,13 +14,41 @@ bib:
     paper also brings empirical evidence that parametric specifications may be sufficiently
     powerful to express virtually all desirable runtime properties of the JDK API,
     and that its informal documentation can be formalized.
-  authors: [Choonghwan Lee, Dongyun Jin, Patrick O'Neil Meredith, Grigore Rosu]
-  categories: [fsl, runtime_verification]
+  author:
+  - first: Choonghwan
+    last: Lee
+  - first: Dongyun
+    last: Jin
+  - first: Patrick
+    last: Meredith
+    middle: O'Neil
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Choonghwan Lee and Dongyun Jin and Patrick O'Neil Meredith and Grigore
+    Rosu
+  authors:
+  - id: choonghwan-lee
+    text: Choonghwan Lee
+  - id: dongyun-jin
+    text: Dongyun Jin
+  - id: patrick-o'neil-meredith
+    text: Patrick O'Neil Meredith
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - runtime_verification
   date: 2012-03-01
+  hidden: 'false'
   id: lee-jin-meredith-rosu-2012-tr
+  institution: University of Illinois at Urbana-Champaign
+  month: March
   number: http://hdl.handle.net/2142/30006
+  project_name: Java API
   project_url: https://github.com/runtimeverification/property-db
   title: Towards Categorizing and Formalizing the {JDK API}
+  type: techreport
+  year: '2012'
 layout: paper
 title: Towards Categorizing and Formalizing the {JDK API}
 ---

@@ -10,19 +10,60 @@ bib:
     from Solidity, the predominant high- level language for smart contracts, to IELE
     has also been (manually) implemented, so Ethereum contracts can now also be executed
     on IELE.
-  authors: ['Kasampalis, Theodoros', 'Guth, Dwight', 'Moore, Brandon', 'Serbanuta,
-      Traian Florin', 'Zhang, Yi', 'Filaretti, Daniele', 'Serbanuta, Virgil', 'Johnson,
-      Ralph', 'Rosu, Grigore']
+  author:
+  - first: Theodoros
+    last: Kasampalis
+  - first: Dwight
+    last: Guth
+  - first: Brandon
+    last: Moore
+  - first: Traian
+    last: Serbanuta
+    middle: Florin
+  - first: Yi
+    last: Zhang
+  - first: Daniele
+    last: Filaretti
+  - first: Virgil
+    last: Serbanuta
+  - first: Ralph
+    last: Johnson
+  - first: Grigore
+    last: Rosu
+  author_id: Kasampalis, Theodoros and Guth, Dwight and Moore, Brandon and Serbanuta,
+    Traian Florin and Zhang, Yi and Filaretti, Daniele and Serbanuta, Virgil and Johnson,
+    Ralph and Rosu, Grigore
+  authors:
+  - id: kasampalis,-theodoros
+    text: Kasampalis, Theodoros
+  - id: guth,-dwight
+    text: Guth, Dwight
+  - id: moore,-brandon
+    text: Moore, Brandon
+  - id: serbanuta,-traian-florin
+    text: Serbanuta, Traian Florin
+  - id: zhang,-yi
+    text: Zhang, Yi
+  - id: filaretti,-daniele
+    text: Filaretti, Daniele
+  - id: serbanuta,-virgil
+    text: Serbanuta, Virgil
+  - id: johnson,-ralph
+    text: Johnson, Ralph
+  - id: rosu,-grigore
+    text: Rosu, Grigore
   booktitle: Proceedings of the 23 International Symposium on Formal Methods (FM'19)
   booktitle_acronym: FM 2019
-  booktitle_url: ''
-  categories: [fsl]
+  category:
+  - fsl
   date: 2019-10-01
+  doi: https://doi.org/10.1007/978-3-030-30942-8_35
   id: kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm
+  month: October
   pages: 593-610
-  project_url: ''
-  publisher: ''
   title: 'IELE: A Rigorously Designed Language and Tool Ecosystem for the Blockchain'
+  type: inproceedings
+  year: '2019'
 layout: paper
 title: 'IELE: A Rigorously Designed Language and Tool Ecosystem for the Blockchain'
 ---

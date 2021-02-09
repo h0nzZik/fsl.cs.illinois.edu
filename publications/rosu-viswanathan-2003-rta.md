@@ -12,19 +12,42 @@ bib:
     monitoring extended regular expressions and argue that the presented rewriting-based
     algorithms, besides their simplicity and elegance, are practical and almost as
     good as one can hope. We experimented with and evaluated our algorithms in Maude.'
-  authors: [Grigore Rosu, Mahesh Viswanathan]
+  author:
+  - first: Grigore
+    last: Rosu
+  - first: Mahesh
+    last: Viswanathan
+  author_id: Grigore Rosu and Mahesh Viswanathan
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  - id: mahesh-viswanathan
+    text: Mahesh Viswanathan
   booktitle: Proceedings of the 14th International Conference on Rewriting Techniques
     and Applications (RTA'03)
   booktitle_acronym: RTA'03
   booktitle_url: http://users.dsic.upv.es/~rdp03/rta/
-  categories: [fsl, executable_semantics, logics, automated_reasoning, rewrite_logic,
-    runtime_verification]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - automated_reasoning
+  - rewrite_logic
+  - runtime_verification
   date: 2003-06-01
+  doi: http://dx.doi.org/10.1007/3-540-44881-0_35
   id: rosu-viswanathan-2003-rta
+  month: June
   pages: 499-514
+  presentation: 2003-06-RTA
+  project_name: MOP
   project_url: http://fsl.cs.illinois.edu/mop
-  publisher: Lecture Notes in Computer Science (LNCS)
+  publisher: Springer-Verlag
+  series: Lecture Notes in Computer Science (LNCS)
   title: Testing Extended Regular Language Membership Incrementally by Rewriting
+  type: inproceedings
+  volume: '2706'
+  year: '2003'
 layout: paper
 title: Testing Extended Regular Language Membership Incrementally by Rewriting
 ---

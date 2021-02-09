@@ -14,18 +14,42 @@ bib:
     that our coinductive approach subsumes reachability logic, a recent language-independent
     sound and (relatively) complete logic for program verification that has been instantiated
     with operational semantics of languages as complex as C, Java and JavaScript.
-  authors: [Brandon Moore, Lucas Pena, Grigore Rosu]
+  author:
+  - first: Brandon
+    last: Moore
+  - first: Lucas
+    last: Pe\~{n}a
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Brandon Moore and Lucas Pena and Grigore Rosu
+  authors:
+  - id: brandon-moore
+    text: Brandon Moore
+  - id: lucas-pena
+    text: Lucas Pena
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: 27th European Symposium on Programming (ESOP)
   booktitle_acronym: ESOP'18
   booktitle_url: https://www.etaps.org/index.php/2018/esop
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2018-04-01
+  doi: http://dx.doi.org/10.1007/978-3-319-89884-1_21
   id: moore-pena-rosu-2018-esop
+  month: April
   pages: 589-618
+  project_name: Matching Logic
   project_url: http://matching-logic.org/
   publisher: Springer
   title: Program Verification by Coinduction
+  type: inproceedings
+  year: '2018'
 layout: paper
 title: Program Verification by Coinduction
 ---

@@ -9,15 +9,43 @@ bib:
     of languages; scalability to real languages; support for real time; semantics
     of software and hardware modeling languages; and semantics-based analysis tools
     such as static analyzers, model checkers, and program provers.'
-  authors: [Jose Meseguer, Grigore Rosu]
-  categories: [fsl, logics, program_verification, matching_logic, executable_semantics,
-    programming_languages, semantics, k, rewrite_logic]
+  author:
+  - first: Jos{\'e}
+    last: Meseguer
+  - first: Grigore
+    last: Ro{\c s}u
+  author_id: Jose Meseguer and Grigore Rosu
+  authors:
+  - id: jose-meseguer
+    text: Jose Meseguer
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - logics
+  - program_verification
+  - matching_logic
+  - executable_semantics
+  - programming_languages
+  - semantics
+  - k
+  - rewrite_logic
   date: 2013-10-01
+  doi: http://dx.doi.org/10.1016/j.ic.2013.08.004
   id: meseguer-rosu-2013-ic
+  journal: Information and Computation
+  journal_acronym: Information and Computation
+  journal_url: http://iandc.csail.mit.edu/
+  month: oct
+  note: Invited paper at FCT 2011
   number: '1'
   pages: 38-69
+  project_name: K
   project_url: http://k-framework.org
   title: 'The Rewriting Logic Semantics Project: A Progress Report'
+  type: article
+  volume: '231'
+  year: '2013'
 layout: paper
 title: 'The Rewriting Logic Semantics Project: A Progress Report'
 ---

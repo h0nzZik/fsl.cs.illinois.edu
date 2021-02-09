@@ -15,14 +15,33 @@ bib:
     properties. Finally, it proposes a general notion of <em>monitor</em>, which allows
     to show that safety properties correspond precisely to the monitorable properties,
     and then to establish that monitoring a safety property is arbitrarily hard.'
-  authors: [Grigore Rosu]
-  categories: [fsl, javamop, logics, runtime_verification]
+  author:
+  - first: Grigore
+    last: Ro{\c s}u
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - javamop
+  - logics
+  - runtime_verification
   date: 2012-12-01
+  doi: http://dx.doi.org/10.7561/SACS.2012.2.327
   id: rosu-2012-sacs
+  journal: Scientific Annals of Computer Science
+  journal_acronym: SACS
+  journal_url: http://www.infoiasi.ro/bin/Annals/
+  month: December
   number: '2'
   pages: 327-365
+  project_name: MOP
   project_url: http://fsl.cs.uiuc.edu/index.php/MOP
   title: On Safety Properties and Their Monitoring
+  type: article
+  volume: '22'
+  year: '2012'
 layout: paper
 title: On Safety Properties and Their Monitoring
 ---

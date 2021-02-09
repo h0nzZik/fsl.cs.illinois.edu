@@ -11,14 +11,37 @@ bib:
     captured as theories inside TGL. For two particular, but rather typical instances---untyped
     lambda-calculus and System F---the general-purpose TGL models are shown to be
     equivalent with standard ad hoc models.
-  authors: [Andrei Popescu, Grigore Rosu]
-  categories: [fsl, semantics, logics, programming_languages]
+  author:
+  - first: Andrei
+    last: Popescu
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Andrei Popescu and Grigore Rosu
+  authors:
+  - id: andrei-popescu
+    text: Andrei Popescu
+  - id: grigore-rosu
+    text: Grigore Rosu
+  category:
+  - fsl
+  - semantics
+  - logics
+  - programming_languages
   date: 2015-04-01
+  doi: http://dx.doi.org/10.1016/j.tcs.2015.01.047
   id: popescu-rosu-2015-jtcs
+  journal: Theoretical Computer Science
+  journal_acronym: Journal of Theoretical Computer Science
+  journal_url: http://www.journals.elsevier.com/theoretical-computer-science/
+  month: April
   number: '1'
   pages: 1-24
+  project_acronym: GFOL
   project_url: http://fsl.cs.illinois.edu/index.php/Generic_First-Order_Logic
   title: Term-Generic Logic
+  type: article
+  volume: '577'
+  year: '2015'
 layout: paper
 title: Term-Generic Logic
 ---

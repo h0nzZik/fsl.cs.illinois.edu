@@ -18,19 +18,39 @@ bib:
     provers and SMT solvers can be used for matching logic reasoning. Matching logic
     is particularly well-suited for reasoning about programs in programming languages
     that have a rewrite-based operational semantics.'
-  authors: [Grigore Rosu]
+  address: Dagstuhl, Germany
+  author:
+  - first: Grigore
+    last: Ro\c{s}u
+  author_id: Grigore Rosu
+  authors:
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 26th International Conference on Rewriting Techniques
     and Applications (RTA'15)
   booktitle_acronym: RTA'15
   booktitle_url: http://rdp15.mimuw.edu.pl/index.php?site=rta
-  categories: [fsl, executable_semantics, logics, matching_logic, program_verification,
-    programming_languages]
+  category:
+  - fsl
+  - executable_semantics
+  - logics
+  - matching_logic
+  - program_verification
+  - programming_languages
   date: 2015-07-01
+  doi: http://dx.doi.org/10.4230/LIPIcs.RTA.2015.5
   id: rosu-2015-rta
+  month: July
   pages: 5-21
+  presentation: 2015-06-29-RTA/2015-06-29-RTA
+  project_name: Matching Logic
   project_url: http://matching-logic.org/
-  publisher: Leibniz International Proceedings in Informatics (LIPIcs)
+  publisher: Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik
+  series: Leibniz International Proceedings in Informatics (LIPIcs)
   title: Matching Logic --- Extended Abstract
+  type: inproceedings
+  volume: '36'
+  year: '2015'
 layout: paper
 title: Matching Logic --- Extended Abstract
 ---

@@ -17,18 +17,41 @@ bib:
     and real world applications, we show that GPredict is effective in expressing
     and predicting generic property violations. Moreover, it reduces the runtime overhead
     of existing techniques by 54\% on DaCapo benchmarks on average.'
-  authors: [Jeff Huang, Qingzhou Luo, Grigore Rosu]
+  author:
+  - first: Jeff
+    last: Huang
+  - first: Qingzhou
+    last: Luo
+  - first: Grigore
+    last: Rosu
+  author_id: Jeff Huang and Qingzhou Luo and Grigore Rosu
+  authors:
+  - id: jeff-huang
+    text: Jeff Huang
+  - id: qingzhou-luo
+    text: Qingzhou Luo
+  - id: grigore-rosu
+    text: Grigore Rosu
   booktitle: Proceedings of the 37th International Conference on Software Engineering
     (ICSE'15)
   booktitle_acronym: ICSE'15
   booktitle_url: http://2015.icse-conferences.org/
-  categories: [fsl, runtime_verification, testing]
+  category:
+  - fsl
+  - runtime_verification
+  - testing
   date: 2015-05-01
+  doi: http://dx.doi.org/10.1109/ICSE.2015.96
   id: huang-luo-rosu-2015-icse
+  month: May
   pages: 847-857
+  presentation: 2015-05-22-huang-luo-rosu-ICSE
+  project_name: jPredictor
   project_url: http://fsl.cs.illinois.edu/jPredictor
   publisher: ACM
   title: 'GPredict: Generic Predictive Concurrency Analysis'
+  type: inproceedings
+  year: '2015'
 layout: paper
 title: 'GPredict: Generic Predictive Concurrency Analysis'
 ---
