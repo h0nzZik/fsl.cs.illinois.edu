@@ -14,9 +14,13 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
-- **January 27:** [https://illinois.zoom.us/rec/share/BSaoNnMBLdzcKJf354YuuqoIGVXVjuBalj9_xm_6GO9OZtOFffvynr007wgZ5WQE.T06wSXTAnx3jq3z4?startTime=1611777991000](https://illinois.zoom.us/rec/share/BSaoNnMBLdzcKJf354YuuqoIGVXVjuBalj9_xm_6GO9OZtOFffvynr007wgZ5WQE.T06wSXTAnx3jq3z4?startTime=1611777991000)
-- **January 29:**
+- **Jan 27:** [https://illinois.zoom.us/rec/share/BSaoNnMBLdzcKJf354YuuqoIGVXVjuBalj9_xm_6GO9OZtOFffvynr007wgZ5WQE.T06wSXTAnx3jq3z4?startTime=1611777991000](https://illinois.zoom.us/rec/share/BSaoNnMBLdzcKJf354YuuqoIGVXVjuBalj9_xm_6GO9OZtOFffvynr007wgZ5WQE.T06wSXTAnx3jq3z4?startTime=1611777991000)
+- **Jan 29:**
 [https://illinois.zoom.us/rec/share/Nlh9TBk3ETbXkdfIsBvRsOUs1X4yioaIFoThMr2NBVrklGnmQUFOljeGGnrELqSx.JlzWm4mby-S_ICf8?startTime=1611950637000](https://illinois.zoom.us/rec/share/Nlh9TBk3ETbXkdfIsBvRsOUs1X4yioaIFoThMr2NBVrklGnmQUFOljeGGnrELqSx.JlzWm4mby-S_ICf8?startTime=1611950637000)
+- **Feb 3:** 
+[https://illinois.zoom.us/rec/share/23lenV31yOgk4anrKXhPpIbWbYB_4mMKHlhgHlB-Yw7rRGLBbFDVEovWnc86FGBJ.bpcG45Muih-nK-VD?startTime=1612382548000](https://illinois.zoom.us/rec/share/23lenV31yOgk4anrKXhPpIbWbYB_4mMKHlhgHlB-Yw7rRGLBbFDVEovWnc86FGBJ.bpcG45Muih-nK-VD?startTime=1612382548000)
+- **Feb 5:** 
+[https://illinois.zoom.us/rec/share/v-O8RQOHRLOGZtwcweCxIf7s44l_5pGqM3zgYL8WH3iKJBzFH4-RBiEO2FUDxA_0.RBJGrjcm6NU-mqXL?startTime=1612555295000](https://illinois.zoom.us/rec/share/v-O8RQOHRLOGZtwcweCxIf7s44l_5pGqM3zgYL8WH3iKJBzFH4-RBiEO2FUDxA_0.RBJGrjcm6NU-mqXL?startTime=1612555295000)
 
 
 ## Course Description
@@ -37,7 +41,7 @@ The links below provide you with useful material for this class, including compl
   - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep](/fsl//assets/CS422-Spring-2020-02a-IMP-BigStep-SmallStep.pdf)
 
 ---
-<b><em><span style="color:red">HW1 (due date TBD)</span></em></b>
+<b><em><span style="color:red">HW1 (due date: Wednesday Feb 17)</span></em></b>
 
 ***Exercise 1 (10 points):*** Modify IMP (its Big-Step and its Small-Step SOS) to halt when a division-by-zero takes place, returning a configuration holding the state in which the division by zero took place.
 
