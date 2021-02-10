@@ -50,6 +50,8 @@ bib:
   type: inproceedings
   volume: 59(4)
   year: '2001'
+bib_url: publications/fischer-rosu-2001-rule.bib
 layout: paper
+pdf_url: publications/fischer-rosu-2001-rule.pdf
 title: Interpreting Abstract Interpretations in Membership Equational Logic
 ---

@@ -43,6 +43,8 @@ bib:
   title: Specifying Languages and Verifying Programs with K
   type: inproceedings
   year: '2013'
+bib_url: publications/rosu-2013-synasc.bib
 layout: paper
+pdf_url: publications/rosu-2013-synasc.pdf
 title: Specifying Languages and Verifying Programs with K
 ---

@@ -54,6 +54,8 @@ bib:
   title: 'KJS: A Complete Formal Semantics of JavaScript'
   type: inproceedings
   year: '2015'
+bib_url: publications/park-stefanescu-rosu-2015-pldi.bib
 layout: paper
+pdf_url: publications/park-stefanescu-rosu-2015-pldi.pdf
 title: 'KJS: A Complete Formal Semantics of JavaScript'
 ---

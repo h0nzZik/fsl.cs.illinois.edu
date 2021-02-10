@@ -67,6 +67,8 @@ bib:
   title: Semantics-Based Program Verifiers for All Languages
   type: inproceedings
   year: '2016'
+bib_url: publications/stefanescu-park-yuwen-li-rosu-2016-oopsla.bib
 layout: paper
+pdf_url: publications/stefanescu-park-yuwen-li-rosu-2016-oopsla.pdf
 title: Semantics-Based Program Verifiers for All Languages
 ---

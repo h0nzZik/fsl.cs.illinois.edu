@@ -61,6 +61,8 @@ bib:
   type: article
   volume: '12'
   year: '2005'
+bib_url: publications/rosu-havelund-2005-jase.bib
 layout: paper
+pdf_url: publications/rosu-havelund-2005-jase.pdf
 title: Rewriting-Based Techniques for Runtime Verification
 ---

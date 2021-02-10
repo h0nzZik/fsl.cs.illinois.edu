@@ -56,6 +56,8 @@ bib:
   type: inproceedings
   volume: '9779'
   year: '2016'
+bib_url: publications/guth-hathhorn-saxena-rosu-2016-cav.bib
 layout: paper
+pdf_url: publications/guth-hathhorn-saxena-rosu-2016-cav.pdf
 title: 'RV-Match: Practical Semantics-Based Program Analysis'
 ---

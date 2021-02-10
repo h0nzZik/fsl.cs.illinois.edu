@@ -42,6 +42,8 @@ bib:
   title: 'K-Maude: A Rewriting Based Tool for Semantics of Programming Languages'
   type: inproceedings
   year: '2010'
+bib_url: publications/serbanuta-rosu-2010-wrla.bib
 layout: paper
+pdf_url: publications/serbanuta-rosu-2010-wrla.pdf
 title: 'K-Maude: A Rewriting Based Tool for Semantics of Programming Languages'
 ---

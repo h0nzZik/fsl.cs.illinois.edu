@@ -53,6 +53,8 @@ bib:
   title: Matching Logic --- Extended Report
   type: techreport
   year: '2009'
+bib_url: publications/rosu-schulte-2009-tr.bib
 layout: paper
+pdf_url: publications/rosu-schulte-2009-tr.pdf
 title: Matching Logic --- Extended Report
 ---

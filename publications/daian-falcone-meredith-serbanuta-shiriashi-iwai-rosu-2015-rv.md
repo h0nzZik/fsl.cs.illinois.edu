@@ -81,6 +81,8 @@ bib:
   type: inproceedings
   volume: '9333'
   year: '2015'
+bib_url: publications/daian-falcone-meredith-serbanuta-shiriashi-iwai-rosu-2015-rv.bib
 layout: paper
+pdf_url: publications/daian-falcone-meredith-serbanuta-shiriashi-iwai-rosu-2015-rv.pdf
 title: 'RV-Android: Efficient Parametric Android Runtime Verification, a Brief Tutorial'
 ---

@@ -33,6 +33,8 @@ bib:
   title: A Formal Semantics of C with Applications
   type: phdthesis
   year: '2012'
+bib_url: publications/ellison-2012-thesis.bib
 layout: paper
+pdf_url: publications/ellison-2012-thesis.pdf
 title: A Formal Semantics of C with Applications
 ---

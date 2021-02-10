@@ -54,6 +54,8 @@ bib:
   title: A Rewriting Approach to Concurrent Programming Language Design and Semantics
   type: phdthesis
   year: '2010'
+bib_url: publications/serbanuta-2010-thesis.bib
 layout: paper
+pdf_url: publications/serbanuta-2010-thesis.pdf
 title: A Rewriting Approach to Concurrent Programming Language Design and Semantics
 ---

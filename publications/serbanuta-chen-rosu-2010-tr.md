@@ -48,6 +48,8 @@ bib:
   title: Maximal Causal Models for Sequentially Consistent Multithreaded Systems
   type: techreport
   year: '2010'
+bib_url: publications/serbanuta-chen-rosu-2010-tr.bib
 layout: paper
+pdf_url: publications/serbanuta-chen-rosu-2010-tr.pdf
 title: Maximal Causal Models for Sequentially Consistent Multithreaded Systems
 ---

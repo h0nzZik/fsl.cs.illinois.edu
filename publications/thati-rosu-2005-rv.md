@@ -49,6 +49,8 @@ bib:
   type: inproceedings
   volume: '113'
   year: '2005'
+bib_url: publications/thati-rosu-2005-rv.bib
 layout: paper
+pdf_url: publications/thati-rosu-2005-rv.pdf
 title: Monitoring Algorithms for Metric Temporal Logic
 ---

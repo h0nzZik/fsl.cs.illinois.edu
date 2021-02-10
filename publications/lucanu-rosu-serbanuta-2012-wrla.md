@@ -54,6 +54,8 @@ bib:
   type: inproceedings
   volume: '7571'
   year: '2012'
+bib_url: publications/lucanu-rosu-serbanuta-2012-wrla.bib
 layout: paper
+pdf_url: publications/lucanu-rosu-serbanuta-2012-wrla.pdf
 title: K Framework Distilled
 ---

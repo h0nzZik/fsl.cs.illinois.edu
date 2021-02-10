@@ -60,6 +60,8 @@ bib:
   type: article
   volume: '24'
   year: '2014'
+bib_url: publications/endrullis-hendriks-bakhshi-rosu-2014-jfp.bib
 layout: paper
+pdf_url: publications/endrullis-hendriks-bakhshi-rosu-2014-jfp.pdf
 title: On the Complexity of Stream Equality
 ---

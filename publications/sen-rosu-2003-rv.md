@@ -54,6 +54,8 @@ bib:
   type: inproceedings
   volume: 89(2)
   year: '2003'
+bib_url: publications/sen-rosu-2003-rv.bib
 layout: paper
+pdf_url: publications/sen-rosu-2003-rv.pdf
 title: Generating Optimal Monitors for Extended Regular Expressions
 ---

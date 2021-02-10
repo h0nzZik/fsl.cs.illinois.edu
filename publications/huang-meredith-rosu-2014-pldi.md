@@ -58,6 +58,8 @@ bib:
   title: Maximal Sound Predictive Race Detection with Control Flow Abstraction
   type: inproceedings
   year: '2014'
+bib_url: publications/huang-meredith-rosu-2014-pldi.bib
 layout: paper
+pdf_url: publications/huang-meredith-rosu-2014-pldi.pdf
 title: Maximal Sound Predictive Race Detection with Control Flow Abstraction
 ---

@@ -54,6 +54,8 @@ bib:
   title: Certifying Domain-Specific Policies
   type: inproceedings
   year: '2001'
+bib_url: publications/lowry-pressburger-rosu-2001-ase.bib
 layout: paper
+pdf_url: publications/lowry-pressburger-rosu-2001-ase.pdf
 title: Certifying Domain-Specific Policies
 ---

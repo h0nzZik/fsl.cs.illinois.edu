@@ -66,6 +66,8 @@ bib:
   title: Improved Multithreaded Unit Testing
   type: inproceedings
   year: '2011'
+bib_url: publications/jagannath-gligoric-jin-luo-rosu-marinov-2011-fse.bib
 layout: paper
+pdf_url: publications/jagannath-gligoric-jin-luo-rosu-marinov-2011-fse.pdf
 title: Improved Multithreaded Unit Testing
 ---

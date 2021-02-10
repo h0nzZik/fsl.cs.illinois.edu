@@ -54,6 +54,8 @@ bib:
   title: Program Verification by Coinduction
   type: inproceedings
   year: '2018'
+bib_url: publications/moore-pena-rosu-2018-esop.bib
 layout: paper
+pdf_url: publications/moore-pena-rosu-2018-esop.pdf
 title: Program Verification by Coinduction
 ---

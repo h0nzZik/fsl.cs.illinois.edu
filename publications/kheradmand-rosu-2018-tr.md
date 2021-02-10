@@ -52,6 +52,8 @@ bib:
   title: 'P4K: A Formal Semantics of P4 and Applications'
   type: techreport
   year: '2018'
+bib_url: publications/kheradmand-rosu-2018-tr.bib
 layout: paper
+pdf_url: publications/kheradmand-rosu-2018-tr.pdf
 title: 'P4K: A Formal Semantics of P4 and Applications'
 ---

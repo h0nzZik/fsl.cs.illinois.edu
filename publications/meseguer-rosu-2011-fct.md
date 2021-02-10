@@ -51,6 +51,8 @@ bib:
   type: inproceedings
   volume: '6914'
   year: '2011'
+bib_url: publications/meseguer-rosu-2011-fct.bib
 layout: paper
+pdf_url: publications/meseguer-rosu-2011-fct.pdf
 title: 'The Rewriting Logic Semantics Project: A Progress Report'
 ---

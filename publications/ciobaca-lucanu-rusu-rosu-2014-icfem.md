@@ -56,6 +56,8 @@ bib:
   type: inproceedings
   volume: '8829'
   year: '2014'
+bib_url: publications/ciobaca-lucanu-rusu-rosu-2014-icfem.bib
 layout: paper
+pdf_url: publications/ciobaca-lucanu-rusu-rosu-2014-icfem.pdf
 title: A Language-Independent Proof System for Mutual Program Equivalence
 ---

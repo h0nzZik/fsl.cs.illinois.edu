@@ -43,6 +43,8 @@ bib:
   type: inproceedings
   volume: '2635'
   year: '2004'
+bib_url: publications/goguen-rosu-2004-dahl.bib
 layout: paper
+pdf_url: publications/goguen-rosu-2004-dahl.pdf
 title: Composing Hidden Information Modules over Inclusive Institutions
 ---

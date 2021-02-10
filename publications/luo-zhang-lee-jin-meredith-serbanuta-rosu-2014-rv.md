@@ -35,7 +35,7 @@ bib:
   - yi-zhang
   - choonghwan-lee
   - dongyun-jin
-  - patrick-o'neil-meredith
+  - patrick-oneil-meredith
   - traian-florin-serbanuta
   - grigore-rosu
   authors:
@@ -47,7 +47,7 @@ bib:
     text: Choonghwan Lee
   - id: dongyun-jin
     text: Dongyun Jin
-  - id: patrick-o'neil-meredith
+  - id: patrick-oneil-meredith
     text: Patrick O'Neil Meredith
   - id: traian-florin-serbanuta
     text: Traian Florin Serbanuta
@@ -76,6 +76,8 @@ bib:
   type: inproceedings
   volume: '8734'
   year: '2014'
+bib_url: publications/luo-zhang-lee-jin-meredith-serbanuta-rosu-2014-rv.bib
 layout: paper
+pdf_url: publications/luo-zhang-lee-jin-meredith-serbanuta-rosu-2014-rv.pdf
 title: 'RV-Monitor: Efficient Parametric Runtime Verification with Simultaneous Properties'
 ---

@@ -44,6 +44,8 @@ bib:
   title: 'Applicative Matching Logic: Semantics of K'
   type: techreport
   year: '2019'
+bib_url: publications/chen-rosu-2019-trb.bib
 layout: paper
+pdf_url: publications/chen-rosu-2019-trb.pdf
 title: 'Applicative Matching Logic: Semantics of K'
 ---

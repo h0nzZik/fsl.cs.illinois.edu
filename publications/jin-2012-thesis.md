@@ -53,6 +53,8 @@ bib:
   title: Making Runtime Monitoring of Parametric Properties Practical
   type: phdthesis
   year: '2012'
+bib_url: publications/jin-2012-thesis.bib
 layout: paper
+pdf_url: publications/jin-2012-thesis.pdf
 title: Making Runtime Monitoring of Parametric Properties Practical
 ---

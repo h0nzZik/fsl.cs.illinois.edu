@@ -50,6 +50,8 @@ bib:
   title: Efficient Parametric Runtime Verification with Deterministic String Rewriting
   type: inproceedings
   year: '2013'
+bib_url: publications/meredith-rosu-2013-ase.bib
 layout: paper
+pdf_url: publications/meredith-rosu-2013-ase.pdf
 title: Efficient Parametric Runtime Verification with Deterministic String Rewriting
 ---

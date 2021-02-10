@@ -55,6 +55,8 @@ bib:
   type: inproceedings
   volume: ''
   year: '2011'
+bib_url: publications/asavoae-lucanu-rosu-2011-wcet.bib
 layout: paper
+pdf_url: publications/asavoae-lucanu-rosu-2011-wcet.pdf
 title: Towards Semantics-Based WCET Analysis
 ---

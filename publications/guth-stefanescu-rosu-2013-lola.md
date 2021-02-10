@@ -50,6 +50,8 @@ bib:
   to_appear: 'false'
   type: inproceedings
   year: '2013'
+bib_url: publications/guth-stefanescu-rosu-2013-lola.bib
 layout: paper
+pdf_url: publications/guth-stefanescu-rosu-2013-lola.pdf
 title: Low-Level Program Verification using Matching Logic Reachability
 ---

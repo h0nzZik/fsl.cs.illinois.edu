@@ -24,11 +24,11 @@ bib:
     last: Ro\c{s}u
   author_id: Eugen-Ioan Goriac and Dorel Lucanu and Grigore Rosu
   author_ids:
-  - eugen-ioan-goriac
+  - eugenioan-goriac
   - dorel-lucanu
   - grigore-rosu
   authors:
-  - id: eugen-ioan-goriac
+  - id: eugenioan-goriac
     text: Eugen-Ioan Goriac
   - id: dorel-lucanu
     text: Dorel Lucanu
@@ -53,6 +53,8 @@ bib:
   title: Automating Coinduction with Case Analysis
   type: inproceedings
   year: '2010'
+bib_url: publications/goriac-lucanu-rosu-2010-icfem.bib
 layout: paper
+pdf_url: publications/goriac-lucanu-rosu-2010-icfem.pdf
 title: Automating Coinduction with Case Analysis
 ---

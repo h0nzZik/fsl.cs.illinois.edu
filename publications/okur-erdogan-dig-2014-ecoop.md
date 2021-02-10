@@ -52,6 +52,8 @@ bib:
   title: Converting Parallel Code from Low-Level Abstractions to Higher-Level Abstractions
   type: inproceedings
   year: '2014'
+bib_url: publications/okur-erdogan-dig-2014-ecoop.bib
 layout: paper
+pdf_url: publications/okur-erdogan-dig-2014-ecoop.pdf
 title: Converting Parallel Code from Low-Level Abstractions to Higher-Level Abstractions
 ---

@@ -44,6 +44,8 @@ bib:
   title: Checking Reachability using Matching Logic
   type: inproceedings
   year: '2012'
+bib_url: publications/rosu-stefanescu-2012-oopsla.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-2012-oopsla.pdf
 title: Checking Reachability using Matching Logic
 ---

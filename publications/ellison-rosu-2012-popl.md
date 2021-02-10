@@ -43,6 +43,8 @@ bib:
   title: An Executable Formal Semantics of C with Applications
   type: inproceedings
   year: '2012'
+bib_url: publications/ellison-rosu-2012-popl.bib
 layout: paper
+pdf_url: publications/ellison-rosu-2012-popl.pdf
 title: An Executable Formal Semantics of C with Applications
 ---

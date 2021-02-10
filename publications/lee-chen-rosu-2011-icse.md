@@ -48,6 +48,8 @@ bib:
   title: Mining Parametric Specifications
   type: inproceedings
   year: '2011'
+bib_url: publications/lee-chen-rosu-2011-icse.bib
 layout: paper
+pdf_url: publications/lee-chen-rosu-2011-icse.pdf
 title: Mining Parametric Specifications
 ---

@@ -43,6 +43,8 @@ bib:
   title: Matching mu-Logic
   type: techreport
   year: '2019'
+bib_url: publications/chen-rosu-2019-tr.bib
 layout: paper
+pdf_url: publications/chen-rosu-2019-tr.pdf
 title: Matching mu-Logic
 ---

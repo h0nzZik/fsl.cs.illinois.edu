@@ -63,6 +63,8 @@ bib:
   type: inproceedings
   volume: '2805'
   year: '2003'
+bib_url: publications/rosu-eker-lincoln-meseguer-2003-fme.bib
 layout: paper
+pdf_url: publications/rosu-eker-lincoln-meseguer-2003-fme.pdf
 title: Certifying and Synthesizing Membership Equational Proofs
 ---

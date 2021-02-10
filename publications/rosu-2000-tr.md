@@ -49,6 +49,8 @@ bib:
   title: Abstract Semantics for Module Composition
   type: techreport
   year: '2000'
+bib_url: publications/rosu-2000-tr.bib
 layout: paper
+pdf_url: publications/rosu-2000-tr.pdf
 title: Abstract Semantics for Module Composition
 ---

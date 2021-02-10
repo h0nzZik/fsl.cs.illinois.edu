@@ -74,6 +74,8 @@ bib:
   type: inproceedings
   volume: '8663'
   year: '2014'
+bib_url: publications/arusoaie-lucanu-rusu-serbanuta-stefanescu-rosu-2014-wrla.bib
 layout: paper
+pdf_url: publications/arusoaie-lucanu-rusu-serbanuta-stefanescu-rosu-2014-wrla.pdf
 title: Language Definitions as Rewrite Theories
 ---

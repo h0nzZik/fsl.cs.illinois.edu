@@ -34,33 +34,33 @@ bib:
     Traian Florin and Zhang, Yi and Filaretti, Daniele and Serbanuta, Virgil and Johnson,
     Ralph and Rosu, Grigore
   author_ids:
-  - kasampalis,-theodoros
-  - guth,-dwight
-  - moore,-brandon
-  - serbanuta,-traian-florin
-  - zhang,-yi
-  - filaretti,-daniele
-  - serbanuta,-virgil
-  - johnson,-ralph
-  - rosu,-grigore
+  - kasampalis-theodoros
+  - guth-dwight
+  - moore-brandon
+  - serbanuta-traian-florin
+  - zhang-yi
+  - filaretti-daniele
+  - serbanuta-virgil
+  - johnson-ralph
+  - rosu-grigore
   authors:
-  - id: kasampalis,-theodoros
+  - id: kasampalis-theodoros
     text: Kasampalis, Theodoros
-  - id: guth,-dwight
+  - id: guth-dwight
     text: Guth, Dwight
-  - id: moore,-brandon
+  - id: moore-brandon
     text: Moore, Brandon
-  - id: serbanuta,-traian-florin
+  - id: serbanuta-traian-florin
     text: Serbanuta, Traian Florin
-  - id: zhang,-yi
+  - id: zhang-yi
     text: Zhang, Yi
-  - id: filaretti,-daniele
+  - id: filaretti-daniele
     text: Filaretti, Daniele
-  - id: serbanuta,-virgil
+  - id: serbanuta-virgil
     text: Serbanuta, Virgil
-  - id: johnson,-ralph
+  - id: johnson-ralph
     text: Johnson, Ralph
-  - id: rosu,-grigore
+  - id: rosu-grigore
     text: Rosu, Grigore
   booktitle: Proceedings of the 23 International Symposium on Formal Methods (FM'19)
   booktitle_acronym: FM 2019
@@ -74,6 +74,8 @@ bib:
   title: 'IELE: A Rigorously Designed Language and Tool Ecosystem for the Blockchain'
   type: inproceedings
   year: '2019'
+bib_url: publications/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm.bib
 layout: paper
+pdf_url: publications/kasampalis-guth-moore-serbanuta-zhang-filaretti-serbanuta-johnson-rosu-2019-fm.pdf
 title: 'IELE: A Rigorously Designed Language and Tool Ecosystem for the Blockchain'
 ---

@@ -54,6 +54,8 @@ bib:
   type: inproceedings
   volume: '2706'
   year: '2003'
+bib_url: publications/chen-rosu-venkatesan-2003-rta.bib
 layout: paper
+pdf_url: publications/chen-rosu-venkatesan-2003-rta.pdf
 title: Rule-Based Analysis of Dimensional Safety
 ---

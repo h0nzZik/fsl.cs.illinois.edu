@@ -43,6 +43,8 @@ bib:
   type: inproceedings
   volume: '9200'
   year: '2015'
+bib_url: publications/rosu-2015-meseguer.bib
 layout: paper
+pdf_url: publications/rosu-2015-meseguer.pdf
 title: From Rewriting Logic, to Programming Language Semantics, to Program Verification
 ---

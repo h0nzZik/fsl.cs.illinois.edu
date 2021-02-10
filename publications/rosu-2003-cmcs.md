@@ -36,6 +36,8 @@ bib:
   type: article
   volume: '82'
   year: '2003'
+bib_url: publications/rosu-2003-cmcs.bib
 layout: paper
+pdf_url: publications/rosu-2003-cmcs.pdf
 title: Inductive Behavioral Proofs by Unhiding
 ---

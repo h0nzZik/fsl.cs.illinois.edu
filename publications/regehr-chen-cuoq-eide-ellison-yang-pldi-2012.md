@@ -66,6 +66,8 @@ bib:
   title: Test-Case Reduction for C Compiler Bugs
   type: inproceedings
   year: '2012'
+bib_url: publications/regehr-chen-cuoq-eide-ellison-yang-pldi-2012.bib
 layout: paper
+pdf_url: publications/regehr-chen-cuoq-eide-ellison-yang-pldi-2012.pdf
 title: Test-Case Reduction for C Compiler Bugs
 ---

@@ -46,8 +46,10 @@ bib:
   project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Connecting Constrained Constructor Patterns and Matching Logic
-  type: InProceedings
+  type: inproceedings
   year: '2020'
+bib_url: publications/lucanu-chen-rosu-2020-wrla.bib
 layout: paper
+pdf_url: publications/lucanu-chen-rosu-2020-wrla.pdf
 title: Connecting Constrained Constructor Patterns and Matching Logic
 ---

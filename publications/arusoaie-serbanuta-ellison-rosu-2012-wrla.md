@@ -53,6 +53,8 @@ bib:
   type: inproceedings
   volume: '7571'
   year: '2012'
+bib_url: publications/arusoaie-serbanuta-ellison-rosu-2012-wrla.bib
 layout: paper
+pdf_url: publications/arusoaie-serbanuta-ellison-rosu-2012-wrla.pdf
 title: Making Maude Definitions more Interactive
 ---

@@ -46,8 +46,10 @@ bib:
   project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Matching Logic Explained
-  type: TechReport
+  type: techreport
   year: '2020'
+bib_url: publications/chen-lucanu-rosu-2020-trb.bib
 layout: paper
+pdf_url: publications/chen-lucanu-rosu-2020-trb.pdf
 title: Matching Logic Explained
 ---

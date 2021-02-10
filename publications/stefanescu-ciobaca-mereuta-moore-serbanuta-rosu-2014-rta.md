@@ -72,6 +72,8 @@ bib:
   type: inproceedings
   volume: '8560'
   year: '2014'
+bib_url: publications/stefanescu-ciobaca-mereuta-moore-serbanuta-rosu-2014-rta.bib
 layout: paper
+pdf_url: publications/stefanescu-ciobaca-mereuta-moore-serbanuta-rosu-2014-rta.pdf
 title: All-Path Reachability Logic
 ---

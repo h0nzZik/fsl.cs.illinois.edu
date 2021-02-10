@@ -67,6 +67,8 @@ bib:
   type: article
   volume: '85'
   year: '2016'
+bib_url: publications/rusu-lucanu-serbanuta-arusoaie-stefanescu-rosu-2016-jlamp.bib
 layout: paper
+pdf_url: publications/rusu-lucanu-serbanuta-arusoaie-stefanescu-rosu-2016-jlamp.pdf
 title: Language Definitions as Rewrite Theories
 ---

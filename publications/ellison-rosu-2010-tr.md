@@ -40,6 +40,8 @@ bib:
   title: A Formal Semantics of C with Applications
   type: techreport
   year: '2010'
+bib_url: publications/ellison-rosu-2010-tr.bib
 layout: paper
+pdf_url: publications/ellison-rosu-2010-tr.pdf
 title: A Formal Semantics of C with Applications
 ---

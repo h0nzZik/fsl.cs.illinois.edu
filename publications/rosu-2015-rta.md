@@ -53,6 +53,8 @@ bib:
   type: inproceedings
   volume: '36'
   year: '2015'
+bib_url: publications/rosu-2015-rta.bib
 layout: paper
+pdf_url: publications/rosu-2015-rta.pdf
 title: Matching Logic --- Extended Abstract
 ---

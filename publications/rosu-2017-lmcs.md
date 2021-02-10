@@ -50,6 +50,8 @@ bib:
   type: article
   volume: '13'
   year: '2017'
+bib_url: publications/rosu-2017-lmcs.bib
 layout: paper
+pdf_url: publications/rosu-2017-lmcs.pdf
 title: Matching logic
 ---

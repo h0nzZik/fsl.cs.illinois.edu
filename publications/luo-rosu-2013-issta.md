@@ -56,6 +56,8 @@ bib:
   title: 'EnforceMOP: A Runtime Property Enforcement System for Multithreaded Programs'
   type: inproceedings
   year: '2013'
+bib_url: publications/luo-rosu-2013-issta.bib
 layout: paper
+pdf_url: publications/luo-rosu-2013-issta.pdf
 title: 'EnforceMOP: A Runtime Property Enforcement System for Multithreaded Programs'
 ---

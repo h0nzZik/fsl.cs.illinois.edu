@@ -48,6 +48,8 @@ bib:
   type: inproceedings
   volume: '8373'
   year: '2014'
+bib_url: publications/rosu-lucanu-2014-futatsugi.bib
 layout: paper
+pdf_url: publications/rosu-lucanu-2014-futatsugi.pdf
 title: Behavioral Rewrite Systems and Behavioral Productivity
 ---

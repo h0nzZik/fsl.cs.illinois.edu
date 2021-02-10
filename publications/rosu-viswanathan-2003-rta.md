@@ -51,6 +51,8 @@ bib:
   type: inproceedings
   volume: '2706'
   year: '2003'
+bib_url: publications/rosu-viswanathan-2003-rta.bib
 layout: paper
+pdf_url: publications/rosu-viswanathan-2003-rta.pdf
 title: Testing Extended Regular Language Membership Incrementally by Rewriting
 ---

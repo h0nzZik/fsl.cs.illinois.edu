@@ -39,6 +39,8 @@ bib:
   title: 'Matching Logic: An Alternative to Hoare/Floyd Logic'
   type: inproceedings
   year: '2010'
+bib_url: publications/rosu-ellison-schulte-2010-amast.bib
 layout: paper
+pdf_url: publications/rosu-ellison-schulte-2010-amast.pdf
 title: 'Matching Logic: An Alternative to Hoare/Floyd Logic'
 ---

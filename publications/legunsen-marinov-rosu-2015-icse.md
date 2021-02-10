@@ -50,6 +50,8 @@ bib:
   title: Evolution-Aware Monitoring-Oriented Programming
   type: inproceedings
   year: '2015'
+bib_url: publications/legunsen-marinov-rosu-2015-icse.bib
 layout: paper
+pdf_url: publications/legunsen-marinov-rosu-2015-icse.pdf
 title: Evolution-Aware Monitoring-Oriented Programming
 ---

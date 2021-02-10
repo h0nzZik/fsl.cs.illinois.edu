@@ -71,7 +71,9 @@ bib:
     Java API Specifications
   type: inproceedings
   year: '2016'
+bib_url: publications/legunsen-hassan-xu-rosu-marinov-2016-ase.bib
 layout: paper
+pdf_url: publications/legunsen-hassan-xu-rosu-marinov-2016-ase.pdf
 title: How Good are the Specs? A Study of the Bug-Finding Effectiveness of Existing
   Java API Specifications
 ---

@@ -55,6 +55,8 @@ bib:
   type: inproceedings
   volume: '9660'
   year: '2016'
+bib_url: publications/lucanu-serbanuta-rosu-2016-boer.bib
 layout: paper
+pdf_url: publications/lucanu-serbanuta-rosu-2016-boer.pdf
 title: Towards a Kool Future
 ---

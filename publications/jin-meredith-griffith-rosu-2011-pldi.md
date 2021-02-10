@@ -33,13 +33,13 @@ bib:
     Rosu
   author_ids:
   - dongyun-jin
-  - patrick-o'neil-meredith
+  - patrick-oneil-meredith
   - dennis-griffith
   - grigore-rosu
   authors:
   - id: dongyun-jin
     text: Dongyun Jin
-  - id: patrick-o'neil-meredith
+  - id: patrick-oneil-meredith
     text: Patrick O'Neil Meredith
   - id: dennis-griffith
     text: Dennis Griffith
@@ -64,6 +64,8 @@ bib:
   title: Garbage Collection for Monitoring Parametric Properties
   type: inproceedings
   year: '2011'
+bib_url: publications/jin-meredith-griffith-rosu-2011-pldi.bib
 layout: paper
+pdf_url: publications/jin-meredith-griffith-rosu-2011-pldi.pdf
 title: Garbage Collection for Monitoring Parametric Properties
 ---

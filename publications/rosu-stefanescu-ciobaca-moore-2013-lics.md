@@ -61,6 +61,8 @@ bib:
   title: One-Path Reachability Logic
   type: inproceedings
   year: '2013'
+bib_url: publications/rosu-stefanescu-ciobaca-moore-2013-lics.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-ciobaca-moore-2013-lics.pdf
 title: One-Path Reachability Logic
 ---

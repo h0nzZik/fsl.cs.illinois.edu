@@ -63,6 +63,8 @@ bib:
   title: A Formal Verification Tool for Ethereum VM Bytecode
   type: inproceedings
   year: '2018'
+bib_url: publications/park-zhang-saxena-daian-rosu-2018-fse.bib
 layout: paper
+pdf_url: publications/park-zhang-saxena-daian-rosu-2018-fse.pdf
 title: A Formal Verification Tool for Ethereum VM Bytecode
 ---

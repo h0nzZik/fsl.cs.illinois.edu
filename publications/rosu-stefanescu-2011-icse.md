@@ -52,6 +52,8 @@ bib:
   title: 'Matching Logic: A New Program Verification Approach (NIER Track)'
   type: inproceedings
   year: '2011'
+bib_url: publications/rosu-stefanescu-2011-icse.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-2011-icse.pdf
 title: 'Matching Logic: A New Program Verification Approach (NIER Track)'
 ---

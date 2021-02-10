@@ -50,6 +50,8 @@ bib:
   title: Maximal Causal Models for Sequentially Consistent Systems
   type: techreport
   year: '2011'
+bib_url: publications/serbanuta-chen-rosu-2011-tr.bib
 layout: paper
+pdf_url: publications/serbanuta-chen-rosu-2011-tr.pdf
 title: Maximal Causal Models for Sequentially Consistent Systems
 ---

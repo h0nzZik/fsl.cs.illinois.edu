@@ -42,6 +42,8 @@ bib:
   type: inproceedings
   volume: '10012'
   year: '2016'
+bib_url: publications/rosu-2016-rv.bib
 layout: paper
+pdf_url: publications/rosu-2016-rv.pdf
 title: 'Finite-Trace Linear Temporal Logic: Coinductive Completeness'
 ---

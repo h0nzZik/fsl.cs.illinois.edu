@@ -55,6 +55,8 @@ bib:
   title: Defining the Undefinedness of C
   type: inproceedings
   year: '2015'
+bib_url: publications/hathhorn-ellison-rosu-2015-pldi.bib
 layout: paper
+pdf_url: publications/hathhorn-ellison-rosu-2015-pldi.pdf
 title: Defining the Undefinedness of C
 ---

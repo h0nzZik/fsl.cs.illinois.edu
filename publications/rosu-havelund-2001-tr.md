@@ -36,6 +36,8 @@ bib:
   title: Synthesizing Dynamic Programming Algorithms from Linear Temporal Logic Formulae
   type: techreport
   year: '2001'
+bib_url: publications/rosu-havelund-2001-tr.bib
 layout: paper
+pdf_url: publications/rosu-havelund-2001-tr.pdf
 title: Synthesizing Dynamic Programming Algorithms from Linear Temporal Logic Formulae
 ---

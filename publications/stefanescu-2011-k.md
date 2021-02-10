@@ -45,6 +45,8 @@ bib:
   xbooktitle_url: http://vsl2014.at/pages/RTATLCA-cfp.html
   xpages: 425-440
   year: '2011'
+bib_url: publications/stefanescu-2011-k.bib
 layout: paper
+pdf_url: publications/stefanescu-2011-k.pdf
 title: 'MatchC: A Matching Logic Reachability Verifier Using the K Framework'
 ---

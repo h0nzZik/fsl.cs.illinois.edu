@@ -53,6 +53,8 @@ bib:
   title: Recursive Proofs for Inductive Tree Data-Structures
   type: inproceedings
   year: '2012'
+bib_url: publications/madhusudan-qiu-stefanescu-2012-popl.bib
 layout: paper
+pdf_url: publications/madhusudan-qiu-stefanescu-2012-popl.pdf
 title: Recursive Proofs for Inductive Tree Data-Structures
 ---

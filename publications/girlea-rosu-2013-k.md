@@ -48,6 +48,8 @@ bib:
   type: inproceedings
   volume: '304'
   year: '2014'
+bib_url: publications/girlea-rosu-2013-k.bib
 layout: paper
+pdf_url: publications/girlea-rosu-2013-k.pdf
 title: Abstract Semantics for K Module Composition
 ---

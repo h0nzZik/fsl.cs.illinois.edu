@@ -51,6 +51,8 @@ bib:
   type: inproceedings
   volume: '2896'
   year: '2003'
+bib_url: publications/sen-rosu-agha-2003-asian.bib
 layout: paper
+pdf_url: publications/sen-rosu-agha-2003-asian.pdf
 title: Generating Optimal Linear Temporal Logic Monitors by Coinduction
 ---

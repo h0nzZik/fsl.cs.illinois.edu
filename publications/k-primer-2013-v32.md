@@ -66,6 +66,8 @@ bib:
   type: inproceedings
   volume: '304'
   year: '2014'
+bib_url: publications/k-primer-2013-v32.bib
 layout: paper
+pdf_url: publications/k-primer-2013-v32.pdf
 title: The K Primer (version 3.3)
 ---

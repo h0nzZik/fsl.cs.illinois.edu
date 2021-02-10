@@ -52,6 +52,8 @@ bib:
   type: inproceedings
   volume: '7687'
   year: '2012'
+bib_url: publications/serbanuta-chen-rosu-2012-rv.bib
 layout: paper
+pdf_url: publications/serbanuta-chen-rosu-2012-rv.pdf
 title: Maximal Causal Models for Sequentially Consistent Systems
 ---

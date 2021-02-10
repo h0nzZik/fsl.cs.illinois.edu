@@ -51,7 +51,9 @@ bib:
   type: inproceedings
   volume: 89(2)
   year: '2003'
+bib_url: publications/chen-rosu-2003-rv.bib
 layout: paper
+pdf_url: publications/chen-rosu-2003-rv.pdf
 title: 'Towards Monitoring-Oriented Programming: A Paradigm Combining Specification
   and Implementation'
 ---

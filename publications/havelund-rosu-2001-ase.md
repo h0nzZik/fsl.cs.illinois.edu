@@ -49,6 +49,8 @@ bib:
   title: Monitoring Programs using Rewriting
   type: inproceedings
   year: '2001'
+bib_url: publications/havelund-rosu-2001-ase.bib
 layout: paper
+pdf_url: publications/havelund-rosu-2001-ase.pdf
 title: Monitoring Programs using Rewriting
 ---

@@ -50,6 +50,8 @@ bib:
   type: article
   volume: '8'
   year: '2012'
+bib_url: publications/rosu-chen-2012-lmcs.bib
 layout: paper
+pdf_url: publications/rosu-chen-2012-lmcs.pdf
 title: Semantics and Algorithms for Parametric Monitoring
 ---

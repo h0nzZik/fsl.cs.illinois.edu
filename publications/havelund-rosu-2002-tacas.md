@@ -47,6 +47,8 @@ bib:
   type: inproceedings
   volume: '2280'
   year: '2002'
+bib_url: publications/havelund-rosu-2002-tacas.bib
 layout: paper
+pdf_url: publications/havelund-rosu-2002-tacas.pdf
 title: Synthesizing Monitors for Safety Properties
 ---

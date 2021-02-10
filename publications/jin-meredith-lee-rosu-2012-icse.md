@@ -23,13 +23,13 @@ bib:
     Rosu
   author_ids:
   - dongyun-jin
-  - patrick-o'neil-meredith
+  - patrick-oneil-meredith
   - choonghwan-lee
   - grigore-rosu
   authors:
   - id: dongyun-jin
     text: Dongyun Jin
-  - id: patrick-o'neil-meredith
+  - id: patrick-oneil-meredith
     text: Patrick O'Neil Meredith
   - id: choonghwan-lee
     text: Choonghwan Lee
@@ -54,6 +54,8 @@ bib:
   title: 'JavaMOP: Efficient Parametric Runtime Monitoring Framework'
   type: inproceedings
   year: '2012'
+bib_url: publications/jin-meredith-lee-rosu-2012-icse.bib
 layout: paper
+pdf_url: publications/jin-meredith-lee-rosu-2012-icse.pdf
 title: 'JavaMOP: Efficient Parametric Runtime Monitoring Framework'
 ---

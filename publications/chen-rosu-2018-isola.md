@@ -40,6 +40,8 @@ bib:
   title: A Language-Independent Program Verification Framework
   type: inproceedings
   year: '2018'
+bib_url: publications/chen-rosu-2018-isola.bib
 layout: paper
+pdf_url: publications/chen-rosu-2018-isola.pdf
 title: A Language-Independent Program Verification Framework
 ---

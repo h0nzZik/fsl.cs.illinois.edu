@@ -46,6 +46,8 @@ bib:
   type: inproceedings
   volume: '7562'
   year: '2012'
+bib_url: publications/serbanuta-rosu-2012-icgt.bib
 layout: paper
+pdf_url: publications/serbanuta-rosu-2012-icgt.pdf
 title: A Truly Concurrent Semantics for the K Framework Based on Graph Transformations
 ---

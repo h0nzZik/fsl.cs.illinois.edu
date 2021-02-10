@@ -46,8 +46,10 @@ bib:
   project_url: http://www.matching-logic.org
   publisher: ACM/IEEE
   title: Matching mu-Logic
-  type: InProceedings
+  type: inproceedings
   year: '2019'
+bib_url: publications/chen-rosu-2019-lics.bib
 layout: paper
+pdf_url: publications/chen-rosu-2019-lics.pdf
 title: Matching mu-Logic
 ---

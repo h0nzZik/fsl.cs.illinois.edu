@@ -44,6 +44,8 @@ bib:
   type: article
   volume: '22'
   year: '2012'
+bib_url: publications/rosu-2012-sacs.bib
 layout: paper
+pdf_url: publications/rosu-2012-sacs.pdf
 title: On Safety Properties and Their Monitoring
 ---

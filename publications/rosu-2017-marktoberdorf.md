@@ -36,6 +36,8 @@ bib:
   title: K - A Semantic Framework for Programming Languages and Formal Analysis Tools
   type: inproceedings
   year: '2017'
+bib_url: publications/rosu-2017-marktoberdorf.bib
 layout: paper
+pdf_url: publications/rosu-2017-marktoberdorf.pdf
 title: K - A Semantic Framework for Programming Languages and Formal Analysis Tools
 ---

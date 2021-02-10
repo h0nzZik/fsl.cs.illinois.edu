@@ -36,6 +36,8 @@ bib:
   title: Open Problems and Challenges 2016
   type: techreport
   year: '2016'
+bib_url: publications/rosu-2016-tr.bib
 layout: paper
+pdf_url: publications/rosu-2016-tr.pdf
 title: Open Problems and Challenges 2016
 ---

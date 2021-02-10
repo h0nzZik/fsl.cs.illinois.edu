@@ -49,6 +49,8 @@ bib:
   type: article
   volume: '231'
   year: '2013'
+bib_url: publications/meseguer-rosu-2013-ic.bib
 layout: paper
+pdf_url: publications/meseguer-rosu-2013-ic.pdf
 title: 'The Rewriting Logic Semantics Project: A Progress Report'
 ---

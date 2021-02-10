@@ -45,6 +45,8 @@ bib:
   type: article
   volume: '577'
   year: '2015'
+bib_url: publications/popescu-rosu-2015-jtcs.bib
 layout: paper
+pdf_url: publications/popescu-rosu-2015-jtcs.pdf
 title: Term-Generic Logic
 ---

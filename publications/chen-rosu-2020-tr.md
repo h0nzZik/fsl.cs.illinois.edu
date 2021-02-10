@@ -43,6 +43,8 @@ bib:
   title: A General Approach to Define Binders Using Matching Logic
   type: techreport
   year: '2020'
+bib_url: publications/chen-rosu-2020-tr.bib
 layout: paper
+pdf_url: publications/chen-rosu-2020-tr.pdf
 title: A General Approach to Define Binders Using Matching Logic
 ---

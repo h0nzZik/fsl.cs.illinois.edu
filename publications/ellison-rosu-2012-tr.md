@@ -36,6 +36,8 @@ bib:
   title: Defining the Undefinedness of C
   type: techreport
   year: '2012'
+bib_url: publications/ellison-rosu-2012-tr.bib
 layout: paper
+pdf_url: publications/ellison-rosu-2012-tr.pdf
 title: Defining the Undefinedness of C
 ---

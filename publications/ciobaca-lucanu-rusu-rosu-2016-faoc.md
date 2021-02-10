@@ -61,6 +61,8 @@ bib:
   type: article
   volume: '28'
   year: '2016'
+bib_url: publications/ciobaca-lucanu-rusu-rosu-2016-faoc.bib
 layout: paper
+pdf_url: publications/ciobaca-lucanu-rusu-rosu-2016-faoc.pdf
 title: A Language-Independent Proof System for Full Program Equivalence
 ---

@@ -2,6 +2,10 @@ html {
     font-size: 14px;
 }
 
+.content {
+    max-width: 50rem;
+}
+
 /* Sidebar */
 /* ------- */
 
@@ -37,12 +41,19 @@ html {
 /* Publications */
 /* ------------ */
 
+.paper-year-section {
+    border-bottom: 1px solid gray;
+}
 .paper-list {
     list-style: none;
     padding-left: 0px;
 }
 .paper { padding-bottom: 1em ; }
-.paper-title { font-weight: bold; }
+.paper-title {
+    font-weight: bold;
+    color: #0645ad;
+    font-style: italic;
+}
 .paper > :not(.paper-title)  {
     padding-left: 1em;
     font-size: 0.8em;

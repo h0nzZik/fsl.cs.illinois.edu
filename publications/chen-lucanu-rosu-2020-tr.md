@@ -44,8 +44,10 @@ bib:
   project_name: Matching Logic
   project_url: http://www.matching-logic.org
   title: Initial algebra semantics in matching logic
-  type: TechReport
+  type: techreport
   year: '2020'
+bib_url: publications/chen-lucanu-rosu-2020-tr.bib
 layout: paper
+pdf_url: publications/chen-lucanu-rosu-2020-tr.pdf
 title: Initial algebra semantics in matching logic
 ---

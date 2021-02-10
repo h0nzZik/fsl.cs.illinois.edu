@@ -23,11 +23,11 @@ bib:
     middle: Pedro
   author_id: Michael D. Adams and Andrew Farmer and Jose Pedro Magalhaes
   author_ids:
-  - michael-d.-adams
+  - michael-d-adams
   - andrew-farmer
   - jose-pedro-magalhaes
   authors:
-  - id: michael-d.-adams
+  - id: michael-d-adams
     text: Michael D. Adams
   - id: andrew-farmer
     text: Andrew Farmer
@@ -52,6 +52,8 @@ bib:
   title: Optimizing SYB is Easy!
   type: inproceedings
   year: '2014'
+bib_url: publications/adams-farmer-magalhaes-2014-pepm.bib
 layout: paper
+pdf_url: publications/adams-farmer-magalhaes-2014-pepm.pdf
 title: Optimizing SYB is Easy!
 ---

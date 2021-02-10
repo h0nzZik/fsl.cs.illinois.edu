@@ -90,7 +90,9 @@ bib:
     Using Formal Semantics'
   type: techreport
   year: '2018'
+bib_url: publications/kasampalis-guth-moore-serbanuta-serbanuta-filaretti-rosu-johnson-2018-tr.bib
 layout: paper
+pdf_url: publications/kasampalis-guth-moore-serbanuta-serbanuta-filaretti-rosu-johnson-2018-tr.pdf
 title: 'IELE: An Intermediate-Level Blockchain Language Designed and Implemented Using
   Formal Semantics'
 ---

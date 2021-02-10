@@ -48,6 +48,8 @@ bib:
   type: inproceedings
   volume: '7392'
   year: '2012'
+bib_url: publications/rosu-stefanescu-2012-icalp.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-2012-icalp.pdf
 title: Towards a Unified Theory of Operational and Axiomatic Semantics
 ---

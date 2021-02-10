@@ -66,6 +66,8 @@ bib:
   type: inproceedings
   volume: '7436'
   year: '2012'
+bib_url: publications/lazar-arusoaie-serbanuta-ellison-mereuta-lucanu-rosu-2012-fm.bib
 layout: paper
+pdf_url: publications/lazar-arusoaie-serbanuta-ellison-mereuta-lucanu-rosu-2012-fm.pdf
 title: Executing Formal Semantics with the K Tool
 ---

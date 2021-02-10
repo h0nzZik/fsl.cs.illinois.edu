@@ -49,6 +49,8 @@ bib:
   title: Program Verification by Coinduction
   type: techreport
   year: '2015'
+bib_url: publications/moore-rosu-2015-tr.bib
 layout: paper
+pdf_url: publications/moore-rosu-2015-tr.pdf
 title: Program Verification by Coinduction
 ---

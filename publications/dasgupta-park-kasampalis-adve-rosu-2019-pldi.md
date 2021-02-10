@@ -27,7 +27,7 @@ bib:
   - sandeep-dasgupta
   - daejun-park
   - theodoros-kasampalis
-  - vikram-s.-adve
+  - vikram-s-adve
   - grigore-rosu
   authors:
   - id: sandeep-dasgupta
@@ -36,7 +36,7 @@ bib:
     text: Daejun Park
   - id: theodoros-kasampalis
     text: Theodoros Kasampalis
-  - id: vikram-s.-adve
+  - id: vikram-s-adve
     text: Vikram S. Adve
   - id: grigore-rosu
     text: Grigore Rosu
@@ -62,6 +62,8 @@ bib:
   title: A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture
   type: inproceedings
   year: '2019'
+bib_url: publications/dasgupta-park-kasampalis-adve-rosu-2019-pldi.bib
 layout: paper
+pdf_url: publications/dasgupta-park-kasampalis-adve-rosu-2019-pldi.pdf
 title: A Complete Formal Semantics of x86-64 User-Level Instruction Set Architecture
 ---

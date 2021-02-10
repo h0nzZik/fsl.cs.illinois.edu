@@ -42,6 +42,8 @@ bib:
   title: 'Matching Logic: A Logic for Structural Reasoning'
   type: techreport
   year: '2014'
+bib_url: publications/rosu-2014-tr.bib
 layout: paper
+pdf_url: publications/rosu-2014-tr.pdf
 title: 'Matching Logic: A Logic for Structural Reasoning'
 ---

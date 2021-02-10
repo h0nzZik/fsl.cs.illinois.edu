@@ -38,6 +38,8 @@ bib:
   title: An Executable Formal Semantics of C with Applications
   type: techreport
   year: '2011'
+bib_url: publications/ellison-rosu-2011-tr.bib
 layout: paper
+pdf_url: publications/ellison-rosu-2011-tr.pdf
 title: An Executable Formal Semantics of C with Applications
 ---

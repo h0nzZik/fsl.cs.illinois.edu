@@ -60,6 +60,8 @@ bib:
   title: Reachability Logic
   type: techreport
   year: '2012'
+bib_url: publications/rosu-stefanescu-ciobaca-moore-2012-tr.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-ciobaca-moore-2012-tr.pdf
 title: Reachability Logic
 ---

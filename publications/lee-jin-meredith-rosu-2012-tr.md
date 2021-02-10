@@ -29,14 +29,14 @@ bib:
   author_ids:
   - choonghwan-lee
   - dongyun-jin
-  - patrick-o'neil-meredith
+  - patrick-oneil-meredith
   - grigore-rosu
   authors:
   - id: choonghwan-lee
     text: Choonghwan Lee
   - id: dongyun-jin
     text: Dongyun Jin
-  - id: patrick-o'neil-meredith
+  - id: patrick-oneil-meredith
     text: Patrick O'Neil Meredith
   - id: grigore-rosu
     text: Grigore Rosu
@@ -54,6 +54,8 @@ bib:
   title: Towards Categorizing and Formalizing the JDK API
   type: techreport
   year: '2012'
+bib_url: publications/lee-jin-meredith-rosu-2012-tr.bib
 layout: paper
+pdf_url: publications/lee-jin-meredith-rosu-2012-tr.pdf
 title: Towards Categorizing and Formalizing the JDK API
 ---

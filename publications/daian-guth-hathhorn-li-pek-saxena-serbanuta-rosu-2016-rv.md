@@ -79,6 +79,8 @@ bib:
   type: inproceedings
   volume: '10012'
   year: '2016'
+bib_url: publications/daian-guth-hathhorn-li-pek-saxena-serbanuta-rosu-2016-rv.bib
 layout: paper
+pdf_url: publications/daian-guth-hathhorn-li-pek-saxena-serbanuta-rosu-2016-rv.pdf
 title: 'Runtime Verification at Work: A Tutorial'
 ---

@@ -50,6 +50,8 @@ bib:
   title: SETSS'19 Lecture Notes on K
   type: inproceedings
   year: '2019'
+bib_url: publications/chen-rosu-2019-setss.bib
 layout: paper
+pdf_url: publications/chen-rosu-2019-setss.pdf
 title: SETSS'19 Lecture Notes on K
 ---

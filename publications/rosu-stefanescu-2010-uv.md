@@ -50,6 +50,8 @@ bib:
   to_appear: 'false'
   type: inproceedings
   year: '2010'
+bib_url: publications/rosu-stefanescu-2010-uv.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-2010-uv.pdf
 title: 'Matching Logic: A New Program Verification Approach'
 ---

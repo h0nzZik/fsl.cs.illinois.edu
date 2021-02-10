@@ -56,28 +56,33 @@ def paper_to_yaml(paper):
     bib['author_ids'] = list(map(author_id,  paper.author_id))
     bib['category'] = paper.category
     bib['title'] = paper.title.replace('{', '').replace('}', '')
+    bib['type'] = paper.entry.type
+
     return yaml.safe_dump({ 'bib': bib
                           , 'title':  bib['title']
-                          , 'layout': 'paper' 
+                          , 'layout': 'paper'
+                          , 'bib_url': 'publications/' + paper.id + '.bib'
+                          , 'pdf_url': 'publications/' + paper.id + '.pdf'
                           }
                          )
 
-def author_id(author_id):
-  if (author_id.startswith("http")):
-    split = author_id.split(' ', maxsplit = 1)
+def author_id(author):
+  if (author.startswith("http")):
+    split = author.split(' ', maxsplit = 1)
     return split[1]
   else:
-    split = map(str.lower, author_id.split(' '))
+    def filter_alphanum(input):
+        return ''.join(ch for ch in input if ch.isalnum())
+    split = map(filter_alphanum, map(str.lower, author.split(' ')))
     return '-'.join(split)
 
 
-def make_links(author_id):
-  if (author_id.startswith("http")):
-    split = author_id.split(' ', maxsplit = 1)
+def make_links(author):
+  if (author.startswith("http")):
+    split = author.split(' ', maxsplit = 1)
     return { 'href': split[0], 'text': split[1] }
   else:
-    split = map(str.lower, author_id.split(' '))
-    return { 'id': '-'.join(split), 'text': author_id }
+    return { 'id': author_id(author), 'text': author }
 
 def fsl_dir(*args):
     return os.path.join(fsl_repo, *args)

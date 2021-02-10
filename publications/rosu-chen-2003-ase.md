@@ -42,6 +42,8 @@ bib:
   title: Certifying Measurement Unit Safety Policy
   type: inproceedings
   year: '2003'
+bib_url: publications/rosu-chen-2003-ase.bib
 layout: paper
+pdf_url: publications/rosu-chen-2003-ase.pdf
 title: Certifying Measurement Unit Safety Policy
 ---

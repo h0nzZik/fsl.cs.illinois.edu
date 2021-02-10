@@ -50,6 +50,8 @@ bib:
   title: Security-Policy Monitoring and Enforcement with JavaMOP
   type: inproceedings
   year: '2012'
+bib_url: publications/hussein-meredith-rosu-2012-plas.bib
 layout: paper
+pdf_url: publications/hussein-meredith-rosu-2012-plas.pdf
 title: Security-Policy Monitoring and Enforcement with JavaMOP
 ---

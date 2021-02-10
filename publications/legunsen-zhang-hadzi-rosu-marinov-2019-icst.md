@@ -36,7 +36,7 @@ bib:
   author_ids:
   - owolabi-legunsen
   - yi-zhang
-  - milica-hadzi-tanovic
+  - milica-hadzitanovic
   - grigore-rosu
   - darko-marinov
   authors:
@@ -44,7 +44,7 @@ bib:
     text: Owolabi Legunsen
   - id: yi-zhang
     text: Yi Zhang
-  - id: milica-hadzi-tanovic
+  - id: milica-hadzitanovic
     text: Milica Hadzi-Tanovic
   - id: grigore-rosu
     text: Grigore Rosu
@@ -70,6 +70,8 @@ bib:
   title: Techniques for Evolution-Aware Runtime Verification
   type: inproceedings
   year: '2019'
+bib_url: publications/legunsen-zhang-hadzi-rosu-marinov-2019-icst.bib
 layout: paper
+pdf_url: publications/legunsen-zhang-hadzi-rosu-marinov-2019-icst.pdf
 title: Techniques for Evolution-Aware Runtime Verification
 ---

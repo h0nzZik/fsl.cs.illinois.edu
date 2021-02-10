@@ -46,10 +46,12 @@ bib:
   project_url: https://github.com/runtimeverification
   publisher: ACM/IEEE
   title: A General Approach to Define Binders Using Matching Logic
-  type: InProceedings
+  type: inproceedings
   url: https://doi.org/10.1145/3408970
   volume: '4'
   year: '2020'
+bib_url: publications/chen-rosu-2020-icfp.bib
 layout: paper
+pdf_url: publications/chen-rosu-2020-icfp.pdf
 title: A General Approach to Define Binders Using Matching Logic
 ---

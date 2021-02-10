@@ -99,6 +99,8 @@ bib:
   title: 'KEVM: A Complete Semantics of the Ethereum Virtual Machine'
   type: inproceedings
   year: '2018'
+bib_url: publications/hildenbrandt-saxena-zhu-rodrigues-daian-guth-moore-zhang-park-rosu-2018-csf.bib
 layout: paper
+pdf_url: publications/hildenbrandt-saxena-zhu-rodrigues-daian-guth-moore-zhang-park-rosu-2018-csf.pdf
 title: 'KEVM: A Complete Semantics of the Ethereum Virtual Machine'
 ---

@@ -69,6 +69,8 @@ bib:
   type: inproceedings
   volume: 2016-01-0126
   year: '2016'
+bib_url: publications/daian-manja-shiraishi-iwai-rosu-2016-sae.bib
 layout: paper
+pdf_url: publications/daian-manja-shiraishi-iwai-rosu-2016-sae.pdf
 title: 'RV-ECU: Maximum Assurance In-Vehicle Safety Monitoring'
 ---

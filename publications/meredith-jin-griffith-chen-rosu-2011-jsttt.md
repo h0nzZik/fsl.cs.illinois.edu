@@ -28,13 +28,13 @@ bib:
   author_id: Patrick O'Neil Meredith and Dongyun Jin and Dennis Griffith and Feng
     Chen and Grigore Rosu
   author_ids:
-  - patrick-o'neil-meredith
+  - patrick-oneil-meredith
   - dongyun-jin
   - dennis-griffith
   - feng-chen
   - grigore-rosu
   authors:
-  - id: patrick-o'neil-meredith
+  - id: patrick-oneil-meredith
     text: Patrick O'Neil Meredith
   - id: dongyun-jin
     text: Dongyun Jin
@@ -63,6 +63,8 @@ bib:
   type: article
   volume: '14'
   year: '2011'
+bib_url: publications/meredith-jin-griffith-chen-rosu-2011-jsttt.bib
 layout: paper
+pdf_url: publications/meredith-jin-griffith-chen-rosu-2011-jsttt.pdf
 title: An Overview of the MOP Runtime Verification Framework
 ---

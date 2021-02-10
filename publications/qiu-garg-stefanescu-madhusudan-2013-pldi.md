@@ -69,6 +69,8 @@ bib:
   title: Natural Proofs for Structure, Data, and Separation
   type: inproceedings
   year: '2013'
+bib_url: publications/qiu-garg-stefanescu-madhusudan-2013-pldi.bib
 layout: paper
+pdf_url: publications/qiu-garg-stefanescu-madhusudan-2013-pldi.pdf
 title: Natural Proofs for Structure, Data, and Separation
 ---

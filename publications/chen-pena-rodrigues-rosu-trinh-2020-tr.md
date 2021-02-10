@@ -33,14 +33,14 @@ bib:
     and Grigore Rosu
   author_ids:
   - xiaohong-chen
-  - minh-thai-trinh
+  - minhthai-trinh
   - nishant-rodrigues
   - lucas-pena
   - grigore-rosu
   authors:
   - id: xiaohong-chen
     text: Xiaohong Chen
-  - id: minh-thai-trinh
+  - id: minhthai-trinh
     text: Minh-Thai Trinh
   - id: nishant-rodrigues
     text: Nishant Rodrigues
@@ -62,9 +62,11 @@ bib:
   project_url: http://www.matching-logic.org
   title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using
     Matching Logic
-  type: TechReport
+  type: techreport
   year: '2020'
+bib_url: publications/chen-pena-rodrigues-rosu-trinh-2020-tr.bib
 layout: paper
+pdf_url: publications/chen-pena-rodrigues-rosu-trinh-2020-tr.pdf
 title: Towards A Unified Proof Framework for Automated Fixpoint Reasoning Using Matching
   Logic
 ---

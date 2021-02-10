@@ -56,6 +56,8 @@ bib:
   title: 'GPredict: Generic Predictive Concurrency Analysis'
   type: inproceedings
   year: '2015'
+bib_url: publications/huang-luo-rosu-2015-icse.bib
 layout: paper
+pdf_url: publications/huang-luo-rosu-2015-icse.pdf
 title: 'GPredict: Generic Predictive Concurrency Analysis'
 ---

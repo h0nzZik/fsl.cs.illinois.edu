@@ -47,6 +47,8 @@ bib:
   title: Formal Semantics of Hybrid Automata
   type: techreport
   year: '2020'
+bib_url: publications/saxena-rodrigues-chen-rosu-2020-tr.bib
 layout: paper
+pdf_url: publications/saxena-rodrigues-chen-rosu-2020-tr.pdf
 title: Formal Semantics of Hybrid Automata
 ---

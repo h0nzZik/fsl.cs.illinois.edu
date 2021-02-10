@@ -30,9 +30,9 @@ bib:
     middle: O'Neil
   author_id: Patrick O'Neil Meredith
   author_ids:
-  - patrick-o'neil-meredith
+  - patrick-oneil-meredith
   authors:
-  - id: patrick-o'neil-meredith
+  - id: patrick-oneil-meredith
     text: Patrick O'Neil Meredith
   category:
   - fsl
@@ -48,6 +48,8 @@ bib:
   title: Efficient, Expressive, and Effective Runtime Verification
   type: phdthesis
   year: '2012'
+bib_url: publications/meredith-2012-thesis.bib
 layout: paper
+pdf_url: publications/meredith-2012-thesis.pdf
 title: Efficient, Expressive, and Effective Runtime Verification
 ---

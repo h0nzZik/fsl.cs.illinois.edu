@@ -47,6 +47,8 @@ bib:
   type: inproceedings
   volume: '304'
   year: '2014'
+bib_url: publications/rosu-serbanuta-2013-k.bib
 layout: paper
+pdf_url: publications/rosu-serbanuta-2013-k.pdf
 title: K Overview and SIMPLE Case Study
 ---

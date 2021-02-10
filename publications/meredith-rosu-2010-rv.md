@@ -55,6 +55,8 @@ bib:
   title: Runtime Verification with the RV System
   type: inproceedings
   year: '2010'
+bib_url: publications/meredith-rosu-2010-rv.bib
 layout: paper
+pdf_url: publications/meredith-rosu-2010-rv.pdf
 title: Runtime Verification with the RV System
 ---

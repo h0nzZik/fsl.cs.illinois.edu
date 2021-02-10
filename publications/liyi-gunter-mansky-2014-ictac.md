@@ -60,6 +60,8 @@ bib:
   title: Symbolic Analysis Tools for CSP
   type: inproceedings
   year: '2014'
+bib_url: publications/liyi-gunter-mansky-2014-ictac.bib
 layout: paper
+pdf_url: publications/liyi-gunter-mansky-2014-ictac.pdf
 title: Symbolic Analysis Tools for CSP
 ---

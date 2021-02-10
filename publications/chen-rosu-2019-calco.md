@@ -43,6 +43,8 @@ bib:
   type: inproceedings
   volume: '139'
   year: '2019'
+bib_url: publications/chen-rosu-2019-calco.bib
 layout: paper
+pdf_url: publications/chen-rosu-2019-calco.pdf
 title: 'Matching mu-Logic: Foundation of K Framework'
 ---

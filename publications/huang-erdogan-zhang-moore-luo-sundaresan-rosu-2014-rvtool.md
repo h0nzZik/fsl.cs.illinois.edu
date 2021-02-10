@@ -69,6 +69,8 @@ bib:
   type: inproceedings
   volume: '8734'
   year: '2014'
+bib_url: publications/huang-erdogan-zhang-moore-luo-sundaresan-rosu-2014-rvtool.bib
 layout: paper
+pdf_url: publications/huang-erdogan-zhang-moore-luo-sundaresan-rosu-2014-rvtool.pdf
 title: 'ROSRV: Runtime Verification for Robots'
 ---

@@ -49,6 +49,8 @@ bib:
   title: 'K-Java: A Complete Semantics of Java'
   type: inproceedings
   year: '2015'
+bib_url: publications/bogdanas-rosu-2015-popl.bib
 layout: paper
+pdf_url: publications/bogdanas-rosu-2015-popl.pdf
 title: 'K-Java: A Complete Semantics of Java'
 ---

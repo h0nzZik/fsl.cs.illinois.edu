@@ -53,6 +53,8 @@ bib:
   type: inproceedings
   volume: '7436'
   year: '2012'
+bib_url: publications/rosu-stefanescu-2012-fm.bib
 layout: paper
+pdf_url: publications/rosu-stefanescu-2012-fm.pdf
 title: From Hoare Logic to Matching Logic Reachability
 ---
