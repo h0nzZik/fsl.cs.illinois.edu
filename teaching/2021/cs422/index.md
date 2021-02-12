@@ -51,10 +51,10 @@ The links below provide you with useful material for this class, including compl
 ---
 
 - ***K Framework*** (Official website: [http://kframework.org](http://kframework.org))
-  - [K Tutorial, Part 1: Defining LAMBDA](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
-  - [K Tutorial, Part 2: Defining IMP](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
-  - [K Tutorial, Part 3: Defining LAMBDA++](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
-  - [K Tutorial, Part 4: Defining IMP++](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
+  - [K Tutorial, Part 1: Defining LAMBDA](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/1_lambda) to see the code on GitHub. 
+  - [K Tutorial, Part 2: Defining IMP](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp) to see the code on GitHub. 
+  - [K Tutorial, Part 3: Defining LAMBDA++](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B) to see the code on GitHub. 
+  - [K Tutorial, Part 4: Defining IMP++](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/4_imp%2B%2B) to see the code on GitHub. 
   - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
 
 
