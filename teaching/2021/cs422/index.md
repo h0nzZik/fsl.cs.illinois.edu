@@ -51,10 +51,10 @@ The links below provide you with useful material for this class, including compl
 ---
 
 - ***K Framework*** (Official website: [http://kframework.org](http://kframework.org))
-  - [K Tutorial, Part 1: Defining LAMBDA](http://k-framework.org/index.php/K_Tutorial#.5B34.2746.22.5D_.C2.A0_Part_1:_Defining_LAMBDA) (see the provided video and textual documentation)
-  - [K Tutorial, Part 2: Defining IMP](http://k-framework.org/index.php/K_Tutorial#.5B37.2707.22.5D_.C2.A0_Part_2:_Defining_IMP) (see the provided video and textual documentation)
-  - [K Tutorial, Part 3: Defining LAMBDA++](http://k-framework.org/index.php/K_Tutorial#.5B33.2710.22.5D_.C2.A0_Part_3:_Defining_LAMBDA.2B.2B) (see the provided video and textual documentation)
-  - [K Tutorial, Part 4: Defining IMP++](http://k-framework.org/index.php/K_Tutorial#.5B46.2746.22.5D_.C2.A0_Part_4:_Defining_IMP.2B.2B) (see the provided video and textual documentation)
+  - [K Tutorial, Part 1: Defining LAMBDA](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
+  - [K Tutorial, Part 2: Defining IMP](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
+  - [K Tutorial, Part 3: Defining LAMBDA++](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
+  - [K Tutorial, Part 4: Defining IMP++](https://kframework.org/k-distribution/tutorial) (see the provided video and textual documentation)
   - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
 
 
@@ -83,8 +83,8 @@ Note: See the [callCC (substitution)](https://github.com/kframework/k5/tree/mast
 ---
 
 - ***SIMPLE: Designing Imperative Programming Languages***
-  - [SIMPLE untyped, statically typed, and dynamically typed](http://www.kframework.org/index.php/K_Tutorial#.5B.3F.3F.27.3F.3F.22.5D_.C2.A0_Part_7:_SIMPLE:_Designing_Imperative_Programming_Languages) (Part 7 of the K Tutorial)
-  - [K Tutorial, Part 5: Defining type systems](http://www.kframework.org/index.php/K_Tutorial#.5B17.2703.22.5D_.C2.A0_Part_5:_Defining_Type_Systems) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6)
+  - [SIMPLE untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/tutorial) (Part 7 of the K Tutorial)
+  - [K Tutorial, Part 5: Defining type systems](https://kframework.org/k-distribution/tutorial) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6)
   - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
 
 
@@ -112,7 +112,7 @@ For each of the problems, also provide one test program which should succeed and
 ---
 
 - ***KOOL: Designing Object-Oriented Programming Languages***
-  - [KOOL untyped, statically typed, and dynamically typed](http://www.kframework.org/index.php/K_Tutorial#.5B.3F.3F.27.3F.3F.22.5D_.C2.A0_Part_8:_KOOL:_Designing_Object-Oriented_Programming_Languages) (Part 8 of the K Tutorial)
+  - [KOOL untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/tutorial/) (Part 8 of the K Tutorial)
 
 
 ---
@@ -133,7 +133,7 @@ Note: See the [private-members](https://github.com/kframework/k5/tree/master/k-d
 ---
 
 - ***FUN: Designing Functional Programming Languages***
-  - [FUN untyped](http://www.kframework.org/index.php/K_Tutorial#.5B.3F.3F.27.3F.3F.22.5D_.C2.A0_Part_9:_FUN:_Designing_Functional_Programming_Languages) (Part 9 of the K Tutorial, without the type inferencer)
+  - [FUN untyped](https://kframework.org/k-distribution/tutorial/) (Part 9 of the K Tutorial, without the type inferencer)
 
 ---
 <b><em><span style="color:red">HW5 (due date TBD)</span></em></b>
@@ -156,7 +156,7 @@ Note: See the [letrec](https://github.com/kframework/k5/tree/master/k-distributi
 
 ---
 
-- [K Tutorial, Part 5: Defining type systems](http://www.kframework.org/index.php/K_Tutorial#.5B17.2703.22.5D_.C2.A0_Part_5:_Defining_Type_Systems) (useful to define the type inferencer of FUN next)
+- [K Tutorial, Part 5: Defining type systems](https://kframework.org/k-distribution/tutorial/) (useful to define the type inferencer of FUN next)
 
 
 ---
@@ -173,7 +173,7 @@ Note: See the [fun-type-inferencer](https://github.com/kframework/k5/tree/master
 ---
 
 - ***LOGIK: Designing Logic Programming Languages***
-  - [Logik](http://www.kframework.org/index.php/K_Tutorial#.5B.3F.3F.27.3F.3F.22.5D_.C2.A0_Part_10:_LOGIK:_Designing_Logic_Programming_Languages) (Part 10 of the K Tutorial)
+  - [Logik](https://kframework.org/k-distribution/tutorial/) (Part 10 of the K Tutorial)
 
 
 ---
