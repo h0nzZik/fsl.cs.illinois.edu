@@ -19,6 +19,8 @@ Complete lecture notes will be posted here.
 - [Feb 3](https://illinois.zoom.us/rec/share/23lenV31yOgk4anrKXhPpIbWbYB_4mMKHlhgHlB-Yw7rRGLBbFDVEovWnc86FGBJ.bpcG45Muih-nK-VD?startTime=1612382548000)
 - [Feb 5](https://illinois.zoom.us/rec/share/v-O8RQOHRLOGZtwcweCxIf7s44l_5pGqM3zgYL8WH3iKJBzFH4-RBiEO2FUDxA_0.RBJGrjcm6NU-mqXL?startTime=1612555295000)
 - [Feb 10](https://illinois.zoom.us/rec/share/mell1gMcCx_1KD20nQWaud2iF1s4EZEEjcLgeFuEvjs53ZWsXn2N8k4xj7JqdJA.kF1PoNxNAroimn7C?startTime=1612987305000)
+- [Feb 12](https://illinois.zoom.us/rec/share/g5sQIY9bSJkGmFwhab4WJDxA8uqrvu3prpHornWzkgO05cuIbHnQLXXguN4S7H9e.ri6kNpmKCwdfFMWw?startTime=1613161652000)
+- [Feb 19](https://illinois.zoom.us/rec/share/43cOMIcA8QZfKhClmCcJ1IE6DA-1LEmXBjtuT_l0nklBM1NdepVpx4jQ66g6HIY.vTMd1XXm2m7ExTvx?startTime=1613764945000)
 
 ## Course Description
 
