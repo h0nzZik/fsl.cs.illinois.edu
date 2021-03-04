@@ -3,8 +3,8 @@
     <div class="sidebar-about">
 
       <h1 id='fsl-title'>
-        <a href="{{ site.baseurl }}">
-          <img src="{{ site.baseurl }}assets/images/fsl-logo4.png" />
+        <a href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/images/fsl-logo4.png" />
           {{ site.title }}
         </a>
       </h1>
@@ -12,13 +12,13 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
       {% for node in site.pages %} {% if node.title != null %} {% if node.sidebar %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/{{ node.url }}">{{ node.title }}</a>
       {% endif %} {% endif %} {% endfor %}
     </nav>
     <p id="copyright">
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved. <br/>
       Built on {{ site.time }}.
     </p>
   </div>

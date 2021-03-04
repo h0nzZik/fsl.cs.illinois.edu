@@ -20,7 +20,7 @@
 {%- endunless -%}
 
   <li class='paper'>
-    <a class='paper-title' href="{{site.baseurl}}{{ paper.url }}"> {{paper.bib.title}} </a>
+    <a class='paper-title' href="{{site.baseurl}}/{{ paper.url }}"> {{paper.bib.title}} </a>
     <div class='paper-authors'>
       {%- include author_list.html authors=paper.bib.authors -%}
     </div>
@@ -37,8 +37,8 @@
        {%  if paper.bib.year  %}                       {{ paper.bib.year }}                        {%- endif -%}
        {%  if paper.bib.number and paper.bib.type == 'techreport' %} <a href='{{ paper.bib.number }}'> {{ paper.bib.number }} </a>    {%- endif -%}
     </div>
-    <a href="{{site.baseurl}}{{paper.pdf_url}}"> PDF </a>
-    <a href="{{site.baseurl}}{{paper.bib_url}}"> BIB </a>
+    <a href="{{site.baseurl}}/{{paper.pdf_url}}"> PDF </a>
+    <a href="{{site.baseurl}}/{{paper.bib_url}}"> BIB </a>
     {% if paper.bib.journal_url  %}   <a href="{{paper.bib.journal_url}}">   {{paper.bib.journal_acronym}}   </a> {% endif %}
     {% if paper.bib.booktitle_url  %} <a href="{{paper.bib.booktitle_url}}"> {{paper.bib.booktitle_acronym}} </a> {% endif %}
     {% if paper.bib.project_url %}    <a href="{{paper.bib.project_url}}"  > {{paper.bib.project_name}}      </a> {% endif %}

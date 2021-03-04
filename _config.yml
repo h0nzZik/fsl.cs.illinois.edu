@@ -1,5 +1,3 @@
 title: Formal Systems Laboratory
-email: fsl@cs.illinois.edu
-
-baseurl: "/"
-url: "https://fsl.cs.illinois.edu/"
+email: "fsl@cs.illinois.edu"
+baseurl: ""
