@@ -38,7 +38,6 @@ def pdfpath(year, id):
 
 def fslbib(path, id):
     if (not os.path.isfile(path)):
-      print_warning("no .bib file: " + path)
       return None
     bib = parse_bib(path)
     entries = bib.entries
