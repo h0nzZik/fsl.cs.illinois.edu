@@ -7,4 +7,4 @@ title: This Page is Under Construction!
 
 This page is currently not available. 
 
-![Under Construction](/fsl//assets/pictures/under-construction.jpg)
+![Under Construction]({{site.baseurl}}/assets/pictures/under-construction.jpg)

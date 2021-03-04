@@ -13,7 +13,7 @@ at the
 [University of Illinois at Urbana-Champaign](http://illinois.edu/)
 (UIUC), 
 where he leads the 
-[Formal Systems Laboratory](/fsl//index.html) (FSL), 
+[Formal Systems Laboratory]({{site.baseurl}}/index.html) (FSL), 
 and the founder and president of 
 [Runtime Verification, Inc](http://runtimeverification.com/) (RV). 
 His research interests encompass both theoretical foundations 
@@ -37,5 +37,5 @@ Spring 2008 and Fall 2004.
 
 # Complete Curriculum Vitae
 
-[Grigore's complete CV](/fsl//assets/people/grigore-rosu/grigore-rosu-cv.pdf)
+[Grigore's complete CV]({{site.baseurl}}/assets/people/grigore-rosu/grigore-rosu-cv.pdf)
 

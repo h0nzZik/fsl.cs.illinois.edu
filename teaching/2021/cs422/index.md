@@ -28,16 +28,16 @@ CS422 is an advanced course on principles of programming language design. Major 
 
 - Meetings: W/F 14:00-15:15, Online
 - Credit: 3 or 4 credits
-- Professor: [Grigore Rosu](/fsl//people/grigore-rosu/index.html) (Office: SC 2110)
+- Professor: [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html) (Office: SC 2110)
 - Office hours: Held by Grigore Rosu in SC 2110; by appointment.
 
 ## Lecture Notes, Useful Material
 
 The links below provide you with useful material for this class, including complete lecture notes. These materials will be added by need.
 
-- ***Introduction.*** [Slides](/fsl//assets/CS422-Spring-2020-01.pdf)
-- ***Structural Operational Semantics.*** [Slides](/fsl//assets/CS422-Spring-2020-02-Conventional-Executable-Semantics.pdf)
-  - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep](/fsl//assets/CS422-Spring-2020-02a-IMP-BigStep-SmallStep.pdf)
+- ***Introduction.*** [Slides]({{site.baseurl}}/assets/CS422-Spring-2020-01.pdf)
+- ***Structural Operational Semantics.*** [Slides]({{site.baseurl}}/assets/CS422-Spring-2020-02-Conventional-Executable-Semantics.pdf)
+  - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep]({{site.baseurl}}/assets/CS422-Spring-2020-02a-IMP-BigStep-SmallStep.pdf)
 
 ---
 <b><em><span style="color:red">HW1 (due date: Wednesday Feb 17)</span></em></b>
@@ -57,7 +57,7 @@ The links below provide you with useful material for this class, including compl
   - [K Tutorial, Part 2: Defining IMP](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp) to see the code on GitHub. 
   - [K Tutorial, Part 3: Defining LAMBDA++](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B) to see the code on GitHub. 
   - [K Tutorial, Part 4: Defining IMP++](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/4_imp%2B%2B) to see the code on GitHub. 
-  - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
+  - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
 
 
 ---
@@ -87,7 +87,7 @@ Note: See the [callCC (substitution)](https://github.com/kframework/k/tree/maste
 - ***SIMPLE: Designing Imperative Programming Languages***
   - [SIMPLE untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/pl-tutorial/) (Part 7 of the K Tutorial). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/1_simple) to see the code on GitHub.
   - [K Tutorial, Part 5: Defining type systems](https://kframework.org/k-distribution/pl-tutorial/) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/5_types) to see the code on GitHub. 
-  - [K Overview](/fsl//assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
+  - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
 
 
 ---

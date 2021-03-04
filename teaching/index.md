@@ -5,12 +5,12 @@ title: Grigore Rosu's Teaching
 
 # Grigore Rosu's Teaching
 
-(back to [Grigore Rosu](/fsl//people/grigore-rosu/index.html)'s home page)
+(back to [Grigore Rosu]({{site.baseurl}}//people/grigore-rosu/index.html)'s home page)
 
 ## 2021
 
 - Spring 2021:
-  [CS422](/fsl/teaching/2021/cs422/index.html) - Programming Language Design
+  [CS422]({{site.baseurl}}/teaching/2021/cs422/index.html) - Programming Language Design
 
 ## 2020
 

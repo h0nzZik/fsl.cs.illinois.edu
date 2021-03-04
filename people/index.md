@@ -15,7 +15,7 @@ sidebar: true
 - [Xiaohong Chen](xiaohong-chen/index.html)
 - [Nishant Rodrigues](nishant-rodrigues/index.html)
 
-[Instructions](/fsl/other-pages/instructions-for-new-fsl-members.html) for new FSL members.
+[Instructions]({{site.baseurl}}/other-pages/instructions-for-new-fsl-members.html) for new FSL members.
 
 ## Former Students
 

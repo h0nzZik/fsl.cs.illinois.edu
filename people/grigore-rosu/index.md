@@ -18,16 +18,16 @@ title: Grigore Rosu's Home Page
 - [Publications](grigore-rosu-publications.html)
    - [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rosu:Grigore.html)
    - [Google](http://scholar.google.com/citations?user=yxpqbdQAAAAJ&hl=en)
-- [Projects](/fsl//projects/index.html)
+- [Projects]({{site.baseurl}}/projects/index.html)
    - [K framework](http://kframework.org/)
-   - [MOP](/fsl//projects/mop/index.html)
-   - [jPredictor](/fsl//projects/jpredictor/index.html)
-   - [Circ](/fsl//projects/circ/index.html)
-- [Editing and Service](/fsl//other-pages/under-construction.html)
-- [Teaching](/fsl//teaching/index.html)
+   - [MOP]({{site.baseurl}}/projects/mop/index.html)
+   - [jPredictor]({{site.baseurl}}/projects/jpredictor/index.html)
+   - [Circ]({{site.baseurl}}/projects/circ/index.html)
+- [Editing and Service]({{site.baseurl}}/other-pages/under-construction.html)
+- [Teaching]({{site.baseurl}}/teaching/index.html)
 - [Join the FSL group!](join-fsl-group.html)
-- [Aviation page](/fsl//other-pages/under-construction.html)
-- [Contact](/fsl//other-pages/under-construction.html)
+- [Aviation page]({{site.baseurl}}/other-pages/under-construction.html)
+- [Contact]({{site.baseurl}}/other-pages/under-construction.html)
 
 ## Conferences and journals in which I am involved
 
@@ -48,12 +48,12 @@ title: Grigore Rosu's Home Page
 
 ## Research Topics in which I am currently interested
 
-- [Programming Language Design and Semantics](/fsl//projects/pl/index.html) - Designing and verifying programming languages using formal executable semantics
+- [Programming Language Design and Semantics]({{site.baseurl}}/projects/pl/index.html) - Designing and verifying programming languages using formal executable semantics
 - [Runtime Verification](/fs//projects/rv/index.html) - Checking programs against properties as they execute
-- [Circular Coinduction](/fsl//projects/circ/index.html) - Proving behavioral equivalence by exhaustive testing of indistinguishability
+- [Circular Coinduction]({{site.baseurl}}/projects/circ/index.html) - Proving behavioral equivalence by exhaustive testing of indistinguishability
 
 You want to work on these topics? 
-See my list of [Open Problems and Challenges](/fsl//other-pages/open-problems.html).
+See my list of [Open Problems and Challenges]({{site.baseurl}}/other-pages/open-problems.html).
 
 ## Runtime Verification, Inc.
 

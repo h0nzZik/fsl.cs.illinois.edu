@@ -29,7 +29,7 @@ You want to work on these topics? See [Grigore Rosu]({{site.baseurl}}/people/gri
 {% assign news = site.data.news | slice: 0,5 %}
 {% for item in  news %} * **{{item.date}}:** {{item.markdown}}
 {% endfor %} <!--  -->
-* [All news](/fsl/news.html)
+* [All news]({{site.baseurl}}/news.html)
 
 
 [Department of Computer Science]: https://cs.illinois.edu

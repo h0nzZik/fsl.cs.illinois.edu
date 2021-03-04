@@ -5,7 +5,7 @@ title: Grigore Rosu's Join Group Page
 
 # Grigore Rosu's Join Group Page
 
-(back to [Grigore Rosu](/fsl//people/grigore-rosu/index.html)'s page)
+(back to [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s page)
 
 I am continuously looking for good people to join my research group, at all levels: undergraduate students, M.S students, Ph.D. students, Postdocs, or research programmers. To apply, first read the information below and then send me an email message (grosu@illinois.edu). Or, if you are already in the Urbana-Champaign area, just come to my office (SC 2110).
 
