@@ -17,6 +17,9 @@
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
       {% endif %} {% endif %} {% endfor %}
     </nav>
-    <p id="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p id="copyright">
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      Built on {{ site.time }}.
+    </p>
   </div>
 </div>
