@@ -5,7 +5,7 @@ title: Grigore Rosu's Home Page
 
 # Grigore Rosu
 
-![Grigore Rosu](/fsl//assets/photos/grigore-rosu-photo-main.jpg)
+![Grigore Rosu]({{site.baseurl}}/assets/photos/grigore-rosu-photo-main.jpg)
 
 **Professor of Computer Science** <br/>
 **University of Illinois at Urbana-Champaign**
