@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import argparse
 import copy
 from datetime import date, datetime, timedelta
 from operator import attrgetter
@@ -13,24 +12,12 @@ import sys
 from pybtex.database.input import bibtex as bibtex_in
 from pybtex.database.output import bibtex as bibtex_out
 
-
-#root = "/mounts/fsl3/disks/0/www/www-root/FSL"
-svn_root = "https://subversion.cs.illinois.edu/svn/FSL"
-www_root = "http://fslweb.cs.illinois.edu/FSL";
-
-
-pdflatex_cmd = "/usr/local/texlive/2012/bin/x86_64-linux/pdflatex"
-bibtex_cmd = "/usr/local/texlive/2012/bin/x86_64-linux/bibtex"
-pdfheader_cmd = "/var/www/software/pdfheader/runner.sh"
-
-
 # error/warning display helpers
 silent_error_flag = False
 def print_error(msg):
   sys.stderr.write("[error]: " + msg + "\n")
 def print_warning(msg):
   sys.stderr.write("[warning]: " + msg + "\n")
-
 
 # class for missing .bib field exception
 class FieldError(Exception):
@@ -40,29 +27,10 @@ class FieldError(Exception):
   def __str__(self):
     return self.msg
 
-
-# return .pdf file name for paper id 
-pdf_ext = ".pdf"
-def get_pdf(paper_id):
-  return paper_id + pdf_ext
-
-# return .tex file name for paper id 
-tex_ext = ".tex"
-def get_tex(paper_id):
-  return paper_id + tex_ext
-
 # return .bib file name for paper id 
 bib_ext = ".bib"
 def get_bib(paper_id):
   return paper_id + bib_ext
-
-# return public .pdf file name for paper id 
-def get_public_pdf(paper_id):
-  return get_pdf(paper_id + "-public")
-
-# return reviews file name for paper id 
-def get_reviews(paper_id):
-  return paper_id + "-reviews.txt"
 
 bibtex2wiki_keys = ["abstract",
                     "project_url",
@@ -180,10 +148,6 @@ class Paper(object):
         self.to_appear = not ("doi" in entry.fields or "pages" in entry.fields)
       else:
         self.to_appear = False
-
-    # # set paper paths
-    # self.paper_dir = path.join(path.join(args.papers, year), id)
-    # self.presentation_dir = path.join(args.presentations, year)
 
   def add_field(self, entry, name):
     try:
@@ -306,41 +270,6 @@ class Paper(object):
 
   def get_bib_link(self):
     return Paper.get_link_helper(self.bib, "BIB")
-
-  def make_pdf(self):
-    paper_tex = path.join(self.paper_dir, get_tex(self.id))
-    # make paper_id.pdf only if paper_id.tex exists
-    if (path.isfile(paper_tex)):
-      #cmd = "echo $PATH"
-      cmd = "cd " + self.paper_dir
-      if (args.bibtex):
-        cmd += " && " + pdflatex_cmd + " " + self.id \
-             + " && " + bibtex_cmd + " " + self.id
-      cmd += " && " + pdflatex_cmd + " " + self.id \
-           + " && " + pdflatex_cmd + " " + self.id
-      subprocess.call(cmd, shell=True)
-    else:
-      print_error("<" + self.id + "> " + "no such .tex file " + paper_tex)
-      return
-
-  def add_header(self):
-    paper_pdf = path.join(self.paper_dir, get_pdf(self.id))
-    # add header only if paper_id.pdf exists
-    if (path.isfile(paper_pdf)):
-      header = paper.get_details_content().replace("'''''", "")
-      cmd = "cd " + self.paper_dir \
-          + " && " + pdfheader_cmd \
-          + " " + paper_pdf \
-          + " \"" + header + "\"" \
-          + " " + str(args.header_offset)
-      subprocess.call(cmd, shell=True)
-    else:
-      print_error("<" + self.id + "> " + "no such .pdf file " + paper_pdf)
-      return
-
-    header_paper_pdf = path.join(self.paper_dir, get_pdf(paper_pdf + "-header"))
-    public_paper_pdf = path.join(self.paper_dir, get_public_pdf(self.id))
-    os.rename(header_paper_pdf, public_paper_pdf)
 
   def get_id_year(self):
     items = self.id.split("-")
@@ -810,162 +739,6 @@ def get_year_dirs():
 
   year_dirs.sort(key=int, reverse=True)
   return year_dirs
-
-
-args = None
-### parse command line arguments
-def parse_args():
-  global args
-
-  # common options for all actions
-  common_parser = argparse.ArgumentParser(add_help=False)
-
-  # generic options
-  group = common_parser.add_mutually_exclusive_group()
-  group.add_argument(
-      "-s", "--silent",
-      action="store_true",
-      default=False,
-      help="do not show warning/errors")
-  group.add_argument(
-      "-v", "--verbose",
-      action="store_true",
-      default=False,
-      help="show warnings/errors")
-
-  # paper filter options
-  common_parser.add_argument(
-      "--authors",
-      nargs="*",
-      default=[],
-      help="only display papers by authors in the list",
-      metavar=("author1", "author2"))
-  common_parser.add_argument(
-      "--categories",
-      nargs="*",
-      default=[],
-      help="only display papers in categories in the list",
-      metavar=("category1", "category2"))
-  common_parser.add_argument(
-      "--draft",
-      action="store_true",
-      default=False,
-      help="display drafts, submission and technical reports")
-  common_parser.add_argument(
-      "--ids",
-      nargs="*",
-      default=[],
-      help="only display papers with ids in the list",
-      metavar=("id1", "id2"))
-  common_parser.add_argument(
-      "--years",
-      nargs="*",
-      default=[],
-      type=int,
-      help="only display papers from years in the list",
-      metavar=("year1", "year2"))
-  
-  # location of source .bib file
-  common_parser.add_argument(
-      "--bibfile",
-      help="use file instead of paper_id.bib",
-      metavar="file")
-
-  # main parser
-  parser = argparse.ArgumentParser(
-      description="",
-      prog="bibtex2wiki")
-
-  # action subparsers 
-  subparsers = parser.add_subparsers(
-      dest="action",
-      title="actions",
-      help="specify action (default wiki)")
-  parser_bib = subparsers.add_parser(
-      "bib",
-      parents=[common_parser],
-      help="generate stripped .bib file")
-  parser_check = subparsers.add_parser(
-      "check",
-      parents=[common_parser],
-      help="check .bib file consistency only")
-  parser_header = subparsers.add_parser(
-      "header",
-      parents=[common_parser],
-      help="add header to .pdf document")
-  parser_pdf = subparsers.add_parser(
-      "pdf",
-      parents=[common_parser],
-      help="generate .pdf document")
-  parser_wiki = subparsers.add_parser(
-      "wiki",
-      parents=[common_parser],
-      help="generate wiki template")
-
-  # pdf subcommand options 
-  parser_pdf.add_argument(
-      "--bibtex",
-      action="store_true",
-      default=False,
-      help="use bibtex to generate .bbl file")
-
-  # header 
-  parser_header.add_argument(
-      "--header-offset",
-      default=768,
-      type=int,
-      help="vertical header offset",
-      metavar="offset")
-
-  # wiki subcommand options 
-  # display format options
-  parser_wiki.add_argument(
-      "--private",
-      action="store_true",
-      default=False,
-      help="display private links")
-  parser_wiki.add_argument(
-      "--template",
-      default="PubDefault",
-      help="use wiki template")
-
-  # url options
-  parser_wiki.add_argument(
-      "--svn",
-      default=svn_root,
-      help="URL of the FSL subversion repository",
-      metavar="svn")
-  parser_wiki.add_argument(
-      "--www",
-      default=www_root,
-      help="URL of the FSL webpage",
-      metavar="www")
-
-  # root of the local repository
-  parser.add_argument(
-      "root",
-      help="path to the local FSL subversion repository")
-
-
-  # parse options
-  args = parser.parse_args()
-
-  # --private sets --draft
-  if (args.action == "wiki"):
-    args.draft = args.draft or args.private
-
-  # convert categories to lowercase
-  args.categories = [category.lower() for category in args.categories]
-
-  # generate paths
-  args.papers = path.join(args.root, "papers")
-  args.presentations = path.join(args.root, "presentations")
-  if (args.action == "wiki"):
-    args.papers_svn = args.svn + "/papers"
-    args.papers_www = args.www + "/papers"
-    args.presentations_www = args.www + "/presentations"
-  args.categories_file = path.join(args.papers, "fsl_categories.txt")
-
 
 categories = []
 ### read categories from file
