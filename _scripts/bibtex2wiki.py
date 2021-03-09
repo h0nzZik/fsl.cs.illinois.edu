@@ -3,17 +3,14 @@
 import copy
 from datetime import date, datetime, timedelta
 from operator import attrgetter
-import os
 from os import path
 import re
-import subprocess
 import sys
 
 from pybtex.database.input import bibtex as bibtex_in
 from pybtex.database.output import bibtex as bibtex_out
 
 # error/warning display helpers
-silent_error_flag = False
 def print_error(msg):
   sys.stderr.write("[error]: " + msg + "\n")
 def print_warning(msg):
@@ -26,31 +23,6 @@ class FieldError(Exception):
 
   def __str__(self):
     return self.msg
-
-# return .bib file name for paper id 
-bib_ext = ".bib"
-def get_bib(paper_id):
-  return paper_id + bib_ext
-
-bibtex2wiki_keys = ["abstract",
-                    "project_url",
-                    "project_name",
-                    "author_id",
-                    "category",
-                    "hidden",
-                    "to_appear",
-                    # conference specific
-                    "booktitle_acronym",
-                    "booktitle_url",
-                    "presentation",
-                    # journal specific
-                    "journal_acronym",
-                    "journal_url"]
-
-
-# bibtex parser and writer
-writer = bibtex_out.Writer()
-
 
 '''
 Generic class containing the common fields for all papers: author, title,
@@ -641,172 +613,4 @@ class PhDThesis(Thesis):
 
   def __init__(self, id, year, entry):
     Thesis.__init__(self, id, year, entry)
-
-
-'''
-Helper functions.
-'''
-def get_bib_file(year_dir, paper_id):
-  if (args.bibfile == None):
-    paper_path = path.join(path.join(args.papers, year_dir), paper_id)
-    bib_file = path.join(paper_path, get_bib(paper_id))
-  else:
-    bib_file = args.bibfile
-
-  return bib_file
-
-def parse_bib(bib_file):
-  try:
-    parser = bibtex_in.Parser()
-    bib_data = parser.parse_file(bib_file)
-  except Exception as e:
-    print_error("cannot parse .bib file " + bib_file)
-    print(e)
-    return None
-
-  return bib_data
-
-
-def get_paper(bib_data, year_dir, paper_id):
-  try:
-    paper_entry = bib_data.entries[paper_id]
-    if (paper_entry.type == ConferencePaper.type):
-      paper = ConferencePaper(paper_id, year_dir, paper_entry) 
-    elif (paper_entry.type == JournalPaper.type):
-      paper = JournalPaper(paper_id, year_dir, paper_entry) 
-    elif (paper_entry.type == TechnicalReport.type):
-      paper = TechnicalReport(paper_id, year_dir, paper_entry) 
-    elif (paper_entry.type == MasterThesis.type):
-      paper = MasterThesis(paper_id, year_dir, paper_entry)
-    elif (paper_entry.type == PhDThesis.type):
-      paper = PhDThesis(paper_id, year_dir, paper_entry)
-    else:
-      print_error("<" + paper_id + "> " + "unsupported bib entry "
-                  + paper_entry.type)
-      return None
-  except FieldError as e:
-    print_error(str(e))
-    return None
-
-  return paper
-
-
-def strip_bib(bib_data, year_dir, paper_id):
-  stripped_bib_data = copy.deepcopy(bib_data)
-  stripped_bib_data.entries[paper_id].fields = { 
-      key: value 
-      for key, value in bib_data.entries[paper_id].fields.items()
-      if key not in bibtex2wiki_keys}
-
-  try:
-    paper_path = path.join(path.join(args.papers, year_dir), paper_id)
-    stripped_bib_file = path.join(paper_path, get_bib(paper_id + "-ref"))
-    file = open(stripped_bib_file, "w")
-    writer.write_stream(stripped_bib_data, file)
-    file.close()
-  except IOError as e:
-    print_error(str(e))
-
-
-def get_paper_ids():
-  if (args.ids != []):
-    def filter(id):
-      return id in args.ids
-  else:
-    def filter(id):
-      return True
-
-  paper_ids = [
-      (dir, id)
-      for dir in get_year_dirs()
-        for id in os.listdir(path.join(args.papers, dir))
-      if filter(id) and path.isdir(path.join(path.join(args.papers, dir), id))]
-
-  return paper_ids
-
-def get_year_dirs():
-  if (args.years != []):
-    def filter(year):
-      return year.isdigit() and int(year) in args.years
-  else:
-    def filter(year):
-      return year.isdigit()
-
-  year_dirs = [
-      dir
-      for dir in os.listdir(args.papers)
-      if filter(dir) and path.isdir(path.join(args.papers, dir))]
-
-  year_dirs.sort(key=int, reverse=True)
-  return year_dirs
-
-categories = []
-### read categories from file
-def get_categories():
-  global categories
-
-  try:
-    file = open(args.categories_file, "r")
-    categories = [
-        line.strip().lower()
-        for line in file
-        if (line.strip() != "" and line.strip()[0] != "#")]
-    file.close()
-  except IOError as e:
-    print_error(str(e))
-
-
-if __name__ == "__main__":
-  parse_args()
-
-  get_categories()
-
-  # chech that the args.categories
-  for category in args.categories:
-    if (not category in categories):
-      print_error("category " + category + " not found in "
-          + args.categories_file)
-
-  paper_ids = get_paper_ids()
-  if paper_ids == []:
-    print_error("no papers selected")
-    sys.exit(0)
-
-  # list of papers (only for sorting wiki entries)
-  papers = []
-
-  for (year_dir, paper_id) in paper_ids:
-    bib_file = get_bib_file(year_dir, paper_id)
-    bib_data = parse_bib(bib_file)
-    if (bib_data == None):
-      continue
-
-    if (paper_id not in bib_data.entries):
-      print_error("no such bibtex entry " + paper_id + " in " + bib_file)
-      continue
-
-    if (args.action == "bib"):
-      strip_bib(bib_data, year_dir, paper_id)
-    else:
-      paper = get_paper(bib_data, year_dir, paper_id)
-      if (paper == None): 
-        continue
-      if (args.action == "check"):
-        # errors/warning already displayed
-        pass
-      elif (args.action == "header"):
-        paper.add_header()
-      elif (args.action == "pdf"):
-        # deprecated
-        paper.make_pdf()
-      elif (args.action == "wiki"):
-        if (not paper.hidden):
-          papers.append(paper)
-
-  if (args.action == "wiki"):
-    papers.sort(key=attrgetter("date"), reverse=True)
-    for paper in papers:
-      output = paper.get_wiki_content()
-      if (output != None):
-        print(output)
 

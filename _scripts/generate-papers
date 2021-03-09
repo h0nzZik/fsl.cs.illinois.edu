@@ -36,6 +36,16 @@ def bibpath(year, id):
 def pdfpath(year, id):
     return fsl_dir('papers', year, id, id + '.pdf')
 
+def parse_bib(bib_file):
+  try:
+    parser = bibtex_in.Parser()
+    bib_data = parser.parse_file(bib_file)
+  except Exception as e:
+    print_error("cannot parse .bib file " + bib_file)
+    print(e)
+    return None
+  return bib_data
+
 def fslbib(path, id):
     if (not os.path.isfile(path)):
       return None
