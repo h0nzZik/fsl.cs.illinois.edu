@@ -20,7 +20,7 @@
 {%- endunless -%}
 
   <li class='paper'>
-    <a class='paper-title' href="{{site.baseurl}}/{{ paper.url }}"> {{paper.bib.title}} </a>
+    <a class='paper-title' href="{{ paper.url }}"> {{paper.bib.title}} </a>
     <div class='paper-authors'>
       {%- include author_list.html authors=paper.bib.authors -%}
     </div>
