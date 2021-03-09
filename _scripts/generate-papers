@@ -40,7 +40,7 @@ def parse_bib(bib_file):
   try:
     parser = bibtex_in.Parser()
     bib_data = parser.parse_file(bib_file)
-  except Exception as e:
+  except OSError as e:
     print_error("cannot parse .bib file " + bib_file)
     print(e)
     return None
