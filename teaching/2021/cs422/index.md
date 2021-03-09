@@ -21,6 +21,9 @@ Complete lecture notes will be posted here.
 - [Feb 10](https://illinois.zoom.us/rec/share/mell1gMcCx_1KD20nQWaud2iF1s4EZEEjcLgeFuEvjs53ZWsXn2N8k4xj7JqdJA.kF1PoNxNAroimn7C?startTime=1612987305000)
 - [Feb 12](https://illinois.zoom.us/rec/share/g5sQIY9bSJkGmFwhab4WJDxA8uqrvu3prpHornWzkgO05cuIbHnQLXXguN4S7H9e.ri6kNpmKCwdfFMWw?startTime=1613161652000)
 - [Feb 19](https://illinois.zoom.us/rec/share/43cOMIcA8QZfKhClmCcJ1IE6DA-1LEmXBjtuT_l0nklBM1NdepVpx4jQ66g6HIY.vTMd1XXm2m7ExTvx?startTime=1613764945000)
+- [Feb 26](https://illinois.zoom.us/rec/share/4IphdBBTj4YdwdHUoHMJsUOuZa9O_r3IJJxCKYdhD5LOWY3R0Q6t7TGcz7SXrV4I.HJ4wkl2tqqrU0KSS?startTime=1614369710000)
+- [March 3](https://illinois.zoom.us/rec/share/PShwl4L9HhUXe8F83nf2KLnCV-_MCLlYFWNmyEQb_i4M9RS6mHWEfx0T6JAeWs7g.m3QSuizKJgoIp4v0?startTime=1614801796000)
+- [March 5](https://illinois.zoom.us/rec/share/nrI5KHFmExlEFvJ_5BkiScFRK8m3Y-whYXXq13aaPIfayfPrAdPR6GwtWMkAKXuM.WZAfexClYmTwMFm4?startTime=1614974493000)
 
 ## Course Description
 
@@ -61,7 +64,7 @@ The links below provide you with useful material for this class, including compl
 
 
 ---
-<b><em><span style="color:red">HW2 (due date TBD)</span></em></b>
+<b><em><span style="color:red">HW2 (due date: Wednesday March 17)</span></em></b>
 
 ***Exercise 1 (10 points):*** The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using mu. Give mu a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined letrec in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided factorial-letrec.lambda.
 
