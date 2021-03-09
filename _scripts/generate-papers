@@ -2,7 +2,7 @@
 
 import sys
 import os
-from bibtex2wiki.bibtex2wiki import *
+from bibtex2wiki import *
 import yaml
 from glob import glob
 from shutil import copyfile
