@@ -15,6 +15,9 @@ def print_error(msg):
   sys.stderr.write("[error]: " + msg + "\n")
 def print_warning(msg):
   sys.stderr.write("[warning]: " + msg + "\n")
+def paper_warning(paper, msg):
+  if not(paper.get_id_year()) or paper.get_id_year() > 2020:
+      print_warning(self.id + ": " + msg)
 
 # class for missing .bib field exception
 class FieldError(Exception):
@@ -88,9 +91,7 @@ class Paper(object):
       try:
         mm = datetime.strptime(entry.fields["month"], "%b").month
       except ValueError:
-        #print_error("invalid month " + entry.fields["month"])
-        print_warning("<" + self.id + "> " + "invalid month "
-                      + entry.fields["month"] )
+        paper_warning(self, "invalid month " + entry.fields["month"] )
         mm = 1
     except KeyError:
       mm = 1
@@ -135,7 +136,7 @@ class Paper(object):
       value = default
       flag = False
       if (warning):
-        print_warning("<" + self.id + "> " + "missing " + name + " field")
+        paper_warning(self, "missing " + name + " field")
     setattr(self, name, value)
     return flag
 
@@ -309,22 +310,20 @@ class ConferencePaper(Paper):
         except KeyError:
           # unknown publisher
           self.publisher = ""
-          print_warning("<" + self.id + "> " + "missing "
-                       + "publisher/series" + " field")
+          paper_warning(self, "missing publisher/series" + " field")
     # warning for unusual publisher/series
     # if (self.publisher != ""
     #    and self.publisher != "ACM"
     #    and self.publisher != "IEEE"
     #    and self.publisher != "LNCS"
     #    and self.publisher != "ENTCS"):
-    #  print_warning("<" + self.id + "> " + "unrecognised publisher/series " 
+    #  paper_warning(self,   "unrecognised publisher/series " 
     #                + self.publisher)
     self.add_optional_field(entry, "volume")
     # warning for LNCS/ENTCS with no volume info
     if (self.publisher == "LNCS" or self.publisher == "ENTCS"):
       if (self.volume == ""):
-        print_warning("<" + self.id + "> "
-                      + "missing volume information for LNCS/ENTCS publication")
+        paper_warning(self, "missing volume information for LNCS/ENTCS publication")
     has_field = self.add_optional_field(entry, "pages", warning=True)
     #check the format of the content of pages
     if (has_field == True):
@@ -333,10 +332,9 @@ class ConferencePaper(Paper):
           pattern = re.compile(r'([0-9]+)(\-)([0-9]+)')
           match = pattern.match(self.pages)
           if not match:
-            print_warning("<" + self.id + "> " + "The format of pages \"" 
-                        + self.pages + "\" is not correct")
+            paper_warning(self,  "The format of pages \""  + self.pages + "\" is not correct")
         else:
-          print_warning("<" + self.id +"> " + "missing pages content")
+          paper_warning(self, "missing pages content")
       else:
         self.pages = ""
 
@@ -407,7 +405,7 @@ class ConferencePaper(Paper):
         if path.isfile(prefix + "." + ext)]
     
     if (presentation_links == []):
-      print_warning("<" + self.id + "> " + "no presentation found")
+      paper_warning(self,   "no presentation found")
 
     return presentation_links
 
@@ -450,10 +448,10 @@ class JournalPaper(Paper):
           pattern = re.compile(r'([0-9]+)(\-)([0-9]+)')
           match = pattern.match(self.pages)
           if not match:
-            print_warning("<" + self.id + "> " + "The format of pages \""
+            paper_warning(self,   "The format of pages \""
                         + self.pages + "\" is not correct")
         else:
-          print_warning("<" + self.id +"> " + "missing pages content")
+          paper_warning(self, "missing pages content")
       else:
         self.pages = ""
 
