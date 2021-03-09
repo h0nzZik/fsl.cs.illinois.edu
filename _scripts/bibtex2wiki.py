@@ -16,8 +16,8 @@ def print_error(msg):
 def print_warning(msg):
   sys.stderr.write("[warning]: " + msg + "\n")
 def paper_warning(paper, msg):
-  if not(paper.get_id_year()) or paper.get_id_year() > 2020:
-      print_warning(self.id + ": " + msg)
+  if not(paper.get_id_year()) or int(paper.get_id_year()) >= 2020:
+      print_warning(paper.id + ": " + msg)
 
 # class for missing .bib field exception
 class FieldError(Exception):
@@ -49,7 +49,8 @@ class Paper(object):
       self.status = "published"
 
     # set hidden
-    self.hidden = self.type == "techreport" or self.status != "published"
+    self.hidden = False
+    if self.type == "techreport":   self.hidden = True
     try:
       hidden_entry = entry.fields["hidden"]
       if (hidden_entry == "true"):
@@ -58,6 +59,7 @@ class Paper(object):
         self.hidden = False
     except KeyError: 
       pass
+    if self.status != "published":  self.hidden = True
 
     # associate wiki names to authors
     self.add_list_field(entry, "author_id", "and")
@@ -514,11 +516,6 @@ class TechnicalReport(Paper):
   def __init__(self, id, entry):
     Paper.__init__(self, id, entry)
 
-    # the following case should not occur
-    if (self.status != "published"):
-      self.hidden = True
-      return
-      
     # fields for published technical reports
     self.add_field(entry, "institution")
     #self.add_field(entry, "month")
@@ -556,11 +553,6 @@ class Thesis(Paper):
 
   def __init__(self, id, entry):
     Paper.__init__(self, id, entry)
-
-    # the following case should not occur
-    if (self.status != "published"):
-      self.hidden = True
-      return
 
     # fields for published technical reports
     self.add_field(entry, "school")

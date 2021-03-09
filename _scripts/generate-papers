@@ -23,10 +23,10 @@ def get_paper(paper_id, bib_entry):
     elif (bib_entry.type == PhDThesis.type):
       paper = PhDThesis(paper_id, bib_entry)
     else:
-      print_error("unsupported bib entry " + bib_entry.type)
+      print_warning("unsupported bib entry " + bib_entry.type)
       return None
   except FieldError as e:
-    print_error(str(e))
+    print_warning(str(e))
     return None
   return paper
 
@@ -40,7 +40,7 @@ def parse_bib(bib_file):
     parser = bibtex_in.Parser()
     bib_data = parser.parse_file(bib_file)
   except OSError as e:
-    print_error("cannot parse .bib file " + bib_file)
+    print_warning("cannot parse .bib file " + bib_file)
     print(e)
     return None
   return bib_data
