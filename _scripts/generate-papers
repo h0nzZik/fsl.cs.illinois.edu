@@ -11,18 +11,17 @@ from shutil import copyfile
 fsl_repo = sys.argv[1]
 
 def get_paper(paper_id, bib_entry):
-  year_dir = None
   try:
     if (bib_entry.type == ConferencePaper.type):
-      paper = ConferencePaper(paper_id, year_dir, bib_entry) 
+      paper = ConferencePaper(paper_id, bib_entry) 
     elif (bib_entry.type == JournalPaper.type):
-      paper = JournalPaper(paper_id, year_dir, bib_entry) 
+      paper = JournalPaper(paper_id, bib_entry) 
     elif (bib_entry.type == TechnicalReport.type):
-      paper = TechnicalReport(paper_id, year_dir, bib_entry) 
+      paper = TechnicalReport(paper_id, bib_entry) 
     elif (bib_entry.type == MasterThesis.type):
-      paper = MasterThesis(paper_id, year_dir, bib_entry)
+      paper = MasterThesis(paper_id, bib_entry)
     elif (bib_entry.type == PhDThesis.type):
-      paper = PhDThesis(paper_id, year_dir, bib_entry)
+      paper = PhDThesis(paper_id, bib_entry)
     else:
       print_error("unsupported bib entry " + bib_entry.type)
       return None

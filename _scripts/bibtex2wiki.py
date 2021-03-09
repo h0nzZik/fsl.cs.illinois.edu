@@ -30,7 +30,7 @@ abstract, project url (optional), project name (optional), author_id, and
 category.
 '''
 class Paper(object):
-  def __init__(self, id, year, entry):
+  def __init__(self, id, entry):
     self.entry = entry
 
     # set id, author_id and category first, since they are used for
@@ -278,8 +278,8 @@ Class containing specific conference paper fields. Extends Paper.
 class ConferencePaper(Paper):
   type = "inproceedings"
 
-  def __init__(self, id, year, entry):
-    Paper.__init__(self, id, year, entry)
+  def __init__(self, id, entry):
+    Paper.__init__(self, id, entry)
     
     if (self.status == "draft"):
       return
@@ -424,8 +424,8 @@ Class containing specific journal paper fields. Extends Paper.
 class JournalPaper(Paper):
   type = "article"
 
-  def __init__(self, id, year, entry):
-    Paper.__init__(self, id, year, entry)
+  def __init__(self, id, entry):
+    Paper.__init__(self, id, entry)
 
     if (self.status == "draft"):
       return
@@ -513,8 +513,8 @@ Class containing specific technical report fields. Extends Paper.
 class TechnicalReport(Paper):
   type = "techreport"
 
-  def __init__(self, id, year, entry):
-    Paper.__init__(self, id, year, entry)
+  def __init__(self, id, entry):
+    Paper.__init__(self, id, entry)
 
     # the following case should not occur
     if (self.status != "published"):
@@ -556,8 +556,8 @@ Class containing specific thesis fields. Extends Paper.
 '''
 class Thesis(Paper):
 
-  def __init__(self, id, year, entry):
-    Paper.__init__(self, id, year, entry)
+  def __init__(self, id, entry):
+    Paper.__init__(self, id, entry)
 
     # the following case should not occur
     if (self.status != "published"):
@@ -600,8 +600,8 @@ class MasterThesis(Thesis):
   type = "mastersthesis"
   display_thesis_type = "Master's Thesis"
 
-  def __init__(self, id, year, entry):
-    Thesis.__init__(self, id, year, entry)
+  def __init__(self, id, entry):
+    Thesis.__init__(self, id, entry)
 
 
 '''
@@ -611,6 +611,6 @@ class PhDThesis(Thesis):
   type = "phdthesis"
   display_thesis_type = "PhD Thesis"
 
-  def __init__(self, id, year, entry):
-    Thesis.__init__(self, id, year, entry)
+  def __init__(self, id, entry):
+    Thesis.__init__(self, id, entry)
 
