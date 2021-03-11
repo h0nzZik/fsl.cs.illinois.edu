@@ -1,3 +1,9 @@
+---
+layout: default
+title: Matching Logic
+---
+
+
 ## What is Matching Logic? {#what_is_matching_logic}
 
 ### For programming language semanticists: {#for_programming_language_semanticists}
@@ -114,7 +120,7 @@ logic with the classic Hoare-style program verification.
     fragment without the least fixpoint μ-binder, which we denote as ML
     to avoid confusion with the full matching logic with fixpoints.
 
-:   `<pubbib id='rosu-2017-lmcs'/>`{=html}
+    {% include paper.html id="rosu-2017-lmcs" %}
 
 -   The canonical paper that proposes matching logic in its full
     generality that includes fixpoints, called matching μ-logic and
@@ -125,7 +131,7 @@ logic with the classic Hoare-style program verification.
     technical report version), and reachability logic. The paper also
     proposes a more general proof system for MmL.
 
-:   `<pubbib id='chen-rosu-2019-lics'/>`{=html}
+    {% include paper.html id="chen-rosu-2019-lics" %}
 
 -   An alternative presentation of MmL, but with a lot of
     simplification. This new presentation is called applicative matching
@@ -139,7 +145,7 @@ logic with the classic Hoare-style program verification.
     algebras, λ-calculus, pure type systems, and K are all definable as
     theories.
 
-:   `<pubbib id='chen-rosu-2019-trb'/>`{=html}
+    {% include paper.html id="chen-rosu-2019-trb" %}
 
 ### Open problems {#open_problems}
 
@@ -154,30 +160,30 @@ in matching logic in the MmL paper, Hore-style verification is just a
 special instance of matching logic reasoning.
 
 -   A summary of the RL-style language-independent program verification
-    and its use in practice
+    and its use in practice.
 
-:   `<pubbib id='chen-rosu-2018-isola'/>`{=html}
+    {% include paper.html id="chen-rosu-2018-isola" %}
 
 -   A language-independent proof system for all-path reachability, with
     soundness and relative completeness proofs
 
-:   `<pubbib id='stefanescu-ciobaca-mereuta-moore-serbanuta-rosu-2014-rta'/>`{=html}
+    {% include paper.html id="stefanescu-ciobaca-mereuta-moore-serbanuta-rosu-2014-rta" %}
 
 -   A language-independent proof system for one-path reachability which
     supports semantics given with conditional rules (big-step and
     small-step), with soundness and relative completeness proofs
 
-:   `<pubbib id='rosu-stefanescu-ciobaca-moore-2013-lics'/>`{=html}
+    {% include paper.html id="rosu-stefanescu-ciobaca-moore-2013-lics" %}
 
 -   A language-independent program verification framework, including the
     MatchC verifier:
 
-:   `<pubbib id='rosu-stefanescu-2012-oopsla'/>`{=html}
+    {% include paper.html id="rosu-stefanescu-2012-oopsla" %}
 
 -   The relationship to Hoare logic, including a mechanical translation
     of Hoare logic proofs into matching logic proofs:
 
-:   `<pubbib id='rosu-stefanescu-2012-fm'/>`{=html}
+    {% include paper.html id="rosu-stefanescu-2012-fm" %}
 
 See also the [K and Matching Logic](fsl:K_and_Matching_Logic "wikilink")
 webpage at UIUC, which contains slides and an interview.
