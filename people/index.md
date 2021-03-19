@@ -24,6 +24,8 @@ sidebar: true
 
 (Listed in reverse order of the date when they left FSL)
 
+- Daejun Park (PhD)
+- Owolabi Legunsen (PhD)
 - Cosmin Radoi (PhD)
 - Brandon Moore (PhD)
 - Andrei Stefanescu (PhD)
