@@ -2407,12 +2407,14 @@ between an NFA and its associated equivalent DFA: a state of the DFA corresponds
 to the set of equivalent states of the NFA. Similarly, the interpretation of
 `<tt>lambda X . X</tt>` is the union of all the equivalent identity functions.
 
-&lt;li id='Circ-to-K'&gt; **Migrate Circ (circular coinduction)
-examples/theory to K/Circularity rule.** &lt;/li&gt; Behavioral
+### Migrate Circ (circular coinduction) examples/theory to K/Circularity rule
+
+Behavioral
 equivalence, in the sense of indistinguishability under experiments, and
 the automated circular coinduction technique to prove behavioral
-equivalence, were at the core of my PhD thesis: &lt;pub
-id='rosu-2000-phdthesis'/&gt; The Circularity rule of reachability
+equivalence, were at the core of my PhD thesis:
+{% include paper-link.html id='rosu-2000-phdthesis' %}.
+The Circularity rule of reachability
 logic, and how we automate its application in K, were to a large extent
 inspired from that early work in my PhD thesis and several subsequent
 papers discussed below. I believe it is important to unify or reconcile
@@ -2425,30 +2427,35 @@ automated verification techniques will be discovered in the process.
 Besides my PhD thesis above, here are a few papers that might be useful
 to better understand circular coinduction and how we dealt with
 circularity and its automation before the Circularity rule in
-reachability logic and K: &lt;pub =
-id='goriac-lucanu-rosu-2010-icfem'/&gt; &lt;pub =
-id='lucanu-rosu-2009-icfem'/&gt; &lt;pub
-id='rosu-lucanu-2009-calco'/&gt; &lt;pub
-id='lucanu-rosu-2007-calco'/&gt; Migrating all the examples in the old
+reachability logic and K:
+{% include paper-link.html id='goriac-lucanu-rosu-2010-icfem' %}
+{% include paper-link.html id='lucanu-rosu-2009-icfem' %}
+{% include paper-link.html id='rosu-lucanu-2009-calco' %}
+{% include paper-link.html id='lucanu-rosu-2007-calco' %}.
+Migrating all the examples in the old
 [Circ](Circ "wikilink") prover to K is a good indication that, at least
 at the practical/automation level, the current approach captures the old
 one.
 
 Here are two papers that discuss complexity results for behavioral
-equivalence, and also touch the topic of productivity: &lt;pub
-id='endrullis-hendriks-bakhshi-rosu-2014-jfp'/&gt; &lt;pub
-id='rosu-2006-icfp'/&gt; Similar results should be generalizable to the
+equivalence, and also touch the topic of productivity:
+{% include paper-link.html id='endrullis-hendriks-bakhshi-rosu-2014-jfp' %}
+{% include paper-link.html id='rosu-2006-icfp' %}.
+Similar results should be generalizable to the
 level of matching/reachability logic and, as I said above, doing so may
 reveal new results and definitely a deeper understanding. Here is a
 paper where we generalized the notion of productivity from streams to
-arbitrary behavioral theories: &lt;pub
-id='rosu-lucanu-2014-futatsugi'/&gt; So in case we find a smooth
+arbitrary behavioral theories:
+{% include paper-link.html id='rosu-lucanu-2014-futatsugi' %}.
+So in case we find a smooth
 generalization of such general behavioral rewrite systems, then we can
 also handle productivity as we know it for streams.
 
 Finally, here are some papers taking a different general view at
-behavioral equivalence: &lt;pub id='popescu-rosu-2005-calco'/&gt;
-&lt;pub id='rosu-2004-jtcs'/&gt; &lt;pub id='rosu-2003-cmcs'/&gt;
+behavioral equivalence:
+%{ include paper-link.html id='popescu-rosu-2005-calco' %}
+%{ include paper-link.html id='rosu-2004-jtcs' %}
+%{ include paper-link.html id='rosu-2003-cmcs' %}.
 Understanding them could be useful for cracking this problem.
 
 &lt;br/&gt;
