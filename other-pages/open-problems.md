@@ -2316,10 +2316,10 @@ also be quite useful to develop a theory and technique to define
 abstractions compactly using a specialized notation, and then have the
 abstract language semantics be generated automatically from it.
 
-&lt;br/&gt;
 
-&lt;li id='binders-in-ml'&gt; **Binders with matching logic.**
-&lt;/li&gt; Matching logic has a general notion of symbol, which
+### Binders with matching logic
+
+Matching logic has a general notion of symbol, which
 captures both operational and predicate symbols as special cases.
 Symbols together with logical connectives and quantifiers can be used to
 build patterns, and the meaning of a pattern is that of the set of all
@@ -2332,17 +2332,19 @@ with equality incurs an explosion in the size of the formula, including
 adding new quantifiers, so the translation has more of a theoretical
 than practical relevance. The conventional meaning of operational and
 predicate symbols can be regained adding patterns, including equality
-patterns. See this paper to recall matching logic: &lt;pubbib
-id='rosu-2015-rta'/&gt; When it gets to defining higher-order language
+patterns. See this paper to recall matching logic:
+{% include paper-link.html id='rosu-2015-rta' %}.
+ When it gets to defining higher-order language
 or calculi, matching logic appears to suffer from the same problems as
 FOL: it provides no explicit support for binders in terms, for bound
 variable renaming, or for substitution.
 
 On the other hand, we have developed a generalization of FOL that adds
 generic support for terms with binders, via the more general mechanism
-of a so-called *term syntax*: &lt;pubbib
-id='popescu-rosu-2015-jtcs'/&gt; &lt;pubbib
-id='popescu-rosu-2008-wadt'/&gt; The idea is that you start with a
+of a so-called *term syntax*:
+{% include paper-link.html id='popescu-rosu-2015-jtcs' %},
+{% include paper-link.html id='popescu-rosu-2008-wadt' %}.
+The idea is that you start with a
 generic notion of *term*, which is axiomatized rather than constructed,
 and then build the entire FOL infrastructure on top of that. Everything
 works, including Gentzen proof systems and soundness and completeness
@@ -2356,58 +2358,54 @@ rather adhoc manner. We need a solid foundation for this. One obvious
 thing to do is to try to combine term-generic logic with matching logic.
 Another is to try to take advantage of the fact that in matching logic
 we can quantify over terms and we have equality as a pattern with the
-expected properties, and do things like this: &lt;pre&gt;
-
-` syntax Exp ::= "prelambda" Var "." Exp  // to always be preceded by an existential quantifier "exists X"`
-`              | "premu" Var . Exp`
-`              | Exp Exp'`
+expected properties, and do things like this:
+```k
+syntax Exp ::= "prelambda" Var "." Exp  // to always be preceded by an existential quantifier "exists X"
+              | "premu" Var . Exp
+              | Exp Exp'
 
 // syntactic sugar
 
-` macro lambda X . E = (exists X . prelambda X . E)`
-` macro mu X . E = (exists X . premu X . E)`
+macro lambda X . E = (exists X . prelambda X . E)
+macro mu X . E = (exists X . premu X . E)
 
-` rule (lambda X . E)  E' => E[E'/X]   // the usual matching logic substitution`
-` rule mu X . E => E[(mu X . E)/X]`
+rule (lambda X . E)  E' => E[E'/X]   // the usual matching logic substitution
+rule mu X . E => E[(mu X . E)/X]
+```
 
-&lt;/pre&gt; The use of the substitution is probably unnecessary above.
+The use of the substitution is probably unnecessary above.
 Can we replace it with equality and then rely on the properties of
 equality (recall that equality is definable in matching logic)?
-&lt;pre&gt;
+```
+rule (lambda X . E)  E' => E /\ (X = E')
+rule mu X . E => E /\ (X = mu X . E)
+```
 
-` rule (lambda X . E)  E' => E /\ (X = E')`
-` rule mu X . E => E /\ (X = mu X . E)`
 
-&lt;/pre&gt; Can we deal with all binders that elegantly? How about
+Can we deal with all binders that elegantly? How about
 other binders, nominal logic, HOAS, etc.? Note that the nominal logic
-style encoding of &lt;tt&gt;lambda X . E&lt;/tt&gt;, namely as
-&lt;tt&gt;lambda(\[X\] E)&lt;/tt&gt; where &lt;tt&gt;\[X\] E&lt;/tt&gt;
+style encoding of `<tt>lambda X . E</tt>`, namely as
+`<tt>lambda([X] E)</tt>` where `<tt>[X] E</tt>`
 is a generic version of binder with no specific semantics except that it
 is a binder, does not seem to work in our context by just replacing
-&lt;tt&gt;\[X\] E&lt;/tt&gt; with &lt;tt&gt; exists X . E&lt;/tt&gt;,
-because of semantic reasons (thanks to Maribel Fernandez for pointing
-out this relationship!). Indeed, the matching logic semantics of the
-existential is the union of all &lt;tt&gt;X&lt;/tt&gt; instances of the
-semantics of &lt;tt&gt;E&lt;/tt&gt;; once we compute the union, then the
-parametricity in &lt;tt&gt;X&lt;/tt&gt; is completely lost, so applying
-a &lt;tt&gt;lambda&lt;/tt&gt; on it does not seem to work. On the other
-hand, with our definition above, the union is calculated over all the
-semantics of &lt;tt&gt;prelambda X . E&lt;/tt&gt;. In other words, we
-put together all the particular "implementations" of a function. Indeed,
-patterns like &lt;tt&gt;prelambda X . X&lt;/tt&gt; and
-&lt;tt&gt;prelambda Y . Y&lt;/tt&gt; may have different interpretations
-in a particular model &lt;tt&gt;M&lt;/tt&gt; under a particular
-interpretation &lt;tt&gt;rho&lt;/tt&gt;, but the interpretation of
-&lt;tt&gt;lambda X . X&lt;/tt&gt;, that is, of &lt;tt&gt;exists X .
-prelambda X . X&lt;/tt&gt;, will contain both: &lt;tt&gt;rho(prelambda X
-. X)&lt;/tt&gt; and &lt;tt&gt;rho(prelambda Y . Y)&lt;/tt&gt; included
-in &lt;tt&gt;rho(lambda X . X)&lt;/tt&gt;. So, in some sense, it is like
-in the relationship between an NFA and its associated equivalent DFA: a
-state of the DFA corresponds to the set of equivalent states of the NFA.
-Similarly, the interpretation of &lt;tt&gt;lambda X . X&lt;/tt&gt; is
-the union of all the equivalent identity functions.
-
-&lt;br/&gt;
+`<tt>[X] E</tt>` with `<tt> exists X . E</tt>`, because of semantic reasons
+(thanks to Maribel Fernandez for pointing out this relationship!).
+Indeed, the matching logic semantics of the existential is the union
+of all `<tt>X</tt>` instances of the semantics of `<tt>E</tt>`;
+once we compute the union, then the parametricity in `<tt>X</tt>`
+is completely lost, so applying a `<tt>lambda</tt>` on it does not seem to work.
+On the other hand, with our definition above, the union is calculated
+over all the semantics of `<tt>prelambda X . E</tt>`. In other words,
+we put together all the particular “implementations” of a function.
+Indeed, patterns like `<tt>prelambda X . X</tt>` and `<tt>prelambda Y . Y</tt>`
+may have different interpretations in a particular model `<tt>M</tt>` under
+a particular interpretation `<tt>rho</tt>`, but the interpretation of `<tt>lambda X . X</tt>`,
+that is, of `<tt>exists X . prelambda X . X</tt>`, will contain both:
+`<tt>rho(prelambda X . X)</tt>` and `<tt>rho(prelambda Y . Y)</tt>` included
+in `<tt>rho(lambda X . X)</tt>`. So, in some sense, it is like in the relationship
+between an NFA and its associated equivalent DFA: a state of the DFA corresponds
+to the set of equivalent states of the NFA. Similarly, the interpretation of
+`<tt>lambda X . X</tt>` is the union of all the equivalent identity functions.
 
 &lt;li id='Circ-to-K'&gt; **Migrate Circ (circular coinduction)
 examples/theory to K/Circularity rule.** &lt;/li&gt; Behavioral
