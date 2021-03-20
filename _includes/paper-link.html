@@ -1,0 +1,10 @@
+{%- if include.paper -%}
+{%- assign paper = include.paper -%}
+{%- endif -%}
+
+{%- if include.id -%}
+{%- assign papers = site.pages | where_exp: "paper","paper.layout == 'paper'" | sort: "bib.date" | reverse -%}
+{%- assign paper = papers | where_exp: "paper","paper.bib.id == include.id" | first -%}
+{%- endif -%}
+
+<a class='paper-title' href="{{ paper.url }}"> {{paper.bib.title}} </a>
