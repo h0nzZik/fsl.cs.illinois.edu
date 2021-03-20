@@ -2268,24 +2268,28 @@ Debugger](https://github.com/kframework/k/wiki/K-Debugger) wiki.
 
 &lt;br/&gt;
 
-&lt;li id='type-systems'&gt; **Type systems and abstract interpretations
-in K and reachability logic.** &lt;/li&gt; As shown in the [K
-tutorial](https://github.com/kframework/k/tree/master/k-distribution/tutorial),
+### Type systems and abstract interpretations in K and reachability logic.
+ As shown in the [K
+tutorial](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial),
 type systems or static semantics can be defined for languages following
 the same approach that we use for the semantics: rewrite rules. For
 technical details, check the [Technical Reports on
-K](Technical_Reports_on_K "wikilink"), starting with the 2003 lecture
-notes: &lt;pub id='rosu-2003-cs322'/&gt; For how to define polymorphic
-type systems (with type inference) using rewriting, see: &lt;pub
-id='ellison-serbanuta-rosu-2008-wadt-b'/&gt; &lt;pub
-id='ellison-serbanuta-rosu-2008-tr'/&gt; For abstract-interpretation
-style analyses, for the domain of units of measurement, see &lt;pub
-id='chen-rosu-venkatesan-2003-rta'/&gt; &lt;pub
-id='rosu-chen-2003-ase'/&gt; and for the domain of astronomical
-calculations/geometry see &lt;pubbib
-id='lowry-pressburger-rosu-2001-ase'/&gt; For an approach to define
+K](Technical_Reports_on_K "wikilink"), starting with the
+{% include paper-link.html id="rosu-2003-cs322" %}.
+For how to define polymorphic
+type systems (with type inference) using rewriting, see:
+{% include paper-link.html id="ellison-serbanuta-rosu-2008-wadt-b" %}
+{% include paper-link.html id='ellison-serbanuta-rosu-2008-tr' %}.
+For abstract-interpretation
+style analyses, for the domain of units of measurement, see
+{% include paper-link.html id='chen-rosu-venkatesan-2003-rta' %} and
+{% include paper-link.html id='rosu-chen-2003-ase' %}, and for the domain of astronomical
+calculations/geometry see
+{% include paper-link.html id='lowry-pressburger-rosu-2001-ase' %}.
+For an approach to define
 abstract interpretations using membership equational logic and Maude see
-&lt;pubbib id='fischer-rosu-2001-rule'/&gt; For a generic framework for
+{% include paper-link.html id='fischer-rosu-2001-rule' %}.
+For a generic framework for
 adding abstractions to C, see our work on [plugable policies for
 C](https://www.ideals.illinois.edu/handle/2142/11421).
 
